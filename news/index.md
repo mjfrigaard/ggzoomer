@@ -1,5 +1,46 @@
 # Changelog
 
+## fmggp2 0.71.0
+
+- [`theme_goosebumps()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goosebumps.md),
+  [`theme_jurassic()`](https://mjfrigaard.github.io/fmggp2/reference/theme_jurassic.md),
+  [`theme_koosh()`](https://mjfrigaard.github.io/fmggp2/reference/theme_koosh.md),
+  [`theme_orbitz()`](https://mjfrigaard.github.io/fmggp2/reference/theme_orbitz.md),
+  and
+  [`theme_tetris()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tetris.md)
+  draw geom outlines in the ink color. Their outlines matched the panel,
+  so low contrast fills had no visible edge, and points and lines
+  without a mapped color were nearly invisible.
+
+## fmggp2 0.70.0
+
+- Marks that merged under red green color blindness now differ by at
+  least 10 (CIELAB) under deuteranopia and protanopia, and keep 3:1
+  contrast with the panel.
+  [`theme_snick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_snick.md)
+  dark has a darker purple (`#A16BD9`). The
+  [`theme_batman()`](https://mjfrigaard.github.io/fmggp2/reference/theme_batman.md)
+  movie light marks spread their lightness (`#D75A00`, `#512100`,
+  `#596068`, `#B7683C`, `#765700`, `#7C2500`). The
+  [`theme_orbitz()`](https://mjfrigaard.github.io/fmggp2/reference/theme_orbitz.md)
+  light version has a lighter sand (`#A89039`), a darker maroon
+  (`#95003D`), and a darker amber (`#A77500`).
+
+## fmggp2 0.69.0
+
+- [`check_fonts()`](https://mjfrigaard.github.io/fmggp2/reference/check_fonts.md)
+  now returns `FALSE` when the fonts are missing, so
+  [`load_fmggp2_fonts()`](https://mjfrigaard.github.io/fmggp2/reference/load_fmggp2_fonts.md)
+  imports them. It used to return `TRUE` because
+  `check_assets(dir = NULL)` compared against an empty vector.
+- New tests cover
+  [`check_assets()`](https://mjfrigaard.github.io/fmggp2/reference/check_assets.md),
+  [`check_fonts()`](https://mjfrigaard.github.io/fmggp2/reference/check_fonts.md),
+  [`import_fmggp2_fonts()`](https://mjfrigaard.github.io/fmggp2/reference/import_fmggp2_fonts.md),
+  [`load_fmggp2_fonts()`](https://mjfrigaard.github.io/fmggp2/reference/load_fmggp2_fonts.md),
+  and
+  [`theme_fmggp2()`](https://mjfrigaard.github.io/fmggp2/reference/theme_fmggp2.md).
+
 ## fmggp2 0.68.0
 
 - [`theme_freshprince()`](https://mjfrigaard.github.io/fmggp2/reference/theme_freshprince.md)

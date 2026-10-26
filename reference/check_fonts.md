@@ -19,7 +19,7 @@ check_fonts(font = NULL)
 `TRUE` if all required fmggp2 fonts (and `font`, if supplied) are
 installed. Otherwise, it calls
 [`check_assets()`](https://mjfrigaard.github.io/fmggp2/reference/check_assets.md)
-to report the missing fonts.
+to report the missing fonts and returns `FALSE`.
 
 ## Examples
 
@@ -30,4 +30,5 @@ check_fonts(font = "New Font")
 #> Font not included in /home/runner/work/_temp/Library/fmggp2//assets.
 #> ℹ Download the 'New Font' .ttf files
 #> ℹ and install with `extrafont::font_import()`
+#> [1] FALSE
 ```

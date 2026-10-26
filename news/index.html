@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">fmggp2</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.68.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.71.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,6 +36,21 @@
       <small>Source: <a href="https://github.com/mjfrigaard/fmggp2/blob/main/NEWS.md" class="external-link"><code>NEWS.md</code></a></small>
     </div>
 
+    <div class="section level2">
+<h2 class="pkg-version" data-toc-text="0.71.0" id="fmggp2-0710">fmggp2 0.71.0<a class="anchor" aria-label="anchor" href="#fmggp2-0710"></a></h2>
+<ul><li>
+<code><a href="../reference/theme_goosebumps.html">theme_goosebumps()</a></code>, <code><a href="../reference/theme_jurassic.html">theme_jurassic()</a></code>, <code><a href="../reference/theme_koosh.html">theme_koosh()</a></code>, <code><a href="../reference/theme_orbitz.html">theme_orbitz()</a></code>, and <code><a href="../reference/theme_tetris.html">theme_tetris()</a></code> draw geom outlines in the ink color. Their outlines matched the panel, so low contrast fills had no visible edge, and points and lines without a mapped color were nearly invisible.</li>
+</ul></div>
+    <div class="section level2">
+<h2 class="pkg-version" data-toc-text="0.70.0" id="fmggp2-0700">fmggp2 0.70.0<a class="anchor" aria-label="anchor" href="#fmggp2-0700"></a></h2>
+<ul><li>Marks that merged under red green color blindness now differ by at least 10 (CIELAB) under deuteranopia and protanopia, and keep 3:1 contrast with the panel. <code><a href="../reference/theme_snick.html">theme_snick()</a></code> dark has a darker purple (<code>#A16BD9</code>). The <code><a href="../reference/theme_batman.html">theme_batman()</a></code> movie light marks spread their lightness (<code>#D75A00</code>, <code>#512100</code>, <code>#596068</code>, <code>#B7683C</code>, <code>#765700</code>, <code>#7C2500</code>). The <code><a href="../reference/theme_orbitz.html">theme_orbitz()</a></code> light version has a lighter sand (<code>#A89039</code>), a darker maroon (<code>#95003D</code>), and a darker amber (<code>#A77500</code>).</li>
+</ul></div>
+    <div class="section level2">
+<h2 class="pkg-version" data-toc-text="0.69.0" id="fmggp2-0690">fmggp2 0.69.0<a class="anchor" aria-label="anchor" href="#fmggp2-0690"></a></h2>
+<ul><li>
+<code><a href="../reference/check_fonts.html">check_fonts()</a></code> now returns <code>FALSE</code> when the fonts are missing, so <code><a href="../reference/load_fmggp2_fonts.html">load_fmggp2_fonts()</a></code> imports them. It used to return <code>TRUE</code> because <code>check_assets(dir = NULL)</code> compared against an empty vector.</li>
+<li>New tests cover <code><a href="../reference/check_assets.html">check_assets()</a></code>, <code><a href="../reference/check_fonts.html">check_fonts()</a></code>, <code><a href="../reference/import_fmggp2_fonts.html">import_fmggp2_fonts()</a></code>, <code><a href="../reference/load_fmggp2_fonts.html">load_fmggp2_fonts()</a></code>, and <code><a href="../reference/theme_fmggp2.html">theme_fmggp2()</a></code>.</li>
+</ul></div>
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="0.68.0" id="fmggp2-0680">fmggp2 0.68.0<a class="anchor" aria-label="anchor" href="#fmggp2-0680"></a></h2>
 <ul><li>
