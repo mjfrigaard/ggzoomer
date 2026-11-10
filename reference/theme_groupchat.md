@@ -1,10 +1,12 @@
 # Group chat theme
 
 Group chats are where friends plan, share memes, and leave each other on
-read. A group chat (often shortened to GC) is a chat room for a set of
-friends. Many social media platforms now work as chat rooms, including
-WhatsApp, Discord, Snapchat, Instagram, and TikTok. Researchers have
-studied how teenagers and young people reshape language in these chats.
+read. Group chats have become Gen Z's third place, taking over from
+malls and coffee shops as the place to hang out. Their humor runs on
+memes that reference earlier memes. A 2025 Giphy survey found that about
+89% of Gen Z and millennials check with their group chat before major
+life decisions. Snap found that nearly two thirds of Gen Z shoppers
+bought something after friends approved it in the chat.
 
 ## Usage
 
@@ -38,9 +40,8 @@ A `ggplot2` theme object.
 
 ## Details
 
-The palette follows chat bubbles from the article's instant messengers:
-sent blue, received gray, text green, typing purple, reaction yellow,
-and unread red.
+The palette follows stacked chat bubbles and emoji: iMessage blue, SMS
+green, emoji yellow, heart red, typing gray, and dark mode black.
 
 ## See also
 

@@ -1,12 +1,12 @@
 # Kidcore theme
 
 Kidcore is a bright, nostalgic aesthetic of primary colors, beads,
-stickers, and childhood toys. Kidcore runs on nostalgia for a 1990s and
-early 2000s childhood: primary colors, toys, cartoons, and the
-playground. The trend took off in late 2020. Nylon reported a 2,439%
-jump in Etsy searches for the word in the three months ending September
-2020. One behavioral scientist linked it to the stress of the pandemic:
-"people want to escape into childhood."
+stickers, and childhood toys. Trend researchers tracked kidcore as early
+as 2015 among millennials, but Gen Z pushed it further on TikTok. It
+feeds the generation's nostalgia for eras they barely experienced.
+Commentators describe it as escapism and comfort, even a form of self
+care. Brands now use its bright, toy like look to speak to young
+audiences.
 
 ## Usage
 
@@ -40,8 +40,8 @@ A `ggplot2` theme object.
 
 ## Details
 
-The palette follows the article's bright primary colors and rainbow
-colours.
+The palette follows Fisher Price primaries and toy colors: red, yellow,
+blue, crayon green, tangerine orange, and grape purple.
 
 ## See also
 

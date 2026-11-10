@@ -1,12 +1,12 @@
 # Mermaidcore theme
 
 Mermaidcore is a fashion trend of shells, pearls, sequins, and
-iridescent sea colors. Mermaids have been a popular subject for
-centuries, from Hans Christian Andersen's 1837 fairy tale "The Little
-Mermaid" to Disney's 1989 film. Interest in mermaid costumes has grown
-with fantasy cosplay and cheap monofins. People now swim in these
-costumes, an activity called mermaiding, and mermaid fan conventions
-have been held.
+iridescent sea colors. By 2023, \#mermaidcore had passed 333 million
+views on TikTok. Writers tie it to Gen Z's nostalgia, romanticism, and
+need for escapism and fantasy. It draws on The Little Mermaid, H2O: Just
+Add Water, and Barbie mermaid films. It reads younger and more whimsical
+than coastal grandmother, and an edgier offshoot is called mermaid
+sleaze.
 
 ## Usage
 
@@ -40,9 +40,9 @@ A `ggplot2` theme object.
 
 ## Details
 
-The palette follows the Mermaid article's pale green hair, scales, and
-sea, with the nacre shell's iridescence: seafoam, teal, lilac, coral,
-deep sea, and pearl gold.
+The palette follows iridescent sheer fabrics, pearls, and shells:
+seafoam, ocean teal, lagoon blue, iridescent lilac, shell pink, and
+treasure gold on pearl white.
 
 ## See also
 

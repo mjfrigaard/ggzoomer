@@ -1,11 +1,12 @@
 # Unboxing theme
 
 Unboxing videos film someone opening a new product, from phones to
-sneakers. Unboxing videos show someone opening a new product on camera.
-The first one, for a Nokia phone, appeared in 2006. The format soon
-spread to almost every kind of product. By 2014, companies were sending
-free products to creators. Fans say the videos give an honest look at a
-product without manipulative ads.
+sneakers. Gen Z grew up watching unboxing videos on YouTube. TikTok and
+Instagram Reels turned the format into quick, punchy clips full of
+crinkle and tear sounds. A study of Gen Z smartphone buyers found that
+the reviewer's touch and description raised their intent to buy, while
+visuals alone did not. The appeal mixes product research, a playful
+tone, and a relaxing sensory payoff.
 
 ## Usage
 
@@ -39,9 +40,9 @@ A `ggplot2` theme object.
 
 ## Details
 
-The palette follows the article's boxes as "marketing billboards": kraft
-cardboard, packing tape, black print, tissue paper pink, brand blue, and
-a sticker green.
+The palette follows a box being opened on camera: kraft cardboard,
+tissue paper pink, glossy black, silver foil, and shrink wrap blue on
+white packaging.
 
 ## See also
 

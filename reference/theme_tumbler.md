@@ -1,11 +1,12 @@
 # Tumbler theme
 
 Insulated tumblers and water bottles (vacuum flasks) became a status
-accessory in the 2020s. An insulated tumbler is a vacuum flask built as
-a cup. A vacuum between two walls slows heat transfer, so drinks stay
-hot or cold for hours. With cold drinks, it also stops the outside of
-the cup from sweating. The idea is old enough that "thermos" became a
-generic word in the United States in 1963.
+accessory in the 2020s. Gen Z and TikTok drove the boom in the 40 ounce
+Stanley Quencher. The \#StanleyTumbler tag drew tens of millions of
+views, and limited color drops caused store stampedes in 2023 and 2024.
+A cup once marketed to rugged dads became an affordable, reusable status
+symbol carried across campuses and gyms. Pale Barbie pink became the
+most coveted shade.
 
 ## Usage
 
@@ -39,9 +40,9 @@ A `ggplot2` theme object.
 
 ## Details
 
-The palette follows the article's stainless vacuum flask, in the powder
-coated colors of today's tumblers (cream, sage, rose, and cobalt) and
-the classic red Thermos.
+The palette follows the 40 ounce Stanley Quencher color drops: Barbie
+pink, lilac, seafoam, hammertone green, polished steel, and black on
+cream.
 
 ## See also
 

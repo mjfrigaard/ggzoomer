@@ -1,11 +1,12 @@
 # Cottagecore theme
 
 Cottagecore is an internet aesthetic that romanticizes rural life:
-gardens, baking, and handmade things. Cottagecore was first named on
-Tumblr in 2018, and it is a subculture of millennials and Gen Z. It grew
-as a response to the money pressures young people face. The aesthetic
-values sustainability, farming, and slow living. It became highly
-popular on social media during the COVID-19 pandemic.
+gardens, baking, and handmade things. Cottagecore gives Gen Z an escape
+from hustle culture, consumerism, and the stress of modern technology.
+It offers calm and a sense of control in a chaotic world. It also fits
+Gen Z's values: thrifting, slow fashion, and eco consciousness. The
+aesthetic reimagines rural life as a safe, inclusive space, often
+blended with queer and feminist ideals.
 
 ## Usage
 
@@ -39,9 +40,9 @@ A `ggplot2` theme object.
 
 ## Details
 
-The palette follows the article's muted palettes, floral prints, calico,
-worn leather, and indoor greenery: sage, rose, leather brown, calico
-blue, butter yellow, and moss.
+The palette follows the pastoral palette of greens, browns, and creams
+with its motifs: sage, toadstool red, bee yellow, bark brown, wildflower
+lilac, and moss.
 
 ## See also
 

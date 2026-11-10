@@ -1,10 +1,11 @@
 # Indie sleaze theme
 
 Indie sleaze is the messy, flash photo party style of 2006 to 2012, now
-back on social media. Indie sleaze is the messy party style of roughly
-2006 to 2012. It got its current name in 2021. In the early 2020s, it
-came back as an internet aesthetic on Instagram and TikTok. It is now
-making a comeback in fashion among Gen Z.
+back on social media. Trend forecasters predicted an indie sleaze
+revival at the start of 2022, and TikTok amplified it. For younger Gen
+Z, it is nostalgia for an era they were too young to live through. The
+messy, flash lit look is also a counterpoint to the polished clean girl
+aesthetic and a break from hyper perfection.
 
 ## Usage
 
@@ -43,9 +44,9 @@ A `ggplot2` theme object.
 
 ## Details
 
-The palette follows the article's flash photography, bleached hair,
-shredded denim, galaxy and "Aztec" prints, and smudged eyeliner on a
-dark club floor.
+The palette follows harsh flash photos in dark clubs: red eye red, neon
+rave pink, washed denim, flash white, smudged eyeliner gray, and worn
+leather.
 
 Use `mode = "light"` for a light background with dark text and darker
 marks.

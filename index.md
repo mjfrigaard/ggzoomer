@@ -18,9 +18,9 @@ pak::pak("mjfrigaard/fmggp2")
 ## Themes
 
 Each theme is named after an aesthetic, trend, or object from Gen Z
-internet culture, and its palette follows the colors, objects, and
-materials that topic’s Wikipedia article describes. The book chapters
-still use the earlier 90s themes until they are updated.
+internet culture, and its palette follows how that topic looks to Gen Z
+online (its colors, objects, and materials). The book chapters still use
+the earlier 90s themes until they are updated.
 
 | Theme | Wikipedia |
 |----|----|
@@ -36,6 +36,7 @@ still use the earlier 90s themes until they are updated.
 | [`theme_darkacademia()`](https://mjfrigaard.github.io/fmggp2/reference/theme_darkacademia.md) | [Dark academia](https://en.wikipedia.org/wiki/Dark_academia) |
 | [`theme_digicam()`](https://mjfrigaard.github.io/fmggp2/reference/theme_digicam.md) | [Digital camera](https://en.wikipedia.org/wiki/Digital_camera) |
 | [`theme_doomscroll()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doomscroll.md) | [Doomscrolling](https://en.wikipedia.org/wiki/Doomscrolling) |
+| [`theme_egirl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_egirl.md) | [E-girl and e-boy subculture](https://en.wikipedia.org/wiki/E-girl_and_e-boy_subculture) |
 | [`theme_fidget()`](https://mjfrigaard.github.io/fmggp2/reference/theme_fidget.md) | [Fidget toy](https://en.wikipedia.org/wiki/Fidget_toy) |
 | [`theme_frog()`](https://mjfrigaard.github.io/fmggp2/reference/theme_frog.md) | [Frog](https://en.wikipedia.org/wiki/Frog) |
 | [`theme_frutigeraero()`](https://mjfrigaard.github.io/fmggp2/reference/theme_frutigeraero.md) | [Frutiger Aero](https://en.wikipedia.org/wiki/Frutiger_Aero) |
@@ -45,21 +46,13 @@ still use the earlier 90s themes until they are updated.
 | [`theme_indiesleaze()`](https://mjfrigaard.github.io/fmggp2/reference/theme_indiesleaze.md) | [Indie sleaze](https://en.wikipedia.org/wiki/Indie_sleaze) |
 | [`theme_kidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_kidcore.md) | [Kidcore](https://en.wikipedia.org/wiki/Kidcore) |
 | [`theme_ledstrip()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ledstrip.md) | [LED strip light](https://en.wikipedia.org/wiki/LED_strip_light) |
-| [`theme_lightstick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_lightstick.md) | [Glow stick](https://en.wikipedia.org/wiki/Glow_stick) |
 | [`theme_liminal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_liminal.md) | [Liminal space](https://en.wikipedia.org/wiki/Liminal_space) |
 | [`theme_livestream()`](https://mjfrigaard.github.io/fmggp2/reference/theme_livestream.md) | [Live streaming](https://en.wikipedia.org/wiki/Live_streaming) |
 | [`theme_matcha()`](https://mjfrigaard.github.io/fmggp2/reference/theme_matcha.md) | [Matcha](https://en.wikipedia.org/wiki/Matcha) |
 | [`theme_mermaidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mermaidcore.md) | [Mermaid](https://en.wikipedia.org/wiki/Mermaid) |
-| [`theme_mushroomlamp()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mushroomlamp.md) | [Nightlight](https://en.wikipedia.org/wiki/Nightlight) |
 | [`theme_photodump()`](https://mjfrigaard.github.io/fmggp2/reference/theme_photodump.md) | [Camera phone](https://en.wikipedia.org/wiki/Camera_phone) |
-| [`theme_pickleball()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pickleball.md) | [Pickleball](https://en.wikipedia.org/wiki/Pickleball) |
 | [`theme_plushie()`](https://mjfrigaard.github.io/fmggp2/reference/theme_plushie.md) | [Stuffed toy](https://en.wikipedia.org/wiki/Stuffed_toy) |
-| [`theme_rgbsetup()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rgbsetup.md) | [Gaming computer](https://en.wikipedia.org/wiki/Gaming_computer) |
-| [`theme_ringlight()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ringlight.md) | [Ring flash](https://en.wikipedia.org/wiki/Ring_flash) |
 | [`theme_slime()`](https://mjfrigaard.github.io/fmggp2/reference/theme_slime.md) | [Slime (toy)](https://en.wikipedia.org/wiki/Slime_(toy)) |
-| [`theme_speedrun()`](https://mjfrigaard.github.io/fmggp2/reference/theme_speedrun.md) | [Speedrunning](https://en.wikipedia.org/wiki/Speedrunning) |
-| [`theme_streak()`](https://mjfrigaard.github.io/fmggp2/reference/theme_streak.md) | [Gamification](https://en.wikipedia.org/wiki/Gamification) |
-| [`theme_synthwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_synthwave.md) | [Synthwave](https://en.wikipedia.org/wiki/Synthwave) |
 | [`theme_thrift()`](https://mjfrigaard.github.io/fmggp2/reference/theme_thrift.md) | [Charity shop](https://en.wikipedia.org/wiki/Charity_shop) |
 | [`theme_tumbler()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tumbler.md) | [Vacuum flask](https://en.wikipedia.org/wiki/Vacuum_flask) |
 | [`theme_unboxing()`](https://mjfrigaard.github.io/fmggp2/reference/theme_unboxing.md) | [Unboxing](https://en.wikipedia.org/wiki/Unboxing) |
@@ -73,7 +66,7 @@ still use the earlier 90s themes until they are updated.
 The two graphs below use
 [`theme_boba()`](https://mjfrigaard.github.io/fmggp2/reference/theme_boba.md)
 and
-[`theme_synthwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_synthwave.md)
+[`theme_vaporwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_vaporwave.md)
 with simulated data.
 
 ``` r
@@ -97,22 +90,22 @@ ggplot(boba, aes(x = flavor, fill = flavor)) +
 set.seed(1984)
 tracks <- data.frame(bpm = rnorm(300, 110, 12))
 tracks$plays <- round(rlnorm(300, meanlog = 8 + 0.01 * (tracks$bpm - 110), sdlog = 0.7))
-tracks$mood <- sample(c("Night drive", "Neon", "Retro"), 300, replace = TRUE)
+tracks$mood <- sample(c("Mallsoft", "Future funk", "Slushwave"), 300, replace = TRUE)
 ggplot(tracks, aes(x = bpm, y = plays, colour = mood)) +
   geom_point(alpha = 0.8) +
   scale_y_log10() +
-  labs(title = "Synthwave tracks", caption = "Simulated data", x = "BPM", y = "Plays (log scale)", colour = NULL) +
-  theme_synthwave(base_size = 13)
+  labs(title = "Vaporwave tracks", caption = "Simulated data", x = "BPM", y = "Plays (log scale)", colour = NULL) +
+  theme_vaporwave(base_size = 13)
 ```
 
-![](reference/figures/README-readme-synthwave-1.png)
+![](reference/figures/README-readme-vaporwave-1.png)
 
 ## Reference images
 
-Each theme’s palette follows its Wikipedia article. A freely licensed
-image (public domain, CC0, CC BY, CC BY-SA, or GFDL) from the article,
-or from Wikimedia Commons when the article has no free image, supports
-it. The [themes
+Each theme links its Wikipedia article. A freely licensed image (public
+domain, CC0, CC BY, CC BY-SA, or GFDL) from the article, or from
+Wikimedia Commons when the article has no free image, illustrates it.
+The [themes
 vignette](https://mjfrigaard.github.io/fmggp2/articles/themes.html)
 shows each image with its author and license.
 

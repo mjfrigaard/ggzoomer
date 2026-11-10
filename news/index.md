@@ -5,7 +5,7 @@
 - Breaking: all 48 late 90s themes are removed, along with their images,
   tests, the bundled Press Start 2P font, and `gameboy_font()`. The book
   chapters that call them need updating.
-- 44 new themes named after Gen Z aesthetics, trends, and objects:
+- 37 new themes named after Gen Z aesthetics, trends, and objects:
   [`theme_airfryer()`](https://mjfrigaard.github.io/fmggp2/reference/theme_airfryer.md),
   [`theme_asmr()`](https://mjfrigaard.github.io/fmggp2/reference/theme_asmr.md),
   [`theme_axolotl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_axolotl.md),
@@ -18,6 +18,7 @@
   [`theme_darkacademia()`](https://mjfrigaard.github.io/fmggp2/reference/theme_darkacademia.md),
   [`theme_digicam()`](https://mjfrigaard.github.io/fmggp2/reference/theme_digicam.md),
   [`theme_doomscroll()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doomscroll.md),
+  [`theme_egirl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_egirl.md),
   [`theme_fidget()`](https://mjfrigaard.github.io/fmggp2/reference/theme_fidget.md),
   [`theme_frog()`](https://mjfrigaard.github.io/fmggp2/reference/theme_frog.md),
   [`theme_frutigeraero()`](https://mjfrigaard.github.io/fmggp2/reference/theme_frutigeraero.md),
@@ -27,21 +28,13 @@
   [`theme_indiesleaze()`](https://mjfrigaard.github.io/fmggp2/reference/theme_indiesleaze.md),
   [`theme_kidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_kidcore.md),
   [`theme_ledstrip()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ledstrip.md),
-  [`theme_lightstick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_lightstick.md),
   [`theme_liminal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_liminal.md),
   [`theme_livestream()`](https://mjfrigaard.github.io/fmggp2/reference/theme_livestream.md),
   [`theme_matcha()`](https://mjfrigaard.github.io/fmggp2/reference/theme_matcha.md),
   [`theme_mermaidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mermaidcore.md),
-  [`theme_mushroomlamp()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mushroomlamp.md),
   [`theme_photodump()`](https://mjfrigaard.github.io/fmggp2/reference/theme_photodump.md),
-  [`theme_pickleball()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pickleball.md),
   [`theme_plushie()`](https://mjfrigaard.github.io/fmggp2/reference/theme_plushie.md),
-  [`theme_rgbsetup()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rgbsetup.md),
-  [`theme_ringlight()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ringlight.md),
   [`theme_slime()`](https://mjfrigaard.github.io/fmggp2/reference/theme_slime.md),
-  [`theme_speedrun()`](https://mjfrigaard.github.io/fmggp2/reference/theme_speedrun.md),
-  [`theme_streak()`](https://mjfrigaard.github.io/fmggp2/reference/theme_streak.md),
-  [`theme_synthwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_synthwave.md),
   [`theme_thrift()`](https://mjfrigaard.github.io/fmggp2/reference/theme_thrift.md),
   [`theme_tumbler()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tumbler.md),
   [`theme_unboxing()`](https://mjfrigaard.github.io/fmggp2/reference/theme_unboxing.md),
@@ -51,11 +44,11 @@
   [`theme_weirdcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_weirdcore.md),
   and
   [`theme_wiredbuds()`](https://mjfrigaard.github.io/fmggp2/reference/theme_wiredbuds.md).
-- Each palette follows the colors, objects, and materials the topic’s
-  Wikipedia article describes (for example,
+- Each palette follows how the topic looks to Gen Z online (for example,
   [`theme_cleangirl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cleangirl.md)
-  uses the article’s rosy blush, brown brows and lip liner, and light
-  neutrals), with a freely licensed image from the article as support.
+  uses gold jewelry, an iced matcha latte, fluffy brows, dewy skin, and
+  neutral clothing). Each theme links its Wikipedia article and shows a
+  freely licensed image from it.
   [`theme_capybara()`](https://mjfrigaard.github.io/fmggp2/reference/theme_capybara.md)
   follows the “After Party” single cover that capybara memes pair with,
   not the animal,
@@ -70,19 +63,16 @@
 - Themes with a dark default have `mode = "light"`:
   [`theme_asmr()`](https://mjfrigaard.github.io/fmggp2/reference/theme_asmr.md),
   [`theme_darkacademia()`](https://mjfrigaard.github.io/fmggp2/reference/theme_darkacademia.md),
+  [`theme_digicam()`](https://mjfrigaard.github.io/fmggp2/reference/theme_digicam.md),
   [`theme_doomscroll()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doomscroll.md),
+  [`theme_egirl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_egirl.md),
   [`theme_goblincore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goblincore.md),
   [`theme_indiesleaze()`](https://mjfrigaard.github.io/fmggp2/reference/theme_indiesleaze.md),
   [`theme_ledstrip()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ledstrip.md),
-  [`theme_lightstick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_lightstick.md),
-  [`theme_livestream()`](https://mjfrigaard.github.io/fmggp2/reference/theme_livestream.md),
-  [`theme_mushroomlamp()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mushroomlamp.md),
-  [`theme_rgbsetup()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rgbsetup.md),
-  [`theme_speedrun()`](https://mjfrigaard.github.io/fmggp2/reference/theme_speedrun.md),
   and
-  [`theme_synthwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_synthwave.md).
+  [`theme_livestream()`](https://mjfrigaard.github.io/fmggp2/reference/theme_livestream.md).
 - Each theme’s help page and vignette section explains why the topic is
-  included, using facts from its Wikipedia article.
+  included and why it matters to Gen Z.
 - The themes vignette shows every theme with its image, credit, and
   simulated data.
 

@@ -1,10 +1,11 @@
 # Themes
 
 Each `fmggp2` theme is named after an aesthetic, trend, or object from
-Gen Z internet culture. Every palette follows the colors, objects, and
-materials the topic’s Wikipedia article describes (or the closest
-article when the topic doesn’t have one). Each section below shows a
-freely licensed image from the article and simulated data to match.
+Gen Z internet culture. Every palette follows how the topic looks to Gen
+Z online: its colors, objects, and materials. Each section explains why
+the topic is included, links its Wikipedia article (or the closest
+article when the topic doesn’t have one), and shows a freely licensed
+image from that article with simulated data to match.
 
 Themes with a dark background also have a light version. Set
 `mode = "light"` to get a light background with darker text and marks.
@@ -62,12 +63,12 @@ feel while watching whisper, tapping, and crinkle videos (see
 [ASMR](https://en.wikipedia.org/wiki/ASMR) on Wikipedia). ASMR is the
 calm, tingling feeling some people get from whispers, tapping, and other
 quiet sounds. YouTube turned it into a genre. Many ASMR videos show one
-person whispering or tapping straight into the camera. The trend has
-reached museums, too. The Louvre invited the channel PARIS ASMR to film
-there in 2019, and the first major ASMR exhibition opened in Sweden in
-2020. [Gibi ASMR](https://en.wikipedia.org/wiki/Gibi_ASMR), one of
-YouTube’s top ASMR creators, started her channel in 2016 and reached one
-million subscribers about a year after college.
+person whispering or tapping straight into the camera. The Louvre
+invited the channel PARIS ASMR to film there in 2019, and the first
+major ASMR exhibition opened in Sweden in 2020. [Gibi
+ASMR](https://en.wikipedia.org/wiki/Gibi_ASMR), one of YouTube’s top
+ASMR creators, started her channel in 2016 and reached one million
+subscribers about a year after college.
 
 The palette follows the set behind [Gibi
 ASMR](https://en.wikipedia.org/wiki/Gibi_ASMR)’s videos: a deep indigo
@@ -109,16 +110,16 @@ last_plot() + theme_asmr(base_size = 13, mode = "light")
 Axolotls are Mexican salamanders that keep their gills for life and
 became an internet favorite (and a game mob) (see
 [Axolotl](https://en.wikipedia.org/wiki/Axolotl) on Wikipedia). The
-axolotl is a salamander that keeps its feathery gills as an adult. It is
-a popular subject in modern culture, and in 2017 it became the official
-emoji of Mexico City. Mexico put an axolotl on its 50 peso banknote in
-2021. So many people kept the note that up to 50 million were out of
-circulation by 2025. In the wild, the species is critically endangered.
+axolotl is a salamander that keeps its pink and white coloring, large
+eyes, and feathery gills into adulthood. Online, it stands for cuteness,
+aquatic pets, and staying young. Custom axolotl emojis often hold boba
+tea or hearts, or wear tiny hats. In 2017, it became the official emoji
+of Mexico City.
 
-The palette follows the article’s color variants: the wild type’s brown
-with gold speckles and an olive undertone, the leucistic pink, pink
-gills, and the dark melanoid. The image shows a wild type axolotl
-resting on gravel in an aquarium.
+The palette follows the axolotl emoji: pink and white skin, deep pink
+feathery gills, big black eyes, and the boba tea, hearts, and aquarium
+water it often comes with. The image shows a wild type axolotl resting
+on gravel in an aquarium.
 
 ![](../reference/figures/theme_axolotl/axolotl.jpg)
 
@@ -144,14 +145,14 @@ ggplot(axolotls, aes(x = morph, y = length, fill = morph)) +
 [`theme_boba()`](https://mjfrigaard.github.io/fmggp2/reference/theme_boba.md):
 Bubble tea (boba) is a Taiwanese tea drink with chewy tapioca pearls
 (see [Bubble tea](https://en.wikipedia.org/wiki/Bubble_tea) on
-Wikipedia). Bubble tea came to the United States in the 1990s, where
-most people call it boba. The drink grew popular in the 2010s and became
-a symbol of Asian American identity, with phrases like “boba life.” Boba
-got its own emoji in 2020. In 2023, Google celebrated it with a Doodle.
+Wikipedia). Boba is known for its vibrant, layered colors, cups slick
+with condensation, and swirling tapioca pearls or colorful popping boba.
+That look makes it one of the most Instagrammable drinks around. For Gen
+Z, a photo of a boba cup works as a kind of visual currency.
 
-The palette follows the article’s drinks and toppings: tapioca pearls,
-pearl black milk tea, pearl green milk tea, red bean, brown sugar syrup,
-and taro. The image shows a cup of milk tea with black tapioca pearls.
+The palette follows the vibrant, layered drinks: black tapioca pearls,
+milk tea, taro, strawberry, matcha, and mango popping boba. The image
+shows a cup of milk tea with black tapioca pearls.
 
 ![](../reference/figures/theme_boba/boba.jpg)
 
@@ -219,16 +220,17 @@ The clean girl aesthetic is a minimal beauty and wellness trend built on
 slicked back hair, a no makeup makeup look, and a limited palette (see
 [Clean girl
 aesthetic](https://en.wikipedia.org/wiki/Clean_girl_aesthetic) on
-Wikipedia). The clean girl aesthetic appeared at the end of 2021, and
-TikTok is its main platform. By February 2026, the \#CleanGirl tag had
-over 1.2 million videos. The look is especially popular with Gen Z and
-Gen Alpha. Its focus on skincare, diet, and exercise makes it a
-lifestyle as much as a style.
+Wikipedia). The clean girl aesthetic became a viral TikTok and Instagram
+trend in 2021 and 2022. It moved beauty away from the heavy full glam of
+the late 2010s and toward a curated, wellness focused identity. Critics
+say the effortless look takes expensive upkeep and borrows styles from
+Black and Latina women. By 2025, much of Gen Z had moved on to messier,
+more maximalist looks.
 
-The palette follows the article’s no makeup makeup look (heavy rosy
-blush, perfect brows, brown lip liner), its whites, blacks, grays, and
-light neutrals, and the matcha it mentions. The image shows a single
-small gold hoop earring.
+The palette follows the polished, no makeup look: delicate gold jewelry,
+an iced matcha latte, fluffy brown brows, glazed dewy skin, tinted
+gloss, and neutral toned clothing. The image shows a single small gold
+hoop earring.
 
 ![](../reference/figures/theme_cleangirl/cleangirl.jpg)
 
@@ -256,16 +258,17 @@ ggplot(routine, aes(x = minutes, fill = step)) +
 Coastal grandmother is a relaxed style of linen, beach houses, and
 seaside cooking (see [2020s in
 fashion](https://en.wikipedia.org/wiki/2020s_in_fashion) on Wikipedia).
-Coastal grandmother was a 2022 trend with a “beachy, romantic aesthetic”
-tied to the rural American East Coast. It grew out of “retirement wear,”
-where young Gen Z and millennial women borrowed the comfortable style of
-their elders. Both trends came from comfortcore, the turn to comfortable
-clothes that followed the COVID-19 lockdowns.
+The coastal grandmother look borrows from the heroines of Nancy Meyers
+films like Something’s Gotta Give. Gen Z and millennials treat it as an
+escape from stress and burnout, a life of leisure instead of constant
+striving. Gen Z makes it more accessible with texture and vintage
+pieces; no beach house required. A younger, more casual version is
+called coastal granddaughter.
 
-The palette follows a linen beach house: sea blue, navy, sand,
-hydrangea, seagrass, and driftwood (the article has no palette, so the
-Cape Cod postcard leads). The image shows a vintage postcard of the bath
-houses on Craigville Beach, Cape Cod.
+The palette follows the Nancy Meyers wardrobe: soft blue, navy, beige
+linen, camel cashmere, driftwood gray, and sea glass green on cream. The
+image shows a vintage postcard of the bath houses on Craigville Beach,
+Cape Cod.
 
 ![](../reference/figures/theme_coastal/coastal.jpg)
 
@@ -293,14 +296,16 @@ ggplot(beach, aes(x = month, y = hours, fill = activity)) +
 The coquette aesthetic is a 2020s fashion trend of bows, lace, ribbons,
 and pastels (see [Coquette
 aesthetic](https://en.wikipedia.org/wiki/Coquette_aesthetic) on
-Wikipedia). Coquette is a 2020s Gen Z fashion trend built on lace, bows,
-flounces, and pastel colors. It first caught on with Tumblr in the early
-2010s. Around 2021, it caught on again with TikTok. Its film influences
-run from Sofia Coppola’s movies to Bridgerton and Greta Gerwig’s Barbie.
+Wikipedia). Coquette is a 2020s Gen Z trend that reclaims hyper
+femininity as self expression. Unlike the girlboss era, it treats
+softness as strength. On TikTok, \#coquetteaesthetic has passed 18
+billion views, and Lana Del Rey, Sabrina Carpenter, and Jennie have all
+embraced the look. Critics call it regressive, while fans see a
+celebration of vulnerability and individuality.
 
-The palette follows the article’s bows, lace, pastel colors, and pink
-clothing: ballet pink, ribbon red, powder blue, lilac, deep rose, and
-pearl gray. The image shows an 1880s tobacco card portrait of Marie
+The palette follows the hyper feminine wardrobe: ballet pink bows,
+ribbon red hearts, pastel lavender and baby blue, pearls, and deep
+cherry. The image shows an 1880s tobacco card portrait of Marie
 Antoinette.
 
 ![](../reference/figures/theme_coquette/coquette.jpg)
@@ -328,16 +333,16 @@ ggplot(bows, aes(x = item, fill = fabric)) +
 Cottagecore is an internet aesthetic that romanticizes rural life:
 gardens, baking, and handmade things (see
 [Cottagecore](https://en.wikipedia.org/wiki/Cottagecore) on Wikipedia).
-Cottagecore was first named on Tumblr in 2018, and it is a subculture of
-millennials and Gen Z. It grew as a response to the money pressures
-young people face. The aesthetic values sustainability, farming, and
-slow living. It became highly popular on social media during the
-COVID-19 pandemic.
+Cottagecore gives Gen Z an escape from hustle culture, consumerism, and
+the stress of modern technology. It offers calm and a sense of control
+in a chaotic world. It also fits Gen Z’s values: thrifting, slow
+fashion, and eco consciousness. The aesthetic reimagines rural life as a
+safe, inclusive space, often blended with queer and feminist ideals.
 
-The palette follows the article’s muted palettes, floral prints, calico,
-worn leather, and indoor greenery: sage, rose, leather brown, calico
-blue, butter yellow, and moss. The image shows Anne Hathaway’s Cottage,
-a thatched cottage and garden in Warwickshire.
+The palette follows the pastoral palette of greens, browns, and creams
+with its motifs: sage, toadstool red, bee yellow, bark brown, wildflower
+lilac, and moss. The image shows Anne Hathaway’s Cottage, a thatched
+cottage and garden in Warwickshire.
 
 ![](../reference/figures/theme_cottagecore/cottagecore.jpg)
 
@@ -365,16 +370,15 @@ ggplot(garden, aes(x = week, y = harvest, colour = crop)) +
 Dark academia is an internet aesthetic built around old libraries,
 tweed, and classic literature (see [Dark
 academia](https://en.wikipedia.org/wiki/Dark_academia) on Wikipedia).
-Dark academia started on Tumblr in the mid-2010s. Teens and young adults
-spread it in the late 2010s and early 2020s, especially during the
-COVID-19 pandemic. Donna Tartt’s 1992 novel The Secret History is
-credited as its inspiration. One writer describes the look as nostalgia
-for a vague time before the internet.
+Dark academia spread through Tumblr and TikTok. Tumblr’s 2021 year in
+review ranked it the platform’s second most popular aesthetic, and about
+48% of Tumblr users are Gen Z. Commentators link its appeal to digital
+fatigue and a hunger for reflection and an intellectual identity.
+Critics point out that it has since been sold back as a lifestyle brand.
 
-The palette follows the article’s palette of black, white, beige,
-browns, dark green, and occasionally navy blue, with candlelight gold
-and dark wood. The image shows a Gothic spiral staircase inside
-St. Barbara’s Church in Kutna Hora.
+The palette follows a dim library with black coffee: parchment, brown
+tweed, burgundy, forest green, charcoal, and dark oak. The image shows a
+Gothic spiral staircase inside St. Barbara’s Church in Kutna Hora.
 
 ![](../reference/figures/theme_darkacademia/darkacademia.jpg)
 
@@ -409,16 +413,17 @@ last_plot() + theme_darkacademia(base_size = 13, mode = "light")
 [`theme_digicam()`](https://mjfrigaard.github.io/fmggp2/reference/theme_digicam.md):
 Digital point and shoot cameras from the 2000s are back for their flash
 heavy, slightly blurry photos (see [Digital
-camera](https://en.wikipedia.org/wiki/Digital_camera) on Wikipedia). In
-the early 2020s, digital cameras from the early 2000s came back as a
-TikTok trend. The revival spread to marketplaces like eBay and Etsy.
-Wikipedia describes it as Gen Z nostalgia and a tribute to the Y2K
-aesthetic. These are the cameras people carried before every phone had a
-good one.
+camera](https://en.wikipedia.org/wiki/Digital_camera) on Wikipedia). Gen
+Z revived early 2000s digital cameras around 2022 on TikTok and
+Instagram. Many pulled them out of their parents’ drawers or bought them
+secondhand. The grainy, flash heavy shots feel more authentic than
+heavily processed phone photos. There is nostalgia, too: many of these
+users grew up being photographed on the same cameras.
 
-The palette follows the article’s sensor channels (red, green, and
-blue), an LCD screen, the flash, and the black grip on a silver body.
-The image shows the front and back of a Canon PowerShot A95.
+The palette follows flash heavy early 2000s photos against a dark
+background: a metallic silver body, the orange date stamp, LCD blue,
+candy pink, gunmetal, and flash white. The image shows the front and
+back of a Canon PowerShot A95.
 
 ![](../reference/figures/theme_digicam/digicam.jpg)
 
@@ -440,22 +445,30 @@ ggplot(cams, aes(x = megapixels, y = price, colour = condition)) +
 
 ![](themes_files/figure-html/digicam-1.png)
 
+With `mode = "light"`:
+
+``` r
+
+last_plot() + theme_digicam(base_size = 13, mode = "light")
+```
+
+![](themes_files/figure-html/digicam-light-1.png)
+
 ## Doomscroll
 
 [`theme_doomscroll()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doomscroll.md):
 Doomscrolling is spending far too long scrolling through upsetting or
 endless feeds (see
 [Doomscrolling](https://en.wikipedia.org/wiki/Doomscrolling) on
-Wikipedia). Doomscrolling means spending too much time scrolling through
-bad news. The word first appeared in a tweet in 2018 and spread during
-the COVID-19 pandemic. Research finds it is more common in younger age
-groups. The Macquarie Dictionary named it a 2020 word of the year, and
-Merriam-Webster added it in September 2023.
+Wikipedia). Doomscrolling is endlessly scrolling bad news, usually late
+at night. A 2024 study found that 53% of Gen Z say they doomscroll,
+compared with about a third of Americans overall. Studies link the habit
+to stress and anxiety. It even spills into spending: Fortune reported in
+2024 that Gen Z spent 21% more on holiday shopping to cope.
 
-The palette follows the article’s late night feeds of negative news:
-screen glow blue, alert red, headline gray, notification orange, purple,
-and cyan on a dark room. The image shows a thumb scrolling a phone
-screen in the dark.
+The palette follows a glowing phone in a dark room: screen glow blue,
+notification red, blue light, slate gray, breaking news red, and dim
+white. The image shows a thumb scrolling a phone screen in the dark.
 
 ![](../reference/figures/theme_doomscroll/doomscroll.jpg)
 
@@ -485,21 +498,69 @@ last_plot() + theme_doomscroll(base_size = 13, mode = "light")
 
 ![](themes_files/figure-html/doomscroll-light-1.png)
 
+## E-girl
+
+[`theme_egirl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_egirl.md):
+E-girls and e-boys are a TikTok youth subculture that mixes emo, scene,
+and mall goth fashion with anime and K-pop style (see [E-girl and e-boy
+subculture](https://en.wikipedia.org/wiki/E-girl_and_e-boy_subculture)
+on Wikipedia). E-girls and e-boys reached the mainstream in 2019 through
+TikTok transformation videos. TikTok lacked Instagram’s polish and
+filters, so the look pushed back on perfectly edited influencer photos.
+In 2020, “e-girl style” was a top 10 trending fashion term on Google,
+and celebrities like Dua Lipa copied its bleached stripes. Designers at
+Celine later built collections around e-boy style.
+
+The palette follows the e-girl look: neon pink and blue dyed hair,
+silver chains, a red band tee print, bleached blonde streaks, and anime
+pink blush on black. The image shows an e-girl’s striped sleeves,
+layered chain necklaces, and black band tee.
+
+![](../reference/figures/theme_egirl/egirl.jpg)
+
+Image: Irisloveunicorns, [Wikimedia
+Commons](https://commons.wikimedia.org/wiki/File:E-girl.png), CC BY 3.0
+(cropped).
+
+``` r
+
+set.seed(2019)
+looks <- data.frame(item = sample(c("Chains", "Striped sleeves", "Heart stamps", "Split dye hair", "Platform shoes"),
+  500, replace = TRUE, prob = c(0.3, 0.25, 0.2, 0.15, 0.1)))
+looks$item <- factor(looks$item, levels = names(sort(table(looks$item))))
+ggplot(looks, aes(y = item, fill = item)) +
+  geom_bar(show.legend = FALSE) +
+  labs(title = "E-girl transformation videos", subtitle = "What each look added",
+       caption = "Simulated data", x = "Videos", y = NULL) +
+  theme_egirl(base_size = 13)
+```
+
+![](themes_files/figure-html/egirl-1.png)
+
+With `mode = "light"`:
+
+``` r
+
+last_plot() + theme_egirl(base_size = 13, mode = "light")
+```
+
+![](themes_files/figure-html/egirl-light-1.png)
+
 ## Fidget toy
 
 [`theme_fidget()`](https://mjfrigaard.github.io/fmggp2/reference/theme_fidget.md):
 Fidget toys (spinners, cubes, pop its, and bike chains) are small things
 to keep your hands busy (see [Fidget
-toy](https://en.wikipedia.org/wiki/Fidget_toy) on Wikipedia). People
-have always fidgeted, but fidget toys took off after the fidget spinner
-fad of 2017. That same year, spinners were banned in 32% of the largest
-US high schools. Other fidget toys include the Fidget Cube, stress
-balls, and Pop Its. Many autistic and ADHD people use them to manage
-sensory input and lower stress.
+toy](https://en.wikipedia.org/wiki/Fidget_toy) on Wikipedia). Fidget
+spinners went viral in 2017. Fidget toys came back through TikTok videos
+of pop its, slime, and kinetic sand under hashtags like \#FidgetToys.
+Gen Z uses them as screen free stress relief and as focus aids while
+studying or working. For some young adults, they are also simply
+nostalgic and fun.
 
-The palette follows the article’s fidget spinners, Fidget Cubes, and Pop
-Its: saturated silicone colors and a chrome bearing gray. The image
-shows a bike chain fidget toy on lined paper.
+The palette follows rainbow pop its and spinners: red, sunny yellow,
+lime, sky blue, purple, and hot pink. The image shows a bike chain
+fidget toy on lined paper.
 
 ![](../reference/figures/theme_fidget/fidget.jpg)
 
@@ -524,15 +585,16 @@ ggplot(spins, aes(x = toy, y = seconds, colour = toy)) +
 
 [`theme_frog()`](https://mjfrigaard.github.io/fmggp2/reference/theme_frog.md):
 Frogs are tailless amphibians and a cottagecore and goblincore icon (see
-[Frog](https://en.wikipedia.org/wiki/Frog) on Wikipedia). Frogs show up
-in myths, fairy tales, and modern culture, from Kermit the Frog to the
-game Frogger. They also warn us about the planet. A drop in frog numbers
-is an early sign of environmental damage, and frog populations around
-the world have fallen sharply since the 1950s.
+[Frog](https://en.wikipedia.org/wiki/Frog) on Wikipedia). Gen Z’s
+favorite frog is Animal Crossing’s Froggy Chair, a green seat with a
+wide red mouth. Fans get Froggy Chair tattoos, bake Froggy Chair cakes,
+and print it on shirts. Frogcore extends the look to frog hoodies, rain
+boots, and slippers. Frog memes, from wholesome mental health posts to
+Arson Frog avatars, fill Gen Z feeds.
 
-The palette follows the article’s skin colors: camouflage green and
-dappled brown, warning red or yellow and black, and the blue flanks of
-the red eyed tree frog. The image shows a red eyed tree frog on a
+The palette follows Animal Crossing’s Froggy Chair and frog memes:
+froggy green, the wide red mouth, pond blue, Arson Frog blue, moss, and
+lily pad green on belly cream. The image shows a red eyed tree frog on a
 branch.
 
 ![](../reference/figures/theme_frog/frog.jpg)
@@ -560,14 +622,14 @@ ggplot(frogs, aes(x = jump, fill = species)) +
 Frutiger Aero is the glossy design style of the mid 2000s: bubbles,
 water, grass, and blue skies (see [Frutiger
 Aero](https://en.wikipedia.org/wiki/Frutiger_Aero) on Wikipedia).
-Frutiger Aero is the glossy computer design style of the mid-2000s to
-early 2010s. It was named in 2018 and came back as an internet aesthetic
-in 2023. Gen Z embraced it as an object of nostalgia, and Frutiger Aero
-posts drew big audiences on YouTube and TikTok. Some critics see its
-influence in Apple’s 2025 Liquid Glass design.
+Frutiger Aero came back on TikTok, Tumblr, and Reddit in 2022 and 2023.
+Gen Z links it to a digital childhood of MSN Messenger and Windows
+Vista. Essays frame it as optimism, a glossy contrast to flat,
+minimalist design and modern cynicism. Even design writers admit it’s
+hard to say exactly why it resonates.
 
-The palette follows the article’s blue skies, grass, aurorae, and bright
-colors (“yellows, and particularly blues and greens”). The image shows
+The palette follows glossy Vista era glass and water: sky blue, grass
+green, deep ocean blue, lime, aqua, and bubble cyan. The image shows
 soap bubbles floating over sunlit grass.
 
 ![](../reference/figures/theme_frutigeraero/frutigeraero.jpg)
@@ -597,15 +659,17 @@ ggplot(aero, aes(x = year, y = share, colour = style)) +
 Goblincore celebrates the less pretty side of nature: moss, mushrooms,
 snails, and found objects (see
 [Goblincore](https://en.wikipedia.org/wiki/Goblincore) on Wikipedia).
-Goblincore celebrates the parts of nature most people overlook, such as
-soil, small animals, and second-hand objects. It surfaced on Tumblr and
-TikTok in the late 2010s and “hit full steam in 2020” during the
-pandemic. The goblincore subreddit grew 395% in the year to July 2021.
-That June, Etsy reported a 695% jump in goblincore searches.
+Goblincore is a grungier, moodier cousin of cottagecore. It grew on
+TikTok in 2021 and ties into Gen Z’s interest in nature and
+sustainability. The trend pulls people away from screens and into
+forests and empty lots. Coverage reads its anti consumerist attitude and
+love of imperfection as a response to an unsettling, post pandemic
+world.
 
-The palette follows the article’s brown, green, and clashing colors:
-moss, mushroom caps, earthworms, bones, rocks, and soil. The image shows
-a still life of old vases, a framed photo, and an animal skull.
+The palette follows mud, moss, and fungi in natural earth tones: moss
+green, toadstool red, mushroom beige, lichen sage, mud brown, and olive
+on soil black. The image shows a still life of old vases, a framed
+photo, and an animal skull.
 
 ![](../reference/figures/theme_goblincore/goblincore.jpg)
 
@@ -642,15 +706,15 @@ last_plot() + theme_goblincore(base_size = 13, mode = "light")
 Gorpcore is hiking gear (shell jackets, fleece, and trail shoes) worn as
 everyday streetwear (see
 [Gorpcore](https://en.wikipedia.org/wiki/Gorpcore) on Wikipedia).
-Gorpcore is outdoor gear worn as everyday streetwear. The writer Jason
-Chen named it in 2017, and it became a popular trend in the 2020s. The
-COVID-19 pandemic sent people outdoors and boosted sales of puffer
-jackets and hiking boots. Before that, celebrities like A\$AP Rocky and
-Frank Ocean were already wearing hiking clothes.
+Gorpcore turns outdoor gear into everyday style. It started out male
+led, but it has reached new heights on TikTok and Pinterest, especially
+among Gen Z women. Coverage ties it to the mental health benefits of
+time outside, tech fatigue after COVID, and Gen Z’s taste for
+sustainable goods. You don’t have to hike to wear it.
 
-The palette follows the article’s two color schemes, earthy or bright
-and bold: safety orange, glacier blue, forest green, khaki, lime, and
-charcoal shell jackets. The image shows outdoor jackets and pants
+The palette follows technical outdoor gear worn as streetwear: safety
+orange, forest green, glacier blue, olive drab, trail tan, and stone
+gray, with black nylon. The image shows outdoor jackets and pants
 hanging in a store.
 
 ![](../reference/figures/theme_gorpcore/gorpcore.jpg)
@@ -677,15 +741,16 @@ ggplot(gear, aes(x = price, fill = item)) +
 [`theme_groupchat()`](https://mjfrigaard.github.io/fmggp2/reference/theme_groupchat.md):
 Group chats are where friends plan, share memes, and leave each other on
 read (see [Online chat](https://en.wikipedia.org/wiki/Online_chat) on
-Wikipedia). A group chat (often shortened to GC) is a chat room for a
-set of friends. Many social media platforms now work as chat rooms,
-including WhatsApp, Discord, Snapchat, Instagram, and TikTok.
-Researchers have studied how teenagers and young people reshape language
-in these chats.
+Wikipedia). Group chats have become Gen Z’s third place, taking over
+from malls and coffee shops as the place to hang out. Their humor runs
+on memes that reference earlier memes. A 2025 Giphy survey found that
+about 89% of Gen Z and millennials check with their group chat before
+major life decisions. Snap found that nearly two thirds of Gen Z
+shoppers bought something after friends approved it in the chat.
 
-The palette follows chat bubbles from the article’s instant messengers:
-sent blue, received gray, text green, typing purple, reaction yellow,
-and unread red. The image shows a group conversation in a messaging app.
+The palette follows stacked chat bubbles and emoji: iMessage blue, SMS
+green, emoji yellow, heart red, typing gray, and dark mode black. The
+image shows a group conversation in a messaging app.
 
 ![](../reference/figures/theme_groupchat/groupchat.jpg)
 
@@ -711,16 +776,17 @@ ggplot(chat, aes(x = day, y = messages, fill = friend)) +
 [`theme_indiesleaze()`](https://mjfrigaard.github.io/fmggp2/reference/theme_indiesleaze.md):
 Indie sleaze is the messy, flash photo party style of 2006 to 2012, now
 back on social media (see [Indie
-sleaze](https://en.wikipedia.org/wiki/Indie_sleaze) on Wikipedia). Indie
-sleaze is the messy party style of roughly 2006 to 2012. It got its
-current name in 2021. In the early 2020s, it came back as an internet
-aesthetic on Instagram and TikTok. It is now making a comeback in
-fashion among Gen Z.
+sleaze](https://en.wikipedia.org/wiki/Indie_sleaze) on Wikipedia). Trend
+forecasters predicted an indie sleaze revival at the start of 2022, and
+TikTok amplified it. For younger Gen Z, it is nostalgia for an era they
+were too young to live through. The messy, flash lit look is also a
+counterpoint to the polished clean girl aesthetic and a break from hyper
+perfection.
 
-The palette follows the article’s flash photography, bleached hair,
-shredded denim, galaxy and “Aztec” prints, and smudged eyeliner on a
-dark club floor. The image shows a singer performing under a stage light
-in 2007.
+The palette follows harsh flash photos in dark clubs: red eye red, neon
+rave pink, washed denim, flash white, smudged eyeliner gray, and worn
+leather. The image shows a singer performing under a stage light in
+2007.
 
 ![](../reference/figures/theme_indiesleaze/indiesleaze.jpg)
 
@@ -755,15 +821,16 @@ last_plot() + theme_indiesleaze(base_size = 13, mode = "light")
 [`theme_kidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_kidcore.md):
 Kidcore is a bright, nostalgic aesthetic of primary colors, beads,
 stickers, and childhood toys (see
-[Kidcore](https://en.wikipedia.org/wiki/Kidcore) on Wikipedia). Kidcore
-runs on nostalgia for a 1990s and early 2000s childhood: primary colors,
-toys, cartoons, and the playground. The trend took off in late 2020.
-Nylon reported a 2,439% jump in Etsy searches for the word in the three
-months ending September 2020. One behavioral scientist linked it to the
-stress of the pandemic: “people want to escape into childhood.”
+[Kidcore](https://en.wikipedia.org/wiki/Kidcore) on Wikipedia). Trend
+researchers tracked kidcore as early as 2015 among millennials, but Gen
+Z pushed it further on TikTok. It feeds the generation’s nostalgia for
+eras they barely experienced. Commentators describe it as escapism and
+comfort, even a form of self care. Brands now use its bright, toy like
+look to speak to young audiences.
 
-The palette follows the article’s bright primary colors and rainbow
-colours. The image shows a heart shaped rainbow bead necklace.
+The palette follows Fisher Price primaries and toy colors: red, yellow,
+blue, crayon green, tangerine orange, and grape purple. The image shows
+a heart shaped rainbow bead necklace.
 
 ![](../reference/figures/theme_kidcore/kidcore.jpg)
 
@@ -791,16 +858,15 @@ ggplot(beads, aes(x = kit, fill = color)) +
 LED strip lights are the adhesive color changing lights that line
 bedroom ceilings and desks (see [LED strip
 light](https://en.wikipedia.org/wiki/LED_strip_light) on Wikipedia). LED
-strips are flexible bands of small lights that stick along a wall, desk,
-or monitor. Hobbyists use them for computer lighting, monitor
-backlights, and DIY projects. A USB port or battery pack can power them.
-Paired with a small controller, they can change color with music or
-anything else the controller senses.
+strips are often called TikTok lights. Refinery29 tracked the trend on
+TikTok from 2020 onward and called it Gen Z’s answer to the fairy lights
+of the 2010s. For teens in bare bedrooms or dorms, a cheap strip of
+lights is one of the few ways to make a space their own. Recent coverage
+notes Gen Z lighting turning softer and dimmer.
 
-The palette follows the article’s strip types: red, green, and blue
-multicolor LEDs, warm and cool white color temperatures, and a 2200K
-amber. The image shows a strip of cyan LED light under an airplane cabin
-shelf.
+The palette follows TikTok lights along a dark bedroom wall: hot pink,
+electric blue, purple, red, cyan, and green. The image shows a strip of
+cyan LED light under an airplane cabin shelf.
 
 ![](../reference/figures/theme_ledstrip/ledstrip.jpg)
 
@@ -831,65 +897,22 @@ last_plot() + theme_ledstrip(base_size = 13, mode = "light")
 
 ![](themes_files/figure-html/ledstrip-light-1.png)
 
-## Lightstick
-
-[`theme_lightstick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_lightstick.md):
-Lightsticks are the glow sticks fans wave at concerts, now synced to the
-show at K-pop tours (see [Glow
-stick](https://en.wikipedia.org/wiki/Glow_stick) on Wikipedia). Glow
-sticks are cheap lights that need no batteries and give off no heat.
-They are a fixture at raves, concerts, festivals, and dance clubs. Fans
-also wave them in dance styles such as glow poi and wotagei.
-
-The palette follows the article’s chemiluminescent glow in a translucent
-plastic tube: green, pink, blue, yellow, orange, and purple on a black
-arena. The image shows a diagram of a glow stick being snapped and lit.
-
-![](../reference/figures/theme_lightstick/lightstick.jpg)
-
-Image: Pbroks13, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Glowstick.svg), CC BY
-3.0.
-
-``` r
-
-set.seed(2023)
-glow <- data.frame(minute = rep(seq(0, 180, by = 10), 3), stick = rep(c("Premium", "Standard", "Dollar store"), each = 19))
-glow$brightness <- 100 * exp(-glow$minute / c(Premium = 200, Standard = 120, "Dollar store" = 60)[glow$stick]) + rnorm(57, 0, 2)
-ggplot(glow, aes(x = minute, y = brightness, colour = stick)) +
-  geom_line(linewidth = 1.2) +
-  labs(title = "Lightstick glow", caption = "Simulated data", x = "Minutes after snapping", y = "Brightness (%)", colour = NULL) +
-  theme_lightstick(base_size = 13)
-```
-
-![](themes_files/figure-html/lightstick-1.png)
-
-With `mode = "light"`:
-
-``` r
-
-last_plot() + theme_lightstick(base_size = 13, mode = "light")
-```
-
-![](themes_files/figure-html/lightstick-light-1.png)
-
 ## Liminal space
 
 [`theme_liminal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_liminal.md):
 Liminal space is an internet aesthetic of empty in between places:
 hallways, waiting rooms, and closed malls (see [Liminal
 space](https://en.wikipedia.org/wiki/Liminal_space) on Wikipedia).
-Liminal space images show empty hallways, waiting rooms, and closed
-malls. They spread online in 2019 and became tied to the Backrooms, an
-online urban legend that started on 4chan. Interest grew during the
-COVID-19 pandemic, when empty public spaces were everywhere. A 2022
-study found that small changes to familiar buildings can make them feel
-uncanny.
+Liminal space images began with a 2019 4chan post that spawned the
+Backrooms, then spread across Reddit and TikTok. Commentators tie their
+appeal to childhood memories of malls and schools. Empty streets during
+the pandemic lockdowns made the feeling familiar. YPulse reported in
+2026 that Gen Z loves films and shows set in liminal spaces.
 
-The palette follows the article’s empty hallways, pool rooms, and Twin
-Peaks Black Lodge: red curtains, black floor, mustard walls, fluorescent
-green, pool blue, and concrete. The image shows an empty carpeted
-hallway in the Stanley Hotel.
+The palette follows empty Backrooms hallways and dated malls:
+fluorescent yellow, stained carpet beige, pool tile aqua, concrete gray,
+mall teal, and night parking lot orange. The image shows an empty
+carpeted hallway in the Stanley Hotel.
 
 ![](../reference/figures/theme_liminal/liminal.jpg)
 
@@ -916,16 +939,15 @@ ggplot(halls, aes(x = eeriness, y = place, fill = place)) +
 Livestreaming is broadcasting video in real time, from gaming streams to
 vlogs filmed on the street (see [Live
 streaming](https://en.wikipedia.org/wiki/Live_streaming) on Wikipedia).
-Livestreaming is video broadcast in real time. Twitch and Kick are
-popular places to watch people play video games, from esports to
-speedruns. Chat is a key feature. Viewers talk with the streamer and
-with each other while the stream is live. Kick alone averaged 235,000
-live streams a day by June 2023.
+Twitch calls its core audience of Gen Z and younger millennials
+Generation Twitch. Researchers find that Gen Z spends far more time on
+video than older generations. Marketers report that interaction, not
+passive watching, keeps them engaged. Emotes act as a shared shorthand,
+with meanings unique to each streamer’s community.
 
-The palette follows a live broadcast as the article describes it: the
-red live badge, stream purple, chat green, viewer blue, and donation
-gold on a dark player. The image shows a journalist livestreaming from a
-railway station.
+The palette follows a Twitch stream: Twitch purple, the live red badge,
+Prime blue, overlay green, ice white chat text, and chat panel gray. The
+image shows a journalist livestreaming from a railway station.
 
 ![](../reference/figures/theme_livestream/livestream.jpg)
 
@@ -960,16 +982,17 @@ last_plot() + theme_livestream(base_size = 13, mode = "light")
 
 [`theme_matcha()`](https://mjfrigaard.github.io/fmggp2/reference/theme_matcha.md):
 Matcha is finely ground Japanese green tea, now a cafe staple as a latte
-(see [Matcha](https://en.wikipedia.org/wiki/Matcha) on Wikipedia).
-Matcha is a finely ground green tea from Japan. Demand for it grew so
-much in this century that China started mass producing it in 2018.
-Matcha has also spread to North American cafes like Starbucks. There, it
-shows up in lattes, iced drinks, and smoothies.
+(see [Matcha](https://en.wikipedia.org/wiki/Matcha) on Wikipedia). In
+2025, BeverageDaily called matcha Gen Z’s avocado toast moment. Its
+photogenic green suits Instagram and TikTok, where a new flavor or cup
+design can go viral fast. Gen Z also picks matcha for its perceived
+health benefits, dairy free options, and lower caffeine than coffee. The
+whisking ritual signals that you’re in the know.
 
-The palette follows the article’s vivid green color, matcha lattes, soba
-noodles, and wagashi: ceremonial green, bright green, latte foam,
-buckwheat, red bean, and tea leaf. The image shows a bamboo scoop of
-matcha powder.
+The palette follows a matcha latte layered over oat milk: ceremonial
+green, bamboo whisk tan, deep tea leaf, matcha mochi, bright latte
+green, and a dark wood counter. The image shows a bamboo scoop of matcha
+powder.
 
 ![](../reference/figures/theme_matcha/matcha.jpg)
 
@@ -997,16 +1020,16 @@ ggplot(cafe, aes(x = month, y = cups, colour = drink)) +
 [`theme_mermaidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mermaidcore.md):
 Mermaidcore is a fashion trend of shells, pearls, sequins, and
 iridescent sea colors (see
-[Mermaid](https://en.wikipedia.org/wiki/Mermaid) on Wikipedia). Mermaids
-have been a popular subject for centuries, from Hans Christian
-Andersen’s 1837 fairy tale “The Little Mermaid” to Disney’s 1989 film.
-Interest in mermaid costumes has grown with fantasy cosplay and cheap
-monofins. People now swim in these costumes, an activity called
-mermaiding, and mermaid fan conventions have been held.
+[Mermaid](https://en.wikipedia.org/wiki/Mermaid) on Wikipedia). By 2023,
+\#mermaidcore had passed 333 million views on TikTok. Writers tie it to
+Gen Z’s nostalgia, romanticism, and need for escapism and fantasy. It
+draws on The Little Mermaid, H2O: Just Add Water, and Barbie mermaid
+films. It reads younger and more whimsical than coastal grandmother, and
+an edgier offshoot is called mermaid sleaze.
 
-The palette follows the Mermaid article’s pale green hair, scales, and
-sea, with the nacre shell’s iridescence: seafoam, teal, lilac, coral,
-deep sea, and pearl gold. The image shows a cutaway nautilus shell
+The palette follows iridescent sheer fabrics, pearls, and shells:
+seafoam, ocean teal, lagoon blue, iridescent lilac, shell pink, and
+treasure gold on pearl white. The image shows a cutaway nautilus shell
 showing its pearly chambers (Wikipedia’s Nacre article).
 
 ![](../reference/figures/theme_mermaidcore/mermaidcore.jpg)
@@ -1029,66 +1052,22 @@ ggplot(shells, aes(x = width, y = chambers, colour = beach)) +
 
 ![](themes_files/figure-html/mermaidcore-1.png)
 
-## Mushroom lamp
-
-[`theme_mushroomlamp()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mushroomlamp.md):
-Mushroom lamps are glowing nightlights that became a bedroom decor trend
-(see [Nightlight](https://en.wikipedia.org/wiki/Nightlight) on
-Wikipedia). Nightlights give comfort and a sense of security in the
-dark. Because they are cheap to make, they come in many decorative
-designs, from cartoon characters to fantastical shapes like the glowing
-mushroom. Low cost LEDs added colors that can change on their own or at
-the touch of a button.
-
-The palette follows the article’s nightlight sources (incandescent
-amber, neon orange, and soft electroluminescent green and blue) plus a
-red spotted mushroom cap. The image shows a green LED nightlight plugged
-into a wall.
-
-![](../reference/figures/theme_mushroomlamp/mushroomlamp.jpg)
-
-Image: Tetris L, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:LED_nightlight_with_switch.JPG),
-CC BY-SA 3.0.
-
-``` r
-
-set.seed(2020)
-lamps <- data.frame(hour = rep(seq(18, 30, by = 0.5), 2), room = rep(c("Bedroom", "Dorm"), each = 25))
-lamps$lumens <- pmax(0, 40 * dnorm(lamps$hour, mean = ifelse(lamps$room == "Bedroom", 23, 25), sd = 2.5) * 6 + rnorm(50, 0, 1))
-ggplot(lamps, aes(x = hour, y = lumens, fill = room)) +
-  geom_area(alpha = 0.7, position = "identity") +
-  scale_x_continuous(breaks = seq(18, 30, 3), labels = c("6pm", "9pm", "12am", "3am", "6am")) +
-  labs(title = "Nightlight glow", caption = "Simulated data", x = NULL, y = "Lumens", fill = NULL) +
-  theme_mushroomlamp(base_size = 13)
-```
-
-![](themes_files/figure-html/mushroomlamp-1.png)
-
-With `mode = "light"`:
-
-``` r
-
-last_plot() + theme_mushroomlamp(base_size = 13, mode = "light")
-```
-
-![](themes_files/figure-html/mushroomlamp-light-1.png)
-
 ## Photo dump
 
 [`theme_photodump()`](https://mjfrigaard.github.io/fmggp2/reference/theme_photodump.md):
 A photo dump is a carousel post of loosely related phone photos from the
 week (see [Camera phone](https://en.wikipedia.org/wiki/Camera_phone) on
-Wikipedia). A photo dump is a batch of casual pictures posted all at
-once, and it depends on the camera phone. Cameras have been a major
-selling point of phones since the 2010s. Because phones share pictures
-almost instantly, they work as personal content creation tools. Personal
-photos also help people build shared memories, keep up friendships, and
-express who they are.
+Wikipedia). A photo dump is a loose Instagram carousel of unposed shots,
+blurry photos, screenshots, and memes. The format traces back to summer
+2020 and spread as celebrities like Dua Lipa and Olivia Rodrigo adopted
+it. Gen Z uses it to signal authenticity and push back on the pressure
+to keep a perfect feed. Critics note the effortless look is often
+carefully curated.
 
-The palette follows the article’s camera phone shots in bright and low
-light: golden hour, sunset coral, sky, night, park green, and lilac
-dusk. The image shows a phone on a tripod recording a sunset over water.
+The palette follows a casual camera roll carousel: Instagram magenta,
+faded denim, sunset orange, washed olive, film grain beige, and blurry
+night black. The image shows a phone on a tripod recording a sunset over
+water.
 
 ![](../reference/figures/theme_photodump/photodump.jpg)
 
@@ -1110,56 +1089,21 @@ ggplot(dump, aes(x = factor(slides), y = likes, fill = posted)) +
 
 ![](themes_files/figure-html/photodump-1.png)
 
-## Pickleball
-
-[`theme_pickleball()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pickleball.md):
-Pickleball is a paddle sport played with a plastic ball over a low net,
-and the fastest growing sport in the US (see
-[Pickleball](https://en.wikipedia.org/wiki/Pickleball) on Wikipedia).
-Pickleball was the fastest growing sport in the United States four years
-in a row, from 2021 through 2024. About 24.3 million Americans played in
-2025, a 171% increase over three years. The game borrows from tennis,
-table tennis, and badminton. It now has its own video games and Guinness
-world records.
-
-The palette follows the article’s plastic ball, paddles, net, and court:
-optic yellow, court blue and green, red paddle, black net, and an orange
-ball. The image shows a professional doubles match on a pickleball
-court.
-
-![](../reference/figures/theme_pickleball/pickleball.jpg)
-
-Image: CarVeFe, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Pickle_Pro_Tour_2025_2.jpg),
-CC0.
-
-``` r
-
-set.seed(1965)
-rallies <- data.frame(level = rep(c("Beginner", "Club", "Pro"), each = 200))
-rallies$shots <- rnbinom(600, size = 4, mu = c(Beginner = 5, Club = 9, Pro = 14)[rallies$level])
-ggplot(rallies, aes(x = shots, fill = level)) +
-  geom_bar(position = "dodge") +
-  labs(title = "Rally lengths", caption = "Simulated data", x = "Shots per rally", y = "Rallies", fill = NULL) +
-  theme_pickleball(base_size = 13)
-```
-
-![](themes_files/figure-html/pickleball-1.png)
-
 ## Plushie
 
 [`theme_plushie()`](https://mjfrigaard.github.io/fmggp2/reference/theme_plushie.md):
 Plushies (stuffed toys) are collected, displayed, and carried well past
 childhood (see [Stuffed toy](https://en.wikipedia.org/wiki/Stuffed_toy)
-on Wikipedia). Stuffed toys are among the most popular toys, and not
-just for children. In 2019, about a third of British adults said they
-slept with a soft toy. In the 2020s, Squishmallows, Jellycat, and Labubu
-became fads after going viral on social media.
+on Wikipedia). Gen Z treats plushies as comfort objects tied to mental
+wellness, and as collectibles like Beanie Babies once were. TikTok
+hashtags for Squishmallows have passed a billion views. Jellycat’s
+revenue reached about \$252 million in 2022 to 2023 as adult buyers
+joined in. Critics read the trend as nostalgic stress relief or delayed
+adulthood.
 
-The palette follows the article’s soft toys in “a wide variety of
-colors” and fur textures: teddy honey, bunny pink, frog green, sky blue,
-lavender, and button eye brown. The image shows a replica of an early
-Steiff teddy bear.
+The palette follows pastel Squishmallows and Jellycat plush: pastel
+pink, lavender, baby blue, mint, butter yellow, and avocado green. The
+image shows a replica of an early Steiff teddy bear.
 
 ![](../reference/figures/theme_plushie/plushie.jpg)
 
@@ -1180,97 +1124,20 @@ ggplot(plush, aes(x = squish, fill = animal)) +
 
 ![](themes_files/figure-html/plushie-1.png)
 
-## RGB setup
-
-[`theme_rgbsetup()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rgbsetup.md):
-An RGB setup is a gaming PC and desk lit up in color changing lights
-(see [Gaming computer](https://en.wikipedia.org/wiki/Gaming_computer) on
-Wikipedia). An RGB setup is a gaming PC lit up in color. Gaming PCs use
-powerful graphics cards, processors, and memory. Their cases often add
-extra LED lights or see-through panels just for looks. In the 2010s and
-2020s, gaming laptops and handheld gaming PCs joined the desktop builds.
-
-The palette follows the article’s gaming PCs lit in RGB: cyan, purple,
-red, lime, and blue case lighting with a white glow. The image shows a
-gaming PC with glass panels and colored fans.
-
-![](../reference/figures/theme_rgbsetup/rgbsetup.jpg)
-
-Image: MoreThanTech, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:MSI-Gaming-PC_2024-09-30.png),
-CC BY 3.0.
-
-``` r
-
-set.seed(2024)
-fps <- data.frame(game = rep(c("Shooter", "Racing", "Open world", "Sandbox"), each = 120))
-fps$fps <- rnorm(480, mean = c(Shooter = 165, Racing = 120, "Open world" = 75, Sandbox = 140)[fps$game], sd = 15)
-ggplot(fps, aes(x = fps, y = game, fill = game)) +
-  geom_boxplot(show.legend = FALSE) +
-  labs(title = "Frames per second", caption = "Simulated data", x = "FPS", y = NULL) +
-  theme_rgbsetup(base_size = 13)
-```
-
-![](themes_files/figure-html/rgbsetup-1.png)
-
-With `mode = "light"`:
-
-``` r
-
-last_plot() + theme_rgbsetup(base_size = 13, mode = "light")
-```
-
-![](themes_files/figure-html/rgbsetup-light-1.png)
-
-## Ring light
-
-[`theme_ringlight()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ringlight.md):
-Ring lights are the circular lights behind nearly every vlog, makeup
-tutorial, and video call (see [Ring
-flash](https://en.wikipedia.org/wiki/Ring_flash) on Wikipedia). A ring
-light is a circle of light that surrounds the camera lens. It softens
-shadows and puts round highlights in the subject’s eyes. Continuous ring
-lights are popular for video calls, selfies, and vlogs. They became even
-more popular during the COVID-19 pandemic as TikTok grew.
-
-The palette follows the article’s adjustable color temperature (warm
-3200K and cool 5600K), skin tones on video calls, and the gray and black
-ring and stand. The image shows a ring of LEDs next to its controller.
-
-![](../reference/figures/theme_ringlight/ringlight.jpg)
-
-Image: Jacek Halicki, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:2015_Lampa_b%C5%82yskowa_pier%C5%9Bcieniowa_Aputure.jpg),
-CC BY-SA 4.0.
-
-``` r
-
-set.seed(2015)
-ring <- data.frame(brightness = runif(300, 10, 100))
-ring$views <- round(exp(6 + 0.02 * ring$brightness + rnorm(300, 0, 0.5)))
-ring$video <- sample(c("Makeup", "Vlog", "Unboxing"), 300, replace = TRUE)
-ggplot(ring, aes(x = brightness, y = views, colour = video)) +
-  geom_point(alpha = 0.7) +
-  scale_y_log10() +
-  labs(title = "Ring light brightness", caption = "Simulated data", x = "Brightness (%)", y = "Views (log scale)", colour = NULL) +
-  theme_ringlight(base_size = 13)
-```
-
-![](themes_files/figure-html/ringlight-1.png)
-
 ## Slime
 
 [`theme_slime()`](https://mjfrigaard.github.io/fmggp2/reference/theme_slime.md):
 Slime is the stretchy toy that kids make at home and watch in satisfying
 videos (see [Slime (toy)](https://en.wikipedia.org/wiki/Slime_(toy)) on
-Wikipedia). Slime started as a Mattel toy in 1976, sold in a tiny
-plastic trash can. It later spread to Ghostbusters, Teenage Mutant Ninja
-Turtles, and Nickelodeon, where it soaks winners at the Kids’ Choice
-Awards. In 2025, slime joined the National Toy Hall of Fame.
+Wikipedia). The slime trend took off in 2016 and peaked in the summer of
+slime in 2017. It spread on YouTube and Instagram, and later on TikTok.
+Teens watch slime videos as ASMR to relax. Gen Z and younger millennials
+have built slime businesses worth millions, though experts warn about
+boric acid in homemade recipes.
 
-The palette follows the article’s oozy green slime, the other colors
-from food coloring, and its plastic trash can. The image shows green
-slime poured from a cup.
+The palette follows homemade glue slime: slime green, bubblegum pink,
+glitter purple, electric blue, neon yellow, and clear glue on fluffy
+white. The image shows green slime poured from a cup.
 
 ![](../reference/figures/theme_slime/slime.jpg)
 
@@ -1291,153 +1158,21 @@ ggplot(slime, aes(x = stretch, fill = recipe)) +
 
 ![](themes_files/figure-html/slime-1.png)
 
-## Speedrun
-
-[`theme_speedrun()`](https://mjfrigaard.github.io/fmggp2/reference/theme_speedrun.md):
-Speedrunning is beating a video game as fast as possible, often live for
-charity (see [Speedrunning](https://en.wikipedia.org/wiki/Speedrunning)
-on Wikipedia). Speedrunning means beating a video game as fast as
-possible. Runners share videos and livestreams on YouTube and Twitch,
-and community leaderboards rank the fastest runs. Games Done Quick, the
-largest speedrunning marathon, had raised over \$37 million for charity
-by January 2022. Many runners say the community has helped their mental
-health.
-
-The palette follows the article’s timers and leaderboards: split timer
-gold (best segment), green (ahead), red (behind), white digits, and tool
-assisted cyan and purple. The image shows the crowd at a Summer Games
-Done Quick charity marathon.
-
-![](../reference/figures/theme_speedrun/speedrun.jpg)
-
-Image: Gage Skidmore from Peoria, AZ, United States of America,
-[Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Summer_Games_Done_Quick_attendees_(48149404692).jpg),
-CC BY-SA 2.0.
-
-``` r
-
-set.seed(2014)
-runs <- data.frame(attempt = 1:200)
-runs$minutes <- 60 * exp(-runs$attempt / 80) + 25 + rnorm(200, 0, 2)
-runs$category <- ifelse(runs$attempt %% 2 == 0, "Any%", "100%")
-runs$minutes <- runs$minutes + ifelse(runs$category == "100%", 30, 0)
-ggplot(runs, aes(x = attempt, y = minutes, colour = category)) +
-  geom_point(alpha = 0.6) +
-  geom_smooth(se = FALSE, method = "loess", formula = y ~ x) +
-  labs(title = "Personal bests", caption = "Simulated data", x = "Attempt", y = "Minutes", colour = NULL) +
-  theme_speedrun(base_size = 13)
-```
-
-![](themes_files/figure-html/speedrun-1.png)
-
-With `mode = "light"`:
-
-``` r
-
-last_plot() + theme_speedrun(base_size = 13, mode = "light")
-```
-
-![](themes_files/figure-html/speedrun-light-1.png)
-
-## Streak
-
-[`theme_streak()`](https://mjfrigaard.github.io/fmggp2/reference/theme_streak.md):
-Streaks are the daily counters that apps use to keep you coming back, a
-common gamification trick (see
-[Gamification](https://en.wikipedia.org/wiki/Gamification) on
-Wikipedia). A streak counts how many days in a row you’ve done
-something. It is a common gamification tool, which adds points, badges,
-and leaderboards to things that aren’t games. In the language app
-[Duolingo](https://en.wikipedia.org/wiki/Duolingo), any finished lesson
-counts toward a daily streak marked with a fire symbol. Its Friend
-Streak lets up to five friends keep a streak together.
-
-The palette follows the article’s points, badges, levels, and progress
-bars: streak flame orange and red, gold badge, XP purple, progress
-green, and a frozen streak blue. The image shows a poster of the five
-steps to earn a digital badge.
-
-![](../reference/figures/theme_streak/streak.jpg)
-
-Image: Nordplus project Open Badges for Adult Educators., [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:AdEO_Adult_Educator_Online_-_Five_steps_to_get_a_badge.png),
-CC BY-SA 4.0.
-
-``` r
-
-set.seed(2012)
-streaks <- data.frame(app = rep(c("Language", "Fitness", "Messaging"), each = 250))
-streaks$days <- rgeom(750, prob = c(Language = 1 / 40, Fitness = 1 / 15, Messaging = 1 / 90)[streaks$app])
-ggplot(streaks, aes(x = days, colour = app)) +
-  stat_ecdf(linewidth = 1) +
-  labs(title = "How long streaks last", caption = "Simulated data", x = "Streak length (days)", y = "Share of streaks", colour = NULL) +
-  theme_streak(base_size = 13)
-```
-
-![](themes_files/figure-html/streak-1.png)
-
-## Synthwave
-
-[`theme_synthwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_synthwave.md):
-Synthwave is electronic music (and art) that looks back at 1980s film
-scores: neon grids and chrome sunsets (see
-[Synthwave](https://en.wikipedia.org/wiki/Synthwave) on Wikipedia).
-Synthwave is electronic music modeled on 1980s film and video game
-soundtracks. The 2011 film Drive brought it into the mainstream. Hotline
-Miami, Far Cry 3: Blood Dragon, and Stranger Things carried it to new
-fans. PC Gamer described its look as 1980s excess that millennials find
-irresistible, modernized until it’s “just barely recognizable.”
-
-The palette follows the article’s outrun look: magenta neon, gridlines,
-and a 1980s sunset in pink, orange, and yellow, with violet and chrome
-blue. The image shows a neon grid under a striped sunset.
-
-![](../reference/figures/theme_synthwave/synthwave.jpg)
-
-Image: j4p4n, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Synthwave.svg), CC0.
-
-``` r
-
-set.seed(1984)
-tracks <- data.frame(bpm = rnorm(300, 110, 12))
-tracks$plays <- round(rlnorm(300, meanlog = 8 + 0.01 * (tracks$bpm - 110), sdlog = 0.7))
-tracks$mood <- sample(c("Night drive", "Neon", "Retro"), 300, replace = TRUE)
-ggplot(tracks, aes(x = bpm, y = plays, colour = mood)) +
-  geom_point(alpha = 0.8) +
-  scale_y_log10() +
-  labs(title = "Synthwave tracks", caption = "Simulated data", x = "BPM", y = "Plays (log scale)", colour = NULL) +
-  theme_synthwave(base_size = 13)
-```
-
-![](themes_files/figure-html/synthwave-1.png)
-
-With `mode = "light"`:
-
-``` r
-
-last_plot() + theme_synthwave(base_size = 13, mode = "light")
-```
-
-![](themes_files/figure-html/synthwave-light-1.png)
-
 ## Thrift
 
 [`theme_thrift()`](https://mjfrigaard.github.io/fmggp2/reference/theme_thrift.md):
 Thrifting (shopping at charity and secondhand shops) is the budget and
 planet friendly way to build a wardrobe (see [Charity
-shop](https://en.wikipedia.org/wiki/Charity_shop) on Wikipedia).
-Thrifting means shopping at charity or second-hand shops. The word
-caught on in the United States in the early 2010s. Thrifting is now a
-popular trend among Gen Z, spread by Instagram and TikTok videos that
-show off unusual finds. During the UK cost of living crisis, 53% of
-young adults surveyed started thrifting to save money on clothes.
+shop](https://en.wikipedia.org/wiki/Charity_shop) on Wikipedia). Gen Z
+turned thrifting into a lifestyle and a status symbol. ThredUp data
+cited by Goodwill shows 83% of Gen Z Americans shop secondhand or would.
+Their reasons include sustainability, individuality, and money, since
+many grew up during the 2007 to 2009 recession. TikTok thrift hauls
+during the pandemic pushed the trend further.
 
-The palette follows the article’s Red Cross and Oxfam shops and vintage
-clothing: charity red, mustard, faded denim, corduroy brown, Oxfam
-green, and dusty rose. The image shows shelves of glassware and goodies
-in a thrift store.
+The palette follows racks of secondhand finds: faded denim, worn
+leather, mustard, rust, olive, and mint on lace cream. The image shows
+shelves of glassware and goodies in a thrift store.
 
 ![](../reference/figures/theme_thrift/thrift.jpg)
 
@@ -1463,17 +1198,16 @@ ggplot(haul, aes(x = category, y = price, colour = category)) +
 [`theme_tumbler()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tumbler.md):
 Insulated tumblers and water bottles (vacuum flasks) became a status
 accessory in the 2020s (see [Vacuum
-flask](https://en.wikipedia.org/wiki/Vacuum_flask) on Wikipedia). An
-insulated tumbler is a vacuum flask built as a cup. A vacuum between two
-walls slows heat transfer, so drinks stay hot or cold for hours. With
-cold drinks, it also stops the outside of the cup from sweating. The
-idea is old enough that “thermos” became a generic word in the United
-States in 1963.
+flask](https://en.wikipedia.org/wiki/Vacuum_flask) on Wikipedia). Gen Z
+and TikTok drove the boom in the 40 ounce Stanley Quencher. The
+\#StanleyTumbler tag drew tens of millions of views, and limited color
+drops caused store stampedes in 2023 and 2024. A cup once marketed to
+rugged dads became an affordable, reusable status symbol carried across
+campuses and gyms. Pale Barbie pink became the most coveted shade.
 
-The palette follows the article’s stainless vacuum flask, in the powder
-coated colors of today’s tumblers (cream, sage, rose, and cobalt) and
-the classic red Thermos. The image shows a red vacuum flask on a
-cafeteria table.
+The palette follows the 40 ounce Stanley Quencher color drops: Barbie
+pink, lilac, seafoam, hammertone green, polished steel, and black on
+cream. The image shows a red vacuum flask on a cafeteria table.
 
 ![](../reference/figures/theme_tumbler/tumbler.jpg)
 
@@ -1500,15 +1234,16 @@ ggplot(flasks, aes(x = hour, y = temp, colour = bottle)) +
 [`theme_unboxing()`](https://mjfrigaard.github.io/fmggp2/reference/theme_unboxing.md):
 Unboxing videos film someone opening a new product, from phones to
 sneakers (see [Unboxing](https://en.wikipedia.org/wiki/Unboxing) on
-Wikipedia). Unboxing videos show someone opening a new product on
-camera. The first one, for a Nokia phone, appeared in 2006. The format
-soon spread to almost every kind of product. By 2014, companies were
-sending free products to creators. Fans say the videos give an honest
-look at a product without manipulative ads.
+Wikipedia). Gen Z grew up watching unboxing videos on YouTube. TikTok
+and Instagram Reels turned the format into quick, punchy clips full of
+crinkle and tear sounds. A study of Gen Z smartphone buyers found that
+the reviewer’s touch and description raised their intent to buy, while
+visuals alone did not. The appeal mixes product research, a playful
+tone, and a relaxing sensory payoff.
 
-The palette follows the article’s boxes as “marketing billboards”: kraft
-cardboard, packing tape, black print, tissue paper pink, brand blue, and
-a sticker green. The image shows hands lifting a new instrument out of
+The palette follows a box being opened on camera: kraft cardboard,
+tissue paper pink, glossy black, silver foil, and shrink wrap blue on
+white packaging. The image shows hands lifting a new instrument out of
 its shipping box.
 
 ![](../reference/figures/theme_unboxing/unboxing.jpg)
@@ -1536,17 +1271,16 @@ ggplot(unbox, aes(x = minutes, y = product, fill = product)) +
 Vaporwave is a 2010s music genre and meme aesthetic of slowed down mall
 music, old computers, and pink and teal gradients (see
 [Vaporwave](https://en.wikipedia.org/wiki/Vaporwave) on Wikipedia).
-Vaporwave is an internet music microgenre, aesthetic, and meme from the
-early 2010s. It loops and slows down corporate mood music, ads, and pop
-from earlier decades. The scene grew on Reddit, Last.fm, and Bandcamp,
-and it often pokes fun at consumer culture. Fans called it a “dead”
-genre soon after it went mainstream in 2012, yet dozens of offshoots
-followed.
+Vaporwave started as a 2010s music and meme genre that poked fun at late
+capitalism. It reaches Gen Z as secondhand nostalgia through TikTok
+edits, memes, and YouTube playlists. Commentators say Gen Z treats it
+less as satire and more as sincere emotional expression. Some argue it
+still belongs more to millennials.
 
-The palette follows the 1980s and 1990s anime and mall imagery the
-article cites, as the classic vaporwave pastels: pink, cyan, mint,
-purple, pale yellow, and deep violet. The image shows a vaporwave style
-Wikipedia logo with windows and planets.
+The palette follows pastel gradients over grid floors and neon sunsets:
+hot pink, electric cyan, mint, lavender, pale yellow, and deep purple.
+The image shows a vaporwave style Wikipedia logo with windows and
+planets.
 
 ![](../reference/figures/theme_vaporwave/vaporwave.jpg)
 
@@ -1574,14 +1308,15 @@ ggplot(vapor, aes(x = year, y = samples, fill = source)) +
 Vinyl records outsell CDs again, thanks to collectors who buy albums in
 colored variants (see [Phonograph
 record](https://en.wikipedia.org/wiki/Phonograph_record) on Wikipedia).
-Vinyl records left the mainstream in 1991, then made a comeback that
-grew through the 2010s and 2020s. In 2020, vinyl revenue passed CD
-revenue for the first time since the 1980s. A year later, Taylor Swift
-sold 102,000 vinyl copies of Evermore in one week.
+The Vinyl Alliance calls Gen Z the driving force of the vinyl revival.
+In its research, 56% of Gen Z buyers cite the look, 37% use records as
+home decor, and 80% own a record player. Many buy secondhand for
+environmental reasons. They share their collections on TikTok and
+Instagram, and they value owning music and a slower way of listening.
 
-The palette follows the article’s “black disc”, Red Seal labels,
-transparent red vinylite, the Blue Goose label, gold label foil, and
-paper sleeves. The image shows LP, EP, and single records side by side.
+The palette follows records and their pressings: vinyl black, label red,
+translucent amber, clear blue, marbled green, and cardboard sleeve tan.
+The image shows LP, EP, and single records side by side.
 
 ![](../reference/figures/theme_vinyl/vinyl.jpg)
 
@@ -1607,15 +1342,16 @@ ggplot(records, aes(x = year, y = sales, colour = format)) +
 [`theme_voicenote()`](https://mjfrigaard.github.io/fmggp2/reference/theme_voicenote.md):
 Voice notes are short recorded messages sent in a chat instead of typing
 (see [Voicemail](https://en.wikipedia.org/wiki/Voicemail) on Wikipedia).
-A voice note is a short recorded message sent in place of a text. It
-descends from voicemail, which lets a caller leave a recorded message
-for later. Today, internet calling and messaging apps put voice, voice
-messages, and text side by side on the same phone.
+Voice notes boomed during the pandemic and became Gen Z’s favorite way
+to keep in touch, partly because of phone call anxiety. Preply found
+that 84% of Gen Z use them, compared with 47% of baby boomers. Forty
+percent of users say a voice note can replace a call. Still, 31% of Gen
+Z find incoming voice notes inconvenient, and many long ones go unheard.
 
-The palette follows the article’s pink message slips and voicemail
-light, with record red, mic gray, call green, waveform violet, and
-amber. The image shows a diagram of how a voicemail system routes and
-stores messages.
+The palette follows a voice note bubble: WhatsApp green, iMessage blue,
+waveform gray, record red, dark mode charcoal, and chat bubble green.
+The image shows a diagram of how a voicemail system routes and stores
+messages.
 
 ![](../reference/figures/theme_voicenote/voicenote.jpg)
 
@@ -1642,16 +1378,16 @@ ggplot(notes, aes(x = seconds, fill = sender)) +
 [`theme_weirdcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_weirdcore.md):
 Weirdcore is an internet aesthetic of low quality images, liminal
 spaces, and unsettling captions (see
-[Weirdcore](https://en.wikipedia.org/wiki/Weirdcore) on Wikipedia).
-Weirdcore is an internet aesthetic from the early 2020s. It uses liminal
-spaces, low quality photos, and strange messages to mix nostalgia with
-unease. Its look borrows from images shared on an older internet. The
-director of the 2022 horror film Skinamarink studied online communities
-like r/Weirdcore while making it.
+[Weirdcore](https://en.wikipedia.org/wiki/Weirdcore) on Wikipedia). Gen
+Z led weirdcore on TikTok, YouTube, Instagram, and Discord, and it
+surged around 2021. It recycles late 1990s and 2000s images that many in
+Gen Z barely remember. Commentators read it as an outlet for anxiety,
+hazy memory, and despair. It is a rough counterpoint to polished clean
+girl feeds.
 
-The palette follows the article’s out of place red text and black
-rectangle voids, over low quality photos of sky, grass, and sepia
-nostalgia. The image shows a grassy grid under a black sun with the
+The palette follows low quality surreal images: fluorescent hallway
+yellow, liminal pool blue, grass green, caption red, washed sky blue,
+and CRT black. The image shows a grassy grid under a black sun with the
 caption “You must escape this simulation”.
 
 ![](../reference/figures/theme_weirdcore/weirdcore.jpg)
@@ -1679,14 +1415,16 @@ ggplot(weird, aes(x = x, y = y, colour = feeling)) +
 [`theme_wiredbuds()`](https://mjfrigaard.github.io/fmggp2/reference/theme_wiredbuds.md):
 Wired earbuds made a comeback as a style statement and a break from
 charging (see [Headphones](https://en.wikipedia.org/wiki/Headphones) on
-Wikipedia). Earbuds sit in the ear canal and connect to a phone with a
-cord or, in newer models, with Bluetooth. Headphones went public in the
-1980s with the Walkman. That was when people started wearing them on
-sidewalks, in grocery stores, and on public transit.
+Wikipedia). Gen Z calls AirPods passé and wears the cord as an analog
+statement against always on tech, alongside dumbphones, instant cameras,
+and vinyl. Bella Hadid, Harry Styles, and Charli XCX have all been seen
+in wired earbuds. Searches for wired headphones hit 2.6 million in April
+2025, up 68% in one month. Practical perks help: no charging and nothing
+to lose.
 
-The palette follows the Headphones article’s rubber, gold contacts, and
-wire, plus the red right channel marker, the wood table, and navy. The
-image shows a pair of white wired earbuds on a wooden table.
+The palette follows corded earbuds: Panasonic red, lilac, mint, cable
+gray, and black against Apple white. The image shows a pair of white
+wired earbuds on a wooden table.
 
 ![](../reference/figures/theme_wiredbuds/wiredbuds.jpg)
 
@@ -1712,10 +1450,9 @@ ggplot(buds, aes(x = hours, fill = type)) +
 
 The themes use title fonts that ship with macOS and fall back to
 `"sans"` when a font isn’t found: American Typewriter, Andale Mono,
-Apple Chancery, Arial Black, Arial Narrow, Arial Rounded, Baskerville,
-Big Caslon, Bradley Hand, Chalkboard, Chalkduster, Cochin, Comic Sans
-MS, Copperplate, Courier New, Didot, DIN Alternate, DIN Condensed,
-Futura, Gill Sans, Impact, Krungthep, Luminari, Marion, Marker Felt,
-Noteworthy, Optima, Phosphate, PT Mono, Rockwell, SignPainter, Silom,
-Skia, Snell Roundhand, Superclarendon, Tahoma, Times New Roman,
-Trattatello, Trebuchet MS, and Verdana.
+Apple Chancery, Arial Black, Arial Rounded, Baskerville, Big Caslon,
+Bradley Hand, Chalkboard, Chalkduster, Cochin, Comic Sans MS,
+Copperplate, Courier New, Didot, DIN Condensed, Gill Sans, Impact,
+Krungthep, Luminari, Marion, Marker Felt, Noteworthy, Optima, Rockwell,
+SignPainter, Silom, Skia, Snell Roundhand, Superclarendon, Tahoma, Times
+New Roman, Trebuchet MS, and Verdana.

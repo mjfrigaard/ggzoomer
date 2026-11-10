@@ -26,6 +26,8 @@
   : Digicam theme
 - [`theme_doomscroll()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doomscroll.md)
   : Doomscroll theme
+- [`theme_egirl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_egirl.md)
+  : E-girl theme
 - [`theme_fidget()`](https://mjfrigaard.github.io/fmggp2/reference/theme_fidget.md)
   : Fidget toy theme
 - [`theme_frog()`](https://mjfrigaard.github.io/fmggp2/reference/theme_frog.md)
@@ -44,8 +46,6 @@
   : Kidcore theme
 - [`theme_ledstrip()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ledstrip.md)
   : LED strip theme
-- [`theme_lightstick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_lightstick.md)
-  : Lightstick theme
 - [`theme_liminal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_liminal.md)
   : Liminal space theme
 - [`theme_livestream()`](https://mjfrigaard.github.io/fmggp2/reference/theme_livestream.md)
@@ -54,26 +54,12 @@
   : Matcha theme
 - [`theme_mermaidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mermaidcore.md)
   : Mermaidcore theme
-- [`theme_mushroomlamp()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mushroomlamp.md)
-  : Mushroom lamp theme
 - [`theme_photodump()`](https://mjfrigaard.github.io/fmggp2/reference/theme_photodump.md)
   : Photo dump theme
-- [`theme_pickleball()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pickleball.md)
-  : Pickleball theme
 - [`theme_plushie()`](https://mjfrigaard.github.io/fmggp2/reference/theme_plushie.md)
   : Plushie theme
-- [`theme_rgbsetup()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rgbsetup.md)
-  : RGB setup theme
-- [`theme_ringlight()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ringlight.md)
-  : Ring light theme
 - [`theme_slime()`](https://mjfrigaard.github.io/fmggp2/reference/theme_slime.md)
   : Slime theme
-- [`theme_speedrun()`](https://mjfrigaard.github.io/fmggp2/reference/theme_speedrun.md)
-  : Speedrun theme
-- [`theme_streak()`](https://mjfrigaard.github.io/fmggp2/reference/theme_streak.md)
-  : Streak theme
-- [`theme_synthwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_synthwave.md)
-  : Synthwave theme
 - [`theme_thrift()`](https://mjfrigaard.github.io/fmggp2/reference/theme_thrift.md)
   : Thrift theme
 - [`theme_tumbler()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tumbler.md)

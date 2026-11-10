@@ -1,11 +1,11 @@
 # Weirdcore theme
 
 Weirdcore is an internet aesthetic of low quality images, liminal
-spaces, and unsettling captions. Weirdcore is an internet aesthetic from
-the early 2020s. It uses liminal spaces, low quality photos, and strange
-messages to mix nostalgia with unease. Its look borrows from images
-shared on an older internet. The director of the 2022 horror film
-Skinamarink studied online communities like r/Weirdcore while making it.
+spaces, and unsettling captions. Gen Z led weirdcore on TikTok, YouTube,
+Instagram, and Discord, and it surged around 2021. It recycles late
+1990s and 2000s images that many in Gen Z barely remember. Commentators
+read it as an outlet for anxiety, hazy memory, and despair. It is a
+rough counterpoint to polished clean girl feeds.
 
 ## Usage
 
@@ -39,9 +39,9 @@ A `ggplot2` theme object.
 
 ## Details
 
-The palette follows the article's out of place red text and black
-rectangle voids, over low quality photos of sky, grass, and sepia
-nostalgia.
+The palette follows low quality surreal images: fluorescent hallway
+yellow, liminal pool blue, grass green, caption red, washed sky blue,
+and CRT black.
 
 ## See also
 

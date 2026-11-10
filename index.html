@@ -72,7 +72,7 @@
 <div class="section level2">
 <h2 id="themes">Themes<a class="anchor" aria-label="anchor" href="#themes"></a>
 </h2>
-<p>Each theme is named after an aesthetic, trend, or object from Gen Z internet culture, and its palette follows the colors, objects, and materials that topic’s Wikipedia article describes. The book chapters still use the earlier 90s themes until they are updated.</p>
+<p>Each theme is named after an aesthetic, trend, or object from Gen Z internet culture, and its palette follows how that topic looks to Gen Z online (its colors, objects, and materials). The book chapters still use the earlier 90s themes until they are updated.</p>
 <table class="table">
 <colgroup>
 <col width="50%">
@@ -132,6 +132,10 @@
 <td><a href="https://en.wikipedia.org/wiki/Doomscrolling" class="external-link">Doomscrolling</a></td>
 </tr>
 <tr>
+<td><code><a href="reference/theme_egirl.html">theme_egirl()</a></code></td>
+<td><a href="https://en.wikipedia.org/wiki/E-girl_and_e-boy_subculture" class="external-link">E-girl and e-boy subculture</a></td>
+</tr>
+<tr>
 <td><code><a href="reference/theme_fidget.html">theme_fidget()</a></code></td>
 <td><a href="https://en.wikipedia.org/wiki/Fidget_toy" class="external-link">Fidget toy</a></td>
 </tr>
@@ -168,10 +172,6 @@
 <td><a href="https://en.wikipedia.org/wiki/LED_strip_light" class="external-link">LED strip light</a></td>
 </tr>
 <tr>
-<td><code><a href="reference/theme_lightstick.html">theme_lightstick()</a></code></td>
-<td><a href="https://en.wikipedia.org/wiki/Glow_stick" class="external-link">Glow stick</a></td>
-</tr>
-<tr>
 <td><code><a href="reference/theme_liminal.html">theme_liminal()</a></code></td>
 <td><a href="https://en.wikipedia.org/wiki/Liminal_space" class="external-link">Liminal space</a></td>
 </tr>
@@ -188,44 +188,16 @@
 <td><a href="https://en.wikipedia.org/wiki/Mermaid" class="external-link">Mermaid</a></td>
 </tr>
 <tr>
-<td><code><a href="reference/theme_mushroomlamp.html">theme_mushroomlamp()</a></code></td>
-<td><a href="https://en.wikipedia.org/wiki/Nightlight" class="external-link">Nightlight</a></td>
-</tr>
-<tr>
 <td><code><a href="reference/theme_photodump.html">theme_photodump()</a></code></td>
 <td><a href="https://en.wikipedia.org/wiki/Camera_phone" class="external-link">Camera phone</a></td>
-</tr>
-<tr>
-<td><code><a href="reference/theme_pickleball.html">theme_pickleball()</a></code></td>
-<td><a href="https://en.wikipedia.org/wiki/Pickleball" class="external-link">Pickleball</a></td>
 </tr>
 <tr>
 <td><code><a href="reference/theme_plushie.html">theme_plushie()</a></code></td>
 <td><a href="https://en.wikipedia.org/wiki/Stuffed_toy" class="external-link">Stuffed toy</a></td>
 </tr>
 <tr>
-<td><code><a href="reference/theme_rgbsetup.html">theme_rgbsetup()</a></code></td>
-<td><a href="https://en.wikipedia.org/wiki/Gaming_computer" class="external-link">Gaming computer</a></td>
-</tr>
-<tr>
-<td><code><a href="reference/theme_ringlight.html">theme_ringlight()</a></code></td>
-<td><a href="https://en.wikipedia.org/wiki/Ring_flash" class="external-link">Ring flash</a></td>
-</tr>
-<tr>
 <td><code><a href="reference/theme_slime.html">theme_slime()</a></code></td>
 <td><a href="https://en.wikipedia.org/wiki/Slime_(toy)" class="external-link">Slime (toy)</a></td>
-</tr>
-<tr>
-<td><code><a href="reference/theme_speedrun.html">theme_speedrun()</a></code></td>
-<td><a href="https://en.wikipedia.org/wiki/Speedrunning" class="external-link">Speedrunning</a></td>
-</tr>
-<tr>
-<td><code><a href="reference/theme_streak.html">theme_streak()</a></code></td>
-<td><a href="https://en.wikipedia.org/wiki/Gamification" class="external-link">Gamification</a></td>
-</tr>
-<tr>
-<td><code><a href="reference/theme_synthwave.html">theme_synthwave()</a></code></td>
-<td><a href="https://en.wikipedia.org/wiki/Synthwave" class="external-link">Synthwave</a></td>
 </tr>
 <tr>
 <td><code><a href="reference/theme_thrift.html">theme_thrift()</a></code></td>
@@ -265,7 +237,7 @@
 </tr>
 </tbody>
 </table>
-<p>The two graphs below use <code><a href="reference/theme_boba.html">theme_boba()</a></code> and <code><a href="reference/theme_synthwave.html">theme_synthwave()</a></code> with simulated data.</p>
+<p>The two graphs below use <code><a href="reference/theme_boba.html">theme_boba()</a></code> and <code><a href="reference/theme_vaporwave.html">theme_vaporwave()</a></code> with simulated data.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://mjfrigaard.github.io/fmggp2/">fmggp2</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></span>
@@ -282,18 +254,18 @@
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/Random.html" class="external-link">set.seed</a></span><span class="op">(</span><span class="fl">1984</span><span class="op">)</span></span>
 <span><span class="va">tracks</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span>bpm <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html" class="external-link">rnorm</a></span><span class="op">(</span><span class="fl">300</span>, <span class="fl">110</span>, <span class="fl">12</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="va">tracks</span><span class="op">$</span><span class="va">plays</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html" class="external-link">round</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/Lognormal.html" class="external-link">rlnorm</a></span><span class="op">(</span><span class="fl">300</span>, meanlog <span class="op">=</span> <span class="fl">8</span> <span class="op">+</span> <span class="fl">0.01</span> <span class="op">*</span> <span class="op">(</span><span class="va">tracks</span><span class="op">$</span><span class="va">bpm</span> <span class="op">-</span> <span class="fl">110</span><span class="op">)</span>, sdlog <span class="op">=</span> <span class="fl">0.7</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="va">tracks</span><span class="op">$</span><span class="va">mood</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/sample.html" class="external-link">sample</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"Night drive"</span>, <span class="st">"Neon"</span>, <span class="st">"Retro"</span><span class="op">)</span>, <span class="fl">300</span>, replace <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="va">tracks</span><span class="op">$</span><span class="va">mood</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/sample.html" class="external-link">sample</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"Mallsoft"</span>, <span class="st">"Future funk"</span>, <span class="st">"Slushwave"</span><span class="op">)</span>, <span class="fl">300</span>, replace <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="va">tracks</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">bpm</span>, y <span class="op">=</span> <span class="va">plays</span>, colour <span class="op">=</span> <span class="va">mood</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html" class="external-link">geom_point</a></span><span class="op">(</span>alpha <span class="op">=</span> <span class="fl">0.8</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_continuous.html" class="external-link">scale_y_log10</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html" class="external-link">labs</a></span><span class="op">(</span>title <span class="op">=</span> <span class="st">"Synthwave tracks"</span>, caption <span class="op">=</span> <span class="st">"Simulated data"</span>, x <span class="op">=</span> <span class="st">"BPM"</span>, y <span class="op">=</span> <span class="st">"Plays (log scale)"</span>, colour <span class="op">=</span> <span class="cn">NULL</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="reference/theme_synthwave.html">theme_synthwave</a></span><span class="op">(</span>base_size <span class="op">=</span> <span class="fl">13</span><span class="op">)</span></span></code></pre></div>
-<p><img src="reference/figures/README-readme-synthwave-1.png"></p>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html" class="external-link">labs</a></span><span class="op">(</span>title <span class="op">=</span> <span class="st">"Vaporwave tracks"</span>, caption <span class="op">=</span> <span class="st">"Simulated data"</span>, x <span class="op">=</span> <span class="st">"BPM"</span>, y <span class="op">=</span> <span class="st">"Plays (log scale)"</span>, colour <span class="op">=</span> <span class="cn">NULL</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="reference/theme_vaporwave.html">theme_vaporwave</a></span><span class="op">(</span>base_size <span class="op">=</span> <span class="fl">13</span><span class="op">)</span></span></code></pre></div>
+<p><img src="reference/figures/README-readme-vaporwave-1.png"></p>
 </div>
 <div class="section level2">
 <h2 id="reference-images">Reference images<a class="anchor" aria-label="anchor" href="#reference-images"></a>
 </h2>
-<p>Each theme’s palette follows its Wikipedia article. A freely licensed image (public domain, CC0, CC BY, CC BY-SA, or GFDL) from the article, or from Wikimedia Commons when the article has no free image, supports it. The <a href="https://mjfrigaard.github.io/fmggp2/articles/themes.html">themes vignette</a> shows each image with its author and license.</p>
+<p>Each theme links its Wikipedia article. A freely licensed image (public domain, CC0, CC BY, CC BY-SA, or GFDL) from the article, or from Wikimedia Commons when the article has no free image, illustrates it. The <a href="https://mjfrigaard.github.io/fmggp2/articles/themes.html">themes vignette</a> shows each image with its author and license.</p>
 </div>
 <div class="section level2">
 <h2 id="book-helpers">Book helpers<a class="anchor" aria-label="anchor" href="#book-helpers"></a>

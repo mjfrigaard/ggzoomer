@@ -1,11 +1,12 @@
 # LED strip theme
 
 LED strip lights are the adhesive color changing lights that line
-bedroom ceilings and desks. LED strips are flexible bands of small
-lights that stick along a wall, desk, or monitor. Hobbyists use them for
-computer lighting, monitor backlights, and DIY projects. A USB port or
-battery pack can power them. Paired with a small controller, they can
-change color with music or anything else the controller senses.
+bedroom ceilings and desks. LED strips are often called TikTok lights.
+Refinery29 tracked the trend on TikTok from 2020 onward and called it
+Gen Z's answer to the fairy lights of the 2010s. For teens in bare
+bedrooms or dorms, a cheap strip of lights is one of the few ways to
+make a space their own. Recent coverage notes Gen Z lighting turning
+softer and dimmer.
 
 ## Usage
 
@@ -44,9 +45,8 @@ A `ggplot2` theme object.
 
 ## Details
 
-The palette follows the article's strip types: red, green, and blue
-multicolor LEDs, warm and cool white color temperatures, and a 2200K
-amber.
+The palette follows TikTok lights along a dark bedroom wall: hot pink,
+electric blue, purple, red, cyan, and green.
 
 Use `mode = "light"` for a light background with dark text and darker
 marks.
