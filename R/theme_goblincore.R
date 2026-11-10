@@ -1,9 +1,9 @@
 #' Goblincore theme
 #'
 #' Goblincore celebrates the less pretty side of nature: moss, mushrooms,
-#' snails, and found objects. This `ggplot2` theme's colors are sampled
-#' from the Wikipedia image of a still life of old vases, a framed photo,
-#' and an animal skull.
+#' snails, and found objects. The palette follows the article's brown,
+#' green, and clashing colors: moss, mushroom caps, earthworms, bones,
+#' rocks, and soil.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -74,35 +74,35 @@ theme_goblincore <- function(base_size = 15,
 # Sampled from a still life of old vases, a framed photo, and an animal skull
 goblincore_cols <- list(
   dark = c(
-    background = "#251818",
-    panel = "#322424",
-    grid = "#4E3E3E",
-    text = "#FDEDEB",
-    frame = "#F96758",
-    title = "#EA4B40",
-    strip = "#FDEDEB",
-    striptext = "#251818",
-    accent = "#F96758",
-    outline = "#FDEDEB",
-    fill = "#AE0015"
+    background = "#1C1712",
+    panel = "#28231E",
+    grid = "#433D38",
+    text = "#F4EDE6",
+    frame = "#9DBB5A",
+    title = "#9DBB5A",
+    strip = "#F4EDE6",
+    striptext = "#1C1712",
+    accent = "#B8432E",
+    outline = "#F4EDE6",
+    fill = "#7A9A3A"
   ),
   light = c(
-    background = "#FFE7E2",
-    panel = "#FFF8F7",
-    grid = "#EFD0CB",
-    text = "#372928",
-    frame = "#F66555",
-    title = "#AE0015",
-    strip = "#372928",
-    striptext = "#FFE7E2",
-    accent = "#F66555",
-    outline = "#372928",
-    fill = "#AE0015"
+    background = "#FAEBDE",
+    panel = "#FCF7F2",
+    grid = "#DDCFC2",
+    text = "#262D15",
+    frame = "#557413",
+    title = "#557413",
+    strip = "#262D15",
+    striptext = "#FAEBDE",
+    accent = "#B8432E",
+    outline = "#262D15",
+    fill = "#7A9A3A"
   )
 )
 
 goblincore_marks <- list(
-  dark = c("#AE0015", "#F96758", "#D13B5E", "#D9ABA1", "#6F93A1", "#5E637B"),
-  light = c("#AE0015", "#F66555", "#590000", "#D13B5E", "#D9ABA1", "#6F93A1")
+  dark = c("#7A9A3A", "#B8432E", "#D08C8C", "#D9CFB8", "#4F4C46", "#663C12"),
+  light = c("#7A9A3A", "#B8432E", "#8D4F51", "#CEC4AD", "#8A8780", "#5B3308")
 )
 

@@ -1,14 +1,18 @@
 #' Mushroom lamp theme
 #'
 #' Mushroom lamps are glowing nightlights that became a bedroom decor
-#' trend. This `ggplot2` theme's colors are sampled from the Wikipedia
-#' image of a green LED nightlight plugged into a wall.
+#' trend. The palette follows the article's nightlight sources
+#' (incandescent amber, neon orange, and soft electroluminescent green and
+#' blue) plus a red spotted mushroom cap.
+#'
+#' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
 #'     available on the system, otherwise `"sans"`.
 #' @param title_family Title font family. Defaults to Trattatello when
 #'     it's available, otherwise `"sans"`.
+#' @param mode `"dark"` (the default) or `"light"`.
 #'
 #' @return A `ggplot2` theme object.
 #'
@@ -25,9 +29,11 @@
 theme_mushroomlamp <- function(base_size = 15,
                       base_family = register_font("Arial", "Arial.ttf",
                                                   "Arial Bold.ttf"),
-                      title_family = register_font("Trattatello", "Trattatello.ttf")) {
-  cols <- mushroomlamp_cols
-  marks <- mushroomlamp_marks
+                      title_family = register_font("Trattatello", "Trattatello.ttf"),
+                      mode = c("dark", "light")) {
+  mode <- match.arg(mode)
+  cols <- mushroomlamp_cols[[mode]]
+  marks <- mushroomlamp_marks[[mode]]
   ggplot2::theme_bw(base_size = base_size, base_family = base_family) +
     ggplot2::theme(
       text = ggplot2::element_text(colour = cols[["text"]]),
@@ -66,19 +72,37 @@ theme_mushroomlamp <- function(base_size = 15,
 }
 
 # Sampled from a green LED nightlight plugged into a wall
-mushroomlamp_cols <- c(
-  background = "#E6EFF3",
-  panel = "#F8FBFC",
-  grid = "#D0D9DC",
-  text = "#272E28",
-  frame = "#5DAA5E",
-  title = "#007E06",
-  strip = "#272E28",
-  striptext = "#E6EFF3",
-  accent = "#5DAA5E",
-  outline = "#272E28",
-  fill = "#76D964"
+mushroomlamp_cols <- list(
+  dark = c(
+    background = "#12100E",
+    panel = "#1E1D1B",
+    grid = "#383635",
+    text = "#F0EDEB",
+    frame = "#FFB547",
+    title = "#FFB547",
+    strip = "#F0EDEB",
+    striptext = "#12100E",
+    accent = "#FF6A3D",
+    outline = "#F0EDEB",
+    fill = "#FFB547"
+  ),
+  light = c(
+    background = "#F1EDE9",
+    panel = "#F9F7F6",
+    grid = "#D5D1CD",
+    text = "#362714",
+    frame = "#985D00",
+    title = "#985D00",
+    strip = "#362714",
+    striptext = "#F1EDE9",
+    accent = "#FF6A3D",
+    outline = "#362714",
+    fill = "#FFB547"
+  )
 )
 
-mushroomlamp_marks <- c("#76D964", "#5DAA5E", "#438146", "#9AC09D", "#3B391D", "#73897B")
+mushroomlamp_marks <- list(
+  dark = c("#FFB547", "#FF6A3D", "#7CFFB2", "#6FC3FF", "#D9434E", "#F5EFE6"),
+  light = c("#FFB547", "#FF6A3D", "#57DC92", "#6FC3FF", "#D9434E", "#CBC5BC")
+)
 

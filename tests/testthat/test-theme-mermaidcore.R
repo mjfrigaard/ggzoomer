@@ -1,8 +1,8 @@
 test_that("theme_mermaidcore returns a complete theme that builds a plot", {
   thm <- theme_mermaidcore(base_family = "sans", title_family = "sans")
   expect_s3_class(thm, "theme")
-  expect_equal(thm$plot.background$fill, "#F3EED7")
-  expect_equal(thm$geom$fill, "#847E64")
+  expect_equal(thm$plot.background$fill, "#F4F2F7")
+  expect_equal(thm$geom$fill, "#5FC4B4")
   p <- ggplot2::ggplot(data.frame(x = c("a", "b", "b")), ggplot2::aes(x = x, fill = x)) +
     ggplot2::geom_bar() +
     ggplot2::labs(title = "title")

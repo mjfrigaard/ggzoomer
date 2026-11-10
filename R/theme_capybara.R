@@ -1,8 +1,9 @@
 #' Capybara theme
 #'
 #' Capybaras are the largest living rodents and a famously calm internet
-#' mascot. This `ggplot2` theme's colors are sampled from the Wikipedia
-#' image of a capybara standing on a sandy riverbank.
+#' mascot. The palette follows the article's reddish brown back and
+#' yellowish brown belly, plus the scarlet ibis, green anaconda, river
+#' water, and dark mud of its habitat.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +68,18 @@ theme_capybara <- function(base_size = 15,
 
 # Sampled from a capybara standing on a sandy riverbank
 capybara_cols <- c(
-  background = "#FFEAD9",
-  panel = "#FFF9F4",
-  grid = "#E8D4C2",
-  text = "#362A18",
-  frame = "#4B4C00",
-  title = "#6F6D00",
-  strip = "#362A18",
-  striptext = "#FFEAD9",
-  accent = "#4B4C00",
-  outline = "#362A18",
-  fill = "#938E16"
+  background = "#F2EADB",
+  panel = "#F7F4EF",
+  grid = "#D6CEBF",
+  text = "#3C2418",
+  frame = "#8A4B2A",
+  title = "#8A4B2A",
+  strip = "#3C2418",
+  striptext = "#F2EADB",
+  accent = "#C29A4E",
+  outline = "#3C2418",
+  fill = "#4A1400"
 )
 
-capybara_marks <- c("#938E16", "#4B4C00", "#211200", "#D9A472", "#A16752", "#B5968E")
+capybara_marks <- c("#4A1400", "#C29A4E", "#D2382F", "#314E13", "#3E7FA6", "#3B2A1F")
 

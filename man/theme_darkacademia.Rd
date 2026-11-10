@@ -7,7 +7,8 @@
 theme_darkacademia(
   base_size = 15,
   base_family = register_font("Arial", "Arial.ttf", "Arial Bold.ttf"),
-  title_family = register_font("Big Caslon", "BigCaslon.ttf")
+  title_family = register_font("Big Caslon", "BigCaslon.ttf"),
+  mode = c("dark", "light")
 )
 }
 \arguments{
@@ -18,15 +19,20 @@ available on the system, otherwise \code{"sans"}.}
 
 \item{title_family}{Title font family. Defaults to Big Caslon when
 it's available, otherwise \code{"sans"}.}
+
+\item{mode}{\code{"dark"} (the default) or \code{"light"}.}
 }
 \value{
 A \code{ggplot2} theme object.
 }
 \description{
 Dark academia is an internet aesthetic built around old libraries,
-tweed, and classic literature. This \code{ggplot2} theme's colors are sampled
-from the Wikipedia image of a Gothic spiral staircase inside St.
-Barbara's Church in Kutna Hora.
+tweed, and classic literature. The palette follows the article's palette
+of black, white, beige, browns, dark green, and occasionally navy blue,
+with candlelight gold and dark wood.
+}
+\details{
+Use \code{mode = "light"} for a light background with dark text and darker marks.
 }
 \examples{
 library(ggplot2)

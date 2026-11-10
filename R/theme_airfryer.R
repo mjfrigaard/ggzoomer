@@ -1,9 +1,9 @@
 #' Air fryer theme
 #'
 #' Air fryers are small countertop convection ovens that blow hot air
-#' around food. This `ggplot2` theme's colors are sampled from the
-#' Wikipedia image of an air fryer basket of reheated potatoes on a kitchen
-#' counter.
+#' around food. The palette follows the article's fan forced hot air and
+#' browned food: golden fries, crispy brown, heating element orange,
+#' brushed steel, matte black, and herbs.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -68,18 +68,18 @@ theme_airfryer <- function(base_size = 15,
 
 # Sampled from an air fryer basket of reheated potatoes on a kitchen counter
 airfryer_cols <- c(
-  background = "#F8EDD8",
-  panel = "#FEFAF3",
-  grid = "#E1D6C2",
-  text = "#2F2B28",
-  frame = "#B7762B",
-  title = "#8F501C",
-  strip = "#2F2B28",
-  striptext = "#F8EDD8",
-  accent = "#B7762B",
-  outline = "#2F2B28",
-  fill = "#8F501C"
+  background = "#ECEDEF",
+  panel = "#F7F7F8",
+  grid = "#D0D1D3",
+  text = "#3E231B",
+  frame = "#B3401F",
+  title = "#B3401F",
+  strip = "#3E231B",
+  striptext = "#ECEDEF",
+  accent = "#8B4A1C",
+  outline = "#3E231B",
+  fill = "#E0A526"
 )
 
-airfryer_marks <- c("#8F501C", "#B7762B", "#DDB98E", "#A39984", "#4D300B", "#1D0000")
+airfryer_marks <- c("#E0A526", "#8B4A1C", "#E4572E", "#8A9099", "#2E2E2E", "#5B8C3A")
 

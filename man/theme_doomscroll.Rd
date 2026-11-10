@@ -27,8 +27,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Doomscrolling is spending far too long scrolling through upsetting or
-endless feeds. This \code{ggplot2} theme's colors are sampled from the
-Wikipedia image of a thumb scrolling a phone screen in the dark.
+endless feeds. The palette follows the article's late night feeds of
+negative news: screen glow blue, alert red, headline gray, notification
+orange, purple, and cyan on a dark room.
 }
 \details{
 Use \code{mode = "light"} for a light background with dark text and darker marks.

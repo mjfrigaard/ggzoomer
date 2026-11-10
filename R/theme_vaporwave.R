@@ -1,9 +1,10 @@
 #' Vaporwave theme
 #'
 #' Vaporwave is a 2010s music genre and meme aesthetic of slowed down mall
-#' music, old computers, and pink and teal gradients. This `ggplot2`
-#' theme's colors are sampled from the Wikipedia image of a vaporwave style
-#' Wikipedia logo with windows and planets.
+#' music, old computers, and pink and teal gradients. The palette follows
+#' the 1980s and 1990s anime and mall imagery the article cites, as the
+#' classic vaporwave pastels: pink, cyan, mint, purple, pale yellow, and
+#' deep violet.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -68,18 +69,18 @@ theme_vaporwave <- function(base_size = 15,
 
 # Sampled from a vaporwave style Wikipedia logo with windows and planets
 vaporwave_cols <- c(
-  background = "#EAEEF9",
-  panel = "#FAFBFE",
-  grid = "#D4D7E2",
-  text = "#31283C",
-  frame = "#C2C900",
+  background = "#F5EEFB",
+  panel = "#FCFAFE",
+  grid = "#D9D2DE",
+  text = "#30263C",
+  frame = "#4F18AD",
   title = "#4F18AD",
-  strip = "#31283C",
-  striptext = "#EAEEF9",
-  accent = "#C2C900",
-  outline = "#31283C",
-  fill = "#4F18AD"
+  strip = "#30263C",
+  striptext = "#F5EEFB",
+  accent = "#01CDFE",
+  outline = "#30263C",
+  fill = "#FF71CE"
 )
 
-vaporwave_marks <- c("#4F18AD", "#C2C900", "#C458E2", "#7A7600", "#0C0052", "#FF9CFF")
+vaporwave_marks <- c("#FF71CE", "#01CDFE", "#00E489", "#B967FF", "#8A8B2B", "#4F18AD")
 

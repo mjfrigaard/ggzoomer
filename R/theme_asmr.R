@@ -1,9 +1,10 @@
 #' ASMR theme
 #'
 #' ASMR (autonomous sensory meridian response) is the tingling some people
-#' feel while watching whisper, tapping, and crinkle videos. This `ggplot2`
-#' theme's colors are sampled from the Wikipedia image of a body map
-#' showing where ASMR tingles start and spread.
+#' feel while watching whisper, tapping, and crinkle videos. The palette
+#' follows the article's soft triggers (whispers, light touch, brushing) as
+#' calm blues, lilac, blush, and mint, with the deep blue of its tingle
+#' map.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -68,18 +69,18 @@ theme_asmr <- function(base_size = 15,
 
 # Sampled from a body map showing where ASMR tingles start and spread
 asmr_cols <- c(
-  background = "#EEEEEE",
-  panel = "#FBFBFB",
-  grid = "#D7D7D7",
-  text = "#2C2C2C",
-  frame = "#000086",
+  background = "#F1EEF8",
+  panel = "#FAF9FC",
+  grid = "#D5D2DB",
+  text = "#2C273D",
+  frame = "#2836D9",
   title = "#2836D9",
-  strip = "#2C2C2C",
-  striptext = "#EEEEEE",
-  accent = "#000086",
-  outline = "#2C2C2C",
+  strip = "#2C273D",
+  striptext = "#F1EEF8",
+  accent = "#8C95F0",
+  outline = "#2C273D",
   fill = "#2836D9"
 )
 
-asmr_marks <- c("#2836D9", "#000086", "#6862FF", "#9D95FF", "#95CDCE", "#305A7F")
+asmr_marks <- c("#2836D9", "#8C95F0", "#E4B7FC", "#E7A6C4", "#3F8777", "#1D2366")
 

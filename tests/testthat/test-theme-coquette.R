@@ -1,8 +1,8 @@
 test_that("theme_coquette returns a complete theme that builds a plot", {
   thm <- theme_coquette(base_family = "sans", title_family = "sans")
   expect_s3_class(thm, "theme")
-  expect_equal(thm$plot.background$fill, "#FAEBE1")
-  expect_equal(thm$geom$fill, "#E99D40")
+  expect_equal(thm$plot.background$fill, "#FCF1F3")
+  expect_equal(thm$geom$fill, "#B46B7F")
   p <- ggplot2::ggplot(data.frame(x = c("a", "b", "b")), ggplot2::aes(x = x, fill = x)) +
     ggplot2::geom_bar() +
     ggplot2::labs(title = "title")

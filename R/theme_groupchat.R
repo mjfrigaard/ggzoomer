@@ -1,8 +1,9 @@
 #' Group chat theme
 #'
 #' Group chats are where friends plan, share memes, and leave each other on
-#' read. This `ggplot2` theme's colors are sampled from the Wikipedia image
-#' of a group conversation in a messaging app.
+#' read. The palette follows chat bubbles from the article's instant
+#' messengers: sent blue, received gray, text green, typing purple,
+#' reaction yellow, and unread red.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +68,18 @@ theme_groupchat <- function(base_size = 15,
 
 # Sampled from a group conversation in a messaging app
 groupchat_cols <- c(
-  background = "#EBEEF0",
-  panel = "#FAFBFC",
-  grid = "#D5D8D9",
-  text = "#252D37",
-  frame = "#0E1721",
-  title = "#2B3E52",
-  strip = "#252D37",
-  striptext = "#EBEEF0",
-  accent = "#0E1721",
-  outline = "#252D37",
-  fill = "#2B3E52"
+  background = "#F4F6F8",
+  panel = "#FCFCFD",
+  grid = "#D8DADB",
+  text = "#212940",
+  frame = "#006FD9",
+  title = "#006FD9",
+  strip = "#212940",
+  striptext = "#F4F6F8",
+  accent = "#9AA3AD",
+  outline = "#212940",
+  fill = "#2F80ED"
 )
 
-groupchat_marks <- c("#2B3E52", "#0E1721", "#BFC2C4", "#808B97", "#585F67", "#424445")
+groupchat_marks <- c("#2F80ED", "#9AA3AD", "#66E27D", "#451FB2", "#F7B500", "#EB4D3D")
 

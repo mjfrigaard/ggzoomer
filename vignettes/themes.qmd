@@ -13,7 +13,7 @@ knitr:
     out.width: "100%"
 ---
 
-Each `fmggp2` theme is named after an aesthetic, trend, or object from Gen Z internet culture. Every palette is sampled from a freely licensed image on the topic's Wikipedia article (or the closest article when the topic doesn't have one), and each section below shows that image with simulated data to match.
+Each `fmggp2` theme is named after an aesthetic, trend, or object from Gen Z internet culture. Every palette follows the colors, objects, and materials the topic's Wikipedia article describes (or the closest article when the topic doesn't have one). Each section below shows a freely licensed image from the article and simulated data to match.
 
 Themes with a dark background also have a light version. Set `mode = "light"` to get a light background with darker text and marks. Dark is the default. Each dark theme's section below shows both versions.
 
@@ -27,7 +27,7 @@ showtext::showtext_auto()
 
 ## Air fryer
 
-`theme_airfryer()`: Air fryers are small countertop convection ovens that blow hot air around food (see [Convection oven](https://en.wikipedia.org/wiki/Convection_oven) on Wikipedia). The palette is sampled from an air fryer basket of reheated potatoes on a kitchen counter.
+`theme_airfryer()`: Air fryers are small countertop convection ovens that blow hot air around food (see [Convection oven](https://en.wikipedia.org/wiki/Convection_oven) on Wikipedia). The palette follows the article's fan forced hot air and browned food: golden fries, crispy brown, heating element orange, brushed steel, matte black, and herbs. The image shows an air fryer basket of reheated potatoes on a kitchen counter.
 
 ![Image: I am R., [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Air_Fryer_2020.jpg), CC BY 2.0.](../man/figures/theme_airfryer/airfryer.jpg){width="60%" fig-align="center"}
 
@@ -44,7 +44,7 @@ ggplot(fryer, aes(x = food, y = minutes, fill = food)) +
 
 ## ASMR
 
-`theme_asmr()`: ASMR (autonomous sensory meridian response) is the tingling some people feel while watching whisper, tapping, and crinkle videos (see [ASMR](https://en.wikipedia.org/wiki/ASMR) on Wikipedia). The palette is sampled from a body map showing where ASMR tingles start and spread.
+`theme_asmr()`: ASMR (autonomous sensory meridian response) is the tingling some people feel while watching whisper, tapping, and crinkle videos (see [ASMR](https://en.wikipedia.org/wiki/ASMR) on Wikipedia). The palette follows the article's soft triggers (whispers, light touch, brushing) as calm blues, lilac, blush, and mint, with the deep blue of its tingle map. The image shows a body map showing where ASMR tingles start and spread.
 
 ![Image: Emma L. Barratt, Nick J. Davis, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ASMR_Map.png), CC BY 4.0.](../man/figures/theme_asmr/asmr.jpg){width="60%" fig-align="center"}
 
@@ -61,7 +61,7 @@ ggplot(asmr, aes(x = minutes, fill = trigger)) +
 
 ## Axolotl
 
-`theme_axolotl()`: Axolotls are Mexican salamanders that keep their gills for life and became an internet favorite (and a game mob) (see [Axolotl](https://en.wikipedia.org/wiki/Axolotl) on Wikipedia). The palette is sampled from a wild type axolotl resting on gravel in an aquarium.
+`theme_axolotl()`: Axolotls are Mexican salamanders that keep their gills for life and became an internet favorite (and a game mob) (see [Axolotl](https://en.wikipedia.org/wiki/Axolotl) on Wikipedia). The palette follows the article's color variants: the wild type's brown with gold speckles and an olive undertone, the leucistic pink, pink gills, and the dark melanoid. The image shows a wild type axolotl resting on gravel in an aquarium.
 
 ![Image: LoKiLeCh, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Axolotl_ganz.jpg), CC BY-SA 3.0.](../man/figures/theme_axolotl/axolotl.jpg){width="60%" fig-align="center"}
 
@@ -76,16 +76,9 @@ ggplot(axolotls, aes(x = morph, y = length, fill = morph)) +
   theme_axolotl(base_size = 13)
 ```
 
-With `mode = "light"`:
-
-```{r}
-#| label: axolotl-light
-last_plot() + theme_axolotl(base_size = 13, mode = "light")
-```
-
 ## Boba
 
-`theme_boba()`: Bubble tea (boba) is a Taiwanese tea drink with chewy tapioca pearls (see [Bubble tea](https://en.wikipedia.org/wiki/Bubble_tea) on Wikipedia). The palette is sampled from a cup of milk tea with black tapioca pearls.
+`theme_boba()`: Bubble tea (boba) is a Taiwanese tea drink with chewy tapioca pearls (see [Bubble tea](https://en.wikipedia.org/wiki/Bubble_tea) on Wikipedia). The palette follows the article's drinks and toppings: tapioca pearls, pearl black milk tea, pearl green milk tea, red bean, brown sugar syrup, and taro. The image shows a cup of milk tea with black tapioca pearls.
 
 ![Image: Howief, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bubble_Tea.png), CC BY-SA 3.0.](../man/figures/theme_boba/boba.jpg){width="60%" fig-align="center"}
 
@@ -102,7 +95,7 @@ ggplot(boba, aes(x = flavor, fill = flavor)) +
 
 ## Capybara
 
-`theme_capybara()`: Capybaras are the largest living rodents and a famously calm internet mascot (see [Capybara](https://en.wikipedia.org/wiki/Capybara) on Wikipedia). The palette is sampled from a capybara standing on a sandy riverbank.
+`theme_capybara()`: Capybaras are the largest living rodents and a famously calm internet mascot (see [Capybara](https://en.wikipedia.org/wiki/Capybara) on Wikipedia). The palette follows the article's reddish brown back and yellowish brown belly, plus the scarlet ibis, green anaconda, river water, and dark mud of its habitat. The image shows a capybara standing on a sandy riverbank.
 
 ![Image: Giles Laurent, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Capybaracropped.jpg), CC BY-SA 4.0.](../man/figures/theme_capybara/capybara.jpg){width="60%" fig-align="center"}
 
@@ -122,7 +115,7 @@ ggplot(capys, aes(x = hour, y = minutes, colour = activity)) +
 
 ## Clean girl
 
-`theme_cleangirl()`: The clean girl aesthetic is a minimal beauty trend built on slicked back hair, dewy skin, and small gold jewelry (see [Clean girl aesthetic](https://en.wikipedia.org/wiki/Clean_girl_aesthetic) on Wikipedia). The palette is sampled from a single small gold hoop earring.
+`theme_cleangirl()`: The clean girl aesthetic is a minimal beauty and wellness trend built on slicked back hair, a no makeup makeup look, and a limited palette (see [Clean girl aesthetic](https://en.wikipedia.org/wiki/Clean_girl_aesthetic) on Wikipedia). The palette follows the article's no makeup makeup look (heavy rosy blush, perfect brows, brown lip liner), its whites, blacks, grays, and light neutrals, and the matcha it mentions. The image shows a single small gold hoop earring.
 
 ![Image: Silar, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:02024_0697_8_mm_diameter_gold_hoop_earring.jpg), CC BY-SA 4.0.](../man/figures/theme_cleangirl/cleangirl.jpg){width="60%" fig-align="center"}
 
@@ -140,7 +133,7 @@ ggplot(routine, aes(x = minutes, fill = step)) +
 
 ## Coastal grandmother
 
-`theme_coastal()`: Coastal grandmother is a relaxed style of linen, beach houses, and seaside cooking (see [Coastal grandmother](https://en.wikipedia.org/wiki/Coastal_grandmother) on Wikipedia). The palette is sampled from a vintage postcard of the bath houses on Craigville Beach, Cape Cod.
+`theme_coastal()`: Coastal grandmother is a relaxed style of linen, beach houses, and seaside cooking (see [Coastal grandmother](https://en.wikipedia.org/wiki/Coastal_grandmother) on Wikipedia). The palette follows a linen beach house: sea blue, navy, sand, hydrangea, seagrass, and driftwood (the article has no palette, so the Cape Cod postcard leads). The image shows a vintage postcard of the bath houses on Craigville Beach, Cape Cod.
 
 ![Image: Tichnor Bros. Inc., Boston, Mass., [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bath_house_and_beach_at_Craigville_Beach,_Cape_Cod,_Mass_(66011).jpg), Public domain.](../man/figures/theme_coastal/coastal.jpg){width="60%" fig-align="center"}
 
@@ -158,7 +151,7 @@ ggplot(beach, aes(x = month, y = hours, fill = activity)) +
 
 ## Coquette
 
-`theme_coquette()`: The coquette aesthetic is a 2020s fashion trend of bows, lace, ribbons, and pastels (see [Coquette aesthetic](https://en.wikipedia.org/wiki/Coquette_aesthetic) on Wikipedia). The palette is sampled from an 1880s tobacco card portrait of Marie Antoinette.
+`theme_coquette()`: The coquette aesthetic is a 2020s fashion trend of bows, lace, ribbons, and pastels (see [Coquette aesthetic](https://en.wikipedia.org/wiki/Coquette_aesthetic) on Wikipedia). The palette follows the article's bows, lace, pastel colors, and pink clothing: ballet pink, ribbon red, powder blue, lilac, deep rose, and pearl gray. The image shows an 1880s tobacco card portrait of Marie Antoinette.
 
 ![Image: Kinney Brothers Tobacco Company, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Marie_Antoinette,_from_Leaders_series_(N222)_issued_by_Kinney_Bros._MET_DPB872310.jpg), CC0.](../man/figures/theme_coquette/coquette.jpg){width="60%" fig-align="center"}
 
@@ -175,7 +168,7 @@ ggplot(bows, aes(x = item, fill = fabric)) +
 
 ## Cottagecore
 
-`theme_cottagecore()`: Cottagecore is an internet aesthetic that romanticizes rural life: gardens, baking, and handmade things (see [Cottagecore](https://en.wikipedia.org/wiki/Cottagecore) on Wikipedia). The palette is sampled from Anne Hathaway's Cottage, a thatched cottage and garden in Warwickshire.
+`theme_cottagecore()`: Cottagecore is an internet aesthetic that romanticizes rural life: gardens, baking, and handmade things (see [Cottagecore](https://en.wikipedia.org/wiki/Cottagecore) on Wikipedia). The palette follows the article's muted palettes, floral prints, calico, worn leather, and indoor greenery: sage, rose, leather brown, calico blue, butter yellow, and moss. The image shows Anne Hathaway's Cottage, a thatched cottage and garden in Warwickshire.
 
 ![Image: Tony Hisgett from Birmingham, UK, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Anne_Hathaways_Cottage_1_(5662418953).jpg), CC BY 2.0.](../man/figures/theme_cottagecore/cottagecore.jpg){width="60%" fig-align="center"}
 
@@ -193,7 +186,7 @@ ggplot(garden, aes(x = week, y = harvest, colour = crop)) +
 
 ## Dark academia
 
-`theme_darkacademia()`: Dark academia is an internet aesthetic built around old libraries, tweed, and classic literature (see [Dark academia](https://en.wikipedia.org/wiki/Dark_academia) on Wikipedia). The palette is sampled from a Gothic spiral staircase inside St. Barbara's Church in Kutna Hora.
+`theme_darkacademia()`: Dark academia is an internet aesthetic built around old libraries, tweed, and classic literature (see [Dark academia](https://en.wikipedia.org/wiki/Dark_academia) on Wikipedia). The palette follows the article's palette of black, white, beige, browns, dark green, and occasionally navy blue, with candlelight gold and dark wood. The image shows a Gothic spiral staircase inside St. Barbara's Church in Kutna Hora.
 
 ![Image: Txllxt TxllxT, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kutn%C3%A1_Hora_-_View_North_on_Gothic_spiral_staircase.jpg), CC BY-SA 4.0.](../man/figures/theme_darkacademia/darkacademia.jpg){width="60%" fig-align="center"}
 
@@ -208,9 +201,16 @@ ggplot(books, aes(x = pages, y = genre, fill = genre)) +
   theme_darkacademia(base_size = 13)
 ```
 
+With `mode = "light"`:
+
+```{r}
+#| label: darkacademia-light
+last_plot() + theme_darkacademia(base_size = 13, mode = "light")
+```
+
 ## Digicam
 
-`theme_digicam()`: Digital point and shoot cameras from the 2000s are back for their flash heavy, slightly blurry photos (see [Digital camera](https://en.wikipedia.org/wiki/Digital_camera) on Wikipedia). The palette is sampled from the front and back of a Canon PowerShot A95.
+`theme_digicam()`: Digital point and shoot cameras from the 2000s are back for their flash heavy, slightly blurry photos (see [Digital camera](https://en.wikipedia.org/wiki/Digital_camera) on Wikipedia). The palette follows the article's sensor channels (red, green, and blue), an LCD screen, the flash, and the black grip on a silver body. The image shows the front and back of a Canon PowerShot A95.
 
 ![Image: Fir0002 (composite version by Matt57), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Canon_PowerShot_A95_-_front_and_back.jpg), GFDL 1.2.](../man/figures/theme_digicam/digicam.jpg){width="60%" fig-align="center"}
 
@@ -228,7 +228,7 @@ ggplot(cams, aes(x = megapixels, y = price, colour = condition)) +
 
 ## Doomscroll
 
-`theme_doomscroll()`: Doomscrolling is spending far too long scrolling through upsetting or endless feeds (see [Doomscrolling](https://en.wikipedia.org/wiki/Doomscrolling) on Wikipedia). The palette is sampled from a thumb scrolling a phone screen in the dark.
+`theme_doomscroll()`: Doomscrolling is spending far too long scrolling through upsetting or endless feeds (see [Doomscrolling](https://en.wikipedia.org/wiki/Doomscrolling) on Wikipedia). The palette follows the article's late night feeds of negative news: screen glow blue, alert red, headline gray, notification orange, purple, and cyan on a dark room. The image shows a thumb scrolling a phone screen in the dark.
 
 ![Image: Japanexperterna.se, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Scrolling_on_phone_(cropped_again).jpg), CC BY-SA 2.0.](../man/figures/theme_doomscroll/doomscroll.jpg){width="60%" fig-align="center"}
 
@@ -252,7 +252,7 @@ last_plot() + theme_doomscroll(base_size = 13, mode = "light")
 
 ## Fidget toy
 
-`theme_fidget()`: Fidget toys (spinners, cubes, pop its, and bike chains) are small things to keep your hands busy (see [Fidget toy](https://en.wikipedia.org/wiki/Fidget_toy) on Wikipedia). The palette is sampled from a bike chain fidget toy on lined paper.
+`theme_fidget()`: Fidget toys (spinners, cubes, pop its, and bike chains) are small things to keep your hands busy (see [Fidget toy](https://en.wikipedia.org/wiki/Fidget_toy) on Wikipedia). The palette follows the article's fidget spinners, Fidget Cubes, and Pop Its: saturated silicone colors and a chrome bearing gray. The image shows a bike chain fidget toy on lined paper.
 
 ![Image: Ike9898, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:A_%22bike_chain%22_type_fidget_toy.jpg), CC BY-SA 4.0.](../man/figures/theme_fidget/fidget.jpg){width="60%" fig-align="center"}
 
@@ -269,7 +269,7 @@ ggplot(spins, aes(x = toy, y = seconds, colour = toy)) +
 
 ## Frog
 
-`theme_frog()`: Frogs are tailless amphibians and a cottagecore and goblincore icon (see [Frog](https://en.wikipedia.org/wiki/Frog) on Wikipedia). The palette is sampled from a red eyed tree frog on a branch.
+`theme_frog()`: Frogs are tailless amphibians and a cottagecore and goblincore icon (see [Frog](https://en.wikipedia.org/wiki/Frog) on Wikipedia). The palette follows the article's skin colors: camouflage green and dappled brown, warning red or yellow and black, and the blue flanks of the red eyed tree frog. The image shows a red eyed tree frog on a branch.
 
 ![Image: Charlie Jackson, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Red-eyed_Leaf_Frog_(49661076226).jpg), CC BY 2.0.](../man/figures/theme_frog/frog.jpg){width="60%" fig-align="center"}
 
@@ -284,16 +284,9 @@ ggplot(frogs, aes(x = jump, fill = species)) +
   theme_frog(base_size = 13)
 ```
 
-With `mode = "light"`:
-
-```{r}
-#| label: frog-light
-last_plot() + theme_frog(base_size = 13, mode = "light")
-```
-
 ## Frutiger Aero
 
-`theme_frutigeraero()`: Frutiger Aero is the glossy design style of the mid 2000s: bubbles, water, grass, and blue skies (see [Frutiger Aero](https://en.wikipedia.org/wiki/Frutiger_Aero) on Wikipedia). The palette is sampled from soap bubbles floating over sunlit grass.
+`theme_frutigeraero()`: Frutiger Aero is the glossy design style of the mid 2000s: bubbles, water, grass, and blue skies (see [Frutiger Aero](https://en.wikipedia.org/wiki/Frutiger_Aero) on Wikipedia). The palette follows the article's blue skies, grass, aurorae, and bright colors ("yellows, and particularly blues and greens"). The image shows soap bubbles floating over sunlit grass.
 
 ![Image: ThePixelman on Pixabay, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Frutiger_Aero_Bubbles_And_Grass.jpg), CC0.](../man/figures/theme_frutigeraero/frutigeraero.jpg){width="60%" fig-align="center"}
 
@@ -310,16 +303,9 @@ ggplot(aero, aes(x = year, y = share, colour = style)) +
   theme_frutigeraero(base_size = 13)
 ```
 
-With `mode = "light"`:
-
-```{r}
-#| label: frutigeraero-light
-last_plot() + theme_frutigeraero(base_size = 13, mode = "light")
-```
-
 ## Goblincore
 
-`theme_goblincore()`: Goblincore celebrates the less pretty side of nature: moss, mushrooms, snails, and found objects (see [Goblincore](https://en.wikipedia.org/wiki/Goblincore) on Wikipedia). The palette is sampled from a still life of old vases, a framed photo, and an animal skull.
+`theme_goblincore()`: Goblincore celebrates the less pretty side of nature: moss, mushrooms, snails, and found objects (see [Goblincore](https://en.wikipedia.org/wiki/Goblincore) on Wikipedia). The palette follows the article's brown, green, and clashing colors: moss, mushroom caps, earthworms, bones, rocks, and soil. The image shows a still life of old vases, a framed photo, and an animal skull.
 
 ![Image: Bart Everson, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Still_life_with_animal_skull_and_vases.jpg), CC BY 2.0.](../man/figures/theme_goblincore/goblincore.jpg){width="60%" fig-align="center"}
 
@@ -344,7 +330,7 @@ last_plot() + theme_goblincore(base_size = 13, mode = "light")
 
 ## Gorpcore
 
-`theme_gorpcore()`: Gorpcore is hiking gear (shell jackets, fleece, and trail shoes) worn as everyday streetwear (see [Gorpcore](https://en.wikipedia.org/wiki/Gorpcore) on Wikipedia). The palette is sampled from outdoor jackets and pants hanging in a store.
+`theme_gorpcore()`: Gorpcore is hiking gear (shell jackets, fleece, and trail shoes) worn as everyday streetwear (see [Gorpcore](https://en.wikipedia.org/wiki/Gorpcore) on Wikipedia). The palette follows the article's two color schemes, earthy or bright and bold: safety orange, glacier blue, forest green, khaki, lime, and charcoal shell jackets. The image shows outdoor jackets and pants hanging in a store.
 
 ![Image: Joe Parks from Berkeley, CA, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_North_Face_Outdoor_Sportswear_-_Flickr_-_Joe_Parks_(cropped).jpg), CC BY 2.0.](../man/figures/theme_gorpcore/gorpcore.jpg){width="60%" fig-align="center"}
 
@@ -359,16 +345,9 @@ ggplot(gear, aes(x = price, fill = item)) +
   theme_gorpcore(base_size = 13)
 ```
 
-With `mode = "light"`:
-
-```{r}
-#| label: gorpcore-light
-last_plot() + theme_gorpcore(base_size = 13, mode = "light")
-```
-
 ## Group chat
 
-`theme_groupchat()`: Group chats are where friends plan, share memes, and leave each other on read (see [Online chat](https://en.wikipedia.org/wiki/Online_chat) on Wikipedia). The palette is sampled from a group conversation in a messaging app.
+`theme_groupchat()`: Group chats are where friends plan, share memes, and leave each other on read (see [Online chat](https://en.wikipedia.org/wiki/Online_chat) on Wikipedia). The palette follows chat bubbles from the article's instant messengers: sent blue, received gray, text green, typing purple, reaction yellow, and unread red. The image shows a group conversation in a messaging app.
 
 ![Image: Sublime Software Ltd., [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Screenshot_of_Briar_04_private_group.png), CC BY 4.0.](../man/figures/theme_groupchat/groupchat.jpg){width="60%" fig-align="center"}
 
@@ -385,7 +364,7 @@ ggplot(chat, aes(x = day, y = messages, fill = friend)) +
 
 ## Indie sleaze
 
-`theme_indiesleaze()`: Indie sleaze is the messy, flash photo party style of 2006 to 2012, now back on social media (see [Indie sleaze](https://en.wikipedia.org/wiki/Indie_sleaze) on Wikipedia). The palette is sampled from a singer performing under a stage light in 2007.
+`theme_indiesleaze()`: Indie sleaze is the messy, flash photo party style of 2006 to 2012, now back on social media (see [Indie sleaze](https://en.wikipedia.org/wiki/Indie_sleaze) on Wikipedia). The palette follows the article's flash photography, bleached hair, shredded denim, galaxy and "Aztec" prints, and smudged eyeliner on a dark club floor. The image shows a singer performing under a stage light in 2007.
 
 ![Image: Dale Harvey, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pete_doherty_2007.jpg), CC BY 2.0.](../man/figures/theme_indiesleaze/indiesleaze.jpg){width="60%" fig-align="center"}
 
@@ -409,15 +388,15 @@ last_plot() + theme_indiesleaze(base_size = 13, mode = "light")
 
 ## Kidcore
 
-`theme_kidcore()`: Kidcore is a bright, nostalgic aesthetic of primary colors, beads, stickers, and childhood toys (see [Kidcore](https://en.wikipedia.org/wiki/Kidcore) on Wikipedia). The palette is sampled from a heart shaped rainbow bead necklace.
+`theme_kidcore()`: Kidcore is a bright, nostalgic aesthetic of primary colors, beads, stickers, and childhood toys (see [Kidcore](https://en.wikipedia.org/wiki/Kidcore) on Wikipedia). The palette follows the article's bright primary colors and rainbow colours. The image shows a heart shaped rainbow bead necklace.
 
 ![Image: Brainy J, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rainbow_bead_necklace_-_heart_shaped.jpg), CC0.](../man/figures/theme_kidcore/kidcore.jpg){width="60%" fig-align="center"}
 
 ```{r}
 #| label: kidcore
 set.seed(2001)
-beads <- data.frame(color = sample(c("Red", "Orange", "Yellow", "Maroon", "Navy", "Green"), 600, replace = TRUE))
-beads$color <- factor(beads$color, levels = c("Red", "Orange", "Yellow", "Maroon", "Navy", "Green"))
+beads <- data.frame(color = sample(c("Red", "Yellow", "Blue", "Green", "Orange", "Purple"), 600, replace = TRUE))
+beads$color <- factor(beads$color, levels = c("Red", "Yellow", "Blue", "Green", "Orange", "Purple"))
 beads$kit <- sample(c("Bracelet", "Necklace"), 600, replace = TRUE)
 ggplot(beads, aes(x = kit, fill = color)) +
   geom_bar(position = "fill") +
@@ -427,7 +406,7 @@ ggplot(beads, aes(x = kit, fill = color)) +
 
 ## LED strip
 
-`theme_ledstrip()`: LED strip lights are the adhesive color changing lights that line bedroom ceilings and desks (see [LED strip light](https://en.wikipedia.org/wiki/LED_strip_light) on Wikipedia). The palette is sampled from a strip of cyan LED light under an airplane cabin shelf.
+`theme_ledstrip()`: LED strip lights are the adhesive color changing lights that line bedroom ceilings and desks (see [LED strip light](https://en.wikipedia.org/wiki/LED_strip_light) on Wikipedia). The palette follows the article's strip types: red, green, and blue multicolor LEDs, warm and cool white color temperatures, and a 2200K amber. The image shows a strip of cyan LED light under an airplane cabin shelf.
 
 ![Image: Matti Blume, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Passenger_Experience_Week_2018,_Hamburg_(1X7A3748).jpg), CC BY-SA 4.0.](../man/figures/theme_ledstrip/ledstrip.jpg){width="60%" fig-align="center"}
 
@@ -452,7 +431,7 @@ last_plot() + theme_ledstrip(base_size = 13, mode = "light")
 
 ## Lightstick
 
-`theme_lightstick()`: Lightsticks are the glow sticks fans wave at concerts, now synced to the show at K-pop tours (see [Glow stick](https://en.wikipedia.org/wiki/Glow_stick) on Wikipedia). The palette is sampled from a diagram of a glow stick being snapped and lit.
+`theme_lightstick()`: Lightsticks are the glow sticks fans wave at concerts, now synced to the show at K-pop tours (see [Glow stick](https://en.wikipedia.org/wiki/Glow_stick) on Wikipedia). The palette follows the article's chemiluminescent glow in a translucent plastic tube: green, pink, blue, yellow, orange, and purple on a black arena. The image shows a diagram of a glow stick being snapped and lit.
 
 ![Image: Pbroks13, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glowstick.svg), CC BY 3.0.](../man/figures/theme_lightstick/lightstick.jpg){width="60%" fig-align="center"}
 
@@ -476,7 +455,7 @@ last_plot() + theme_lightstick(base_size = 13, mode = "light")
 
 ## Liminal space
 
-`theme_liminal()`: Liminal space is an internet aesthetic of empty in between places: hallways, waiting rooms, and closed malls (see [Liminal space](https://en.wikipedia.org/wiki/Liminal_space) on Wikipedia). The palette is sampled from an empty carpeted hallway in the Stanley Hotel.
+`theme_liminal()`: Liminal space is an internet aesthetic of empty in between places: hallways, waiting rooms, and closed malls (see [Liminal space](https://en.wikipedia.org/wiki/Liminal_space) on Wikipedia). The palette follows the article's empty hallways, pool rooms, and Twin Peaks Black Lodge: red curtains, black floor, mustard walls, fluorescent green, pool blue, and concrete. The image shows an empty carpeted hallway in the Stanley Hotel.
 
 ![Image: Larry D. Moore, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Corridor_Stanley_Hotel_Estes_Park_Colorado_2024.jpg), CC BY 4.0.](../man/figures/theme_liminal/liminal.jpg){width="60%" fig-align="center"}
 
@@ -493,7 +472,7 @@ ggplot(halls, aes(x = eeriness, y = place, fill = place)) +
 
 ## Livestream
 
-`theme_livestream()`: Livestreaming is broadcasting video in real time, from gaming streams to vlogs filmed on the street (see [Live streaming](https://en.wikipedia.org/wiki/Live_streaming) on Wikipedia). The palette is sampled from a journalist livestreaming from a railway station.
+`theme_livestream()`: Livestreaming is broadcasting video in real time, from gaming streams to vlogs filmed on the street (see [Live streaming](https://en.wikipedia.org/wiki/Live_streaming) on Wikipedia). The palette follows a live broadcast as the article describes it: the red live badge, stream purple, chat green, viewer blue, and donation gold on a dark player. The image shows a journalist livestreaming from a railway station.
 
 ![Image: N509FZ, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CR_staff_and_PeopleRail_journalist_livestreaming_at_Beijing_Fengtai_Railway_Station_Exit_5_(20220620132147).jpg), CC BY-SA 4.0.](../man/figures/theme_livestream/livestream.jpg){width="60%" fig-align="center"}
 
@@ -509,9 +488,16 @@ ggplot(streams, aes(x = viewers, fill = category)) +
   theme_livestream(base_size = 13)
 ```
 
+With `mode = "light"`:
+
+```{r}
+#| label: livestream-light
+last_plot() + theme_livestream(base_size = 13, mode = "light")
+```
+
 ## Matcha
 
-`theme_matcha()`: Matcha is finely ground Japanese green tea, now a cafe staple as a latte (see [Matcha](https://en.wikipedia.org/wiki/Matcha) on Wikipedia). The palette is sampled from a bamboo scoop of matcha powder.
+`theme_matcha()`: Matcha is finely ground Japanese green tea, now a cafe staple as a latte (see [Matcha](https://en.wikipedia.org/wiki/Matcha) on Wikipedia). The palette follows the article's vivid green color, matcha lattes, soba noodles, and wagashi: ceremonial green, bright green, latte foam, buckwheat, red bean, and tea leaf. The image shows a bamboo scoop of matcha powder.
 
 ![Image: Evanhoever, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Matcha_Scoop.jpg), CC BY-SA 4.0.](../man/figures/theme_matcha/matcha.jpg){width="60%" fig-align="center"}
 
@@ -530,7 +516,7 @@ ggplot(cafe, aes(x = month, y = cups, colour = drink)) +
 
 ## Mermaidcore
 
-`theme_mermaidcore()`: Mermaidcore is a fashion trend of shells, pearls, sequins, and iridescent sea colors (see [Mermaid](https://en.wikipedia.org/wiki/Mermaid) on Wikipedia). The palette is sampled from a cutaway nautilus shell showing its pearly chambers (Wikipedia's Nacre article).
+`theme_mermaidcore()`: Mermaidcore is a fashion trend of shells, pearls, sequins, and iridescent sea colors (see [Mermaid](https://en.wikipedia.org/wiki/Mermaid) on Wikipedia). The palette follows the Mermaid article's pale green hair, scales, and sea, with the nacre shell's iridescence: seafoam, teal, lilac, coral, deep sea, and pearl gold. The image shows a cutaway nautilus shell showing its pearly chambers (Wikipedia's Nacre article).
 
 ![Image: Chris 73, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NautilusCutawayLogarithmicSpiral.jpg), CC BY-SA 3.0.](../man/figures/theme_mermaidcore/mermaidcore.jpg){width="60%" fig-align="center"}
 
@@ -548,7 +534,7 @@ ggplot(shells, aes(x = width, y = chambers, colour = beach)) +
 
 ## Mushroom lamp
 
-`theme_mushroomlamp()`: Mushroom lamps are glowing nightlights that became a bedroom decor trend (see [Nightlight](https://en.wikipedia.org/wiki/Nightlight) on Wikipedia). The palette is sampled from a green LED nightlight plugged into a wall.
+`theme_mushroomlamp()`: Mushroom lamps are glowing nightlights that became a bedroom decor trend (see [Nightlight](https://en.wikipedia.org/wiki/Nightlight) on Wikipedia). The palette follows the article's nightlight sources (incandescent amber, neon orange, and soft electroluminescent green and blue) plus a red spotted mushroom cap. The image shows a green LED nightlight plugged into a wall.
 
 ![Image: Tetris L, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:LED_nightlight_with_switch.JPG), CC BY-SA 3.0.](../man/figures/theme_mushroomlamp/mushroomlamp.jpg){width="60%" fig-align="center"}
 
@@ -564,9 +550,16 @@ ggplot(lamps, aes(x = hour, y = lumens, fill = room)) +
   theme_mushroomlamp(base_size = 13)
 ```
 
+With `mode = "light"`:
+
+```{r}
+#| label: mushroomlamp-light
+last_plot() + theme_mushroomlamp(base_size = 13, mode = "light")
+```
+
 ## Photo dump
 
-`theme_photodump()`: A photo dump is a carousel post of loosely related phone photos from the week (see [Camera phone](https://en.wikipedia.org/wiki/Camera_phone) on Wikipedia). The palette is sampled from a phone on a tripod recording a sunset over water.
+`theme_photodump()`: A photo dump is a carousel post of loosely related phone photos from the week (see [Camera phone](https://en.wikipedia.org/wiki/Camera_phone) on Wikipedia). The palette follows the article's camera phone shots in bright and low light: golden hour, sunset coral, sky, night, park green, and lilac dusk. The image shows a phone on a tripod recording a sunset over water.
 
 ![Image: PantheraLeo1359531, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Handyaufnahme_des_Sonnenuntergangs_als_Zeitraffer_20200909_DSC3277.jpg), CC BY 4.0.](../man/figures/theme_photodump/photodump.jpg){width="60%" fig-align="center"}
 
@@ -584,7 +577,7 @@ ggplot(dump, aes(x = factor(slides), y = likes, fill = posted)) +
 
 ## Pickleball
 
-`theme_pickleball()`: Pickleball is a paddle sport played with a plastic ball over a low net, and the fastest growing sport in the US (see [Pickleball](https://en.wikipedia.org/wiki/Pickleball) on Wikipedia). The palette is sampled from a professional doubles match on a pickleball court.
+`theme_pickleball()`: Pickleball is a paddle sport played with a plastic ball over a low net, and the fastest growing sport in the US (see [Pickleball](https://en.wikipedia.org/wiki/Pickleball) on Wikipedia). The palette follows the article's plastic ball, paddles, net, and court: optic yellow, court blue and green, red paddle, black net, and an orange ball. The image shows a professional doubles match on a pickleball court.
 
 ![Image: CarVeFe, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pickle_Pro_Tour_2025_2.jpg), CC0.](../man/figures/theme_pickleball/pickleball.jpg){width="60%" fig-align="center"}
 
@@ -601,7 +594,7 @@ ggplot(rallies, aes(x = shots, fill = level)) +
 
 ## Plushie
 
-`theme_plushie()`: Plushies (stuffed toys) are collected, displayed, and carried well past childhood (see [Stuffed toy](https://en.wikipedia.org/wiki/Stuffed_toy) on Wikipedia). The palette is sampled from a replica of an early Steiff teddy bear.
+`theme_plushie()`: Plushies (stuffed toys) are collected, displayed, and carried well past childhood (see [Stuffed toy](https://en.wikipedia.org/wiki/Stuffed_toy) on Wikipedia). The palette follows the article's soft toys in "a wide variety of colors" and fur textures: teddy honey, bunny pink, frog green, sky blue, lavender, and button eye brown. The image shows a replica of an early Steiff teddy bear.
 
 ![Image: MatthiasKabel, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nachbildung_55PB_Steiff_Museum_Giengen.jpg), CC BY-SA 3.0.](../man/figures/theme_plushie/plushie.jpg){width="60%" fig-align="center"}
 
@@ -618,7 +611,7 @@ ggplot(plush, aes(x = squish, fill = animal)) +
 
 ## RGB setup
 
-`theme_rgbsetup()`: An RGB setup is a gaming PC and desk lit up in color changing lights (see [Gaming computer](https://en.wikipedia.org/wiki/Gaming_computer) on Wikipedia). The palette is sampled from a gaming PC with glass panels and colored fans.
+`theme_rgbsetup()`: An RGB setup is a gaming PC and desk lit up in color changing lights (see [Gaming computer](https://en.wikipedia.org/wiki/Gaming_computer) on Wikipedia). The palette follows the article's gaming PCs lit in RGB: cyan, purple, red, lime, and blue case lighting with a white glow. The image shows a gaming PC with glass panels and colored fans.
 
 ![Image: MoreThanTech, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:MSI-Gaming-PC_2024-09-30.png), CC BY 3.0.](../man/figures/theme_rgbsetup/rgbsetup.jpg){width="60%" fig-align="center"}
 
@@ -642,7 +635,7 @@ last_plot() + theme_rgbsetup(base_size = 13, mode = "light")
 
 ## Ring light
 
-`theme_ringlight()`: Ring lights are the circular lights behind nearly every vlog, makeup tutorial, and video call (see [Ring flash](https://en.wikipedia.org/wiki/Ring_flash) on Wikipedia). The palette is sampled from a ring of LEDs next to its controller.
+`theme_ringlight()`: Ring lights are the circular lights behind nearly every vlog, makeup tutorial, and video call (see [Ring flash](https://en.wikipedia.org/wiki/Ring_flash) on Wikipedia). The palette follows the article's adjustable color temperature (warm 3200K and cool 5600K), skin tones on video calls, and the gray and black ring and stand. The image shows a ring of LEDs next to its controller.
 
 ![Image: Jacek Halicki, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2015_Lampa_b%C5%82yskowa_pier%C5%9Bcieniowa_Aputure.jpg), CC BY-SA 4.0.](../man/figures/theme_ringlight/ringlight.jpg){width="60%" fig-align="center"}
 
@@ -659,16 +652,9 @@ ggplot(ring, aes(x = brightness, y = views, colour = video)) +
   theme_ringlight(base_size = 13)
 ```
 
-With `mode = "light"`:
-
-```{r}
-#| label: ringlight-light
-last_plot() + theme_ringlight(base_size = 13, mode = "light")
-```
-
 ## Slime
 
-`theme_slime()`: Slime is the stretchy toy that kids make at home and watch in satisfying videos (see [Slime (toy)](https://en.wikipedia.org/wiki/Slime_(toy)) on Wikipedia). The palette is sampled from green slime poured from a cup.
+`theme_slime()`: Slime is the stretchy toy that kids make at home and watch in satisfying videos (see [Slime (toy)](https://en.wikipedia.org/wiki/Slime_(toy)) on Wikipedia). The palette follows the article's oozy green slime, the other colors from food coloring, and its plastic trash can. The image shows green slime poured from a cup.
 
 ![Image: Ciphers, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pouring_Slime.JPG), CC BY-SA 3.0.](../man/figures/theme_slime/slime.jpg){width="60%" fig-align="center"}
 
@@ -685,7 +671,7 @@ ggplot(slime, aes(x = stretch, fill = recipe)) +
 
 ## Speedrun
 
-`theme_speedrun()`: Speedrunning is beating a video game as fast as possible, often live for charity (see [Speedrunning](https://en.wikipedia.org/wiki/Speedrunning) on Wikipedia). The palette is sampled from the crowd at a Summer Games Done Quick charity marathon.
+`theme_speedrun()`: Speedrunning is beating a video game as fast as possible, often live for charity (see [Speedrunning](https://en.wikipedia.org/wiki/Speedrunning) on Wikipedia). The palette follows the article's timers and leaderboards: split timer gold (best segment), green (ahead), red (behind), white digits, and tool assisted cyan and purple. The image shows the crowd at a Summer Games Done Quick charity marathon.
 
 ![Image: Gage Skidmore from Peoria, AZ, United States of America, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Summer_Games_Done_Quick_attendees_(48149404692).jpg), CC BY-SA 2.0.](../man/figures/theme_speedrun/speedrun.jpg){width="60%" fig-align="center"}
 
@@ -712,9 +698,9 @@ last_plot() + theme_speedrun(base_size = 13, mode = "light")
 
 ## Streak
 
-`theme_streak()`: Streaks are the daily counters that apps use to keep you coming back, a common gamification trick (see [Gamification](https://en.wikipedia.org/wiki/Gamification) on Wikipedia). The palette is sampled from a poster of the five steps to earn a digital badge.
+`theme_streak()`: Streaks are the daily counters that apps use to keep you coming back, a common gamification trick (see [Gamification](https://en.wikipedia.org/wiki/Gamification) on Wikipedia). The palette follows the article's points, badges, levels, and progress bars: streak flame orange and red, gold badge, XP purple, progress green, and a frozen streak blue. The image shows a poster of the five steps to earn a digital badge.
 
-![Image: Nordplus project Open Badges for Adult Educators, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:AdEO_Adult_Educator_Online_-_Five_steps_to_get_a_badge.png), CC BY-SA 4.0.](../man/figures/theme_streak/streak.jpg){width="60%" fig-align="center"}
+![Image: Nordplus project Open Badges for Adult Educators., [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:AdEO_Adult_Educator_Online_-_Five_steps_to_get_a_badge.png), CC BY-SA 4.0.](../man/figures/theme_streak/streak.jpg){width="60%" fig-align="center"}
 
 ```{r}
 #| label: streak
@@ -729,7 +715,7 @@ ggplot(streaks, aes(x = days, colour = app)) +
 
 ## Synthwave
 
-`theme_synthwave()`: Synthwave is electronic music (and art) that looks back at 1980s film scores: neon grids and chrome sunsets (see [Synthwave](https://en.wikipedia.org/wiki/Synthwave) on Wikipedia). The palette is sampled from a neon grid under a striped sunset.
+`theme_synthwave()`: Synthwave is electronic music (and art) that looks back at 1980s film scores: neon grids and chrome sunsets (see [Synthwave](https://en.wikipedia.org/wiki/Synthwave) on Wikipedia). The palette follows the article's outrun look: magenta neon, gridlines, and a 1980s sunset in pink, orange, and yellow, with violet and chrome blue. The image shows a neon grid under a striped sunset.
 
 ![Image: j4p4n, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Synthwave.svg), CC0.](../man/figures/theme_synthwave/synthwave.jpg){width="60%" fig-align="center"}
 
@@ -755,7 +741,7 @@ last_plot() + theme_synthwave(base_size = 13, mode = "light")
 
 ## Thrift
 
-`theme_thrift()`: Thrifting (shopping at charity and secondhand shops) is the budget and planet friendly way to build a wardrobe (see [Charity shop](https://en.wikipedia.org/wiki/Charity_shop) on Wikipedia). The palette is sampled from shelves of glassware and goodies in a thrift store.
+`theme_thrift()`: Thrifting (shopping at charity and secondhand shops) is the budget and planet friendly way to build a wardrobe (see [Charity shop](https://en.wikipedia.org/wiki/Charity_shop) on Wikipedia). The palette follows the article's Red Cross and Oxfam shops and vintage clothing: charity red, mustard, faded denim, corduroy brown, Oxfam green, and dusty rose. The image shows shelves of glassware and goodies in a thrift store.
 
 ![Image: Valerie Everett, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thrift_store_goodies.jpg), CC BY-SA 2.0.](../man/figures/theme_thrift/thrift.jpg){width="60%" fig-align="center"}
 
@@ -772,7 +758,7 @@ ggplot(haul, aes(x = category, y = price, colour = category)) +
 
 ## Tumbler
 
-`theme_tumbler()`: Insulated tumblers and water bottles (vacuum flasks) became a status accessory in the 2020s (see [Vacuum flask](https://en.wikipedia.org/wiki/Vacuum_flask) on Wikipedia). The palette is sampled from a red vacuum flask on a cafeteria table.
+`theme_tumbler()`: Insulated tumblers and water bottles (vacuum flasks) became a status accessory in the 2020s (see [Vacuum flask](https://en.wikipedia.org/wiki/Vacuum_flask) on Wikipedia). The palette follows the article's stainless vacuum flask, in the powder coated colors of today's tumblers (cream, sage, rose, and cobalt) and the classic red Thermos. The image shows a red vacuum flask on a cafeteria table.
 
 ![Image: Denae Bedard, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thermos.JPG), CC BY-SA 3.0.](../man/figures/theme_tumbler/tumbler.jpg){width="60%" fig-align="center"}
 
@@ -790,7 +776,7 @@ ggplot(flasks, aes(x = hour, y = temp, colour = bottle)) +
 
 ## Unboxing
 
-`theme_unboxing()`: Unboxing videos film someone opening a new product, from phones to sneakers (see [Unboxing](https://en.wikipedia.org/wiki/Unboxing) on Wikipedia). The palette is sampled from hands lifting a new instrument out of its shipping box.
+`theme_unboxing()`: Unboxing videos film someone opening a new product, from phones to sneakers (see [Unboxing](https://en.wikipedia.org/wiki/Unboxing) on Wikipedia). The palette follows the article's boxes as "marketing billboards": kraft cardboard, packing tape, black print, tissue paper pink, brand blue, and a sticker green. The image shows hands lifting a new instrument out of its shipping box.
 
 ![Image: Audiotecna, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Moog_Etherwave_Theremin_unboxing_-_2._contents_of_the_box_(by_Audiotecna).jpg), CC BY 2.0.](../man/figures/theme_unboxing/unboxing.jpg){width="60%" fig-align="center"}
 
@@ -805,16 +791,9 @@ ggplot(unbox, aes(x = minutes, y = product, fill = product)) +
   theme_unboxing(base_size = 13)
 ```
 
-With `mode = "light"`:
-
-```{r}
-#| label: unboxing-light
-last_plot() + theme_unboxing(base_size = 13, mode = "light")
-```
-
 ## Vaporwave
 
-`theme_vaporwave()`: Vaporwave is a 2010s music genre and meme aesthetic of slowed down mall music, old computers, and pink and teal gradients (see [Vaporwave](https://en.wikipedia.org/wiki/Vaporwave) on Wikipedia). The palette is sampled from a vaporwave style Wikipedia logo with windows and planets.
+`theme_vaporwave()`: Vaporwave is a 2010s music genre and meme aesthetic of slowed down mall music, old computers, and pink and teal gradients (see [Vaporwave](https://en.wikipedia.org/wiki/Vaporwave) on Wikipedia). The palette follows the 1980s and 1990s anime and mall imagery the article cites, as the classic vaporwave pastels: pink, cyan, mint, purple, pale yellow, and deep violet. The image shows a vaporwave style Wikipedia logo with windows and planets.
 
 ![Image: AtikaAtikawa, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wikiwave_00000.png), CC BY-SA 4.0.](../man/figures/theme_vaporwave/vaporwave.jpg){width="60%" fig-align="center"}
 
@@ -832,7 +811,7 @@ ggplot(vapor, aes(x = year, y = samples, fill = source)) +
 
 ## Vinyl
 
-`theme_vinyl()`: Vinyl records outsell CDs again, thanks to collectors who buy albums in colored variants (see [Phonograph record](https://en.wikipedia.org/wiki/Phonograph_record) on Wikipedia). The palette is sampled from LP, EP, and single records side by side.
+`theme_vinyl()`: Vinyl records outsell CDs again, thanks to collectors who buy albums in colored variants (see [Phonograph record](https://en.wikipedia.org/wiki/Phonograph_record) on Wikipedia). The palette follows the article's "black disc", Red Seal labels, transparent red vinylite, the Blue Goose label, gold label foil, and paper sleeves. The image shows LP, EP, and single records side by side.
 
 ![Image: Banfield, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vinilos_distintos_tama%C3%B1os.jpg), CC BY-SA 3.0.](../man/figures/theme_vinyl/vinyl.jpg){width="60%" fig-align="center"}
 
@@ -849,7 +828,7 @@ ggplot(records, aes(x = year, y = sales, colour = format)) +
 
 ## Voice note
 
-`theme_voicenote()`: Voice notes are short recorded messages sent in a chat instead of typing (see [Voicemail](https://en.wikipedia.org/wiki/Voicemail) on Wikipedia). The palette is sampled from a diagram of how a voicemail system routes and stores messages.
+`theme_voicenote()`: Voice notes are short recorded messages sent in a chat instead of typing (see [Voicemail](https://en.wikipedia.org/wiki/Voicemail) on Wikipedia). The palette follows the article's pink message slips and voicemail light, with record red, mic gray, call green, waveform violet, and amber. The image shows a diagram of how a voicemail system routes and stores messages.
 
 ![Image: Robert Cohn (Rsc at en.wikipedia), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:System_poczty_glosowej.jpg), CC BY 2.5.](../man/figures/theme_voicenote/voicenote.jpg){width="60%" fig-align="center"}
 
@@ -867,7 +846,7 @@ ggplot(notes, aes(x = seconds, fill = sender)) +
 
 ## Weirdcore
 
-`theme_weirdcore()`: Weirdcore is an internet aesthetic of low quality images, liminal spaces, and unsettling captions (see [Weirdcore](https://en.wikipedia.org/wiki/Weirdcore) on Wikipedia). The palette is sampled from a grassy grid under a black sun with the caption "You must escape this simulation".
+`theme_weirdcore()`: Weirdcore is an internet aesthetic of low quality images, liminal spaces, and unsettling captions (see [Weirdcore](https://en.wikipedia.org/wiki/Weirdcore) on Wikipedia). The palette follows the article's out of place red text and black rectangle voids, over low quality photos of sky, grass, and sepia nostalgia. The image shows a grassy grid under a black sun with the caption "You must escape this simulation".
 
 ![Image: YDK1122, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Weirdcore_862761.jpg), CC BY-SA 3.0.](../man/figures/theme_weirdcore/weirdcore.jpg){width="60%" fig-align="center"}
 
@@ -885,7 +864,7 @@ ggplot(weird, aes(x = x, y = y, colour = feeling)) +
 
 ## Wired earbuds
 
-`theme_wiredbuds()`: Wired earbuds made a comeback as a style statement and a break from charging (see [Headphones](https://en.wikipedia.org/wiki/Headphones) on Wikipedia). The palette is sampled from a pair of white wired earbuds on a wooden table.
+`theme_wiredbuds()`: Wired earbuds made a comeback as a style statement and a break from charging (see [Headphones](https://en.wikipedia.org/wiki/Headphones) on Wikipedia). The palette follows the Headphones article's rubber, gold contacts, and wire, plus the red right channel marker, the wood table, and navy. The image shows a pair of white wired earbuds on a wooden table.
 
 ![Image: Jerikasb, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Earbud_wires.jpg), CC BY-SA 4.0.](../man/figures/theme_wiredbuds/wiredbuds.jpg){width="60%" fig-align="center"}
 

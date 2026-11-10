@@ -1,9 +1,9 @@
 #' LED strip theme
 #'
 #' LED strip lights are the adhesive color changing lights that line
-#' bedroom ceilings and desks. This `ggplot2` theme's colors are sampled
-#' from the Wikipedia image of a strip of cyan LED light under an airplane
-#' cabin shelf.
+#' bedroom ceilings and desks. The palette follows the article's strip
+#' types: red, green, and blue multicolor LEDs, warm and cool white color
+#' temperatures, and a 2200K amber.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -74,35 +74,35 @@ theme_ledstrip <- function(base_size = 15,
 # Sampled from a strip of cyan LED light under an airplane cabin shelf
 ledstrip_cols <- list(
   dark = c(
-    background = "#1C1B1C",
-    panel = "#292728",
-    grid = "#434243",
-    text = "#F5EFF0",
-    frame = "#006B8A",
-    title = "#00A8C9",
-    strip = "#F5EFF0",
-    striptext = "#1C1B1C",
-    accent = "#006B8A",
-    outline = "#F5EFF0",
-    fill = "#00A8C9"
+    background = "#0C101E",
+    panel = "#191D2A",
+    grid = "#323645",
+    text = "#EBEDF9",
+    frame = "#4670FF",
+    title = "#4670FF",
+    strip = "#EBEDF9",
+    striptext = "#0C101E",
+    accent = "#00962E",
+    outline = "#EBEDF9",
+    fill = "#FF3B3B"
   ),
   light = c(
-    background = "#F2ECED",
-    panel = "#FCFAFA",
-    grid = "#DCD6D6",
-    text = "#2D2C2C",
-    frame = "#006B8A",
-    title = "#007493",
-    strip = "#2D2C2C",
-    striptext = "#F2ECED",
-    accent = "#006B8A",
-    outline = "#2D2C2C",
-    fill = "#00A8C9"
+    background = "#E9EDFF",
+    panel = "#F6F7FD",
+    grid = "#CDD1E2",
+    text = "#28283F",
+    frame = "#215FF0",
+    title = "#215FF0",
+    strip = "#28283F",
+    striptext = "#E9EDFF",
+    accent = "#00962E",
+    outline = "#28283F",
+    fill = "#FF3B3B"
   )
 )
 
 ledstrip_marks <- list(
-  dark = c("#00A8C9", "#006B8A", "#56DFFD", "#5A4A22", "#B6FFFF", "#3A4E57"),
-  light = c("#00A8C9", "#006B8A", "#5BD4D4", "#003751", "#3F3109", "#000717")
+  dark = c("#FF3B3B", "#00962E", "#3D6BFF", "#FFC58A", "#DDE8FF", "#FF9F43"),
+  light = c("#FF3B3B", "#00962E", "#3D6BFF", "#F3BA80", "#BBC6DD", "#FF9F43")
 )
 

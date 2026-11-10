@@ -1,8 +1,8 @@
 test_that("theme_digicam returns a complete theme that builds a plot", {
   thm <- theme_digicam(base_family = "sans", title_family = "sans")
   expect_s3_class(thm, "theme")
-  expect_equal(thm$plot.background$fill, "#F7EDDD")
-  expect_equal(thm$geom$fill, "#8C86D3")
+  expect_equal(thm$plot.background$fill, "#EDEEF0")
+  expect_equal(thm$geom$fill, "#8B0009")
   p <- ggplot2::ggplot(data.frame(x = c("a", "b", "b")), ggplot2::aes(x = x, fill = x)) +
     ggplot2::geom_bar() +
     ggplot2::labs(title = "title")

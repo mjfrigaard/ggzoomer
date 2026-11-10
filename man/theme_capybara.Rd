@@ -24,8 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Capybaras are the largest living rodents and a famously calm internet
-mascot. This \code{ggplot2} theme's colors are sampled from the Wikipedia
-image of a capybara standing on a sandy riverbank.
+mascot. The palette follows the article's reddish brown back and
+yellowish brown belly, plus the scarlet ibis, green anaconda, river
+water, and dark mud of its habitat.
 }
 \examples{
 library(ggplot2)

@@ -1,8 +1,9 @@
 #' Digicam theme
 #'
 #' Digital point and shoot cameras from the 2000s are back for their flash
-#' heavy, slightly blurry photos. This `ggplot2` theme's colors are sampled
-#' from the Wikipedia image of the front and back of a Canon PowerShot A95.
+#' heavy, slightly blurry photos. The palette follows the article's sensor
+#' channels (red, green, and blue), an LCD screen, the flash, and the black
+#' grip on a silver body.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +68,18 @@ theme_digicam <- function(base_size = 15,
 
 # Sampled from the front and back of a Canon PowerShot A95
 digicam_cols <- c(
-  background = "#F7EDDD",
-  panel = "#FEFAF5",
-  grid = "#E0D6C7",
-  text = "#2D2C26",
-  frame = "#B29D82",
-  title = "#6763AC",
-  strip = "#2D2C26",
-  striptext = "#F7EDDD",
-  accent = "#B29D82",
-  outline = "#2D2C26",
-  fill = "#8C86D3"
+  background = "#EDEEF0",
+  panel = "#F8F8F9",
+  grid = "#D1D2D4",
+  text = "#26283F",
+  frame = "#2459C9",
+  title = "#2459C9",
+  strip = "#26283F",
+  striptext = "#EDEEF0",
+  accent = "#2E9E4F",
+  outline = "#26283F",
+  fill = "#8B0009"
 )
 
-digicam_marks <- c("#8C86D3", "#B29D82", "#756447", "#BCB9EC", "#3E321B", "#150000")
+digicam_marks <- c("#8B0009", "#2E9E4F", "#2459C9", "#39B8C9", "#EFBF2D", "#2A2A2E")
 

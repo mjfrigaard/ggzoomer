@@ -1,18 +1,16 @@
 #' Axolotl theme
 #'
 #' Axolotls are Mexican salamanders that keep their gills for life and
-#' became an internet favorite (and a game mob). This `ggplot2` theme's
-#' colors are sampled from the Wikipedia image of a wild type axolotl
-#' resting on gravel in an aquarium.
-#'
-#' Use `mode = "light"` for a light background with dark text and darker marks.
+#' became an internet favorite (and a game mob). The palette follows the
+#' article's color variants: the wild type's brown with gold speckles and
+#' an olive undertone, the leucistic pink, pink gills, and the dark
+#' melanoid.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
 #'     available on the system, otherwise `"sans"`.
 #' @param title_family Title font family. Defaults to Arial Rounded when
 #'     it's available, otherwise `"sans"`.
-#' @param mode `"dark"` (the default) or `"light"`.
 #'
 #' @return A `ggplot2` theme object.
 #'
@@ -29,11 +27,9 @@
 theme_axolotl <- function(base_size = 15,
                       base_family = register_font("Arial", "Arial.ttf",
                                                   "Arial Bold.ttf"),
-                      title_family = register_font("Arial Rounded", "Arial Rounded Bold.ttf"),
-                      mode = c("dark", "light")) {
-  mode <- match.arg(mode)
-  cols <- axolotl_cols[[mode]]
-  marks <- axolotl_marks[[mode]]
+                      title_family = register_font("Arial Rounded", "Arial Rounded Bold.ttf")) {
+  cols <- axolotl_cols
+  marks <- axolotl_marks
   ggplot2::theme_bw(base_size = base_size, base_family = base_family) +
     ggplot2::theme(
       text = ggplot2::element_text(colour = cols[["text"]]),
@@ -72,37 +68,19 @@ theme_axolotl <- function(base_size = 15,
 }
 
 # Sampled from a wild type axolotl resting on gravel in an aquarium
-axolotl_cols <- list(
-  dark = c(
-    background = "#191D16",
-    panel = "#252922",
-    grid = "#3F443C",
-    text = "#EDF2E9",
-    frame = "#65A755",
-    title = "#4B9438",
-    strip = "#EDF2E9",
-    striptext = "#191D16",
-    accent = "#65A755",
-    outline = "#EDF2E9",
-    fill = "#1C6A0D"
-  ),
-  light = c(
-    background = "#EAF0E6",
-    panel = "#F9FBF8",
-    grid = "#D3D9CF",
-    text = "#292D26",
-    frame = "#002C00",
-    title = "#1C6A0D",
-    strip = "#292D26",
-    striptext = "#EAF0E6",
-    accent = "#002C00",
-    outline = "#292D26",
-    fill = "#1C6A0D"
-  )
+axolotl_cols <- c(
+  background = "#FBEFF1",
+  panel = "#FFFBFC",
+  grid = "#DED3D5",
+  text = "#402126",
+  frame = "#BF3F5D",
+  title = "#BF3F5D",
+  strip = "#402126",
+  striptext = "#FBEFF1",
+  accent = "#C9A227",
+  outline = "#402126",
+  fill = "#6B4F2A"
 )
 
-axolotl_marks <- list(
-  dark = c("#1C6A0D", "#65A755", "#415142", "#BAEC97", "#607857", "#ACC2A1"),
-  light = c("#1C6A0D", "#002C00", "#678447", "#91C270", "#000B00", "#B7C6AC")
-)
+axolotl_marks <- c("#6B4F2A", "#C9A227", "#6F7A2E", "#E58FA6", "#C2425F", "#2B2A2E")
 

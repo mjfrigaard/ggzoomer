@@ -1,8 +1,9 @@
 #' Photo dump theme
 #'
 #' A photo dump is a carousel post of loosely related phone photos from the
-#' week. This `ggplot2` theme's colors are sampled from the Wikipedia image
-#' of a phone on a tripod recording a sunset over water.
+#' week. The palette follows the article's camera phone shots in bright and
+#' low light: golden hour, sunset coral, sky, night, park green, and lilac
+#' dusk.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +68,18 @@ theme_photodump <- function(base_size = 15,
 
 # Sampled from a phone on a tripod recording a sunset over water
 photodump_cols <- c(
-  background = "#E3EFFB",
-  panel = "#F7FBFF",
-  grid = "#CDD9E4",
-  text = "#212F2C",
-  frame = "#9F6600",
-  title = "#906100",
-  strip = "#212F2C",
-  striptext = "#E3EFFB",
-  accent = "#9F6600",
-  outline = "#212F2C",
-  fill = "#EBAE26"
+  background = "#FBFAF8",
+  panel = "#FCFCFB",
+  grid = "#DEDDDB",
+  text = "#3F221E",
+  frame = "#CC433A",
+  title = "#CC433A",
+  strip = "#3F221E",
+  striptext = "#FBFAF8",
+  accent = "#E8655A",
+  outline = "#3F221E",
+  fill = "#F2A541"
 )
 
-photodump_marks <- c("#EBAE26", "#9F6600", "#7A4300", "#63759E", "#370200", "#2F4267")
+photodump_marks <- c("#F2A541", "#E8655A", "#5DA9E9", "#2D3047", "#A4D68D", "#B48EAD")
 

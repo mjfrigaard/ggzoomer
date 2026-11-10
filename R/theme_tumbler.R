@@ -1,8 +1,9 @@
 #' Tumbler theme
 #'
 #' Insulated tumblers and water bottles (vacuum flasks) became a status
-#' accessory in the 2020s. This `ggplot2` theme's colors are sampled from
-#' the Wikipedia image of a red vacuum flask on a cafeteria table.
+#' accessory in the 2020s. The palette follows the article's stainless
+#' vacuum flask, in the powder coated colors of today's tumblers (cream,
+#' sage, rose, and cobalt) and the classic red Thermos.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +68,18 @@ theme_tumbler <- function(base_size = 15,
 
 # Sampled from a red vacuum flask on a cafeteria table
 tumbler_cols <- c(
-  background = "#F0EEE4",
-  panel = "#FCFBF8",
-  grid = "#DAD7CE",
-  text = "#2C2E19",
-  frame = "#FF805B",
-  title = "#D80007",
-  strip = "#2C2E19",
-  striptext = "#F0EEE4",
-  accent = "#FF805B",
-  outline = "#2C2E19",
-  fill = "#DB020A"
+  background = "#F2F4F5",
+  panel = "#FCFCFD",
+  grid = "#D6D8D9",
+  text = "#3F221E",
+  frame = "#A3161A",
+  title = "#A3161A",
+  strip = "#3F221E",
+  striptext = "#F2F4F5",
+  accent = "#D6C8AD",
+  outline = "#3F221E",
+  fill = "#8C949C"
 )
 
-tumbler_marks <- c("#DB020A", "#FF805B", "#8C0000", "#420000", "#BFC4A0", "#797551")
+tumbler_marks <- c("#8C949C", "#D6C8AD", "#8FA58B", "#D8A1A6", "#2F55A4", "#A3161A")
 

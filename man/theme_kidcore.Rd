@@ -24,8 +24,8 @@ A \code{ggplot2} theme object.
 }
 \description{
 Kidcore is a bright, nostalgic aesthetic of primary colors, beads,
-stickers, and childhood toys. This \code{ggplot2} theme's colors are sampled
-from the Wikipedia image of a heart shaped rainbow bead necklace.
+stickers, and childhood toys. The palette follows the article's bright
+primary colors and rainbow colours.
 }
 \examples{
 library(ggplot2)

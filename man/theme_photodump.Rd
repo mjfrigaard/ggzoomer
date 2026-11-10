@@ -24,8 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 A photo dump is a carousel post of loosely related phone photos from the
-week. This \code{ggplot2} theme's colors are sampled from the Wikipedia image
-of a phone on a tripod recording a sunset over water.
+week. The palette follows the article's camera phone shots in bright and
+low light: golden hour, sunset coral, sky, night, park green, and lilac
+dusk.
 }
 \examples{
 library(ggplot2)

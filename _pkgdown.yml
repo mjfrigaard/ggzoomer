@@ -4,21 +4,21 @@ template:
   bootstrap: 5
   light-switch: false
   bslib:
-    bg: "#FAFBFE"
+    bg: "#FCFAFE"
     fg: "#31283C"
     primary: "#4F18AD"
-    secondary: "#C458E2"
-    success: "#7A7600"
+    secondary: "#B967FF"
+    success: "#00A86B"
     info: "#4F18AD"
-    warning: "#C2C900"
-    danger: "#C458E2"
+    warning: "#B9B857"
+    danger: "#E0459F"
     link-color: "#4F18AD"
     link-hover-color: "#8A2BA8"
-    navbar-bg: "#EAEEF9"
-    code-bg: "#EAEEF9"
+    navbar-bg: "#F5EEFB"
+    code-bg: "#F5EEFB"
     code-color: "#4F18AD"
-    pre-bg: "#EAEEF9"
-    border-color: "#D4D7E2"
+    pre-bg: "#F5EEFB"
+    border-color: "#E2D8EC"
     base_font: {google: "Inter"}
     heading_font: {google: "Space Grotesk"}
     code_font: {google: "Space Mono"}

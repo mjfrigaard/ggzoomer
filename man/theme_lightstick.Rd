@@ -27,8 +27,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Lightsticks are the glow sticks fans wave at concerts, now synced to the
-show at K-pop tours. This \code{ggplot2} theme's colors are sampled from the
-Wikipedia image of a diagram of a glow stick being snapped and lit.
+show at K-pop tours. The palette follows the article's chemiluminescent
+glow in a translucent plastic tube: green, pink, blue, yellow, orange,
+and purple on a black arena.
 }
 \details{
 Use \code{mode = "light"} for a light background with dark text and darker marks.

@@ -1,9 +1,9 @@
 #' Mermaidcore theme
 #'
 #' Mermaidcore is a fashion trend of shells, pearls, sequins, and
-#' iridescent sea colors. This `ggplot2` theme's colors are sampled from
-#' the Wikipedia image of a cutaway nautilus shell showing its pearly
-#' chambers (Wikipedia's Nacre article).
+#' iridescent sea colors. The palette follows the Mermaid article's pale
+#' green hair, scales, and sea, with the nacre shell's iridescence:
+#' seafoam, teal, lilac, coral, deep sea, and pearl gold.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -68,18 +68,18 @@ theme_mermaidcore <- function(base_size = 15,
 
 # Sampled from a cutaway nautilus shell showing its pearly chambers (Wikipedia's Nacre article)
 mermaidcore_cols <- c(
-  background = "#F3EED7",
-  panel = "#FDFBF3",
-  grid = "#DDD7C1",
-  text = "#2C2C28",
-  frame = "#524E37",
-  title = "#726C53",
-  strip = "#2C2C28",
-  striptext = "#F3EED7",
-  accent = "#524E37",
-  outline = "#2C2C28",
-  fill = "#847E64"
+  background = "#F4F2F7",
+  panel = "#FDFCFE",
+  grid = "#D8D6DB",
+  text = "#002F37",
+  frame = "#0B7987",
+  title = "#0B7987",
+  strip = "#002F37",
+  striptext = "#F4F2F7",
+  accent = "#127C8A",
+  outline = "#002F37",
+  fill = "#5FC4B4"
 )
 
-mermaidcore_marks <- c("#847E64", "#524E37", "#C9B181", "#272100", "#140000", "#B1C6CC")
+mermaidcore_marks <- c("#5FC4B4", "#127C8A", "#A98BD8", "#F08A8A", "#1D3D6B", "#C9A86A")
 

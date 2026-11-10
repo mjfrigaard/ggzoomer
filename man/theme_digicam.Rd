@@ -24,8 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Digital point and shoot cameras from the 2000s are back for their flash
-heavy, slightly blurry photos. This \code{ggplot2} theme's colors are sampled
-from the Wikipedia image of the front and back of a Canon PowerShot A95.
+heavy, slightly blurry photos. The palette follows the article's sensor
+channels (red, green, and blue), an LCD screen, the flash, and the black
+grip on a silver body.
 }
 \examples{
 library(ggplot2)

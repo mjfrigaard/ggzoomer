@@ -24,9 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Mermaidcore is a fashion trend of shells, pearls, sequins, and
-iridescent sea colors. This \code{ggplot2} theme's colors are sampled from
-the Wikipedia image of a cutaway nautilus shell showing its pearly
-chambers (Wikipedia's Nacre article).
+iridescent sea colors. The palette follows the Mermaid article's pale
+green hair, scales, and sea, with the nacre shell's iridescence:
+seafoam, teal, lilac, coral, deep sea, and pearl gold.
 }
 \examples{
 library(ggplot2)

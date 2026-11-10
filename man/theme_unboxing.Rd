@@ -7,8 +7,7 @@
 theme_unboxing(
   base_size = 15,
   base_family = register_font("Arial", "Arial.ttf", "Arial Bold.ttf"),
-  title_family = register_font("Rockwell", "Rockwell.ttc"),
-  mode = c("dark", "light")
+  title_family = register_font("Rockwell", "Rockwell.ttc")
 )
 }
 \arguments{
@@ -19,19 +18,15 @@ available on the system, otherwise \code{"sans"}.}
 
 \item{title_family}{Title font family. Defaults to Rockwell when
 it's available, otherwise \code{"sans"}.}
-
-\item{mode}{\code{"dark"} (the default) or \code{"light"}.}
 }
 \value{
 A \code{ggplot2} theme object.
 }
 \description{
 Unboxing videos film someone opening a new product, from phones to
-sneakers. This \code{ggplot2} theme's colors are sampled from the Wikipedia
-image of hands lifting a new instrument out of its shipping box.
-}
-\details{
-Use \code{mode = "light"} for a light background with dark text and darker marks.
+sneakers. The palette follows the article's boxes as "marketing
+billboards": kraft cardboard, packing tape, black print, tissue paper
+pink, brand blue, and a sticker green.
 }
 \examples{
 library(ggplot2)

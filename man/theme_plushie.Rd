@@ -24,8 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Plushies (stuffed toys) are collected, displayed, and carried well past
-childhood. This \code{ggplot2} theme's colors are sampled from the Wikipedia
-image of a replica of an early Steiff teddy bear.
+childhood. The palette follows the article's soft toys in "a wide
+variety of colors" and fur textures: teddy honey, bunny pink, frog
+green, sky blue, lavender, and button eye brown.
 }
 \examples{
 library(ggplot2)

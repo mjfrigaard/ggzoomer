@@ -24,8 +24,8 @@ A \code{ggplot2} theme object.
 }
 \description{
 Slime is the stretchy toy that kids make at home and watch in satisfying
-videos. This \code{ggplot2} theme's colors are sampled from the Wikipedia
-image of green slime poured from a cup.
+videos. The palette follows the article's oozy green slime, the other
+colors from food coloring, and its plastic trash can.
 }
 \examples{
 library(ggplot2)

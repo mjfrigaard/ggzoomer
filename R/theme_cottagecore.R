@@ -1,9 +1,10 @@
 #' Cottagecore theme
 #'
 #' Cottagecore is an internet aesthetic that romanticizes rural life:
-#' gardens, baking, and handmade things. This `ggplot2` theme's colors are
-#' sampled from the Wikipedia image of Anne Hathaway's Cottage, a thatched
-#' cottage and garden in Warwickshire.
+#' gardens, baking, and handmade things. The palette follows the article's
+#' muted palettes, floral prints, calico, worn leather, and indoor
+#' greenery: sage, rose, leather brown, calico blue, butter yellow, and
+#' moss.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -68,18 +69,18 @@ theme_cottagecore <- function(base_size = 15,
 
 # Sampled from Anne Hathaway's Cottage, a thatched cottage and garden in Warwickshire
 cottagecore_cols <- c(
-  background = "#E6EDFF",
-  panel = "#F8FBFF",
-  grid = "#D0D7ED",
-  text = "#352A22",
-  frame = "#92A23B",
-  title = "#366AB4",
-  strip = "#352A22",
-  striptext = "#E6EDFF",
-  accent = "#92A23B",
-  outline = "#352A22",
-  fill = "#6490DE"
+  background = "#F6F1E4",
+  panel = "#FDFBF7",
+  grid = "#DAD5C8",
+  text = "#212D18",
+  frame = "#4F6B3A",
+  title = "#4F6B3A",
+  strip = "#212D18",
+  striptext = "#F6F1E4",
+  accent = "#F9B5BE",
+  outline = "#212D18",
+  fill = "#8BA17A"
 )
 
-cottagecore_marks <- c("#6490DE", "#92A23B", "#657915", "#3A4900", "#0A1100", "#FAB386")
+cottagecore_marks <- c("#8BA17A", "#F9B5BE", "#8A5A3B", "#6E8FB0", "#D9B44A", "#183203")
 

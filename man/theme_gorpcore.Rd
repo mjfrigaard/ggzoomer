@@ -7,8 +7,7 @@
 theme_gorpcore(
   base_size = 15,
   base_family = register_font("Arial", "Arial.ttf", "Arial Bold.ttf"),
-  title_family = register_font("DIN Condensed", "DIN Condensed Bold.ttf"),
-  mode = c("dark", "light")
+  title_family = register_font("DIN Condensed", "DIN Condensed Bold.ttf")
 )
 }
 \arguments{
@@ -19,19 +18,15 @@ available on the system, otherwise \code{"sans"}.}
 
 \item{title_family}{Title font family. Defaults to DIN Condensed when
 it's available, otherwise \code{"sans"}.}
-
-\item{mode}{\code{"dark"} (the default) or \code{"light"}.}
 }
 \value{
 A \code{ggplot2} theme object.
 }
 \description{
 Gorpcore is hiking gear (shell jackets, fleece, and trail shoes) worn as
-everyday streetwear. This \code{ggplot2} theme's colors are sampled from the
-Wikipedia image of outdoor jackets and pants hanging in a store.
-}
-\details{
-Use \code{mode = "light"} for a light background with dark text and darker marks.
+everyday streetwear. The palette follows the article's two color
+schemes, earthy or bright and bold: safety orange, glacier blue, forest
+green, khaki, lime, and charcoal shell jackets.
 }
 \examples{
 library(ggplot2)

@@ -1,9 +1,9 @@
 #' Coastal grandmother theme
 #'
 #' Coastal grandmother is a relaxed style of linen, beach houses, and
-#' seaside cooking. This `ggplot2` theme's colors are sampled from the
-#' Wikipedia image of a vintage postcard of the bath houses on Craigville
-#' Beach, Cape Cod.
+#' seaside cooking. The palette follows a linen beach house: sea blue,
+#' navy, sand, hydrangea, seagrass, and driftwood (the article has no
+#' palette, so the Cape Cod postcard leads).
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -68,18 +68,18 @@ theme_coastal <- function(base_size = 15,
 
 # Sampled from a vintage postcard of the bath houses on Craigville Beach, Cape Cod
 coastal_cols <- c(
-  background = "#D2F5F3",
-  panel = "#F2FDFC",
-  grid = "#BCDEDC",
-  text = "#3C271C",
-  frame = "#916D31",
-  title = "#926024",
-  strip = "#3C271C",
-  striptext = "#D2F5F3",
-  accent = "#916D31",
-  outline = "#3C271C",
-  fill = "#F2B575"
+  background = "#F4EFE6",
+  panel = "#FBF9F6",
+  grid = "#D8D3CA",
+  text = "#1D2A40",
+  frame = "#23395B",
+  title = "#23395B",
+  strip = "#1D2A40",
+  striptext = "#F4EFE6",
+  accent = "#23395B",
+  outline = "#1D2A40",
+  fill = "#3F7C93"
 )
 
-coastal_marks <- c("#F2B575", "#916D31", "#B7905B", "#642B00", "#A4C9C8", "#7A9E9D")
+coastal_marks <- c("#3F7C93", "#23395B", "#C9A66B", "#7D8CC4", "#7E9C6C", "#8C857B")
 

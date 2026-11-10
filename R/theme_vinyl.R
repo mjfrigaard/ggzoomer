@@ -1,8 +1,9 @@
 #' Vinyl theme
 #'
 #' Vinyl records outsell CDs again, thanks to collectors who buy albums in
-#' colored variants. This `ggplot2` theme's colors are sampled from the
-#' Wikipedia image of LP, EP, and single records side by side.
+#' colored variants. The palette follows the article's "black disc", Red
+#' Seal labels, transparent red vinylite, the Blue Goose label, gold label
+#' foil, and paper sleeves.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +68,18 @@ theme_vinyl <- function(base_size = 15,
 
 # Sampled from LP, EP, and single records side by side
 vinyl_cols <- c(
-  background = "#ECEFEB",
-  panel = "#FAFBFA",
-  grid = "#D5D8D4",
-  text = "#2A2D2A",
-  frame = "#E8940B",
-  title = "#4421A2",
-  strip = "#2A2D2A",
-  striptext = "#ECEFEB",
-  accent = "#E8940B",
-  outline = "#2A2D2A",
-  fill = "#4421A2"
+  background = "#F3EEE4",
+  panel = "#FAF8F5",
+  grid = "#D7D2C8",
+  text = "#402220",
+  frame = "#B0182B",
+  title = "#B0182B",
+  strip = "#402220",
+  striptext = "#F3EEE4",
+  accent = "#B0182B",
+  outline = "#402220",
+  fill = "#1B1B1B"
 )
 
-vinyl_marks <- c("#4421A2", "#E8940B", "#CBC282", "#966EE2", "#9D491D", "#C09FFF")
+vinyl_marks <- c("#1B1B1B", "#B0182B", "#E2475B", "#2A5DA8", "#C9A23F", "#3E2509")
 

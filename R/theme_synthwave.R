@@ -1,8 +1,9 @@
 #' Synthwave theme
 #'
 #' Synthwave is electronic music (and art) that looks back at 1980s film
-#' scores: neon grids and chrome sunsets. This `ggplot2` theme's colors are
-#' sampled from the Wikipedia image of a neon grid under a striped sunset.
+#' scores: neon grids and chrome sunsets. The palette follows the article's
+#' outrun look: magenta neon, gridlines, and a 1980s sunset in pink,
+#' orange, and yellow, with violet and chrome blue.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -73,35 +74,35 @@ theme_synthwave <- function(base_size = 15,
 # Sampled from a neon grid under a striped sunset
 synthwave_cols <- list(
   dark = c(
-    background = "#1F1924",
-    panel = "#2B2630",
-    grid = "#46404B",
-    text = "#F5EEF9",
-    frame = "#EEBA00",
-    title = "#FF00FF",
-    strip = "#F5EEF9",
-    striptext = "#1F1924",
-    accent = "#EEBA00",
-    outline = "#F5EEF9",
-    fill = "#FF00FF"
+    background = "#0F0618",
+    panel = "#1B1724",
+    grid = "#352F3E",
+    text = "#F1ECF7",
+    frame = "#FF6EC7",
+    title = "#FF6EC7",
+    strip = "#F1ECF7",
+    striptext = "#0F0618",
+    accent = "#FF6EC7",
+    outline = "#F1ECF7",
+    fill = "#F72585"
   ),
   light = c(
-    background = "#F5E9FF",
-    panel = "#FDF9FF",
-    grid = "#DFD3E8",
-    text = "#32283B",
-    frame = "#EEBA00",
-    title = "#BE00C2",
-    strip = "#32283B",
-    striptext = "#F5E9FF",
-    accent = "#EEBA00",
-    outline = "#32283B",
-    fill = "#FF00FF"
+    background = "#F2EBFD",
+    panel = "#F9F7FD",
+    grid = "#D6CFE0",
+    text = "#3C2231",
+    frame = "#BD2C8C",
+    title = "#BD2C8C",
+    strip = "#3C2231",
+    striptext = "#F2EBFD",
+    accent = "#FF6EC7",
+    outline = "#3C2231",
+    fill = "#F72585"
   )
 )
 
 synthwave_marks <- list(
-  dark = c("#FF00FF", "#EEBA00", "#C18100", "#564565", "#A200A9", "#7D6B8D"),
-  light = c("#FF00FF", "#EEBA00", "#C18100", "#41314F", "#A200A9", "#9581A4")
+  dark = c("#F72585", "#FF6EC7", "#FF9E3D", "#FFD23F", "#7B2FF7", "#4CC9F0"),
+  light = c("#F72585", "#FF6EC7", "#FF9E3D", "#A48200", "#7B2FF7", "#4CC9F0")
 )
 

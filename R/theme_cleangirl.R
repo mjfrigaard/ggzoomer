@@ -1,9 +1,10 @@
 #' Clean girl theme
 #'
-#' The clean girl aesthetic is a minimal beauty trend built on slicked back
-#' hair, dewy skin, and small gold jewelry. This `ggplot2` theme's colors
-#' are sampled from the Wikipedia image of a single small gold hoop
-#' earring.
+#' The clean girl aesthetic is a minimal beauty and wellness trend built on
+#' slicked back hair, a no makeup makeup look, and a limited palette. The
+#' palette follows the article's no makeup makeup look (heavy rosy blush,
+#' perfect brows, brown lip liner), its whites, blacks, grays, and light
+#' neutrals, and the matcha it mentions.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -68,18 +69,18 @@ theme_cleangirl <- function(base_size = 15,
 
 # Sampled from a single small gold hoop earring
 cleangirl_cols <- c(
-  background = "#FFE9DB",
-  panel = "#FFF9F4",
-  grid = "#ECD2C5",
-  text = "#3A291A",
-  frame = "#F7AF81",
-  title = "#965C39",
-  strip = "#3A291A",
-  striptext = "#FFE9DB",
-  accent = "#F7AF81",
-  outline = "#3A291A",
-  fill = "#BE7F5A"
+  background = "#FAF8F6",
+  panel = "#FDFCFB",
+  grid = "#DDDBDA",
+  text = "#402125",
+  frame = "#B5485D",
+  title = "#B5485D",
+  strip = "#402125",
+  striptext = "#FAF8F6",
+  accent = "#5A3E2B",
+  outline = "#402125",
+  fill = "#E07A8A"
 )
 
-cleangirl_marks <- c("#BE7F5A", "#F7AF81", "#945629", "#5B2A06", "#2C0000", "#CB8E31")
+cleangirl_marks <- c("#E07A8A", "#5A3E2B", "#8C4F3E", "#525257", "#8DAA5B", "#1E1B1B")
 

@@ -1,8 +1,8 @@
 test_that("theme_lightstick returns a complete theme that builds a plot", {
   thm <- theme_lightstick(base_family = "sans", title_family = "sans")
   expect_s3_class(thm, "theme")
-  expect_equal(thm$plot.background$fill, "#1B1B1B")
-  expect_equal(thm$geom$fill, "#00F327")
+  expect_equal(thm$plot.background$fill, "#08080C")
+  expect_equal(thm$geom$fill, "#4CFF3A")
   p <- ggplot2::ggplot(data.frame(x = c("a", "b", "b")), ggplot2::aes(x = x, fill = x)) +
     ggplot2::geom_bar() +
     ggplot2::labs(title = "title")
@@ -12,8 +12,8 @@ test_that("theme_lightstick returns a complete theme that builds a plot", {
 
 test_that("theme_lightstick has a light mode", {
   thm <- theme_lightstick(base_family = "sans", title_family = "sans", mode = "light")
-  expect_equal(thm$plot.background$fill, "#EEEEEE")
-  expect_equal(thm$geom$fill, "#00E102")
+  expect_equal(thm$plot.background$fill, "#EDEDF4")
+  expect_equal(thm$geom$fill, "#00A000")
   p <- ggplot2::ggplot(data.frame(x = c("a", "b", "b")), ggplot2::aes(x = x, fill = x)) +
     ggplot2::geom_bar() +
     ggplot2::labs(title = "title")

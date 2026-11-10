@@ -1,8 +1,9 @@
 #' Wired earbuds theme
 #'
 #' Wired earbuds made a comeback as a style statement and a break from
-#' charging. This `ggplot2` theme's colors are sampled from the Wikipedia
-#' image of a pair of white wired earbuds on a wooden table.
+#' charging. The palette follows the Headphones article's rubber, gold
+#' contacts, and wire, plus the red right channel marker, the wood table,
+#' and navy.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +68,18 @@ theme_wiredbuds <- function(base_size = 15,
 
 # Sampled from a pair of white wired earbuds on a wooden table
 wiredbuds_cols <- c(
-  background = "#FFE9DB",
-  panel = "#FFF9F4",
-  grid = "#ECD2C5",
-  text = "#3F2620",
-  frame = "#6F1900",
-  title = "#AB4905",
-  strip = "#3F2620",
-  striptext = "#FFE9DB",
-  accent = "#6F1900",
-  outline = "#3F2620",
-  fill = "#AB4905"
+  background = "#FDFDFD",
+  panel = "#FCFCFC",
+  grid = "#E0E0E0",
+  text = "#3F221F",
+  frame = "#D33A3A",
+  title = "#D33A3A",
+  strip = "#3F221F",
+  striptext = "#FDFDFD",
+  accent = "#C9A23F",
+  outline = "#3F221F",
+  fill = "#222326"
 )
 
-wiredbuds_marks <- c("#AB4905", "#6F1900", "#D8763C", "#3E0000", "#FCB06C", "#C3A187")
+wiredbuds_marks <- c("#222326", "#C9A23F", "#4A2300", "#8E9399", "#23395B", "#D33A3A")
 

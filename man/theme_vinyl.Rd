@@ -24,8 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Vinyl records outsell CDs again, thanks to collectors who buy albums in
-colored variants. This \code{ggplot2} theme's colors are sampled from the
-Wikipedia image of LP, EP, and single records side by side.
+colored variants. The palette follows the article's "black disc", Red
+Seal labels, transparent red vinylite, the Blue Goose label, gold label
+foil, and paper sleeves.
 }
 \examples{
 library(ggplot2)

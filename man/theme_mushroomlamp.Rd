@@ -7,7 +7,8 @@
 theme_mushroomlamp(
   base_size = 15,
   base_family = register_font("Arial", "Arial.ttf", "Arial Bold.ttf"),
-  title_family = register_font("Trattatello", "Trattatello.ttf")
+  title_family = register_font("Trattatello", "Trattatello.ttf"),
+  mode = c("dark", "light")
 )
 }
 \arguments{
@@ -18,14 +19,20 @@ available on the system, otherwise \code{"sans"}.}
 
 \item{title_family}{Title font family. Defaults to Trattatello when
 it's available, otherwise \code{"sans"}.}
+
+\item{mode}{\code{"dark"} (the default) or \code{"light"}.}
 }
 \value{
 A \code{ggplot2} theme object.
 }
 \description{
 Mushroom lamps are glowing nightlights that became a bedroom decor
-trend. This \code{ggplot2} theme's colors are sampled from the Wikipedia
-image of a green LED nightlight plugged into a wall.
+trend. The palette follows the article's nightlight sources
+(incandescent amber, neon orange, and soft electroluminescent green and
+blue) plus a red spotted mushroom cap.
+}
+\details{
+Use \code{mode = "light"} for a light background with dark text and darker marks.
 }
 \examples{
 library(ggplot2)

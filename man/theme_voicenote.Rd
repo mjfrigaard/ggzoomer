@@ -24,8 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Voice notes are short recorded messages sent in a chat instead of
-typing. This \code{ggplot2} theme's colors are sampled from the Wikipedia
-image of a diagram of how a voicemail system routes and stores messages.
+typing. The palette follows the article's pink message slips and
+voicemail light, with record red, mic gray, call green, waveform violet,
+and amber.
 }
 \examples{
 library(ggplot2)

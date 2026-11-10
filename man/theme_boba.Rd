@@ -24,8 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Bubble tea (boba) is a Taiwanese tea drink with chewy tapioca pearls.
-This \code{ggplot2} theme's colors are sampled from the Wikipedia image of a
-cup of milk tea with black tapioca pearls.
+The palette follows the article's drinks and toppings: tapioca pearls,
+pearl black milk tea, pearl green milk tea, red bean, brown sugar syrup,
+and taro.
 }
 \examples{
 library(ggplot2)

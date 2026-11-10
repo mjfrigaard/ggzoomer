@@ -1,8 +1,9 @@
 #' Fidget toy theme
 #'
 #' Fidget toys (spinners, cubes, pop its, and bike chains) are small things
-#' to keep your hands busy. This `ggplot2` theme's colors are sampled from
-#' the Wikipedia image of a bike chain fidget toy on lined paper.
+#' to keep your hands busy. The palette follows the article's fidget
+#' spinners, Fidget Cubes, and Pop Its: saturated silicone colors and a
+#' chrome bearing gray.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +68,18 @@ theme_fidget <- function(base_size = 15,
 
 # Sampled from a bike chain fidget toy on lined paper
 fidget_cols <- c(
-  background = "#F2ECEF",
-  panel = "#FCFAFB",
-  grid = "#DBD6D8",
-  text = "#2F2B2C",
-  frame = "#B6C6C6",
-  title = "#596E86",
-  strip = "#2F2B2C",
-  striptext = "#F2ECEF",
-  accent = "#B6C6C6",
-  outline = "#2F2B2C",
-  fill = "#8A9FB8"
+  background = "#F2F2F0",
+  panel = "#FCFCFB",
+  grid = "#D6D6D4",
+  text = "#3F2129",
+  frame = "#D01A69",
+  title = "#D01A69",
+  strip = "#3F2129",
+  striptext = "#F2F2F0",
+  accent = "#00BFB3",
+  outline = "#3F2129",
+  fill = "#FF3E9A"
 )
 
-fidget_marks <- c("#8A9FB8", "#B6C6C6", "#877A69", "#4E412C", "#1C0A00", "#67646A")
+fidget_marks <- c("#FF3E9A", "#00BFB3", "#9BDB2C", "#B34C00", "#8A4DFF", "#6B7280")
 

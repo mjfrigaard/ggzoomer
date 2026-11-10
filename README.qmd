@@ -29,7 +29,7 @@ pak::pak("mjfrigaard/fmggp2")
 
 ## Themes
 
-Each theme is named after an aesthetic, trend, or object from Gen Z internet culture, and its palette is sampled from an image on that topic's Wikipedia article. The book chapters still use the earlier 90s themes until they are updated.
+Each theme is named after an aesthetic, trend, or object from Gen Z internet culture, and its palette follows the colors, objects, and materials that topic's Wikipedia article describes. The book chapters still use the earlier 90s themes until they are updated.
 
 | Theme | Wikipedia |
 |---|---|
@@ -112,7 +112,7 @@ ggplot(tracks, aes(x = bpm, y = plays, colour = mood)) +
 
 ## Reference images
 
-Each theme's palette is sampled from a freely licensed image (public domain, CC0, CC BY, CC BY-SA, or GFDL) on the topic's Wikipedia article, or from Wikimedia Commons when the article has no free image. The [themes vignette](https://mjfrigaard.github.io/fmggp2/articles/themes.html) shows each image with its author and license.
+Each theme's palette follows its Wikipedia article. A freely licensed image (public domain, CC0, CC BY, CC BY-SA, or GFDL) from the article, or from Wikimedia Commons when the article has no free image, supports it. The [themes vignette](https://mjfrigaard.github.io/fmggp2/articles/themes.html) shows each image with its author and license.
 
 ## Book helpers
 

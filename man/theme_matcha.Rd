@@ -24,8 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Matcha is finely ground Japanese green tea, now a cafe staple as a
-latte. This \code{ggplot2} theme's colors are sampled from the Wikipedia
-image of a bamboo scoop of matcha powder.
+latte. The palette follows the article's vivid green color, matcha
+lattes, soba noodles, and wagashi: ceremonial green, bright green, latte
+foam, buckwheat, red bean, and tea leaf.
 }
 \examples{
 library(ggplot2)

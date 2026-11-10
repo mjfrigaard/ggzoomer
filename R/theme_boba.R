@@ -1,8 +1,9 @@
 #' Boba theme
 #'
 #' Bubble tea (boba) is a Taiwanese tea drink with chewy tapioca pearls.
-#' This `ggplot2` theme's colors are sampled from the Wikipedia image of a
-#' cup of milk tea with black tapioca pearls.
+#' The palette follows the article's drinks and toppings: tapioca pearls,
+#' pearl black milk tea, pearl green milk tea, red bean, brown sugar syrup,
+#' and taro.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +68,18 @@ theme_boba <- function(base_size = 15,
 
 # Sampled from a cup of milk tea with black tapioca pearls
 boba_cols <- c(
-  background = "#EEEEEE",
-  panel = "#FBFBFB",
-  grid = "#D7D7D7",
-  text = "#252D33",
-  frame = "#D3BFA0",
-  title = "#155F0B",
-  strip = "#252D33",
-  striptext = "#EEEEEE",
-  accent = "#D3BFA0",
-  outline = "#252D33",
-  fill = "#155F0B"
+  background = "#F3E6D3",
+  panel = "#F5F1EB",
+  grid = "#D6CAB9",
+  text = "#402123",
+  frame = "#8E2F3B",
+  title = "#8E2F3B",
+  strip = "#402123",
+  striptext = "#F3E6D3",
+  accent = "#A9744F",
+  outline = "#402123",
+  fill = "#2B1A12"
 )
 
-boba_marks <- c("#155F0B", "#D3BFA0", "#388F38", "#4A0000", "#9A9A8D", "#776B60")
+boba_marks <- c("#2B1A12", "#A9744F", "#9CB86B", "#8E2F3B", "#C9852E", "#9D7BB0")
 

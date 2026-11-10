@@ -24,9 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Streaks are the daily counters that apps use to keep you coming back, a
-common gamification trick. This \code{ggplot2} theme's colors are sampled
-from the Wikipedia image of a poster of the five steps to earn a digital
-badge.
+common gamification trick. The palette follows the article's points,
+badges, levels, and progress bars: streak flame orange and red, gold
+badge, XP purple, progress green, and a frozen streak blue.
 }
 \examples{
 library(ggplot2)

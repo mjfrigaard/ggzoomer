@@ -27,8 +27,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Indie sleaze is the messy, flash photo party style of 2006 to 2012, now
-back on social media. This \code{ggplot2} theme's colors are sampled from the
-Wikipedia image of a singer performing under a stage light in 2007.
+back on social media. The palette follows the article's flash
+photography, bleached hair, shredded denim, galaxy and "Aztec" prints,
+and smudged eyeliner on a dark club floor.
 }
 \details{
 Use \code{mode = "light"} for a light background with dark text and darker marks.

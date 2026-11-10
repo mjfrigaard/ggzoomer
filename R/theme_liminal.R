@@ -1,9 +1,10 @@
 #' Liminal space theme
 #'
 #' Liminal space is an internet aesthetic of empty in between places:
-#' hallways, waiting rooms, and closed malls. This `ggplot2` theme's colors
-#' are sampled from the Wikipedia image of an empty carpeted hallway in the
-#' Stanley Hotel.
+#' hallways, waiting rooms, and closed malls. The palette follows the
+#' article's empty hallways, pool rooms, and Twin Peaks Black Lodge: red
+#' curtains, black floor, mustard walls, fluorescent green, pool blue, and
+#' concrete.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -68,18 +69,18 @@ theme_liminal <- function(base_size = 15,
 
 # Sampled from an empty carpeted hallway in the Stanley Hotel
 liminal_cols <- c(
-  background = "#FFEAD9",
-  panel = "#FFF9F4",
-  grid = "#E8D4C2",
-  text = "#3C2723",
-  frame = "#9B4C00",
-  title = "#995C0C",
-  strip = "#3C2723",
-  striptext = "#FFEAD9",
-  accent = "#9B4C00",
-  outline = "#3C2723",
-  fill = "#CE893D"
+  background = "#F3EED2",
+  panel = "#F9F7F1",
+  grid = "#D5D1BF",
+  text = "#3F221E",
+  frame = "#9E1B1B",
+  title = "#9E1B1B",
+  strip = "#3F221E",
+  striptext = "#F3EED2",
+  accent = "#26221E",
+  outline = "#3F221E",
+  fill = "#9E1B1B"
 )
 
-liminal_marks <- c("#CE893D", "#9B4C00", "#550000", "#DFBB87", "#855146", "#ABAECD")
+liminal_marks <- c("#9E1B1B", "#26221E", "#B38B2E", "#8FA77E", "#4A90A4", "#8A8780")
 

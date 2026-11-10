@@ -7,8 +7,7 @@
 theme_frutigeraero(
   base_size = 15,
   base_family = register_font("Arial", "Arial.ttf", "Arial Bold.ttf"),
-  title_family = register_font("Skia", "Skia.ttf"),
-  mode = c("dark", "light")
+  title_family = register_font("Skia", "Skia.ttf")
 )
 }
 \arguments{
@@ -19,19 +18,15 @@ available on the system, otherwise \code{"sans"}.}
 
 \item{title_family}{Title font family. Defaults to Skia when
 it's available, otherwise \code{"sans"}.}
-
-\item{mode}{\code{"dark"} (the default) or \code{"light"}.}
 }
 \value{
 A \code{ggplot2} theme object.
 }
 \description{
 Frutiger Aero is the glossy design style of the mid 2000s: bubbles,
-water, grass, and blue skies. This \code{ggplot2} theme's colors are sampled
-from the Wikipedia image of soap bubbles floating over sunlit grass.
-}
-\details{
-Use \code{mode = "light"} for a light background with dark text and darker marks.
+water, grass, and blue skies. The palette follows the article's blue
+skies, grass, aurorae, and bright colors ("yellows, and particularly
+blues and greens").
 }
 \examples{
 library(ggplot2)

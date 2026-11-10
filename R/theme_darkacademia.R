@@ -1,15 +1,18 @@
 #' Dark academia theme
 #'
 #' Dark academia is an internet aesthetic built around old libraries,
-#' tweed, and classic literature. This `ggplot2` theme's colors are sampled
-#' from the Wikipedia image of a Gothic spiral staircase inside St.
-#' Barbara's Church in Kutna Hora.
+#' tweed, and classic literature. The palette follows the article's palette
+#' of black, white, beige, browns, dark green, and occasionally navy blue,
+#' with candlelight gold and dark wood.
+#'
+#' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
 #'     available on the system, otherwise `"sans"`.
 #' @param title_family Title font family. Defaults to Big Caslon when
 #'     it's available, otherwise `"sans"`.
+#' @param mode `"dark"` (the default) or `"light"`.
 #'
 #' @return A `ggplot2` theme object.
 #'
@@ -26,9 +29,11 @@
 theme_darkacademia <- function(base_size = 15,
                       base_family = register_font("Arial", "Arial.ttf",
                                                   "Arial Bold.ttf"),
-                      title_family = register_font("Big Caslon", "BigCaslon.ttf")) {
-  cols <- darkacademia_cols
-  marks <- darkacademia_marks
+                      title_family = register_font("Big Caslon", "BigCaslon.ttf"),
+                      mode = c("dark", "light")) {
+  mode <- match.arg(mode)
+  cols <- darkacademia_cols[[mode]]
+  marks <- darkacademia_marks[[mode]]
   ggplot2::theme_bw(base_size = base_size, base_family = base_family) +
     ggplot2::theme(
       text = ggplot2::element_text(colour = cols[["text"]]),
@@ -67,19 +72,37 @@ theme_darkacademia <- function(base_size = 15,
 }
 
 # Sampled from a Gothic spiral staircase inside St. Barbara's Church in Kutna Hora
-darkacademia_cols <- c(
-  background = "#EAEEF5",
-  panel = "#FAFBFD",
-  grid = "#D4D7DE",
-  text = "#312B25",
-  frame = "#664900",
-  title = "#7F682F",
-  strip = "#312B25",
-  striptext = "#EAEEF5",
-  accent = "#664900",
-  outline = "#312B25",
-  fill = "#977E44"
+darkacademia_cols <- list(
+  dark = c(
+    background = "#1A1512",
+    panel = "#26211E",
+    grid = "#403B38",
+    text = "#F4ECE9",
+    frame = "#E0B252",
+    title = "#E0B252",
+    strip = "#F4ECE9",
+    striptext = "#1A1512",
+    accent = "#4F8A5C",
+    outline = "#F4ECE9",
+    fill = "#CDBA96"
+  ),
+  light = c(
+    background = "#F9EBE4",
+    panel = "#FCF7F4",
+    grid = "#DCCFC8",
+    text = "#332813",
+    frame = "#896500",
+    title = "#896500",
+    strip = "#332813",
+    striptext = "#F9EBE4",
+    accent = "#4F8A5C",
+    outline = "#332813",
+    fill = "#CDBA96"
+  )
 )
 
-darkacademia_marks <- c("#977E44", "#664900", "#2B1100", "#D5B676", "#766548", "#B1BDCD")
+darkacademia_marks <- list(
+  dark = c("#CDBA96", "#4F8A5C", "#8B5E3C", "#5B7AB0", "#E0B252", "#EDE8DF"),
+  light = c("#CDBA96", "#4F8A5C", "#8B5E3C", "#5B7AB0", "#E0B252", "#C8C4BB")
+)
 

@@ -24,9 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Coastal grandmother is a relaxed style of linen, beach houses, and
-seaside cooking. This \code{ggplot2} theme's colors are sampled from the
-Wikipedia image of a vintage postcard of the bath houses on Craigville
-Beach, Cape Cod.
+seaside cooking. The palette follows a linen beach house: sea blue,
+navy, sand, hydrangea, seagrass, and driftwood (the article has no
+palette, so the Cape Cod postcard leads).
 }
 \examples{
 library(ggplot2)

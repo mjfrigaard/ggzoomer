@@ -1,8 +1,9 @@
 #' Plushie theme
 #'
 #' Plushies (stuffed toys) are collected, displayed, and carried well past
-#' childhood. This `ggplot2` theme's colors are sampled from the Wikipedia
-#' image of a replica of an early Steiff teddy bear.
+#' childhood. The palette follows the article's soft toys in "a wide
+#' variety of colors" and fur textures: teddy honey, bunny pink, frog
+#' green, sky blue, lavender, and button eye brown.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +68,18 @@ theme_plushie <- function(base_size = 15,
 
 # Sampled from a replica of an early Steiff teddy bear
 plushie_cols <- c(
-  background = "#FFE9DB",
-  panel = "#FFF9F4",
-  grid = "#EBD2C4",
-  text = "#342A21",
-  frame = "#B04200",
-  title = "#B04C00",
-  strip = "#342A21",
-  striptext = "#FFE9DB",
-  accent = "#B04200",
-  outline = "#342A21",
-  fill = "#F68400"
+  background = "#FFF6EE",
+  panel = "#FFFCF9",
+  grid = "#E2DAD2",
+  text = "#3C2419",
+  frame = "#A0522D",
+  title = "#A0522D",
+  strip = "#3C2419",
+  striptext = "#FFF6EE",
+  accent = "#F4A3B6",
+  outline = "#3C2419",
+  fill = "#C68A4A"
 )
 
-plushie_marks <- c("#F68400", "#B04200", "#6B0000", "#2E0000", "#9C7B5E", "#715646")
+plushie_marks <- c("#C68A4A", "#F4A3B6", "#8CC084", "#8EC3E8", "#7965A1", "#4A3426")
 

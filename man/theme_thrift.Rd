@@ -24,9 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Thrifting (shopping at charity and secondhand shops) is the budget and
-planet friendly way to build a wardrobe. This \code{ggplot2} theme's colors
-are sampled from the Wikipedia image of shelves of glassware and goodies
-in a thrift store.
+planet friendly way to build a wardrobe. The palette follows the
+article's Red Cross and Oxfam shops and vintage clothing: charity red,
+mustard, faded denim, corduroy brown, Oxfam green, and dusty rose.
 }
 \examples{
 library(ggplot2)

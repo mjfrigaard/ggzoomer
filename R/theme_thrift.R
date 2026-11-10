@@ -1,9 +1,9 @@
 #' Thrift theme
 #'
 #' Thrifting (shopping at charity and secondhand shops) is the budget and
-#' planet friendly way to build a wardrobe. This `ggplot2` theme's colors
-#' are sampled from the Wikipedia image of shelves of glassware and goodies
-#' in a thrift store.
+#' planet friendly way to build a wardrobe. The palette follows the
+#' article's Red Cross and Oxfam shops and vintage clothing: charity red,
+#' mustard, faded denim, corduroy brown, Oxfam green, and dusty rose.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -68,18 +68,18 @@ theme_thrift <- function(base_size = 15,
 
 # Sampled from shelves of glassware and goodies in a thrift store
 thrift_cols <- c(
-  background = "#FFE9E2",
-  panel = "#FFF9F7",
-  grid = "#E8D3CB",
-  text = "#382923",
-  frame = "#C27934",
-  title = "#A0000F",
-  strip = "#382923",
-  striptext = "#FFE9E2",
-  accent = "#C27934",
-  outline = "#382923",
-  fill = "#A0000F"
+  background = "#F4EEE4",
+  panel = "#FBF8F5",
+  grid = "#D8D2C8",
+  text = "#402220",
+  frame = "#C8102E",
+  title = "#C8102E",
+  strip = "#402220",
+  striptext = "#F4EEE4",
+  accent = "#C99A2E",
+  outline = "#402220",
+  fill = "#C8102E"
 )
 
-thrift_marks <- c("#A0000F", "#C27934", "#D5BE8B", "#291400", "#624F48", "#24317D")
+thrift_marks <- c("#C8102E", "#C99A2E", "#5B7DA6", "#3D1900", "#005C00", "#C47A86")
 

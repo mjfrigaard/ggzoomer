@@ -24,9 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Pickleball is a paddle sport played with a plastic ball over a low net,
-and the fastest growing sport in the US. This \code{ggplot2} theme's colors
-are sampled from the Wikipedia image of a professional doubles match on
-a pickleball court.
+and the fastest growing sport in the US. The palette follows the
+article's plastic ball, paddles, net, and court: optic yellow, court
+blue and green, red paddle, black net, and an orange ball.
 }
 \examples{
 library(ggplot2)

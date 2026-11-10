@@ -1,12 +1,12 @@
 h1, h2, h3, .navbar-brand {
-  text-shadow: 2px 2px 0 #FF9CFF;
+  text-shadow: 2px 2px 0 #FF71CE;
   letter-spacing: 0.02em;
 }
 .navbar {
   border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, #C458E2, #4F18AD, #C2C900) 1;
+  border-image: linear-gradient(90deg, #FF71CE, #4F18AD, #01CDFE) 1;
 }
 pre {
-  border: 1px solid #C458E2;
+  border: 1px solid #FF71CE;
   border-left: 4px solid #4F18AD;
 }

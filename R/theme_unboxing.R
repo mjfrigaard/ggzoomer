@@ -1,17 +1,15 @@
 #' Unboxing theme
 #'
 #' Unboxing videos film someone opening a new product, from phones to
-#' sneakers. This `ggplot2` theme's colors are sampled from the Wikipedia
-#' image of hands lifting a new instrument out of its shipping box.
-#'
-#' Use `mode = "light"` for a light background with dark text and darker marks.
+#' sneakers. The palette follows the article's boxes as "marketing
+#' billboards": kraft cardboard, packing tape, black print, tissue paper
+#' pink, brand blue, and a sticker green.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
 #'     available on the system, otherwise `"sans"`.
 #' @param title_family Title font family. Defaults to Rockwell when
 #'     it's available, otherwise `"sans"`.
-#' @param mode `"dark"` (the default) or `"light"`.
 #'
 #' @return A `ggplot2` theme object.
 #'
@@ -28,11 +26,9 @@
 theme_unboxing <- function(base_size = 15,
                       base_family = register_font("Arial", "Arial.ttf",
                                                   "Arial Bold.ttf"),
-                      title_family = register_font("Rockwell", "Rockwell.ttc"),
-                      mode = c("dark", "light")) {
-  mode <- match.arg(mode)
-  cols <- unboxing_cols[[mode]]
-  marks <- unboxing_marks[[mode]]
+                      title_family = register_font("Rockwell", "Rockwell.ttc")) {
+  cols <- unboxing_cols
+  marks <- unboxing_marks
   ggplot2::theme_bw(base_size = base_size, base_family = base_family) +
     ggplot2::theme(
       text = ggplot2::element_text(colour = cols[["text"]]),
@@ -71,37 +67,19 @@ theme_unboxing <- function(base_size = 15,
 }
 
 # Sampled from hands lifting a new instrument out of its shipping box
-unboxing_cols <- list(
-  dark = c(
-    background = "#231919",
-    panel = "#302525",
-    grid = "#4B3F3F",
-    text = "#F9EFE6",
-    frame = "#C69868",
-    title = "#EB4853",
-    strip = "#F9EFE6",
-    striptext = "#231919",
-    accent = "#C69868",
-    outline = "#F9EFE6",
-    fill = "#D53243"
-  ),
-  light = c(
-    background = "#FEEBD8",
-    panel = "#FFFAF3",
-    grid = "#E7D4C2",
-    text = "#352929",
-    frame = "#C69868",
-    title = "#CC273C",
-    strip = "#352929",
-    striptext = "#FEEBD8",
-    accent = "#C69868",
-    outline = "#352929",
-    fill = "#D53243"
-  )
+unboxing_cols <- c(
+  background = "#F7F2EA",
+  panel = "#FEFCF9",
+  grid = "#DAD6CE",
+  text = "#242940",
+  frame = "#286ADC",
+  title = "#286ADC",
+  strip = "#242940",
+  striptext = "#F7F2EA",
+  accent = "#E58A2E",
+  outline = "#242940",
+  fill = "#765022"
 )
 
-unboxing_marks <- list(
-  dark = c("#D53243", "#C69868", "#FFE1B1", "#AD9289", "#564848", "#766F78"),
-  light = c("#D53243", "#C69868", "#512E08", "#360000", "#D2BAAC", "#38323A")
-)
+unboxing_marks <- c("#765022", "#E58A2E", "#2A2A2A", "#EFA3B5", "#2D6CDF", "#3FA36A")
 

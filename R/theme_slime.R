@@ -1,8 +1,8 @@
 #' Slime theme
 #'
 #' Slime is the stretchy toy that kids make at home and watch in satisfying
-#' videos. This `ggplot2` theme's colors are sampled from the Wikipedia
-#' image of green slime poured from a cup.
+#' videos. The palette follows the article's oozy green slime, the other
+#' colors from food coloring, and its plastic trash can.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +67,18 @@ theme_slime <- function(base_size = 15,
 
 # Sampled from green slime poured from a cup
 slime_cols <- c(
-  background = "#E8F1E2",
-  panel = "#F9FCF7",
-  grid = "#D1DACC",
-  text = "#1F2D40",
-  frame = "#008B10",
-  title = "#007C00",
-  strip = "#1F2D40",
-  striptext = "#E8F1E2",
-  accent = "#008B10",
-  outline = "#1F2D40",
-  fill = "#0DDE56"
+  background = "#F1F7EC",
+  panel = "#FBFDF9",
+  grid = "#D5DBD0",
+  text = "#1E2E1A",
+  frame = "#008300",
+  title = "#008300",
+  strip = "#1E2E1A",
+  striptext = "#F1F7EC",
+  accent = "#9B4DCA",
+  outline = "#1E2E1A",
+  fill = "#4BD13A"
 )
 
-slime_marks <- c("#0DDE56", "#008B10", "#004F00", "#002200", "#1EAF68", "#AEB6A3")
+slime_marks <- c("#4BD13A", "#9B4DCA", "#F25CA2", "#2FA4E7", "#998B00", "#7D8A80")
 

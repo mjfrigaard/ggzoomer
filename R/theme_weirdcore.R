@@ -1,9 +1,9 @@
 #' Weirdcore theme
 #'
 #' Weirdcore is an internet aesthetic of low quality images, liminal
-#' spaces, and unsettling captions. This `ggplot2` theme's colors are
-#' sampled from the Wikipedia image of a grassy grid under a black sun with
-#' the caption "You must escape this simulation".
+#' spaces, and unsettling captions. The palette follows the article's out
+#' of place red text and black rectangle voids, over low quality photos of
+#' sky, grass, and sepia nostalgia.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -68,18 +68,18 @@ theme_weirdcore <- function(base_size = 15,
 
 # Sampled from a grassy grid under a black sun with the caption "You must escape this simulation"
 weirdcore_cols <- c(
-  background = "#E3EEFF",
-  panel = "#F7FBFF",
-  grid = "#CDD8EE",
-  text = "#292C32",
-  frame = "#669DF7",
-  title = "#2065C3",
-  strip = "#292C32",
-  striptext = "#E3EEFF",
-  accent = "#669DF7",
-  outline = "#292C32",
-  fill = "#2065C3"
+  background = "#DCEBFA",
+  panel = "#EFF4F9",
+  grid = "#C0CFDD",
+  text = "#3F221D",
+  frame = "#D30511",
+  title = "#D30511",
+  strip = "#3F221D",
+  striptext = "#DCEBFA",
+  accent = "#E0201B",
+  outline = "#3F221D",
+  fill = "#111111"
 )
 
-weirdcore_marks <- c("#2065C3", "#669DF7", "#003776", "#93C7E5", "#38510F", "#0D1E00")
+weirdcore_marks <- c("#111111", "#E0201B", "#3B8E3B", "#4A86C5", "#A88A5A", "#8A3FB0")
 

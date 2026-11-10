@@ -23,10 +23,11 @@ it's available, otherwise \code{"sans"}.}
 A \code{ggplot2} theme object.
 }
 \description{
-The clean girl aesthetic is a minimal beauty trend built on slicked back
-hair, dewy skin, and small gold jewelry. This \code{ggplot2} theme's colors
-are sampled from the Wikipedia image of a single small gold hoop
-earring.
+The clean girl aesthetic is a minimal beauty and wellness trend built on
+slicked back hair, a no makeup makeup look, and a limited palette. The
+palette follows the article's no makeup makeup look (heavy rosy blush,
+perfect brows, brown lip liner), its whites, blacks, grays, and light
+neutrals, and the matcha it mentions.
 }
 \examples{
 library(ggplot2)

@@ -1,8 +1,9 @@
 #' Indie sleaze theme
 #'
 #' Indie sleaze is the messy, flash photo party style of 2006 to 2012, now
-#' back on social media. This `ggplot2` theme's colors are sampled from the
-#' Wikipedia image of a singer performing under a stage light in 2007.
+#' back on social media. The palette follows the article's flash
+#' photography, bleached hair, shredded denim, galaxy and "Aztec" prints,
+#' and smudged eyeliner on a dark club floor.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -73,35 +74,35 @@ theme_indiesleaze <- function(base_size = 15,
 # Sampled from a singer performing under a stage light in 2007
 indiesleaze_cols <- list(
   dark = c(
-    background = "#211A16",
-    panel = "#2D2722",
-    grid = "#48413C",
-    text = "#FAEFE6",
-    frame = "#7B3B00",
-    title = "#C27534",
-    strip = "#FAEFE6",
-    striptext = "#211A16",
-    accent = "#7B3B00",
-    outline = "#FAEFE6",
-    fill = "#C27534"
+    background = "#121014",
+    panel = "#1E1D20",
+    grid = "#38363A",
+    text = "#EFEDF2",
+    frame = "#F2EEE6",
+    title = "#F2EEE6",
+    strip = "#EFEDF2",
+    striptext = "#121014",
+    accent = "#E3C878",
+    outline = "#EFEDF2",
+    fill = "#F2EEE6"
   ),
   light = c(
-    background = "#F9ECE1",
-    panel = "#FEFAF6",
-    grid = "#E2D5CB",
-    text = "#322B26",
-    frame = "#7B3B00",
-    title = "#A15A18",
-    strip = "#322B26",
-    striptext = "#F9ECE1",
-    accent = "#7B3B00",
-    outline = "#322B26",
-    fill = "#C27534"
+    background = "#F1ECF5",
+    panel = "#F9F7FA",
+    grid = "#D5D0D9",
+    text = "#2C2A24",
+    frame = "#6E6B64",
+    title = "#6E6B64",
+    strip = "#2C2A24",
+    striptext = "#F1ECF5",
+    accent = "#DDC273",
+    outline = "#2C2A24",
+    fill = "#C8C4BC"
   )
 )
 
 indiesleaze_marks <- list(
-  dark = c("#C27534", "#7B3B00", "#FBC58B", "#773C3D", "#A19485", "#8A6C56"),
-  light = c("#C27534", "#7B3B00", "#ECB77E", "#350000", "#493E31", "#846751")
+  dark = c("#F2EEE6", "#E3C878", "#5C7FA8", "#7B5BB5", "#C1502E", "#7C7880"),
+  light = c("#C8C4BC", "#DDC273", "#5C7FA8", "#7B5BB5", "#C1502E", "#7C7880")
 )
 

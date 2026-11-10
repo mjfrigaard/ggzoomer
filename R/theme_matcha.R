@@ -1,8 +1,9 @@
 #' Matcha theme
 #'
 #' Matcha is finely ground Japanese green tea, now a cafe staple as a
-#' latte. This `ggplot2` theme's colors are sampled from the Wikipedia
-#' image of a bamboo scoop of matcha powder.
+#' latte. The palette follows the article's vivid green color, matcha
+#' lattes, soba noodles, and wagashi: ceremonial green, bright green, latte
+#' foam, buckwheat, red bean, and tea leaf.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +68,18 @@ theme_matcha <- function(base_size = 15,
 
 # Sampled from a bamboo scoop of matcha powder
 matcha_cols <- c(
-  background = "#F0EDE8",
-  panel = "#FCFBF9",
-  grid = "#DAD7D2",
-  text = "#242F1C",
-  frame = "#5B7C19",
-  title = "#53750F",
-  strip = "#242F1C",
-  striptext = "#F0EDE8",
-  accent = "#5B7C19",
-  outline = "#242F1C",
-  fill = "#90B14D"
+  background = "#F4F1E6",
+  panel = "#FCFBF7",
+  grid = "#D8D5CA",
+  text = "#222D17",
+  frame = "#4A7A1E",
+  title = "#4A7A1E",
+  strip = "#222D17",
+  striptext = "#F4F1E6",
+  accent = "#9BC53D",
+  outline = "#222D17",
+  fill = "#6A9A2B"
 )
 
-matcha_marks <- c("#90B14D", "#5B7C19", "#254600", "#000E00", "#C0C79D", "#9C9B8A")
+matcha_marks <- c("#6A9A2B", "#9BC53D", "#BFCE87", "#7E6A55", "#7A2E35", "#001700")
 

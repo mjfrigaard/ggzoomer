@@ -24,9 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Weirdcore is an internet aesthetic of low quality images, liminal
-spaces, and unsettling captions. This \code{ggplot2} theme's colors are
-sampled from the Wikipedia image of a grassy grid under a black sun with
-the caption "You must escape this simulation".
+spaces, and unsettling captions. The palette follows the article's out
+of place red text and black rectangle voids, over low quality photos of
+sky, grass, and sepia nostalgia.
 }
 \examples{
 library(ggplot2)

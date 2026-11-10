@@ -24,8 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 The coquette aesthetic is a 2020s fashion trend of bows, lace, ribbons,
-and pastels. This \code{ggplot2} theme's colors are sampled from the
-Wikipedia image of an 1880s tobacco card portrait of Marie Antoinette.
+and pastels. The palette follows the article's bows, lace, pastel
+colors, and pink clothing: ballet pink, ribbon red, powder blue, lilac,
+deep rose, and pearl gray.
 }
 \examples{
 library(ggplot2)

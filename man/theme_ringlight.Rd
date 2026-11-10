@@ -7,8 +7,7 @@
 theme_ringlight(
   base_size = 15,
   base_family = register_font("Arial", "Arial.ttf", "Arial Bold.ttf"),
-  title_family = register_font("DIN Alternate", "DIN Alternate Bold.ttf"),
-  mode = c("dark", "light")
+  title_family = register_font("DIN Alternate", "DIN Alternate Bold.ttf")
 )
 }
 \arguments{
@@ -19,19 +18,15 @@ available on the system, otherwise \code{"sans"}.}
 
 \item{title_family}{Title font family. Defaults to DIN Alternate when
 it's available, otherwise \code{"sans"}.}
-
-\item{mode}{\code{"dark"} (the default) or \code{"light"}.}
 }
 \value{
 A \code{ggplot2} theme object.
 }
 \description{
 Ring lights are the circular lights behind nearly every vlog, makeup
-tutorial, and video call. This \code{ggplot2} theme's colors are sampled from
-the Wikipedia image of a ring of LEDs next to its controller.
-}
-\details{
-Use \code{mode = "light"} for a light background with dark text and darker marks.
+tutorial, and video call. The palette follows the article's adjustable
+color temperature (warm 3200K and cool 5600K), skin tones on video
+calls, and the gray and black ring and stand.
 }
 \examples{
 library(ggplot2)

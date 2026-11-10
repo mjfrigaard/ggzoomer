@@ -1,8 +1,9 @@
 #' Lightstick theme
 #'
 #' Lightsticks are the glow sticks fans wave at concerts, now synced to the
-#' show at K-pop tours. This `ggplot2` theme's colors are sampled from the
-#' Wikipedia image of a diagram of a glow stick being snapped and lit.
+#' show at K-pop tours. The palette follows the article's chemiluminescent
+#' glow in a translucent plastic tube: green, pink, blue, yellow, orange,
+#' and purple on a black arena.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -73,35 +74,35 @@ theme_lightstick <- function(base_size = 15,
 # Sampled from a diagram of a glow stick being snapped and lit
 lightstick_cols <- list(
   dark = c(
-    background = "#1B1B1B",
-    panel = "#282828",
-    grid = "#424242",
-    text = "#F1F1F1",
-    frame = "#00B725",
-    title = "#00F327",
-    strip = "#F1F1F1",
-    striptext = "#1B1B1B",
-    accent = "#00B725",
-    outline = "#F1F1F1",
-    fill = "#00F327"
+    background = "#08080C",
+    panel = "#18181A",
+    grid = "#313133",
+    text = "#EDEDF1",
+    frame = "#4CFF3A",
+    title = "#4CFF3A",
+    strip = "#EDEDF1",
+    striptext = "#08080C",
+    accent = "#FF4FB0",
+    outline = "#EDEDF1",
+    fill = "#4CFF3A"
   ),
   light = c(
-    background = "#EEEEEE",
-    panel = "#FBFBFB",
-    grid = "#D7D7D7",
-    text = "#2C2C2C",
-    frame = "#008B00",
-    title = "#007E00",
-    strip = "#2C2C2C",
-    striptext = "#EEEEEE",
-    accent = "#008B00",
-    outline = "#2C2C2C",
-    fill = "#00E102"
+    background = "#EDEDF4",
+    panel = "#F7F7FA",
+    grid = "#D1D1D8",
+    text = "#1E2E1A",
+    frame = "#007C00",
+    title = "#007C00",
+    strip = "#1E2E1A",
+    striptext = "#EDEDF4",
+    accent = "#FF4FB0",
+    outline = "#1E2E1A",
+    fill = "#00A000"
   )
 )
 
 lightstick_marks <- list(
-  dark = c("#00F327", "#00B725", "#007100", "#335636", "#369247", "#9EFFA4"),
-  light = c("#00E102", "#008B00", "#005200", "#63B356", "#002900", "#000B00")
+  dark = c("#4CFF3A", "#FF4FB0", "#3DA8FF", "#FFFF7E", "#FF9A3D", "#6E2CBA"),
+  light = c("#00A000", "#FF4FB0", "#3DA8FF", "#CACB45", "#6E2200", "#6E2CBA")
 )
 

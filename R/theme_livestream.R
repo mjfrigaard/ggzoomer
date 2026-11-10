@@ -1,15 +1,18 @@
 #' Livestream theme
 #'
 #' Livestreaming is broadcasting video in real time, from gaming streams to
-#' vlogs filmed on the street. This `ggplot2` theme's colors are sampled
-#' from the Wikipedia image of a journalist livestreaming from a railway
-#' station.
+#' vlogs filmed on the street. The palette follows a live broadcast as the
+#' article describes it: the red live badge, stream purple, chat green,
+#' viewer blue, and donation gold on a dark player.
+#'
+#' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
 #'     available on the system, otherwise `"sans"`.
 #' @param title_family Title font family. Defaults to Arial Black when
 #'     it's available, otherwise `"sans"`.
+#' @param mode `"dark"` (the default) or `"light"`.
 #'
 #' @return A `ggplot2` theme object.
 #'
@@ -26,9 +29,11 @@
 theme_livestream <- function(base_size = 15,
                       base_family = register_font("Arial", "Arial.ttf",
                                                   "Arial Bold.ttf"),
-                      title_family = register_font("Arial Black", "Arial Black.ttf")) {
-  cols <- livestream_cols
-  marks <- livestream_marks
+                      title_family = register_font("Arial Black", "Arial Black.ttf"),
+                      mode = c("dark", "light")) {
+  mode <- match.arg(mode)
+  cols <- livestream_cols[[mode]]
+  marks <- livestream_marks[[mode]]
   ggplot2::theme_bw(base_size = base_size, base_family = base_family) +
     ggplot2::theme(
       text = ggplot2::element_text(colour = cols[["text"]]),
@@ -67,19 +72,37 @@ theme_livestream <- function(base_size = 15,
 }
 
 # Sampled from a journalist livestreaming from a railway station
-livestream_cols <- c(
-  background = "#FAECD7",
-  panel = "#FFFAF3",
-  grid = "#E3D6C1",
-  text = "#322A30",
-  frame = "#826D42",
-  title = "#7F673A",
-  strip = "#322A30",
-  striptext = "#FAECD7",
-  accent = "#826D42",
-  outline = "#322A30",
-  fill = "#C3A777"
+livestream_cols <- list(
+  dark = c(
+    background = "#0E0E10",
+    panel = "#1B1B1D",
+    grid = "#353536",
+    text = "#EEEEF0",
+    frame = "#FF4A47",
+    title = "#FF4A47",
+    strip = "#EEEEF0",
+    striptext = "#0E0E10",
+    accent = "#9B5CFF",
+    outline = "#EEEEF0",
+    fill = "#FF4A47"
+  ),
+  light = c(
+    background = "#EDEDF2",
+    panel = "#F7F7F9",
+    grid = "#D1D1D6",
+    text = "#3F221E",
+    frame = "#D11427",
+    title = "#D11427",
+    strip = "#3F221E",
+    striptext = "#EDEDF2",
+    accent = "#9B5CFF",
+    outline = "#3F221E",
+    fill = "#FF4A47"
+  )
 )
 
-livestream_marks <- c("#C3A777", "#826D42", "#663F21", "#3A0000", "#003573", "#9D8A77")
+livestream_marks <- list(
+  dark = c("#FF4A47", "#9B5CFF", "#00C389", "#004BBA", "#F5A623", "#A3A3B0"),
+  light = c("#FF4A47", "#9B5CFF", "#00C389", "#004BBA", "#F5A623", "#A3A3B0")
+)
 

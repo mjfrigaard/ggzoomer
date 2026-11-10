@@ -24,9 +24,10 @@ A \code{ggplot2} theme object.
 }
 \description{
 Liminal space is an internet aesthetic of empty in between places:
-hallways, waiting rooms, and closed malls. This \code{ggplot2} theme's colors
-are sampled from the Wikipedia image of an empty carpeted hallway in the
-Stanley Hotel.
+hallways, waiting rooms, and closed malls. The palette follows the
+article's empty hallways, pool rooms, and Twin Peaks Black Lodge: red
+curtains, black floor, mustard walls, fluorescent green, pool blue, and
+concrete.
 }
 \examples{
 library(ggplot2)

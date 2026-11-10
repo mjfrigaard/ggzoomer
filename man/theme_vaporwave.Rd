@@ -24,9 +24,10 @@ A \code{ggplot2} theme object.
 }
 \description{
 Vaporwave is a 2010s music genre and meme aesthetic of slowed down mall
-music, old computers, and pink and teal gradients. This \code{ggplot2}
-theme's colors are sampled from the Wikipedia image of a vaporwave style
-Wikipedia logo with windows and planets.
+music, old computers, and pink and teal gradients. The palette follows
+the 1980s and 1990s anime and mall imagery the article cites, as the
+classic vaporwave pastels: pink, cyan, mint, purple, pale yellow, and
+deep violet.
 }
 \examples{
 library(ggplot2)

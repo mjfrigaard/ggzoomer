@@ -1,8 +1,9 @@
 #' Doomscroll theme
 #'
 #' Doomscrolling is spending far too long scrolling through upsetting or
-#' endless feeds. This `ggplot2` theme's colors are sampled from the
-#' Wikipedia image of a thumb scrolling a phone screen in the dark.
+#' endless feeds. The palette follows the article's late night feeds of
+#' negative news: screen glow blue, alert red, headline gray, notification
+#' orange, purple, and cyan on a dark room.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -73,35 +74,35 @@ theme_doomscroll <- function(base_size = 15,
 # Sampled from a thumb scrolling a phone screen in the dark
 doomscroll_cols <- list(
   dark = c(
-    background = "#1D1B1B",
-    panel = "#292728",
-    grid = "#434242",
-    text = "#F2F0F0",
-    frame = "#C97553",
-    title = "#B77256",
-    strip = "#F2F0F0",
-    striptext = "#1D1B1B",
-    accent = "#C97553",
-    outline = "#F2F0F0",
-    fill = "#793C24"
+    background = "#0B0D14",
+    panel = "#191B20",
+    grid = "#32343A",
+    text = "#ECEEF5",
+    frame = "#E5484D",
+    title = "#E5484D",
+    strip = "#ECEEF5",
+    striptext = "#0B0D14",
+    accent = "#E5484D",
+    outline = "#ECEEF5",
+    fill = "#7FA8FF"
   ),
   light = c(
-    background = "#EFEDED",
-    panel = "#FBFAFB",
-    grid = "#D9D7D7",
-    text = "#2D2C2C",
-    frame = "#C97553",
-    title = "#531C04",
-    strip = "#2D2C2C",
-    striptext = "#EFEDED",
-    accent = "#C97553",
-    outline = "#2D2C2C",
-    fill = "#531C04"
+    background = "#EAEDFD",
+    panel = "#F7F7FD",
+    grid = "#CED1E0",
+    text = "#402220",
+    frame = "#C92C38",
+    title = "#C92C38",
+    strip = "#402220",
+    striptext = "#EAEDFD",
+    accent = "#E5484D",
+    outline = "#402220",
+    fill = "#7FA8FF"
   )
 )
 
 doomscroll_marks <- list(
-  dark = c("#793C24", "#C97553", "#FC9C77", "#FFE7BA", "#9E5F54", "#B18E8B"),
-  light = c("#531C04", "#C97553", "#9A4A32", "#FC9C77", "#2E0000", "#B9C4BC")
+  dark = c("#7FA8FF", "#E5484D", "#8B93A1", "#F28C28", "#8E6BD8", "#3FC1C9"),
+  light = c("#7FA8FF", "#E5484D", "#8B93A1", "#F28C28", "#8E6BD8", "#3FC1C9")
 )
 

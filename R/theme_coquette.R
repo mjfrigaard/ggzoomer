@@ -1,8 +1,9 @@
 #' Coquette theme
 #'
 #' The coquette aesthetic is a 2020s fashion trend of bows, lace, ribbons,
-#' and pastels. This `ggplot2` theme's colors are sampled from the
-#' Wikipedia image of an 1880s tobacco card portrait of Marie Antoinette.
+#' and pastels. The palette follows the article's bows, lace, pastel
+#' colors, and pink clothing: ballet pink, ribbon red, powder blue, lilac,
+#' deep rose, and pearl gray.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +68,18 @@ theme_coquette <- function(base_size = 15,
 
 # Sampled from an 1880s tobacco card portrait of Marie Antoinette
 coquette_cols <- c(
-  background = "#FAEBE1",
-  panel = "#FFFAF6",
-  grid = "#E3D5CA",
-  text = "#372A19",
-  frame = "#B37D48",
-  title = "#9B5B00",
-  strip = "#372A19",
-  striptext = "#FAEBE1",
-  accent = "#B37D48",
-  outline = "#372A19",
-  fill = "#E99D40"
+  background = "#FCF1F3",
+  panel = "#FFFBFC",
+  grid = "#DFD5D7",
+  text = "#402123",
+  frame = "#B8324B",
+  title = "#B8324B",
+  strip = "#402123",
+  striptext = "#FCF1F3",
+  accent = "#B8324B",
+  outline = "#402123",
+  fill = "#B46B7F"
 )
 
-coquette_marks <- c("#E99D40", "#B37D48", "#E4BA97", "#906249", "#800B00", "#A4978B")
+coquette_marks <- c("#B46B7F", "#B8324B", "#8FB3D9", "#775F90", "#8C3A5A", "#A8A3A8")
 

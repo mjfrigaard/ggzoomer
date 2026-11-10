@@ -1,17 +1,15 @@
 #' Gorpcore theme
 #'
 #' Gorpcore is hiking gear (shell jackets, fleece, and trail shoes) worn as
-#' everyday streetwear. This `ggplot2` theme's colors are sampled from the
-#' Wikipedia image of outdoor jackets and pants hanging in a store.
-#'
-#' Use `mode = "light"` for a light background with dark text and darker marks.
+#' everyday streetwear. The palette follows the article's two color
+#' schemes, earthy or bright and bold: safety orange, glacier blue, forest
+#' green, khaki, lime, and charcoal shell jackets.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
 #'     available on the system, otherwise `"sans"`.
 #' @param title_family Title font family. Defaults to DIN Condensed when
 #'     it's available, otherwise `"sans"`.
-#' @param mode `"dark"` (the default) or `"light"`.
 #'
 #' @return A `ggplot2` theme object.
 #'
@@ -28,11 +26,9 @@
 theme_gorpcore <- function(base_size = 15,
                       base_family = register_font("Arial", "Arial.ttf",
                                                   "Arial Bold.ttf"),
-                      title_family = register_font("DIN Condensed", "DIN Condensed Bold.ttf"),
-                      mode = c("dark", "light")) {
-  mode <- match.arg(mode)
-  cols <- gorpcore_cols[[mode]]
-  marks <- gorpcore_marks[[mode]]
+                      title_family = register_font("DIN Condensed", "DIN Condensed Bold.ttf")) {
+  cols <- gorpcore_cols
+  marks <- gorpcore_marks
   ggplot2::theme_bw(base_size = base_size, base_family = base_family) +
     ggplot2::theme(
       text = ggplot2::element_text(colour = cols[["text"]]),
@@ -71,37 +67,19 @@ theme_gorpcore <- function(base_size = 15,
 }
 
 # Sampled from outdoor jackets and pants hanging in a store
-gorpcore_cols <- list(
-  dark = c(
-    background = "#22191E",
-    panel = "#2F252B",
-    grid = "#4A3F45",
-    text = "#FCEDF0",
-    frame = "#A60043",
-    title = "#FD2E03",
-    strip = "#FCEDF0",
-    striptext = "#22191E",
-    accent = "#A60043",
-    outline = "#FCEDF0",
-    fill = "#FA2A00"
-  ),
-  light = c(
-    background = "#F9EAED",
-    panel = "#FFF9FB",
-    grid = "#E3D4D7",
-    text = "#33292F",
-    frame = "#A60043",
-    title = "#D80000",
-    strip = "#33292F",
-    striptext = "#F9EAED",
-    accent = "#A60043",
-    outline = "#33292F",
-    fill = "#FA2A00"
-  )
+gorpcore_cols <- c(
+  background = "#F3F1EC",
+  panel = "#FCFBF9",
+  grid = "#D7D5D0",
+  text = "#3D2419",
+  frame = "#BF4407",
+  title = "#BF4407",
+  strip = "#3D2419",
+  striptext = "#F3F1EC",
+  accent = "#2F7DBF",
+  outline = "#3D2419",
+  fill = "#F26B1D"
 )
 
-gorpcore_marks <- list(
-  dark = c("#FA2A00", "#A60043", "#FFBE6C", "#B20000", "#C58879", "#866C6B"),
-  light = c("#FA2A00", "#A60043", "#F6B664", "#B20000", "#2F0000", "#867072")
-)
+gorpcore_marks <- c("#F26B1D", "#2F7DBF", "#2F5D3A", "#B08D57", "#A9C23F", "#34383C")
 

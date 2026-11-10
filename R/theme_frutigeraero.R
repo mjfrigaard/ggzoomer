@@ -1,17 +1,15 @@
 #' Frutiger Aero theme
 #'
 #' Frutiger Aero is the glossy design style of the mid 2000s: bubbles,
-#' water, grass, and blue skies. This `ggplot2` theme's colors are sampled
-#' from the Wikipedia image of soap bubbles floating over sunlit grass.
-#'
-#' Use `mode = "light"` for a light background with dark text and darker marks.
+#' water, grass, and blue skies. The palette follows the article's blue
+#' skies, grass, aurorae, and bright colors ("yellows, and particularly
+#' blues and greens").
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
 #'     available on the system, otherwise `"sans"`.
 #' @param title_family Title font family. Defaults to Skia when
 #'     it's available, otherwise `"sans"`.
-#' @param mode `"dark"` (the default) or `"light"`.
 #'
 #' @return A `ggplot2` theme object.
 #'
@@ -28,11 +26,9 @@
 theme_frutigeraero <- function(base_size = 15,
                       base_family = register_font("Arial", "Arial.ttf",
                                                   "Arial Bold.ttf"),
-                      title_family = register_font("Skia", "Skia.ttf"),
-                      mode = c("dark", "light")) {
-  mode <- match.arg(mode)
-  cols <- frutigeraero_cols[[mode]]
-  marks <- frutigeraero_marks[[mode]]
+                      title_family = register_font("Skia", "Skia.ttf")) {
+  cols <- frutigeraero_cols
+  marks <- frutigeraero_marks
   ggplot2::theme_bw(base_size = base_size, base_family = base_family) +
     ggplot2::theme(
       text = ggplot2::element_text(colour = cols[["text"]]),
@@ -71,37 +67,19 @@ theme_frutigeraero <- function(base_size = 15,
 }
 
 # Sampled from soap bubbles floating over sunlit grass
-frutigeraero_cols <- list(
-  dark = c(
-    background = "#181C23",
-    panel = "#242830",
-    grid = "#3F424B",
-    text = "#ECF1FB",
-    frame = "#236707",
-    title = "#ECC480",
-    strip = "#ECF1FB",
-    striptext = "#181C23",
-    accent = "#236707",
-    outline = "#ECF1FB",
-    fill = "#ECC480"
-  ),
-  light = c(
-    background = "#EAEEF9",
-    panel = "#F9FBFE",
-    grid = "#D3D7E2",
-    text = "#292C34",
-    frame = "#236707",
-    title = "#856626",
-    strip = "#292C34",
-    striptext = "#EAEEF9",
-    accent = "#236707",
-    outline = "#292C34",
-    fill = "#E3BC78"
-  )
+frutigeraero_cols <- c(
+  background = "#E6F4FD",
+  panel = "#F8FDFF",
+  grid = "#CAD8E0",
+  text = "#1E2A40",
+  frame = "#0B6FC9",
+  title = "#0B6FC9",
+  strip = "#1E2A40",
+  striptext = "#E6F4FD",
+  accent = "#2EC4D6",
+  outline = "#1E2A40",
+  fill = "#1E90FF"
 )
 
-frutigeraero_marks <- list(
-  dark = c("#ECC480", "#236707", "#6E9217", "#6FA56B", "#425138", "#53785D"),
-  light = c("#E3BC78", "#236707", "#6E9217", "#002500", "#2C5038", "#958D73")
-)
+frutigeraero_marks <- c("#1E90FF", "#2EC4D6", "#5DBB3F", "#A6D33C", "#A98300", "#2D36AC")
 

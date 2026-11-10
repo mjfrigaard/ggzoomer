@@ -24,9 +24,10 @@ A \code{ggplot2} theme object.
 }
 \description{
 Cottagecore is an internet aesthetic that romanticizes rural life:
-gardens, baking, and handmade things. This \code{ggplot2} theme's colors are
-sampled from the Wikipedia image of Anne Hathaway's Cottage, a thatched
-cottage and garden in Warwickshire.
+gardens, baking, and handmade things. The palette follows the article's
+muted palettes, floral prints, calico, worn leather, and indoor
+greenery: sage, rose, leather brown, calico blue, butter yellow, and
+moss.
 }
 \examples{
 library(ggplot2)

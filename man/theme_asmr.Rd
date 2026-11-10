@@ -24,9 +24,10 @@ A \code{ggplot2} theme object.
 }
 \description{
 ASMR (autonomous sensory meridian response) is the tingling some people
-feel while watching whisper, tapping, and crinkle videos. This \code{ggplot2}
-theme's colors are sampled from the Wikipedia image of a body map
-showing where ASMR tingles start and spread.
+feel while watching whisper, tapping, and crinkle videos. The palette
+follows the article's soft triggers (whispers, light touch, brushing) as
+calm blues, lilac, blush, and mint, with the deep blue of its tingle
+map.
 }
 \examples{
 library(ggplot2)

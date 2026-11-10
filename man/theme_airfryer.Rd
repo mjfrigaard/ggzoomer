@@ -24,9 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Air fryers are small countertop convection ovens that blow hot air
-around food. This \code{ggplot2} theme's colors are sampled from the
-Wikipedia image of an air fryer basket of reheated potatoes on a kitchen
-counter.
+around food. The palette follows the article's fan forced hot air and
+browned food: golden fries, crispy brown, heating element orange,
+brushed steel, matte black, and herbs.
 }
 \examples{
 library(ggplot2)

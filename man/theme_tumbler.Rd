@@ -24,8 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Insulated tumblers and water bottles (vacuum flasks) became a status
-accessory in the 2020s. This \code{ggplot2} theme's colors are sampled from
-the Wikipedia image of a red vacuum flask on a cafeteria table.
+accessory in the 2020s. The palette follows the article's stainless
+vacuum flask, in the powder coated colors of today's tumblers (cream,
+sage, rose, and cobalt) and the classic red Thermos.
 }
 \examples{
 library(ggplot2)

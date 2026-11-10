@@ -27,8 +27,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Synthwave is electronic music (and art) that looks back at 1980s film
-scores: neon grids and chrome sunsets. This \code{ggplot2} theme's colors are
-sampled from the Wikipedia image of a neon grid under a striped sunset.
+scores: neon grids and chrome sunsets. The palette follows the article's
+outrun look: magenta neon, gridlines, and a 1980s sunset in pink,
+orange, and yellow, with violet and chrome blue.
 }
 \details{
 Use \code{mode = "light"} for a light background with dark text and darker marks.

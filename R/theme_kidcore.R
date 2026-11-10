@@ -1,8 +1,8 @@
 #' Kidcore theme
 #'
 #' Kidcore is a bright, nostalgic aesthetic of primary colors, beads,
-#' stickers, and childhood toys. This `ggplot2` theme's colors are sampled
-#' from the Wikipedia image of a heart shaped rainbow bead necklace.
+#' stickers, and childhood toys. The palette follows the article's bright
+#' primary colors and rainbow colours.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +67,18 @@ theme_kidcore <- function(base_size = 15,
 
 # Sampled from a heart shaped rainbow bead necklace
 kidcore_cols <- c(
-  background = "#EEEEE8",
-  panel = "#FBFBF9",
-  grid = "#D7D8D1",
-  text = "#282B3F",
-  frame = "#CC5808",
-  title = "#A3010C",
-  strip = "#282B3F",
-  striptext = "#EEEEE8",
-  accent = "#CC5808",
-  outline = "#282B3F",
-  fill = "#A3010C"
+  background = "#FFFDF5",
+  panel = "#FDFCF9",
+  grid = "#E2E0D9",
+  text = "#232940",
+  frame = "#0057B8",
+  title = "#0057B8",
+  strip = "#232940",
+  striptext = "#FFFDF5",
+  accent = "#F6C000",
+  outline = "#232940",
+  fill = "#E4002B"
 )
 
-kidcore_marks <- c("#A3010C", "#CC5808", "#E7BC31", "#590000", "#002963", "#629B64")
+kidcore_marks <- c("#E4002B", "#F6C000", "#0057B8", "#00A651", "#FF7A00", "#36007E")
 

@@ -7,8 +7,7 @@
 theme_axolotl(
   base_size = 15,
   base_family = register_font("Arial", "Arial.ttf", "Arial Bold.ttf"),
-  title_family = register_font("Arial Rounded", "Arial Rounded Bold.ttf"),
-  mode = c("dark", "light")
+  title_family = register_font("Arial Rounded", "Arial Rounded Bold.ttf")
 )
 }
 \arguments{
@@ -19,20 +18,16 @@ available on the system, otherwise \code{"sans"}.}
 
 \item{title_family}{Title font family. Defaults to Arial Rounded when
 it's available, otherwise \code{"sans"}.}
-
-\item{mode}{\code{"dark"} (the default) or \code{"light"}.}
 }
 \value{
 A \code{ggplot2} theme object.
 }
 \description{
 Axolotls are Mexican salamanders that keep their gills for life and
-became an internet favorite (and a game mob). This \code{ggplot2} theme's
-colors are sampled from the Wikipedia image of a wild type axolotl
-resting on gravel in an aquarium.
-}
-\details{
-Use \code{mode = "light"} for a light background with dark text and darker marks.
+became an internet favorite (and a game mob). The palette follows the
+article's color variants: the wild type's brown with gold speckles and
+an olive undertone, the leucistic pink, pink gills, and the dark
+melanoid.
 }
 \examples{
 library(ggplot2)

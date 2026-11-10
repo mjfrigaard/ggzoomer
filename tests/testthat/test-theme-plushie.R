@@ -1,8 +1,8 @@
 test_that("theme_plushie returns a complete theme that builds a plot", {
   thm <- theme_plushie(base_family = "sans", title_family = "sans")
   expect_s3_class(thm, "theme")
-  expect_equal(thm$plot.background$fill, "#FFE9DB")
-  expect_equal(thm$geom$fill, "#F68400")
+  expect_equal(thm$plot.background$fill, "#FFF6EE")
+  expect_equal(thm$geom$fill, "#C68A4A")
   p <- ggplot2::ggplot(data.frame(x = c("a", "b", "b")), ggplot2::aes(x = x, fill = x)) +
     ggplot2::geom_bar() +
     ggplot2::labs(title = "title")

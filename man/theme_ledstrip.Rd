@@ -27,9 +27,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 LED strip lights are the adhesive color changing lights that line
-bedroom ceilings and desks. This \code{ggplot2} theme's colors are sampled
-from the Wikipedia image of a strip of cyan LED light under an airplane
-cabin shelf.
+bedroom ceilings and desks. The palette follows the article's strip
+types: red, green, and blue multicolor LEDs, warm and cool white color
+temperatures, and a 2200K amber.
 }
 \details{
 Use \code{mode = "light"} for a light background with dark text and darker marks.

@@ -1,9 +1,9 @@
 #' Pickleball theme
 #'
 #' Pickleball is a paddle sport played with a plastic ball over a low net,
-#' and the fastest growing sport in the US. This `ggplot2` theme's colors
-#' are sampled from the Wikipedia image of a professional doubles match on
-#' a pickleball court.
+#' and the fastest growing sport in the US. The palette follows the
+#' article's plastic ball, paddles, net, and court: optic yellow, court
+#' blue and green, red paddle, black net, and an orange ball.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -68,18 +68,18 @@ theme_pickleball <- function(base_size = 15,
 
 # Sampled from a professional doubles match on a pickleball court
 pickleball_cols <- c(
-  background = "#F0ECF9",
-  panel = "#FBFAFE",
-  grid = "#D9D5E2",
-  text = "#272C3B",
-  frame = "#1E2C61",
-  title = "#AD4298",
-  strip = "#272C3B",
-  striptext = "#F0ECF9",
-  accent = "#1E2C61",
-  outline = "#272C3B",
-  fill = "#C155AB"
+  background = "#EDF3F7",
+  panel = "#FAFCFE",
+  grid = "#D1D7DB",
+  text = "#1D2A41",
+  frame = "#2F6DB5",
+  title = "#2F6DB5",
+  strip = "#1D2A41",
+  striptext = "#EDF3F7",
+  accent = "#2F6DB5",
+  outline = "#1D2A41",
+  fill = "#C9D21F"
 )
 
-pickleball_marks <- c("#C155AB", "#1E2C61", "#9CB3EC", "#000024", "#774035", "#B05306")
+pickleball_marks <- c("#C9D21F", "#2F6DB5", "#3F8F5C", "#D9412F", "#222222", "#F28C28")
 

@@ -1,8 +1,9 @@
 #' Speedrun theme
 #'
 #' Speedrunning is beating a video game as fast as possible, often live for
-#' charity. This `ggplot2` theme's colors are sampled from the Wikipedia
-#' image of the crowd at a Summer Games Done Quick charity marathon.
+#' charity. The palette follows the article's timers and leaderboards:
+#' split timer gold (best segment), green (ahead), red (behind), white
+#' digits, and tool assisted cyan and purple.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -73,35 +74,35 @@ theme_speedrun <- function(base_size = 15,
 # Sampled from the crowd at a Summer Games Done Quick charity marathon
 speedrun_cols <- list(
   dark = c(
-    background = "#1F1A1C",
-    panel = "#2B2729",
-    grid = "#464143",
-    text = "#F5EFF2",
-    frame = "#D2A684",
-    title = "#F03D55",
-    strip = "#F5EFF2",
-    striptext = "#1F1A1C",
-    accent = "#D2A684",
-    outline = "#F5EFF2",
-    fill = "#E02B49"
+    background = "#0C0F0C",
+    panel = "#1A1C1A",
+    grid = "#333533",
+    text = "#ECEFEC",
+    frame = "#34D058",
+    title = "#34D058",
+    strip = "#ECEFEC",
+    striptext = "#0C0F0C",
+    accent = "#008D17",
+    outline = "#ECEFEC",
+    fill = "#F5C542"
   ),
   light = c(
-    background = "#F2ECEF",
-    panel = "#FCFAFB",
-    grid = "#DBD6D8",
-    text = "#2F2B2D",
-    frame = "#58371A",
-    title = "#D31940",
-    strip = "#2F2B2D",
-    striptext = "#F2ECEF",
-    accent = "#58371A",
-    outline = "#2F2B2D",
-    fill = "#E02B49"
+    background = "#EAEFEA",
+    panel = "#F6F8F6",
+    grid = "#CED3CE",
+    text = "#1B2E1C",
+    frame = "#007D00",
+    title = "#007D00",
+    strip = "#1B2E1C",
+    striptext = "#EAEFEA",
+    accent = "#008D17",
+    outline = "#1B2E1C",
+    fill = "#EFC03C"
   )
 )
 
 speedrun_marks <- list(
-  dark = c("#E02B49", "#D2A684", "#82350F", "#FFE1D6", "#FFD783", "#A9938F"),
-  light = c("#E02B49", "#58371A", "#310000", "#DA968D", "#E5AE5C", "#7AA9B5")
+  dark = c("#F5C542", "#008D17", "#F0506E", "#F2F2F2", "#39C5CF", "#A371F7"),
+  light = c("#EFC03C", "#008D17", "#F0506E", "#C5C5C5", "#39C5CF", "#A371F7")
 )
 

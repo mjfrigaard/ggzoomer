@@ -7,7 +7,8 @@
 theme_livestream(
   base_size = 15,
   base_family = register_font("Arial", "Arial.ttf", "Arial Bold.ttf"),
-  title_family = register_font("Arial Black", "Arial Black.ttf")
+  title_family = register_font("Arial Black", "Arial Black.ttf"),
+  mode = c("dark", "light")
 )
 }
 \arguments{
@@ -18,15 +19,20 @@ available on the system, otherwise \code{"sans"}.}
 
 \item{title_family}{Title font family. Defaults to Arial Black when
 it's available, otherwise \code{"sans"}.}
+
+\item{mode}{\code{"dark"} (the default) or \code{"light"}.}
 }
 \value{
 A \code{ggplot2} theme object.
 }
 \description{
 Livestreaming is broadcasting video in real time, from gaming streams to
-vlogs filmed on the street. This \code{ggplot2} theme's colors are sampled
-from the Wikipedia image of a journalist livestreaming from a railway
-station.
+vlogs filmed on the street. The palette follows a live broadcast as the
+article describes it: the red live badge, stream purple, chat green,
+viewer blue, and donation gold on a dark player.
+}
+\details{
+Use \code{mode = "light"} for a light background with dark text and darker marks.
 }
 \examples{
 library(ggplot2)

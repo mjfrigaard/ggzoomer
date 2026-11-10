@@ -7,8 +7,7 @@
 theme_frog(
   base_size = 15,
   base_family = register_font("Arial", "Arial.ttf", "Arial Bold.ttf"),
-  title_family = register_font("Superclarendon", "Superclarendon.ttc"),
-  mode = c("dark", "light")
+  title_family = register_font("Superclarendon", "Superclarendon.ttc")
 )
 }
 \arguments{
@@ -19,19 +18,15 @@ available on the system, otherwise \code{"sans"}.}
 
 \item{title_family}{Title font family. Defaults to Superclarendon when
 it's available, otherwise \code{"sans"}.}
-
-\item{mode}{\code{"dark"} (the default) or \code{"light"}.}
 }
 \value{
 A \code{ggplot2} theme object.
 }
 \description{
-Frogs are tailless amphibians and a cottagecore and goblincore icon.
-This \code{ggplot2} theme's colors are sampled from the Wikipedia image of a
-red eyed tree frog on a branch.
-}
-\details{
-Use \code{mode = "light"} for a light background with dark text and darker marks.
+Frogs are tailless amphibians and a cottagecore and goblincore icon. The
+palette follows the article's skin colors: camouflage green and dappled
+brown, warning red or yellow and black, and the blue flanks of the red
+eyed tree frog.
 }
 \examples{
 library(ggplot2)

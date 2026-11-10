@@ -1,9 +1,9 @@
 #' Streak theme
 #'
 #' Streaks are the daily counters that apps use to keep you coming back, a
-#' common gamification trick. This `ggplot2` theme's colors are sampled
-#' from the Wikipedia image of a poster of the five steps to earn a digital
-#' badge.
+#' common gamification trick. The palette follows the article's points,
+#' badges, levels, and progress bars: streak flame orange and red, gold
+#' badge, XP purple, progress green, and a frozen streak blue.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -68,18 +68,18 @@ theme_streak <- function(base_size = 15,
 
 # Sampled from a poster of the five steps to earn a digital badge
 streak_cols <- c(
-  background = "#D6F3FC",
-  panel = "#F3FCFF",
-  grid = "#BFDCE5",
-  text = "#292D2C",
-  frame = "#C38300",
-  title = "#7F6A00",
-  strip = "#292D2C",
-  striptext = "#D6F3FC",
-  accent = "#C38300",
-  outline = "#292D2C",
-  fill = "#E1BF00"
+  background = "#FFF8EE",
+  panel = "#FEFCF8",
+  grid = "#E2DBD2",
+  text = "#3F221D",
+  frame = "#D73027",
+  title = "#D73027",
+  strip = "#3F221D",
+  striptext = "#FFF8EE",
+  accent = "#E43D30",
+  outline = "#3F221D",
+  fill = "#FF7A00"
 )
 
-streak_marks <- c("#E1BF00", "#C38300", "#E1007F", "#A7C6D0", "#1E9797", "#B93D00")
+streak_marks <- c("#FF7A00", "#E43D30", "#FBC123", "#7C4DFF", "#2BB673", "#3AA0E8")
 

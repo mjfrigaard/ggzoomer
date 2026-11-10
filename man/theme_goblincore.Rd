@@ -27,9 +27,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Goblincore celebrates the less pretty side of nature: moss, mushrooms,
-snails, and found objects. This \code{ggplot2} theme's colors are sampled
-from the Wikipedia image of a still life of old vases, a framed photo,
-and an animal skull.
+snails, and found objects. The palette follows the article's brown,
+green, and clashing colors: moss, mushroom caps, earthworms, bones,
+rocks, and soil.
 }
 \details{
 Use \code{mode = "light"} for a light background with dark text and darker marks.

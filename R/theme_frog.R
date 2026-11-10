@@ -1,17 +1,15 @@
 #' Frog theme
 #'
-#' Frogs are tailless amphibians and a cottagecore and goblincore icon.
-#' This `ggplot2` theme's colors are sampled from the Wikipedia image of a
-#' red eyed tree frog on a branch.
-#'
-#' Use `mode = "light"` for a light background with dark text and darker marks.
+#' Frogs are tailless amphibians and a cottagecore and goblincore icon. The
+#' palette follows the article's skin colors: camouflage green and dappled
+#' brown, warning red or yellow and black, and the blue flanks of the red
+#' eyed tree frog.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
 #'     available on the system, otherwise `"sans"`.
 #' @param title_family Title font family. Defaults to Superclarendon when
 #'     it's available, otherwise `"sans"`.
-#' @param mode `"dark"` (the default) or `"light"`.
 #'
 #' @return A `ggplot2` theme object.
 #'
@@ -28,11 +26,9 @@
 theme_frog <- function(base_size = 15,
                       base_family = register_font("Arial", "Arial.ttf",
                                                   "Arial Bold.ttf"),
-                      title_family = register_font("Superclarendon", "Superclarendon.ttc"),
-                      mode = c("dark", "light")) {
-  mode <- match.arg(mode)
-  cols <- frog_cols[[mode]]
-  marks <- frog_marks[[mode]]
+                      title_family = register_font("Superclarendon", "Superclarendon.ttc")) {
+  cols <- frog_cols
+  marks <- frog_marks
   ggplot2::theme_bw(base_size = base_size, base_family = base_family) +
     ggplot2::theme(
       text = ggplot2::element_text(colour = cols[["text"]]),
@@ -71,37 +67,19 @@ theme_frog <- function(base_size = 15,
 }
 
 # Sampled from a red eyed tree frog on a branch
-frog_cols <- list(
-  dark = c(
-    background = "#1C1C16",
-    panel = "#282822",
-    grid = "#43423C",
-    text = "#F1F2E6",
-    frame = "#A74F08",
-    title = "#7EB32F",
-    strip = "#F1F2E6",
-    striptext = "#1C1C16",
-    accent = "#A74F08",
-    outline = "#F1F2E6",
-    fill = "#7EB32F"
-  ),
-  light = c(
-    background = "#EEEFDC",
-    panel = "#FBFBF5",
-    grid = "#D7D9C6",
-    text = "#2D2C26",
-    frame = "#A74F08",
-    title = "#417900",
-    strip = "#2D2C26",
-    striptext = "#EEEFDC",
-    accent = "#A74F08",
-    outline = "#2D2C26",
-    fill = "#7EB32F"
-  )
+frog_cols <- c(
+  background = "#EEF3E6",
+  panel = "#FAFCF7",
+  grid = "#D2D7CA",
+  text = "#202E19",
+  frame = "#3A7A1F",
+  title = "#3A7A1F",
+  strip = "#202E19",
+  striptext = "#EEF3E6",
+  accent = "#FF7361",
+  outline = "#202E19",
+  fill = "#4C9A2A"
 )
 
-frog_marks <- list(
-  dark = c("#7EB32F", "#A74F08", "#BFDF8B", "#4A3EA1", "#445144", "#66754E"),
-  light = c("#7EB32F", "#A74F08", "#44399C", "#1A2C00", "#6C7953", "#000700")
-)
+frog_marks <- c("#4C9A2A", "#FF7361", "#F2C12E", "#1C1C1C", "#7A5C3A", "#2F6FB0")
 

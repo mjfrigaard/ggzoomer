@@ -27,8 +27,8 @@ A \code{ggplot2} theme object.
 }
 \description{
 An RGB setup is a gaming PC and desk lit up in color changing lights.
-This \code{ggplot2} theme's colors are sampled from the Wikipedia image of a
-gaming PC with glass panels and colored fans.
+The palette follows the article's gaming PCs lit in RGB: cyan, purple,
+red, lime, and blue case lighting with a white glow.
 }
 \details{
 Use \code{mode = "light"} for a light background with dark text and darker marks.

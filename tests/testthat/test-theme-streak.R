@@ -1,8 +1,8 @@
 test_that("theme_streak returns a complete theme that builds a plot", {
   thm <- theme_streak(base_family = "sans", title_family = "sans")
   expect_s3_class(thm, "theme")
-  expect_equal(thm$plot.background$fill, "#D6F3FC")
-  expect_equal(thm$geom$fill, "#E1BF00")
+  expect_equal(thm$plot.background$fill, "#FFF8EE")
+  expect_equal(thm$geom$fill, "#FF7A00")
   p <- ggplot2::ggplot(data.frame(x = c("a", "b", "b")), ggplot2::aes(x = x, fill = x)) +
     ggplot2::geom_bar() +
     ggplot2::labs(title = "title")

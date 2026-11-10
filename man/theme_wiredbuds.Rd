@@ -24,8 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Wired earbuds made a comeback as a style statement and a break from
-charging. This \code{ggplot2} theme's colors are sampled from the Wikipedia
-image of a pair of white wired earbuds on a wooden table.
+charging. The palette follows the Headphones article's rubber, gold
+contacts, and wire, plus the red right channel marker, the wood table,
+and navy.
 }
 \examples{
 library(ggplot2)

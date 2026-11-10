@@ -1,8 +1,9 @@
 #' Voice note theme
 #'
 #' Voice notes are short recorded messages sent in a chat instead of
-#' typing. This `ggplot2` theme's colors are sampled from the Wikipedia
-#' image of a diagram of how a voicemail system routes and stores messages.
+#' typing. The palette follows the article's pink message slips and
+#' voicemail light, with record red, mic gray, call green, waveform violet,
+#' and amber.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -67,18 +68,18 @@ theme_voicenote <- function(base_size = 15,
 
 # Sampled from a diagram of how a voicemail system routes and stores messages
 voicenote_cols <- c(
-  background = "#EEEEEE",
-  panel = "#FBFBFB",
-  grid = "#D7D7D7",
-  text = "#2B2D2A",
-  frame = "#9B62FF",
-  title = "#DA0000",
-  strip = "#2B2D2A",
-  striptext = "#EEEEEE",
-  accent = "#9B62FF",
-  outline = "#2B2D2A",
-  fill = "#FF0000"
+  background = "#FAF4F6",
+  panel = "#FEFCFC",
+  grid = "#DDD8DA",
+  text = "#402128",
+  frame = "#C2185B",
+  title = "#C2185B",
+  strip = "#402128",
+  striptext = "#FAF4F6",
+  accent = "#E53935",
+  outline = "#402128",
+  fill = "#E87AA4"
 )
 
-voicenote_marks <- c("#FF0000", "#9B62FF", "#0040D3", "#F6B56E", "#5C0063", "#E0B0F3")
+voicenote_marks <- c("#E87AA4", "#E53935", "#6B7280", "#2EAD5B", "#7B61FF", "#F2A900")
 

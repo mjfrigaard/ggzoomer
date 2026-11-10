@@ -27,8 +27,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Speedrunning is beating a video game as fast as possible, often live for
-charity. This \code{ggplot2} theme's colors are sampled from the Wikipedia
-image of the crowd at a Summer Games Done Quick charity marathon.
+charity. The palette follows the article's timers and leaderboards:
+split timer gold (best segment), green (ahead), red (behind), white
+digits, and tool assisted cyan and purple.
 }
 \details{
 Use \code{mode = "light"} for a light background with dark text and darker marks.

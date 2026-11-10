@@ -1,8 +1,8 @@
 #' RGB setup theme
 #'
 #' An RGB setup is a gaming PC and desk lit up in color changing lights.
-#' This `ggplot2` theme's colors are sampled from the Wikipedia image of a
-#' gaming PC with glass panels and colored fans.
+#' The palette follows the article's gaming PCs lit in RGB: cyan, purple,
+#' red, lime, and blue case lighting with a white glow.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -73,35 +73,35 @@ theme_rgbsetup <- function(base_size = 15,
 # Sampled from a gaming PC with glass panels and colored fans
 rgbsetup_cols <- list(
   dark = c(
-    background = "#161C26",
-    panel = "#222832",
-    grid = "#3C424E",
-    text = "#F2F1E6",
-    frame = "#A833DA",
-    title = "#CC6661",
-    strip = "#F2F1E6",
-    striptext = "#161C26",
-    accent = "#A833DA",
-    outline = "#F2F1E6",
-    fill = "#973837"
+    background = "#0D0B14",
+    panel = "#1B1A20",
+    grid = "#34333A",
+    text = "#EEEDF6",
+    frame = "#00E5FF",
+    title = "#00E5FF",
+    strip = "#EEEDF6",
+    striptext = "#0D0B14",
+    accent = "#8B5CF6",
+    outline = "#EEEDF6",
+    fill = "#00E5FF"
   ),
   light = c(
-    background = "#EFEFDD",
-    panel = "#FBFBF5",
-    grid = "#D9D8C7",
-    text = "#262C37",
-    frame = "#A833DA",
-    title = "#973837",
-    strip = "#262C37",
-    striptext = "#EFEFDD",
-    accent = "#A833DA",
-    outline = "#262C37",
-    fill = "#973837"
+    background = "#EFECFE",
+    panel = "#F8F7FD",
+    grid = "#D3D0E1",
+    text = "#002F37",
+    frame = "#00758E",
+    title = "#00758E",
+    strip = "#002F37",
+    striptext = "#EFECFE",
+    accent = "#8B5CF6",
+    outline = "#002F37",
+    fill = "#00D7F1"
   )
 )
 
 rgbsetup_marks <- list(
-  dark = c("#973837", "#A833DA", "#5E3599", "#BA76DC", "#67A844", "#907571"),
-  light = c("#973837", "#A833DA", "#51298C", "#BA76DC", "#201947", "#67A844")
+  dark = c("#00E5FF", "#8B5CF6", "#FF3355", "#B6FF3B", "#0043BA", "#E8E6F0"),
+  light = c("#00D7F1", "#8B5CF6", "#FF3355", "#90DA00", "#0043BA", "#C6C4CE")
 )
 

@@ -24,8 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Group chats are where friends plan, share memes, and leave each other on
-read. This \code{ggplot2} theme's colors are sampled from the Wikipedia image
-of a group conversation in a messaging app.
+read. The palette follows chat bubbles from the article's instant
+messengers: sent blue, received gray, text green, typing purple,
+reaction yellow, and unread red.
 }
 \examples{
 library(ggplot2)

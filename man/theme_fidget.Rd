@@ -24,8 +24,9 @@ A \code{ggplot2} theme object.
 }
 \description{
 Fidget toys (spinners, cubes, pop its, and bike chains) are small things
-to keep your hands busy. This \code{ggplot2} theme's colors are sampled from
-the Wikipedia image of a bike chain fidget toy on lined paper.
+to keep your hands busy. The palette follows the article's fidget
+spinners, Fidget Cubes, and Pop Its: saturated silicone colors and a
+chrome bearing gray.
 }
 \examples{
 library(ggplot2)
