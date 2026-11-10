@@ -1,7 +1,7 @@
 # fmggp2
 
 `fmggp2` is the support package for [*ggplot2: field
-manual*](https://mjfrigaard.github.io/fm-ggp2/). It holds the late 90s
+manual*](https://mjfrigaard.github.io/fm-ggp2/). It holds the Gen Z
 `ggplot2` themes and the small helpers the book uses, so every chapter
 loads the same tested code.
 
@@ -17,101 +17,104 @@ pak::pak("mjfrigaard/fmggp2")
 
 ## Themes
 
-Every example in the book uses simulated data with a 90s throwback, and
-each dataset gets a theme to match.
+Each theme is named after an aesthetic, trend, or object from Gen Z
+internet culture, and its palette follows the colors, objects, and
+materials that topic’s Wikipedia article describes. The book chapters
+still use the earlier 90s themes until they are updated.
 
-| Theme | Reference | Chapter |
-|----|----|----|
-| [`theme_surge()`](https://mjfrigaard.github.io/fmggp2/reference/theme_surge.md) | Surge | Hexagon bins (cans vs. gaming hours) |
-| [`theme_geocities()`](https://mjfrigaard.github.io/fmggp2/reference/theme_geocities.md) | GeoCities | 2D histograms (page load times) |
-| [`theme_bopit()`](https://mjfrigaard.github.io/fmggp2/reference/theme_bopit.md) | Bop It | Density contours (reaction times) |
-| [`theme_cuseeme()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cuseeme.md) | CU-SeeMe | Parallel sets (video calls by connection and outcome) |
-| [`theme_powerrangers()`](https://mjfrigaard.github.io/fmggp2/reference/theme_powerrangers.md) | Power Rangers | Grouped bubble charts (putties defeated) |
-| [`theme_seinfeld()`](https://mjfrigaard.github.io/fmggp2/reference/theme_seinfeld.md) | Seinfeld | Bubble charts (Seinfeld episodes) |
-| [`theme_consolewars()`](https://mjfrigaard.github.io/fmggp2/reference/theme_consolewars.md) | Console wars | Grouped scatter plots (Sega vs. Nintendo) |
-| [`theme_doom()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doom.md) | Doom | Scatter plots (frame rate by CPU speed) |
-| [`theme_gushers()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gushers.md) | Fruit Gushers | Instance charts (lunch table trades by year) |
-| [`theme_y2k()`](https://mjfrigaard.github.io/fmggp2/reference/theme_y2k.md) | Y2K | Alluvial charts (Y2K prep surveys) |
-| [`theme_hypercolor()`](https://mjfrigaard.github.io/fmggp2/reference/theme_hypercolor.md) | Hypercolor | Stream plots (90s fad sales) |
-| [`theme_savedbythebell()`](https://mjfrigaard.github.io/fmggp2/reference/theme_savedbythebell.md) | Saved by the Bell | Slope graphs (Bayside quiz averages) |
-| [`theme_visor()`](https://mjfrigaard.github.io/fmggp2/reference/theme_visor.md) | Handspring Visor | Bump charts (PDA sales rank by year) |
-| [`theme_snick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_snick.md) | SNICK | Grouped line graphs (nightly Nickelodeon ratings) |
-| [`theme_batman()`](https://mjfrigaard.github.io/fmggp2/reference/theme_batman.md) | Batman (1989) | Line graphs (weekly box office) |
-| [`theme_rzone()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rzone.md) | Tiger R-Zone | Raincloud plots (seconds to clear the first level) |
-| [`theme_aim()`](https://mjfrigaard.github.io/fmggp2/reference/theme_aim.md) | AOL Instant Messenger | Grouped violin plots (buddy list sizes) |
-| [`theme_oregontrail()`](https://mjfrigaard.github.io/fmggp2/reference/theme_oregontrail.md) | The Oregon Trail | Grouped box plots (days to reach Oregon) |
-| [`theme_squeezit()`](https://mjfrigaard.github.io/fmggp2/reference/theme_squeezit.md) | Squeezit | Ridgeline plots (seconds to finish a bottle) |
-| [`theme_pager()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pager.md) | Two-way pagers | Overlapping and stacked densities (message lengths by pager) |
-| [`theme_tetris()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tetris.md) | Tetris | Beeswarm plots (lines cleared by player) |
-| [`theme_goosebumps()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goosebumps.md) | Goosebumps books | Overlapping dot plots (books read by grade) |
-| [`theme_supersoaker()`](https://mjfrigaard.github.io/fmggp2/reference/theme_supersoaker.md) | Super Soaker | Overlapping frequency polygons (range by model) |
-| [`theme_tamagotchi()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tamagotchi.md) | Tamagotchi | Overlapping histograms (virtual pet lifespans) |
-| [`theme_j2me()`](https://mjfrigaard.github.io/fmggp2/reference/theme_j2me.md) | J2ME phone games | Treemaps (game downloads by carrier and genre) |
-| [`theme_koosh()`](https://mjfrigaard.github.io/fmggp2/reference/theme_koosh.md) | Koosh ball | Pie charts (Koosh ball styles) |
-| [`theme_titanic()`](https://mjfrigaard.github.io/fmggp2/reference/theme_titanic.md) | Titanic (1997) | Mosaic plots (moviegoers and viewings) |
-| [`theme_netscape()`](https://mjfrigaard.github.io/fmggp2/reference/theme_netscape.md) | Netscape Navigator | Stacked filled densities (modem speeds) |
-| [`theme_orbitz()`](https://mjfrigaard.github.io/fmggp2/reference/theme_orbitz.md) | Orbitz | Diverging bar graphs (Orbitz vs. Surge survey) |
-| [`theme_walkman()`](https://mjfrigaard.github.io/fmggp2/reference/theme_walkman.md) | Sony Walkman Sports | Cleveland dot plots (battery life by model) |
-| [`theme_pogs()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pogs.md) | Pogs milk caps | Waffle charts (a collection of 100 Pogs) |
-| [`theme_freshprince()`](https://mjfrigaard.github.io/fmggp2/reference/theme_freshprince.md) | The Fresh Prince of Bel-Air | Heatmaps (running gags per season) |
-| [`theme_netware()`](https://mjfrigaard.github.io/fmggp2/reference/theme_netware.md) | Novell NetWare | Overlapping bar graphs (LAN protocols by office) |
-| [`theme_happymeal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_happymeal.md) | McDonald’s Happy Meal box | Summary bar graphs (Happy Meals sold per promotion) |
-| [`theme_jurassic()`](https://mjfrigaard.github.io/fmggp2/reference/theme_jurassic.md) | Jurassic Park (1993) | Grouped bar graphs (dinosaur weights per paddock) |
-| [`theme_n64()`](https://mjfrigaard.github.io/fmggp2/reference/theme_n64.md) | Nintendo 64 | Box plots (Mario Kart 64 lap times) |
-| [`theme_microdrive()`](https://mjfrigaard.github.io/fmggp2/reference/theme_microdrive.md) | IBM Microdrive | Violin plots (photo file sizes) |
-| [`theme_wired()`](https://mjfrigaard.github.io/fmggp2/reference/theme_wired.md) | WIRED magazine | Density plots (story reading times) |
-| [`theme_blockbuster()`](https://mjfrigaard.github.io/fmggp2/reference/theme_blockbuster.md) | Blockbuster Video | Dot plots (weekly rentals) |
-| [`theme_gameboy()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gameboy.md) | Original Game Boy screen | Bar graphs (Pokémon starters) |
-| [`theme_oksoda()`](https://mjfrigaard.github.io/fmggp2/reference/theme_oksoda.md) | OK Soda | Histograms (cans sold per store) |
-| [`theme_talkboy()`](https://mjfrigaard.github.io/fmggp2/reference/theme_talkboy.md) | Talkboy | Frequency polygons (recorded message lengths) |
-| [`theme_fmggp2()`](https://mjfrigaard.github.io/fmggp2/reference/theme_fmggp2.md) | Original book theme | Chapters not yet converted |
+| Theme | Wikipedia |
+|----|----|
+| [`theme_airfryer()`](https://mjfrigaard.github.io/fmggp2/reference/theme_airfryer.md) | [Convection oven](https://en.wikipedia.org/wiki/Convection_oven) |
+| [`theme_asmr()`](https://mjfrigaard.github.io/fmggp2/reference/theme_asmr.md) | [ASMR](https://en.wikipedia.org/wiki/ASMR) |
+| [`theme_axolotl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_axolotl.md) | [Axolotl](https://en.wikipedia.org/wiki/Axolotl) |
+| [`theme_boba()`](https://mjfrigaard.github.io/fmggp2/reference/theme_boba.md) | [Bubble tea](https://en.wikipedia.org/wiki/Bubble_tea) |
+| [`theme_capybara()`](https://mjfrigaard.github.io/fmggp2/reference/theme_capybara.md) | [Capybara](https://en.wikipedia.org/wiki/Capybara) |
+| [`theme_cleangirl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cleangirl.md) | [Clean girl aesthetic](https://en.wikipedia.org/wiki/Clean_girl_aesthetic) |
+| [`theme_coastal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_coastal.md) | [Coastal grandmother](https://en.wikipedia.org/wiki/Coastal_grandmother) |
+| [`theme_coquette()`](https://mjfrigaard.github.io/fmggp2/reference/theme_coquette.md) | [Coquette aesthetic](https://en.wikipedia.org/wiki/Coquette_aesthetic) |
+| [`theme_cottagecore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cottagecore.md) | [Cottagecore](https://en.wikipedia.org/wiki/Cottagecore) |
+| [`theme_darkacademia()`](https://mjfrigaard.github.io/fmggp2/reference/theme_darkacademia.md) | [Dark academia](https://en.wikipedia.org/wiki/Dark_academia) |
+| [`theme_digicam()`](https://mjfrigaard.github.io/fmggp2/reference/theme_digicam.md) | [Digital camera](https://en.wikipedia.org/wiki/Digital_camera) |
+| [`theme_doomscroll()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doomscroll.md) | [Doomscrolling](https://en.wikipedia.org/wiki/Doomscrolling) |
+| [`theme_fidget()`](https://mjfrigaard.github.io/fmggp2/reference/theme_fidget.md) | [Fidget toy](https://en.wikipedia.org/wiki/Fidget_toy) |
+| [`theme_frog()`](https://mjfrigaard.github.io/fmggp2/reference/theme_frog.md) | [Frog](https://en.wikipedia.org/wiki/Frog) |
+| [`theme_frutigeraero()`](https://mjfrigaard.github.io/fmggp2/reference/theme_frutigeraero.md) | [Frutiger Aero](https://en.wikipedia.org/wiki/Frutiger_Aero) |
+| [`theme_goblincore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goblincore.md) | [Goblincore](https://en.wikipedia.org/wiki/Goblincore) |
+| [`theme_gorpcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gorpcore.md) | [Gorpcore](https://en.wikipedia.org/wiki/Gorpcore) |
+| [`theme_groupchat()`](https://mjfrigaard.github.io/fmggp2/reference/theme_groupchat.md) | [Online chat](https://en.wikipedia.org/wiki/Online_chat) |
+| [`theme_indiesleaze()`](https://mjfrigaard.github.io/fmggp2/reference/theme_indiesleaze.md) | [Indie sleaze](https://en.wikipedia.org/wiki/Indie_sleaze) |
+| [`theme_kidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_kidcore.md) | [Kidcore](https://en.wikipedia.org/wiki/Kidcore) |
+| [`theme_ledstrip()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ledstrip.md) | [LED strip light](https://en.wikipedia.org/wiki/LED_strip_light) |
+| [`theme_lightstick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_lightstick.md) | [Glow stick](https://en.wikipedia.org/wiki/Glow_stick) |
+| [`theme_liminal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_liminal.md) | [Liminal space](https://en.wikipedia.org/wiki/Liminal_space) |
+| [`theme_livestream()`](https://mjfrigaard.github.io/fmggp2/reference/theme_livestream.md) | [Live streaming](https://en.wikipedia.org/wiki/Live_streaming) |
+| [`theme_matcha()`](https://mjfrigaard.github.io/fmggp2/reference/theme_matcha.md) | [Matcha](https://en.wikipedia.org/wiki/Matcha) |
+| [`theme_mermaidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mermaidcore.md) | [Mermaid](https://en.wikipedia.org/wiki/Mermaid) |
+| [`theme_mushroomlamp()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mushroomlamp.md) | [Nightlight](https://en.wikipedia.org/wiki/Nightlight) |
+| [`theme_photodump()`](https://mjfrigaard.github.io/fmggp2/reference/theme_photodump.md) | [Camera phone](https://en.wikipedia.org/wiki/Camera_phone) |
+| [`theme_pickleball()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pickleball.md) | [Pickleball](https://en.wikipedia.org/wiki/Pickleball) |
+| [`theme_plushie()`](https://mjfrigaard.github.io/fmggp2/reference/theme_plushie.md) | [Stuffed toy](https://en.wikipedia.org/wiki/Stuffed_toy) |
+| [`theme_rgbsetup()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rgbsetup.md) | [Gaming computer](https://en.wikipedia.org/wiki/Gaming_computer) |
+| [`theme_ringlight()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ringlight.md) | [Ring flash](https://en.wikipedia.org/wiki/Ring_flash) |
+| [`theme_slime()`](https://mjfrigaard.github.io/fmggp2/reference/theme_slime.md) | [Slime (toy)](https://en.wikipedia.org/wiki/Slime_(toy)) |
+| [`theme_speedrun()`](https://mjfrigaard.github.io/fmggp2/reference/theme_speedrun.md) | [Speedrunning](https://en.wikipedia.org/wiki/Speedrunning) |
+| [`theme_streak()`](https://mjfrigaard.github.io/fmggp2/reference/theme_streak.md) | [Gamification](https://en.wikipedia.org/wiki/Gamification) |
+| [`theme_synthwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_synthwave.md) | [Synthwave](https://en.wikipedia.org/wiki/Synthwave) |
+| [`theme_thrift()`](https://mjfrigaard.github.io/fmggp2/reference/theme_thrift.md) | [Charity shop](https://en.wikipedia.org/wiki/Charity_shop) |
+| [`theme_tumbler()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tumbler.md) | [Vacuum flask](https://en.wikipedia.org/wiki/Vacuum_flask) |
+| [`theme_unboxing()`](https://mjfrigaard.github.io/fmggp2/reference/theme_unboxing.md) | [Unboxing](https://en.wikipedia.org/wiki/Unboxing) |
+| [`theme_vaporwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_vaporwave.md) | [Vaporwave](https://en.wikipedia.org/wiki/Vaporwave) |
+| [`theme_vinyl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_vinyl.md) | [Phonograph record](https://en.wikipedia.org/wiki/Phonograph_record) |
+| [`theme_voicenote()`](https://mjfrigaard.github.io/fmggp2/reference/theme_voicenote.md) | [Voicemail](https://en.wikipedia.org/wiki/Voicemail) |
+| [`theme_weirdcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_weirdcore.md) | [Weirdcore](https://en.wikipedia.org/wiki/Weirdcore) |
+| [`theme_wiredbuds()`](https://mjfrigaard.github.io/fmggp2/reference/theme_wiredbuds.md) | [Headphones](https://en.wikipedia.org/wiki/Headphones) |
+| [`theme_fmggp2()`](https://mjfrigaard.github.io/fmggp2/reference/theme_fmggp2.md) | Original book theme |
 
 The two graphs below use
-[`theme_oksoda()`](https://mjfrigaard.github.io/fmggp2/reference/theme_oksoda.md)
+[`theme_boba()`](https://mjfrigaard.github.io/fmggp2/reference/theme_boba.md)
 and
-[`theme_talkboy()`](https://mjfrigaard.github.io/fmggp2/reference/theme_talkboy.md)
-with simulated data like the data in their chapters.
+[`theme_synthwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_synthwave.md)
+with simulated data.
 
 ``` r
 
 library(fmggp2)
 library(ggplot2)
 showtext::showtext_auto()
-set.seed(1014)
-ok_soda_sales <- data.frame(cans = round(rnorm(300, mean = 45, sd = 12)))
-ggplot(ok_soda_sales, aes(x = cans)) +
-  geom_histogram(bins = 30) +
-  labs(title = "OK Soda", caption = "Simulated data",
-       x = "Cans sold per store") +
-  theme_oksoda(base_size = 13)
+set.seed(1980)
+boba <- data.frame(flavor = sample(c("Classic milk", "Taro", "Brown sugar", "Matcha", "Mango"), 400, replace = TRUE,
+  prob = c(0.3, 0.2, 0.25, 0.15, 0.1)))
+ggplot(boba, aes(x = flavor, fill = flavor)) +
+  geom_bar(show.legend = FALSE) +
+  labs(title = "Boba orders", caption = "Simulated data", x = NULL, y = "Orders") +
+  theme_boba(base_size = 13)
 ```
 
-![](reference/figures/README-readme-oksoda-1.png)
+![](reference/figures/README-readme-boba-1.png)
 
 ``` r
 
-set.seed(1999)
-talkboy_clips <- data.frame(seconds = round(rgamma(300, shape = 4, rate = 0.5), 1))
-ggplot(talkboy_clips, aes(x = seconds)) +
-  geom_freqpoly(bins = 30) +
-  labs(title = "Talkboy", caption = "Simulated data",
-       x = "Message length (seconds)") +
-  theme_talkboy(base_size = 13)
+set.seed(1984)
+tracks <- data.frame(bpm = rnorm(300, 110, 12))
+tracks$plays <- round(rlnorm(300, meanlog = 8 + 0.01 * (tracks$bpm - 110), sdlog = 0.7))
+tracks$mood <- sample(c("Night drive", "Neon", "Retro"), 300, replace = TRUE)
+ggplot(tracks, aes(x = bpm, y = plays, colour = mood)) +
+  geom_point(alpha = 0.8) +
+  scale_y_log10() +
+  labs(title = "Synthwave tracks", caption = "Simulated data", x = "BPM", y = "Plays (log scale)", colour = NULL) +
+  theme_synthwave(base_size = 13)
 ```
 
-![](reference/figures/README-readme-talkboy-1.png)
+![](reference/figures/README-readme-synthwave-1.png)
 
 ## Reference images
 
-Each theme’s palette is sampled from a photo or screenshot of its 90s
-reference. The [themes
+Each theme’s palette follows its Wikipedia article. A freely licensed
+image (public domain, CC0, CC BY, CC BY-SA, or GFDL) from the article,
+or from Wikimedia Commons when the article has no free image, supports
+it. The [themes
 vignette](https://mjfrigaard.github.io/fmggp2/articles/themes.html)
-shows each image with its author and license, and only images licensed
-for reuse (public domain, CC0, CC BY, or CC BY-SA) are included. A few
-themes, like
-[`theme_goosebumps()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goosebumps.md),
-don’t have a freely licensed image yet, so the vignette shows their
-graphs without one.
+shows each image with its author and license.
 
 ## Book helpers
 

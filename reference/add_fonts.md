@@ -30,5 +30,4 @@ message and aborts.
 
 ``` r
 add_fonts("Ubuntu")
-#> Ubuntu already installed
 ```

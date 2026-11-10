@@ -1,101 +1,95 @@
 # Package index
 
-## 90s themes
+## Themes
 
-- [`theme_gameboy()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gameboy.md)
-  : Game Boy theme
-- [`theme_oksoda()`](https://mjfrigaard.github.io/fmggp2/reference/theme_oksoda.md)
-  : OK Soda theme
-- [`theme_talkboy()`](https://mjfrigaard.github.io/fmggp2/reference/theme_talkboy.md)
-  : Talkboy theme
-- [`theme_blockbuster()`](https://mjfrigaard.github.io/fmggp2/reference/theme_blockbuster.md)
-  : Blockbuster theme
-- [`theme_wired()`](https://mjfrigaard.github.io/fmggp2/reference/theme_wired.md)
-  : WIRED theme
-- [`theme_n64()`](https://mjfrigaard.github.io/fmggp2/reference/theme_n64.md)
-  : Nintendo 64 theme
-- [`theme_jurassic()`](https://mjfrigaard.github.io/fmggp2/reference/theme_jurassic.md)
-  : Jurassic Park theme
-- [`theme_happymeal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_happymeal.md)
-  : Happy Meal theme
-- [`theme_freshprince()`](https://mjfrigaard.github.io/fmggp2/reference/theme_freshprince.md)
-  : Fresh Prince theme
-- [`theme_pogs()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pogs.md)
-  : Pogs theme
-- [`theme_walkman()`](https://mjfrigaard.github.io/fmggp2/reference/theme_walkman.md)
-  : Sony Walkman theme
-- [`theme_orbitz()`](https://mjfrigaard.github.io/fmggp2/reference/theme_orbitz.md)
-  : Orbitz theme
-- [`theme_netscape()`](https://mjfrigaard.github.io/fmggp2/reference/theme_netscape.md)
-  : Netscape theme
-- [`theme_titanic()`](https://mjfrigaard.github.io/fmggp2/reference/theme_titanic.md)
-  : Titanic theme
-- [`theme_koosh()`](https://mjfrigaard.github.io/fmggp2/reference/theme_koosh.md)
-  : Koosh ball theme
-- [`theme_tamagotchi()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tamagotchi.md)
-  : Tamagotchi theme
-- [`theme_supersoaker()`](https://mjfrigaard.github.io/fmggp2/reference/theme_supersoaker.md)
-  : Super Soaker theme
-- [`theme_goosebumps()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goosebumps.md)
-  : Goosebumps theme
-- [`theme_tetris()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tetris.md)
-  : Tetris theme
-- [`theme_squeezit()`](https://mjfrigaard.github.io/fmggp2/reference/theme_squeezit.md)
-  : Squeezit theme
-- [`theme_oregontrail()`](https://mjfrigaard.github.io/fmggp2/reference/theme_oregontrail.md)
-  : Oregon Trail theme
-- [`theme_aim()`](https://mjfrigaard.github.io/fmggp2/reference/theme_aim.md)
-  : AIM theme
-- [`theme_rzone()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rzone.md)
-  : Tiger R-Zone theme
-- [`theme_batman()`](https://mjfrigaard.github.io/fmggp2/reference/theme_batman.md)
-  : Batman theme
-- [`theme_snick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_snick.md)
-  : SNICK theme
-- [`theme_savedbythebell()`](https://mjfrigaard.github.io/fmggp2/reference/theme_savedbythebell.md)
-  : Saved by the Bell theme
-- [`theme_hypercolor()`](https://mjfrigaard.github.io/fmggp2/reference/theme_hypercolor.md)
-  : Hypercolor theme
-- [`theme_y2k()`](https://mjfrigaard.github.io/fmggp2/reference/theme_y2k.md)
-  : Y2K theme
-- [`theme_gushers()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gushers.md)
-  : Fruit Gushers theme
-- [`theme_doom()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doom.md)
-  : Doom theme
-- [`theme_consolewars()`](https://mjfrigaard.github.io/fmggp2/reference/theme_consolewars.md)
-  : Console wars theme
-- [`theme_seinfeld()`](https://mjfrigaard.github.io/fmggp2/reference/theme_seinfeld.md)
-  : Seinfeld theme
-- [`theme_powerrangers()`](https://mjfrigaard.github.io/fmggp2/reference/theme_powerrangers.md)
-  : Power Rangers theme
-- [`theme_bopit()`](https://mjfrigaard.github.io/fmggp2/reference/theme_bopit.md)
-  : Bop It theme
-- [`theme_geocities()`](https://mjfrigaard.github.io/fmggp2/reference/theme_geocities.md)
-  : GeoCities theme
-- [`theme_surge()`](https://mjfrigaard.github.io/fmggp2/reference/theme_surge.md)
-  : Surge theme
-- [`theme_microdrive()`](https://mjfrigaard.github.io/fmggp2/reference/theme_microdrive.md)
-  : IBM Microdrive theme
-- [`theme_netware()`](https://mjfrigaard.github.io/fmggp2/reference/theme_netware.md)
-  : Novell NetWare theme
-- [`theme_j2me()`](https://mjfrigaard.github.io/fmggp2/reference/theme_j2me.md)
-  : J2ME theme
-- [`theme_palmpilot()`](https://mjfrigaard.github.io/fmggp2/reference/theme_palmpilot.md)
-  : Palm Pilot theme
-- [`theme_visor()`](https://mjfrigaard.github.io/fmggp2/reference/theme_visor.md)
-  : Handspring Visor theme
-- [`theme_pager()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pager.md)
-  : Two-way pager theme
-- [`theme_cuseeme()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cuseeme.md)
-  : CU-SeeMe theme
-- [`theme_vrml()`](https://mjfrigaard.github.io/fmggp2/reference/theme_vrml.md)
-  : VRML theme
-- [`theme_javaapplet()`](https://mjfrigaard.github.io/fmggp2/reference/theme_javaapplet.md)
-  : Java applet theme
-- [`theme_cuecat()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cuecat.md)
-  : CueCat theme
-- [`theme_audrey()`](https://mjfrigaard.github.io/fmggp2/reference/theme_audrey.md)
-  : 3Com Audrey theme
+- [`theme_airfryer()`](https://mjfrigaard.github.io/fmggp2/reference/theme_airfryer.md)
+  : Air fryer theme
+- [`theme_asmr()`](https://mjfrigaard.github.io/fmggp2/reference/theme_asmr.md)
+  : ASMR theme
+- [`theme_axolotl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_axolotl.md)
+  : Axolotl theme
+- [`theme_boba()`](https://mjfrigaard.github.io/fmggp2/reference/theme_boba.md)
+  : Boba theme
+- [`theme_capybara()`](https://mjfrigaard.github.io/fmggp2/reference/theme_capybara.md)
+  : Capybara theme
+- [`theme_cleangirl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cleangirl.md)
+  : Clean girl theme
+- [`theme_coastal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_coastal.md)
+  : Coastal grandmother theme
+- [`theme_coquette()`](https://mjfrigaard.github.io/fmggp2/reference/theme_coquette.md)
+  : Coquette theme
+- [`theme_cottagecore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cottagecore.md)
+  : Cottagecore theme
+- [`theme_darkacademia()`](https://mjfrigaard.github.io/fmggp2/reference/theme_darkacademia.md)
+  : Dark academia theme
+- [`theme_digicam()`](https://mjfrigaard.github.io/fmggp2/reference/theme_digicam.md)
+  : Digicam theme
+- [`theme_doomscroll()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doomscroll.md)
+  : Doomscroll theme
+- [`theme_fidget()`](https://mjfrigaard.github.io/fmggp2/reference/theme_fidget.md)
+  : Fidget toy theme
+- [`theme_frog()`](https://mjfrigaard.github.io/fmggp2/reference/theme_frog.md)
+  : Frog theme
+- [`theme_frutigeraero()`](https://mjfrigaard.github.io/fmggp2/reference/theme_frutigeraero.md)
+  : Frutiger Aero theme
+- [`theme_goblincore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goblincore.md)
+  : Goblincore theme
+- [`theme_gorpcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gorpcore.md)
+  : Gorpcore theme
+- [`theme_groupchat()`](https://mjfrigaard.github.io/fmggp2/reference/theme_groupchat.md)
+  : Group chat theme
+- [`theme_indiesleaze()`](https://mjfrigaard.github.io/fmggp2/reference/theme_indiesleaze.md)
+  : Indie sleaze theme
+- [`theme_kidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_kidcore.md)
+  : Kidcore theme
+- [`theme_ledstrip()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ledstrip.md)
+  : LED strip theme
+- [`theme_lightstick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_lightstick.md)
+  : Lightstick theme
+- [`theme_liminal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_liminal.md)
+  : Liminal space theme
+- [`theme_livestream()`](https://mjfrigaard.github.io/fmggp2/reference/theme_livestream.md)
+  : Livestream theme
+- [`theme_matcha()`](https://mjfrigaard.github.io/fmggp2/reference/theme_matcha.md)
+  : Matcha theme
+- [`theme_mermaidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mermaidcore.md)
+  : Mermaidcore theme
+- [`theme_mushroomlamp()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mushroomlamp.md)
+  : Mushroom lamp theme
+- [`theme_photodump()`](https://mjfrigaard.github.io/fmggp2/reference/theme_photodump.md)
+  : Photo dump theme
+- [`theme_pickleball()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pickleball.md)
+  : Pickleball theme
+- [`theme_plushie()`](https://mjfrigaard.github.io/fmggp2/reference/theme_plushie.md)
+  : Plushie theme
+- [`theme_rgbsetup()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rgbsetup.md)
+  : RGB setup theme
+- [`theme_ringlight()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ringlight.md)
+  : Ring light theme
+- [`theme_slime()`](https://mjfrigaard.github.io/fmggp2/reference/theme_slime.md)
+  : Slime theme
+- [`theme_speedrun()`](https://mjfrigaard.github.io/fmggp2/reference/theme_speedrun.md)
+  : Speedrun theme
+- [`theme_streak()`](https://mjfrigaard.github.io/fmggp2/reference/theme_streak.md)
+  : Streak theme
+- [`theme_synthwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_synthwave.md)
+  : Synthwave theme
+- [`theme_thrift()`](https://mjfrigaard.github.io/fmggp2/reference/theme_thrift.md)
+  : Thrift theme
+- [`theme_tumbler()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tumbler.md)
+  : Tumbler theme
+- [`theme_unboxing()`](https://mjfrigaard.github.io/fmggp2/reference/theme_unboxing.md)
+  : Unboxing theme
+- [`theme_vaporwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_vaporwave.md)
+  : Vaporwave theme
+- [`theme_vinyl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_vinyl.md)
+  : Vinyl theme
+- [`theme_voicenote()`](https://mjfrigaard.github.io/fmggp2/reference/theme_voicenote.md)
+  : Voice note theme
+- [`theme_weirdcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_weirdcore.md)
+  : Weirdcore theme
+- [`theme_wiredbuds()`](https://mjfrigaard.github.io/fmggp2/reference/theme_wiredbuds.md)
+  : Wired earbuds theme
 - [`theme_fmggp2()`](https://mjfrigaard.github.io/fmggp2/reference/theme_fmggp2.md)
   : fmggp2 Styling Theme
 

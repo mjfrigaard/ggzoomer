@@ -1,300 +1,247 @@
 # Changelog
 
-## fmggp2 0.71.0
+## fmggp2 1.0.0
 
-- [`theme_goosebumps()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goosebumps.md),
-  [`theme_jurassic()`](https://mjfrigaard.github.io/fmggp2/reference/theme_jurassic.md),
-  [`theme_koosh()`](https://mjfrigaard.github.io/fmggp2/reference/theme_koosh.md),
-  [`theme_orbitz()`](https://mjfrigaard.github.io/fmggp2/reference/theme_orbitz.md),
+- Breaking: all 48 late 90s themes are removed, along with their images,
+  tests, the bundled Press Start 2P font, and `gameboy_font()`. The book
+  chapters that call them need updating.
+- 44 new themes named after Gen Z aesthetics, trends, and objects:
+  [`theme_airfryer()`](https://mjfrigaard.github.io/fmggp2/reference/theme_airfryer.md),
+  [`theme_asmr()`](https://mjfrigaard.github.io/fmggp2/reference/theme_asmr.md),
+  [`theme_axolotl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_axolotl.md),
+  [`theme_boba()`](https://mjfrigaard.github.io/fmggp2/reference/theme_boba.md),
+  [`theme_capybara()`](https://mjfrigaard.github.io/fmggp2/reference/theme_capybara.md),
+  [`theme_cleangirl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cleangirl.md),
+  [`theme_coastal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_coastal.md),
+  [`theme_coquette()`](https://mjfrigaard.github.io/fmggp2/reference/theme_coquette.md),
+  [`theme_cottagecore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cottagecore.md),
+  [`theme_darkacademia()`](https://mjfrigaard.github.io/fmggp2/reference/theme_darkacademia.md),
+  [`theme_digicam()`](https://mjfrigaard.github.io/fmggp2/reference/theme_digicam.md),
+  [`theme_doomscroll()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doomscroll.md),
+  [`theme_fidget()`](https://mjfrigaard.github.io/fmggp2/reference/theme_fidget.md),
+  [`theme_frog()`](https://mjfrigaard.github.io/fmggp2/reference/theme_frog.md),
+  [`theme_frutigeraero()`](https://mjfrigaard.github.io/fmggp2/reference/theme_frutigeraero.md),
+  [`theme_goblincore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goblincore.md),
+  [`theme_gorpcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gorpcore.md),
+  [`theme_groupchat()`](https://mjfrigaard.github.io/fmggp2/reference/theme_groupchat.md),
+  [`theme_indiesleaze()`](https://mjfrigaard.github.io/fmggp2/reference/theme_indiesleaze.md),
+  [`theme_kidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_kidcore.md),
+  [`theme_ledstrip()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ledstrip.md),
+  [`theme_lightstick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_lightstick.md),
+  [`theme_liminal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_liminal.md),
+  [`theme_livestream()`](https://mjfrigaard.github.io/fmggp2/reference/theme_livestream.md),
+  [`theme_matcha()`](https://mjfrigaard.github.io/fmggp2/reference/theme_matcha.md),
+  [`theme_mermaidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mermaidcore.md),
+  [`theme_mushroomlamp()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mushroomlamp.md),
+  [`theme_photodump()`](https://mjfrigaard.github.io/fmggp2/reference/theme_photodump.md),
+  [`theme_pickleball()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pickleball.md),
+  [`theme_plushie()`](https://mjfrigaard.github.io/fmggp2/reference/theme_plushie.md),
+  [`theme_rgbsetup()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rgbsetup.md),
+  [`theme_ringlight()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ringlight.md),
+  [`theme_slime()`](https://mjfrigaard.github.io/fmggp2/reference/theme_slime.md),
+  [`theme_speedrun()`](https://mjfrigaard.github.io/fmggp2/reference/theme_speedrun.md),
+  [`theme_streak()`](https://mjfrigaard.github.io/fmggp2/reference/theme_streak.md),
+  [`theme_synthwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_synthwave.md),
+  [`theme_thrift()`](https://mjfrigaard.github.io/fmggp2/reference/theme_thrift.md),
+  [`theme_tumbler()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tumbler.md),
+  [`theme_unboxing()`](https://mjfrigaard.github.io/fmggp2/reference/theme_unboxing.md),
+  [`theme_vaporwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_vaporwave.md),
+  [`theme_vinyl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_vinyl.md),
+  [`theme_voicenote()`](https://mjfrigaard.github.io/fmggp2/reference/theme_voicenote.md),
+  [`theme_weirdcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_weirdcore.md),
   and
-  [`theme_tetris()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tetris.md)
-  draw geom outlines in the ink color. Their outlines matched the panel,
-  so low contrast fills had no visible edge, and points and lines
-  without a mapped color were nearly invisible.
-
-## fmggp2 0.70.0
-
-- Marks that merged under red green color blindness now differ by at
-  least 10 (CIELAB) under deuteranopia and protanopia, and keep 3:1
-  contrast with the panel.
-  [`theme_snick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_snick.md)
-  dark has a darker purple (`#A16BD9`). The
-  [`theme_batman()`](https://mjfrigaard.github.io/fmggp2/reference/theme_batman.md)
-  movie light marks spread their lightness (`#D75A00`, `#512100`,
-  `#596068`, `#B7683C`, `#765700`, `#7C2500`). The
-  [`theme_orbitz()`](https://mjfrigaard.github.io/fmggp2/reference/theme_orbitz.md)
-  light version has a lighter sand (`#A89039`), a darker maroon
-  (`#95003D`), and a darker amber (`#A77500`).
-
-## fmggp2 0.69.0
-
-- [`check_fonts()`](https://mjfrigaard.github.io/fmggp2/reference/check_fonts.md)
-  now returns `FALSE` when the fonts are missing, so
-  [`load_fmggp2_fonts()`](https://mjfrigaard.github.io/fmggp2/reference/load_fmggp2_fonts.md)
-  imports them. It used to return `TRUE` because
-  `check_assets(dir = NULL)` compared against an empty vector.
-- New tests cover
-  [`check_assets()`](https://mjfrigaard.github.io/fmggp2/reference/check_assets.md),
-  [`check_fonts()`](https://mjfrigaard.github.io/fmggp2/reference/check_fonts.md),
-  [`import_fmggp2_fonts()`](https://mjfrigaard.github.io/fmggp2/reference/import_fmggp2_fonts.md),
-  [`load_fmggp2_fonts()`](https://mjfrigaard.github.io/fmggp2/reference/load_fmggp2_fonts.md),
+  [`theme_wiredbuds()`](https://mjfrigaard.github.io/fmggp2/reference/theme_wiredbuds.md).
+- Each palette follows the colors, objects, and materials the topic’s
+  Wikipedia article describes (for example,
+  [`theme_cleangirl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cleangirl.md)
+  uses the article’s rosy blush, brown brows and lip liner, and light
+  neutrals), with a freely licensed image from the article as support.
+  Palettes are then adjusted for contrast: text at least 4.5:1, titles
+  at least 4.5:1, marks at least 1.5:1 against the panel, and marks at
+  least 6 CIEDE2000 apart under normal vision, deuteranopia, and
+  protanopia.
+- Themes with a dark default have `mode = "light"`:
+  [`theme_darkacademia()`](https://mjfrigaard.github.io/fmggp2/reference/theme_darkacademia.md),
+  [`theme_doomscroll()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doomscroll.md),
+  [`theme_goblincore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goblincore.md),
+  [`theme_indiesleaze()`](https://mjfrigaard.github.io/fmggp2/reference/theme_indiesleaze.md),
+  [`theme_ledstrip()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ledstrip.md),
+  [`theme_lightstick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_lightstick.md),
+  [`theme_livestream()`](https://mjfrigaard.github.io/fmggp2/reference/theme_livestream.md),
+  [`theme_mushroomlamp()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mushroomlamp.md),
+  [`theme_rgbsetup()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rgbsetup.md),
+  [`theme_speedrun()`](https://mjfrigaard.github.io/fmggp2/reference/theme_speedrun.md),
   and
-  [`theme_fmggp2()`](https://mjfrigaard.github.io/fmggp2/reference/theme_fmggp2.md).
+  [`theme_synthwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_synthwave.md).
+- The themes vignette shows every theme with its image, credit, and
+  simulated data.
 
 ## fmggp2 0.68.0
 
-- [`theme_freshprince()`](https://mjfrigaard.github.io/fmggp2/reference/theme_freshprince.md)
-  has a slightly darker green title and the dark
-  [`theme_rzone()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rzone.md)
-  has black strip text, so both now meet the contrast targets from
-  0.67.0.
+- `theme_freshprince()` has a slightly darker green title and the dark
+  `theme_rzone()` has black strip text, so both now meet the contrast
+  targets from 0.67.0.
 
 ## fmggp2 0.67.0
 
 - Text now meets a 4.5:1 contrast ratio against its background (3:1 for
-  titles).
-  [`theme_supersoaker()`](https://mjfrigaard.github.io/fmggp2/reference/theme_supersoaker.md)
-  uses dark text on the orange background and green strip.
-  [`theme_vrml()`](https://mjfrigaard.github.io/fmggp2/reference/theme_vrml.md)
-  has a lighter wall,
-  [`theme_microdrive()`](https://mjfrigaard.github.io/fmggp2/reference/theme_microdrive.md)
-  a slightly darker red, and
-  [`theme_freshprince()`](https://mjfrigaard.github.io/fmggp2/reference/theme_freshprince.md)
+  titles). `theme_supersoaker()` uses dark text on the orange background
+  and green strip. `theme_vrml()` has a lighter wall,
+  `theme_microdrive()` a slightly darker red, and `theme_freshprince()`
   a darker green title and olive subtitle and strip text. Strip text or
-  strip fills changed in
-  [`theme_tamagotchi()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tamagotchi.md),
-  [`theme_happymeal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_happymeal.md),
-  [`theme_savedbythebell()`](https://mjfrigaard.github.io/fmggp2/reference/theme_savedbythebell.md),
-  [`theme_talkboy()`](https://mjfrigaard.github.io/fmggp2/reference/theme_talkboy.md),
-  [`theme_jurassic()`](https://mjfrigaard.github.io/fmggp2/reference/theme_jurassic.md),
-  and the dark versions of
-  [`theme_rzone()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rzone.md),
-  [`theme_doom()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doom.md),
-  [`theme_consolewars()`](https://mjfrigaard.github.io/fmggp2/reference/theme_consolewars.md),
-  [`theme_orbitz()`](https://mjfrigaard.github.io/fmggp2/reference/theme_orbitz.md),
-  and
-  [`theme_hypercolor()`](https://mjfrigaard.github.io/fmggp2/reference/theme_hypercolor.md).
-  The
-  [`theme_gameboy()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gameboy.md)
-  subtitle uses the darkest green, and `theme_seinfeld(mode = "light")`
-  uses a slightly darker red.
+  strip fills changed in `theme_tamagotchi()`, `theme_happymeal()`,
+  `theme_savedbythebell()`, `theme_talkboy()`, `theme_jurassic()`, and
+  the dark versions of `theme_rzone()`, `theme_doom()`,
+  `theme_consolewars()`, `theme_orbitz()`, and `theme_hypercolor()`. The
+  `theme_gameboy()` subtitle uses the darkest green, and
+  `theme_seinfeld(mode = "light")` uses a slightly darker red.
 - Marks that were hard to tell apart with red green color blindness now
-  differ in lightness (hues are unchanged):
-  [`theme_batman()`](https://mjfrigaard.github.io/fmggp2/reference/theme_batman.md),
-  [`theme_doom()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doom.md),
-  [`theme_netscape()`](https://mjfrigaard.github.io/fmggp2/reference/theme_netscape.md),
-  [`theme_orbitz()`](https://mjfrigaard.github.io/fmggp2/reference/theme_orbitz.md),
-  [`theme_snick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_snick.md),
-  and
-  [`theme_surge()`](https://mjfrigaard.github.io/fmggp2/reference/theme_surge.md)
-  light versions, both
-  [`theme_geocities()`](https://mjfrigaard.github.io/fmggp2/reference/theme_geocities.md)
-  versions,
-  [`theme_snick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_snick.md)
-  and
-  [`theme_surge()`](https://mjfrigaard.github.io/fmggp2/reference/theme_surge.md)
-  dark versions, and
-  [`theme_gushers()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gushers.md),
-  [`theme_j2me()`](https://mjfrigaard.github.io/fmggp2/reference/theme_j2me.md),
-  and
-  [`theme_squeezit()`](https://mjfrigaard.github.io/fmggp2/reference/theme_squeezit.md).
+  differ in lightness (hues are unchanged): `theme_batman()`,
+  `theme_doom()`, `theme_netscape()`, `theme_orbitz()`, `theme_snick()`,
+  and `theme_surge()` light versions, both `theme_geocities()` versions,
+  `theme_snick()` and `theme_surge()` dark versions, and
+  `theme_gushers()`, `theme_j2me()`, and `theme_squeezit()`.
 - Yellow marks that almost disappeared on light panels are darker in
-  [`theme_aim()`](https://mjfrigaard.github.io/fmggp2/reference/theme_aim.md),
-  [`theme_pogs()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pogs.md),
-  `theme_seinfeld(mode = "light")`, and
-  [`theme_tamagotchi()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tamagotchi.md).
-- [`theme_tetris()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tetris.md)
-  and
-  [`theme_gameboy()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gameboy.md)
-  keep their original game colors, so some of their marks are still
-  close under color blindness (Tetris) or against the panel (Game Boy).
-  The
-  [`theme_freshprince()`](https://mjfrigaard.github.io/fmggp2/reference/theme_freshprince.md)
+  `theme_aim()`, `theme_pogs()`, `theme_seinfeld(mode = "light")`, and
+  `theme_tamagotchi()`.
+- `theme_tetris()` and `theme_gameboy()` keep their original game
+  colors, so some of their marks are still close under color blindness
+  (Tetris) or against the panel (Game Boy). The `theme_freshprince()`
   lime mark is also still faint on the white panel.
 
 ## fmggp2 0.66.0
 
-- The themes vignette now shows the WIRED cover for
-  [`theme_wired()`](https://mjfrigaard.github.io/fmggp2/reference/theme_wired.md),
+- The themes vignette now shows the WIRED cover for `theme_wired()`,
   linked from Wikipedia rather than stored in the package.
 
 ## fmggp2 0.65.0
 
-- [`theme_wired()`](https://mjfrigaard.github.io/fmggp2/reference/theme_wired.md)
-  now draws dark mode lines and outlines in white instead of black, so
-  lines show against the black panel.
+- `theme_wired()` now draws dark mode lines and outlines in white
+  instead of black, so lines show against the black panel.
 
 ## fmggp2 0.64.0
 
-- New
-  [`theme_wired()`](https://mjfrigaard.github.io/fmggp2/reference/theme_wired.md),
-  built from the WIRED (US) November/December 2024 cover: a black
-  background, a white frame and bold Helvetica Neue title, and red,
-  blue, pink, gray, and steel blue marks. The light version has a light
-  gray background, black text and frame, a white panel, and red, blue,
-  pink, navy, and darker gray marks. The cover is copyrighted, so the
-  vignette doesn’t show it.
-- Removed `theme_crystalpepsi()`;
-  [`theme_wired()`](https://mjfrigaard.github.io/fmggp2/reference/theme_wired.md)
-  replaces it in the density plots chapter.
+- New `theme_wired()`, built from the WIRED (US) November/December 2024
+  cover: a black background, a white frame and bold Helvetica Neue
+  title, and red, blue, pink, gray, and steel blue marks. The light
+  version has a light gray background, black text and frame, a white
+  panel, and red, blue, pink, navy, and darker gray marks. The cover is
+  copyrighted, so the vignette doesn’t show it.
+- Removed `theme_crystalpepsi()`; `theme_wired()` replaces it in the
+  density plots chapter.
 
 ## fmggp2 0.63.0
 
-- [`theme_tetris()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tetris.md)
-  now uses the seven tetromino colors from its reference image: cyan
-  `#00F0F0`, yellow `#F0F000`, purple `#A000F0`, green `#00F000`, red
-  `#F00000`, blue `#0000F0`, and orange `#F0A000`. The gray, pink, and
-  lavender marks are gone. The light version has a light gray
-  background, a blue title, and darker cyan, yellow, green, and orange
-  marks.
+- `theme_tetris()` now uses the seven tetromino colors from its
+  reference image: cyan `#00F0F0`, yellow `#F0F000`, purple `#A000F0`,
+  green `#00F000`, red `#F00000`, blue `#0000F0`, and orange `#F0A000`.
+  The gray, pink, and lavender marks are gone. The light version has a
+  light gray background, a blue title, and darker cyan, yellow, green,
+  and orange marks.
 
 ## fmggp2 0.62.0
 
-- [`theme_seinfeld()`](https://mjfrigaard.github.io/fmggp2/reference/theme_seinfeld.md)
-  now uses the Seinfeld logo colors: a black drop shadow background, a
-  yellow frame, a bold red title, white text, and yellow, red, cyan, and
-  white marks. The light version puts the plot on the yellow oval, with
-  a black frame, a white panel, a red strip, and red, cyan, yellow, and
-  black marks outlined in black. The brick background and the blue,
-  green, and orange marks are gone.
+- `theme_seinfeld()` now uses the Seinfeld logo colors: a black drop
+  shadow background, a yellow frame, a bold red title, white text, and
+  yellow, red, cyan, and white marks. The light version puts the plot on
+  the yellow oval, with a black frame, a white panel, a red strip, and
+  red, cyan, yellow, and black marks outlined in black. The brick
+  background and the blue, green, and orange marks are gone.
 
 ## fmggp2 0.61.0
 
-- [`theme_netware()`](https://mjfrigaard.github.io/fmggp2/reference/theme_netware.md)
-  is now a light theme: a pale blush background with dark ink text, a
-  white panel, and a NetWare red frame and title. The maroon, red, rose,
-  and blush marks are unchanged.
+- `theme_netware()` is now a light theme: a pale blush background with
+  dark ink text, a white panel, and a NetWare red frame and title. The
+  maroon, red, rose, and blush marks are unchanged.
 
 ## fmggp2 0.60.0
 
 - Every theme now defaults to `base_size = 15`, the size most book
   chapters use (was `11`).
-- [`theme_gameboy()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gameboy.md)
-  no longer scales its text down for the pixel font, so its title,
-  subtitle, caption, axis, and legend text match the other themes.
-  [`theme_tetris()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tetris.md)
-  gets the same 1.5x title as the other themes (was 0.9x).
+- `theme_gameboy()` no longer scales its text down for the pixel font,
+  so its title, subtitle, caption, axis, and legend text match the other
+  themes. `theme_tetris()` gets the same 1.5x title as the other themes
+  (was 0.9x).
 
 ## fmggp2 0.59.0
 
-- The seventeen dark themes
-  ([`theme_blockbuster()`](https://mjfrigaard.github.io/fmggp2/reference/theme_blockbuster.md),
-  [`theme_bopit()`](https://mjfrigaard.github.io/fmggp2/reference/theme_bopit.md),
-  [`theme_consolewars()`](https://mjfrigaard.github.io/fmggp2/reference/theme_consolewars.md),
-  [`theme_doom()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doom.md),
-  [`theme_geocities()`](https://mjfrigaard.github.io/fmggp2/reference/theme_geocities.md),
-  [`theme_goosebumps()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goosebumps.md),
-  [`theme_hypercolor()`](https://mjfrigaard.github.io/fmggp2/reference/theme_hypercolor.md),
-  [`theme_jurassic()`](https://mjfrigaard.github.io/fmggp2/reference/theme_jurassic.md),
-  [`theme_netscape()`](https://mjfrigaard.github.io/fmggp2/reference/theme_netscape.md),
-  [`theme_orbitz()`](https://mjfrigaard.github.io/fmggp2/reference/theme_orbitz.md),
-  [`theme_oregontrail()`](https://mjfrigaard.github.io/fmggp2/reference/theme_oregontrail.md),
-  [`theme_rzone()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rzone.md),
-  [`theme_seinfeld()`](https://mjfrigaard.github.io/fmggp2/reference/theme_seinfeld.md),
-  [`theme_snick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_snick.md),
-  [`theme_surge()`](https://mjfrigaard.github.io/fmggp2/reference/theme_surge.md),
-  [`theme_tetris()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tetris.md),
-  and
-  [`theme_y2k()`](https://mjfrigaard.github.io/fmggp2/reference/theme_y2k.md))
-  gain `mode = c("dark", "light")`. The light palette tints the
-  background and panel with the theme’s hue, uses dark text, and darkens
-  the frame, title, and marks so they hold contrast on a light panel.
-- [`theme_batman()`](https://mjfrigaard.github.io/fmggp2/reference/theme_batman.md)
-  gains the same `mode` argument for its `"movie"` and `"darknight"`
-  versions. `"classic"` is already light, so `mode` doesn’t change it.
+- The seventeen dark themes (`theme_blockbuster()`, `theme_bopit()`,
+  `theme_consolewars()`, `theme_doom()`, `theme_geocities()`,
+  `theme_goosebumps()`, `theme_hypercolor()`, `theme_jurassic()`,
+  `theme_netscape()`, `theme_orbitz()`, `theme_oregontrail()`,
+  `theme_rzone()`, `theme_seinfeld()`, `theme_snick()`, `theme_surge()`,
+  `theme_tetris()`, and `theme_y2k()`) gain `mode = c("dark", "light")`.
+  The light palette tints the background and panel with the theme’s hue,
+  uses dark text, and darkens the frame, title, and marks so they hold
+  contrast on a light panel.
+- `theme_batman()` gains the same `mode` argument for its `"movie"` and
+  `"darknight"` versions. `"classic"` is already light, so `mode`
+  doesn’t change it.
 - The themes vignette shows each light version.
 
 ## fmggp2 0.58.0
 
 - Removed `theme_beanie()`, `theme_friends()`, `theme_toysrus()`,
   `theme_furby()`, `theme_boyband()`, and `theme_clueless()`. The book
-  chapters that used them now use
-  [`theme_microdrive()`](https://mjfrigaard.github.io/fmggp2/reference/theme_microdrive.md)
-  (violin plots),
-  [`theme_netware()`](https://mjfrigaard.github.io/fmggp2/reference/theme_netware.md)
-  (overlapping bar graphs),
-  [`theme_j2me()`](https://mjfrigaard.github.io/fmggp2/reference/theme_j2me.md)
-  (treemaps),
-  [`theme_pager()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pager.md)
-  (overlapping and stacked densities),
-  [`theme_visor()`](https://mjfrigaard.github.io/fmggp2/reference/theme_visor.md)
-  (bump charts), and
-  [`theme_cuseeme()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cuseeme.md)
-  (parallel sets).
+  chapters that used them now use `theme_microdrive()` (violin plots),
+  `theme_netware()` (overlapping bar graphs), `theme_j2me()` (treemaps),
+  `theme_pager()` (overlapping and stacked densities), `theme_visor()`
+  (bump charts), and `theme_cuseeme()` (parallel sets).
 
 ## fmggp2 0.57.0
 
-- New
-  [`theme_microdrive()`](https://mjfrigaard.github.io/fmggp2/reference/theme_microdrive.md):
-  the IBM Microdrive, with a tan desk background, a black frame, a red
-  title, IBM blue, red, navy, and Hitachi sky blue marks, and a Times
-  New Roman title. The palette is sampled from “IBM 340MB Microdrive and
-  Hitachi 1GB Microdrive” by MiNe (CC BY 2.0).
-- New
-  [`theme_netware()`](https://mjfrigaard.github.io/fmggp2/reference/theme_netware.md):
-  Novell NetWare, with a NetWare red background and white text, a maroon
-  frame, maroon, red, rose, and blush marks, and a Gill Sans title. The
-  palette is sampled from “Novell NetWare 2.0 packages” by diaper on
-  Flickr (CC BY 2.0).
-- New
-  [`theme_j2me()`](https://mjfrigaard.github.io/fmggp2/reference/theme_j2me.md):
-  J2ME phone apps, with a black phone background, a silver frame, a pale
-  screen panel, Ushahidi red, tan, brown, and black marks, and an Arial
-  Narrow title. The palette is sampled from “Ushahidi J2ME App” by Erik
-  (HASH) Hersman (CC BY 2.0).
-- New
-  [`theme_palmpilot()`](https://mjfrigaard.github.io/fmggp2/reference/theme_palmpilot.md):
-  the PalmPilot, with a charcoal case background, a HotSync teal frame,
-  a white title, a green LCD panel, ink, LCD green, plum, and teal
-  marks, and a Futura title. The palette is sampled from “Palm Pilot
-  Professional 01” by Museo8bits (CC BY-SA 3.0).
-- New
-  [`theme_visor()`](https://mjfrigaard.github.io/fmggp2/reference/theme_visor.md):
-  the Handspring Visor, with a pale lavender background, a translucent
-  green frame, a gray LCD panel, green, gray, mint, and silver marks,
-  and a Trebuchet MS title. The palette is sampled from “Handspring
-  Visor DeLuxe Green” by Waldohreule (CC BY-SA 3.0).
-- New
-  [`theme_pager()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pager.md):
-  two-way pagers, with a concrete background, a charcoal frame and
-  title, a pale LCD panel, charcoal, orange, and slate marks, and an
-  Arial Black title. The palette is sampled from “RIM BlackBerry 950” by
-  Ruben de Rijcke (CC BY-SA 4.0).
-- New
-  [`theme_cuseeme()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cuseeme.md):
-  CU-SeeMe, with a dithered gray background, a black frame, a white
-  panel, black, magenta, and gray marks, and a magenta Tahoma title. The
-  palette is sampled from “CU-SeeMe application screenshot” by Lt
-  Georgios Floros, HN (public domain).
-- New
-  [`theme_vrml()`](https://mjfrigaard.github.io/fmggp2/reference/theme_vrml.md):
-  VRML, with a tan wall background, a floor brown frame, a pale panel,
-  sofa red, lamp green, black, and glass marks, and an Andale Mono
-  title. The palette is sampled from “Interior” by Jan Křivka (public
-  domain).
-- New
-  [`theme_javaapplet()`](https://mjfrigaard.github.io/fmggp2/reference/theme_javaapplet.md):
-  Java applets, with a gray AWT window background and frame, a white
-  panel, red, blue, purple, and gray marks, and a blue Verdana title.
-  The palette is sampled from “Java applet” by Audrius Meskauskas
-  (public domain).
-- New
-  [`theme_cuecat()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cuecat.md):
-  the :CueCat, with a pale paper background, a putty frame, a red title,
-  red, ink, LED orange, and putty marks, and a Marker Felt title. The
-  palette is sampled from “CueCat-upside” by Shaddack (public domain).
-- New
-  [`theme_audrey()`](https://mjfrigaard.github.io/fmggp2/reference/theme_audrey.md):
-  the 3Com Audrey, with a white plastic background, a black tile frame,
-  a teal title, teal, navy, tan, brown, and aqua marks, and an Arial
-  Rounded title. The palette is sampled from “3Com Audrey” by Andrew
-  Turner (CC BY 2.0).
+- New `theme_microdrive()`: the IBM Microdrive, with a tan desk
+  background, a black frame, a red title, IBM blue, red, navy, and
+  Hitachi sky blue marks, and a Times New Roman title. The palette is
+  sampled from “IBM 340MB Microdrive and Hitachi 1GB Microdrive” by MiNe
+  (CC BY 2.0).
+- New `theme_netware()`: Novell NetWare, with a NetWare red background
+  and white text, a maroon frame, maroon, red, rose, and blush marks,
+  and a Gill Sans title. The palette is sampled from “Novell NetWare 2.0
+  packages” by diaper on Flickr (CC BY 2.0).
+- New `theme_j2me()`: J2ME phone apps, with a black phone background, a
+  silver frame, a pale screen panel, Ushahidi red, tan, brown, and black
+  marks, and an Arial Narrow title. The palette is sampled from
+  “Ushahidi J2ME App” by Erik (HASH) Hersman (CC BY 2.0).
+- New `theme_palmpilot()`: the PalmPilot, with a charcoal case
+  background, a HotSync teal frame, a white title, a green LCD panel,
+  ink, LCD green, plum, and teal marks, and a Futura title. The palette
+  is sampled from “Palm Pilot Professional 01” by Museo8bits (CC BY-SA
+  3.0).
+- New `theme_visor()`: the Handspring Visor, with a pale lavender
+  background, a translucent green frame, a gray LCD panel, green, gray,
+  mint, and silver marks, and a Trebuchet MS title. The palette is
+  sampled from “Handspring Visor DeLuxe Green” by Waldohreule (CC BY-SA
+  3.0).
+- New `theme_pager()`: two-way pagers, with a concrete background, a
+  charcoal frame and title, a pale LCD panel, charcoal, orange, and
+  slate marks, and an Arial Black title. The palette is sampled from
+  “RIM BlackBerry 950” by Ruben de Rijcke (CC BY-SA 4.0).
+- New `theme_cuseeme()`: CU-SeeMe, with a dithered gray background, a
+  black frame, a white panel, black, magenta, and gray marks, and a
+  magenta Tahoma title. The palette is sampled from “CU-SeeMe
+  application screenshot” by Lt Georgios Floros, HN (public domain).
+- New `theme_vrml()`: VRML, with a tan wall background, a floor brown
+  frame, a pale panel, sofa red, lamp green, black, and glass marks, and
+  an Andale Mono title. The palette is sampled from “Interior” by Jan
+  Křivka (public domain).
+- New `theme_javaapplet()`: Java applets, with a gray AWT window
+  background and frame, a white panel, red, blue, purple, and gray
+  marks, and a blue Verdana title. The palette is sampled from “Java
+  applet” by Audrius Meskauskas (public domain).
+- New `theme_cuecat()`: the :CueCat, with a pale paper background, a
+  putty frame, a red title, red, ink, LED orange, and putty marks, and a
+  Marker Felt title. The palette is sampled from “CueCat-upside” by
+  Shaddack (public domain).
+- New `theme_audrey()`: the 3Com Audrey, with a white plastic
+  background, a black tile frame, a teal title, teal, navy, tan, brown,
+  and aqua marks, and an Arial Rounded title. The palette is sampled
+  from “3Com Audrey” by Andrew Turner (CC BY 2.0).
 
 ## fmggp2 0.56.1
 
-- [`theme_goosebumps()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goosebumps.md)
-  puts pale green before moss in its discrete palette, so a third group
-  stands out on the dark purple panel.
+- `theme_goosebumps()` puts pale green before moss in its discrete
+  palette, so a third group stands out on the dark purple panel.
 
 ## fmggp2 0.56.0
 
@@ -302,72 +249,55 @@
   `theme_encarta()`, `theme_lisafrank()`, `theme_magiceye()`,
   `theme_rugrats()`, and `theme_trl()`, which had no freely licensed
   reference image. The book chapters that used them now use
-  [`theme_oksoda()`](https://mjfrigaard.github.io/fmggp2/reference/theme_oksoda.md),
-  [`theme_talkboy()`](https://mjfrigaard.github.io/fmggp2/reference/theme_talkboy.md),
-  `theme_crystalpepsi()`,
-  [`theme_orbitz()`](https://mjfrigaard.github.io/fmggp2/reference/theme_orbitz.md),
-  [`theme_koosh()`](https://mjfrigaard.github.io/fmggp2/reference/theme_koosh.md),
-  [`theme_rzone()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rzone.md),
-  [`theme_gushers()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gushers.md),
-  and
-  [`theme_squeezit()`](https://mjfrigaard.github.io/fmggp2/reference/theme_squeezit.md).
-  `ggtext` is no longer a dependency.
+  `theme_oksoda()`, `theme_talkboy()`, `theme_crystalpepsi()`,
+  `theme_orbitz()`, `theme_koosh()`, `theme_rzone()`, `theme_gushers()`,
+  and `theme_squeezit()`. `ggtext` is no longer a dependency.
 
-- [`theme_oregontrail()`](https://mjfrigaard.github.io/fmggp2/reference/theme_oregontrail.md)
-  has a new palette and a gray window frame sampled from “Nicole has
-  dysentary” by The Pug Father (CC BY 2.0), which the vignette now
-  shows.
+- `theme_oregontrail()` has a new palette and a gray window frame
+  sampled from “Nicole has dysentary” by The Pug Father (CC BY 2.0),
+  which the vignette now shows.
 
-- [`theme_goosebumps()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goosebumps.md)
-  has new slime green and purple colors sampled from the Goosebumps book
-  covers, plus pale green and orchid marks.
+- `theme_goosebumps()` has new slime green and purple colors sampled
+  from the Goosebumps book covers, plus pale green and orchid marks.
 
 - The README and themes vignette show the new themes with their
   reference images.
 
 ## fmggp2 0.55.0
 
-- New
-  [`theme_squeezit()`](https://mjfrigaard.github.io/fmggp2/reference/theme_squeezit.md):
-  Squeezit bottles on gravel, with a gravel background, a red frame and
-  title, red, orange, green, pink, blue, and gold marks, and a Skia
-  title. The palette is sampled from “Squeezeit flavours” by ZolHaj (CC
-  BY-SA 4.0).
+- New `theme_squeezit()`: Squeezit bottles on gravel, with a gravel
+  background, a red frame and title, red, orange, green, pink, blue, and
+  gold marks, and a Skia title. The palette is sampled from “Squeezeit
+  flavours” by ZolHaj (CC BY-SA 4.0).
 
 ## fmggp2 0.54.0
 
-- New
-  [`theme_gushers()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gushers.md):
-  Fruit Gushers, with a white plate background, a red frame and title,
-  eight fruit snack marks (red, green, teal, orange, pink, maroon, moss,
-  and gray), and a Chalkboard title. The palette is sampled from “Betty
-  Crocker Fruit Gushers pieces” by Thomson200 (CC0).
+- New `theme_gushers()`: Fruit Gushers, with a white plate background, a
+  red frame and title, eight fruit snack marks (red, green, teal,
+  orange, pink, maroon, moss, and gray), and a Chalkboard title. The
+  palette is sampled from “Betty Crocker Fruit Gushers pieces” by
+  Thomson200 (CC0).
 
 ## fmggp2 0.53.0
 
-- New
-  [`theme_rzone()`](https://mjfrigaard.github.io/fmggp2/reference/theme_rzone.md):
-  the Tiger R-Zone headset, with black plastic, a red frame and title,
-  red, purple, and pink marks, pale blue visor text, and an Arial Narrow
-  title. The palette is sampled from “Tiger RZone Headset” by Evan-Amos
-  (public domain).
+- New `theme_rzone()`: the Tiger R-Zone headset, with black plastic, a
+  red frame and title, red, purple, and pink marks, pale blue visor
+  text, and an Arial Narrow title. The palette is sampled from “Tiger
+  RZone Headset” by Evan-Amos (public domain).
 
 ## fmggp2 0.52.0
 
-- New
-  [`theme_koosh()`](https://mjfrigaard.github.io/fmggp2/reference/theme_koosh.md):
-  a tri color Koosh ball, with a white background, an orange frame,
-  orange, purple, and black marks, and an Arial Rounded title. The
-  palette is sampled from “Koosh Ball TriColor” by Evan-Amos (public
-  domain).
+- New `theme_koosh()`: a tri color Koosh ball, with a white background,
+  an orange frame, orange, purple, and black marks, and an Arial Rounded
+  title. The palette is sampled from “Koosh Ball TriColor” by Evan-Amos
+  (public domain).
 
 ## fmggp2 0.51.0
 
-- New
-  [`theme_orbitz()`](https://mjfrigaard.github.io/fmggp2/reference/theme_orbitz.md):
-  Orbitz, the drink with floating balls, with a black background, a gold
-  frame, gold and magenta marks, and a Marker Felt title. The palette is
-  sampled from “Bottle of Orbitz drink” by Jesse! S? (CC BY 2.0).
+- New `theme_orbitz()`: Orbitz, the drink with floating balls, with a
+  black background, a gold frame, gold and magenta marks, and a Marker
+  Felt title. The palette is sampled from “Bottle of Orbitz drink” by
+  Jesse! S? (CC BY 2.0).
 
 ## fmggp2 0.50.0
 
@@ -378,21 +308,17 @@
 
 ## fmggp2 0.49.0
 
-- New
-  [`theme_talkboy()`](https://mjfrigaard.github.io/fmggp2/reference/theme_talkboy.md):
-  the Deluxe Talkboy, with a walnut background, a silver frame and
-  panel, button blue marks, and a Brush Script title. The palette is
-  sampled from “Deluxe Talkboy on table” by Y2kcrazyjoker4 (CC BY-SA
-  4.0).
+- New `theme_talkboy()`: the Deluxe Talkboy, with a walnut background, a
+  silver frame and panel, button blue marks, and a Brush Script title.
+  The palette is sampled from “Deluxe Talkboy on table” by
+  Y2kcrazyjoker4 (CC BY-SA 4.0).
 
 ## fmggp2 0.48.0
 
-- New
-  [`theme_oksoda()`](https://mjfrigaard.github.io/fmggp2/reference/theme_oksoda.md):
-  OK Soda cans, with a brushed silver background, a black frame, a gray
-  comic panel, OK red marks and title, slate and brick accents, and a
-  Courier New title. The palette is sampled from “OK Soda Original 4” by
-  TeemPlayer (CC BY-SA 3.0).
+- New `theme_oksoda()`: OK Soda cans, with a brushed silver background,
+  a black frame, a gray comic panel, OK red marks and title, slate and
+  brick accents, and a Courier New title. The palette is sampled from
+  “OK Soda Original 4” by TeemPlayer (CC BY-SA 3.0).
 
 ## fmggp2 0.47.1
 
@@ -405,9 +331,8 @@
 - Removed copyrighted reference images from the themes vignette. Themes
   without a freely licensed image no longer show one.
 
-- [`theme_pogs()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pogs.md)
-  has a new palette sampled from “Remember Pogs?” by MTSOfan (CC
-  BY-NC-SA 2.0), which the vignette now shows.
+- `theme_pogs()` has a new palette sampled from “Remember Pogs?” by
+  MTSOfan (CC BY-NC-SA 2.0), which the vignette now shows.
 
 - `theme_furby()` has a new palette sampled from “Furby” by Amanda
   (blamethecrane, CC BY-ND 2.0), which the vignette now shows.
@@ -428,23 +353,16 @@
 
 - The themes vignette shows reference images again for 22 themes.
 
-- New palettes for
-  [`theme_aim()`](https://mjfrigaard.github.io/fmggp2/reference/theme_aim.md)
-  (the sign on window) and
-  [`theme_pogs()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pogs.md).
+- New palettes for `theme_aim()` (the sign on window) and
+  `theme_pogs()`.
 
 ## fmggp2 0.44.0
 
-- New palettes for `theme_encarta()`,
-  [`theme_netscape()`](https://mjfrigaard.github.io/fmggp2/reference/theme_netscape.md),
-  [`theme_titanic()`](https://mjfrigaard.github.io/fmggp2/reference/theme_titanic.md),
-  [`theme_goosebumps()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goosebumps.md),
-  [`theme_tetris()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tetris.md),
-  `theme_furby()`, `theme_trl()`,
-  [`theme_oregontrail()`](https://mjfrigaard.github.io/fmggp2/reference/theme_oregontrail.md),
-  `theme_magiceye()`,
-  [`theme_savedbythebell()`](https://mjfrigaard.github.io/fmggp2/reference/theme_savedbythebell.md),
-  and `theme_rugrats()`, sampled from new reference images.
+- New palettes for `theme_encarta()`, `theme_netscape()`,
+  `theme_titanic()`, `theme_goosebumps()`, `theme_tetris()`,
+  `theme_furby()`, `theme_trl()`, `theme_oregontrail()`,
+  `theme_magiceye()`, `theme_savedbythebell()`, and `theme_rugrats()`,
+  sampled from new reference images.
 
 - The themes vignette links to reference images that are not licensed
   for reuse instead of hosting them.
@@ -453,52 +371,40 @@
 
 - New reference images and palettes for `theme_win98()`,
   `theme_napster()`, `theme_spice()`, `theme_beanie()`,
-  [`theme_jurassic()`](https://mjfrigaard.github.io/fmggp2/reference/theme_jurassic.md),
-  [`theme_happymeal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_happymeal.md),
-  `theme_friends()`,
-  [`theme_freshprince()`](https://mjfrigaard.github.io/fmggp2/reference/theme_freshprince.md),
-  [`theme_pogs()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pogs.md),
-  and
-  [`theme_walkman()`](https://mjfrigaard.github.io/fmggp2/reference/theme_walkman.md).
+  `theme_jurassic()`, `theme_happymeal()`, `theme_friends()`,
+  `theme_freshprince()`, `theme_pogs()`, and `theme_walkman()`.
   `theme_napster()` now uses the gray client window with a black chat
   area, `theme_spice()` the Spice World tour poster,
-  [`theme_freshprince()`](https://mjfrigaard.github.io/fmggp2/reference/theme_freshprince.md)
-  the show logo, and
-  [`theme_walkman()`](https://mjfrigaard.github.io/fmggp2/reference/theme_walkman.md)
-  a sports yellow body with blue buttons.
+  `theme_freshprince()` the show logo, and `theme_walkman()` a sports
+  yellow body with blue buttons.
 
 ## fmggp2 0.42.0
 
-- [`theme_batman()`](https://mjfrigaard.github.io/fmggp2/reference/theme_batman.md)
-  gains a `version` argument: `"movie"` (Batman 1989, the default),
-  `"classic"` (the 1966 TV series), and `"darknight"` (The Dark Knight).
+- `theme_batman()` gains a `version` argument: `"movie"` (Batman 1989,
+  the default), `"classic"` (the 1966 TV series), and `"darknight"` (The
+  Dark Knight).
 
 - The themes vignette shows a reference image for each theme, stored in
   `man/figures/theme_*/`.
 
 ## fmggp2 0.41.0
 
-- New
-  [`theme_surge()`](https://mjfrigaard.github.io/fmggp2/reference/theme_surge.md):
-  Surge soda, with a black background, a Surge green frame and title,
-  green, red, orange, yellow, and white marks, a dark to bright green
-  continuous scale, and a DIN Alternate title.
+- New `theme_surge()`: Surge soda, with a black background, a Surge
+  green frame and title, green, red, orange, yellow, and white marks, a
+  dark to bright green continuous scale, and a DIN Alternate title.
 
 ## fmggp2 0.40.0
 
-- New
-  [`theme_geocities()`](https://mjfrigaard.github.io/fmggp2/reference/theme_geocities.md):
-  a GeoCities home page, with a black background, a web gray frame, a
-  dark navy panel, lime green text, a yellow Comic Sans title, web safe
-  marks, and a blue to yellow continuous scale.
+- New `theme_geocities()`: a GeoCities home page, with a black
+  background, a web gray frame, a dark navy panel, lime green text, a
+  yellow Comic Sans title, web safe marks, and a blue to yellow
+  continuous scale.
 
 ## fmggp2 0.39.0
 
-- New
-  [`theme_bopit()`](https://mjfrigaard.github.io/fmggp2/reference/theme_bopit.md):
-  the Bop It toy, with a deep purple background, a yellow frame and
-  title, yellow, blue, green, orange, and pink marks, a purple to yellow
-  continuous scale, and a Rockwell title.
+- New `theme_bopit()`: the Bop It toy, with a deep purple background, a
+  yellow frame and title, yellow, blue, green, orange, and pink marks, a
+  purple to yellow continuous scale, and a Rockwell title.
 
 ## fmggp2 0.38.0
 
@@ -508,35 +414,27 @@
 
 ## fmggp2 0.37.0
 
-- New
-  [`theme_powerrangers()`](https://mjfrigaard.github.io/fmggp2/reference/theme_powerrangers.md):
-  the Mighty Morphin Power Rangers, with a light gray background, a
-  lightning gold frame, a red Copperplate title, and red, blue, yellow,
-  pink, black, and green Ranger marks.
+- New `theme_powerrangers()`: the Mighty Morphin Power Rangers, with a
+  light gray background, a lightning gold frame, a red Copperplate
+  title, and red, blue, yellow, pink, black, and green Ranger marks.
 
 ## fmggp2 0.36.0
 
-- New
-  [`theme_seinfeld()`](https://mjfrigaard.github.io/fmggp2/reference/theme_seinfeld.md):
-  a Seinfeld comedy club, with a brick background, a yellow frame and
-  title, the yellow, red, blue, and green logo colors, and an American
-  Typewriter title.
+- New `theme_seinfeld()`: a Seinfeld comedy club, with a brick
+  background, a yellow frame and title, the yellow, red, blue, and green
+  logo colors, and an American Typewriter title.
 
 ## fmggp2 0.35.0
 
-- New
-  [`theme_consolewars()`](https://mjfrigaard.github.io/fmggp2/reference/theme_consolewars.md):
-  the Sega vs. Nintendo console wars, with a charcoal background, a Sega
-  blue frame, a Nintendo red title, blue, red, purple, gray, and gold
-  marks, and a Krungthep title.
+- New `theme_consolewars()`: the Sega vs. Nintendo console wars, with a
+  charcoal background, a Sega blue frame, a Nintendo red title, blue,
+  red, purple, gray, and gold marks, and a Krungthep title.
 
 ## fmggp2 0.34.0
 
-- New
-  [`theme_doom()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doom.md):
-  Doom (1993), with a scorched brown background, a hellfire red frame
-  and title, orange, red, gunmetal, armor green, and keycard marks, and
-  an Impact title.
+- New `theme_doom()`: Doom (1993), with a scorched brown background, a
+  hellfire red frame and title, orange, red, gunmetal, armor green, and
+  keycard marks, and an Impact title.
 
 ## fmggp2 0.33.0
 
@@ -546,27 +444,22 @@
 
 ## fmggp2 0.32.0
 
-- New
-  [`theme_y2k()`](https://mjfrigaard.github.io/fmggp2/reference/theme_y2k.md):
-  the Y2K countdown, with a black terminal background, a red LED frame
-  and title, red, amber, green, silver, and blue screen marks, and a PT
-  Mono title.
+- New `theme_y2k()`: the Y2K countdown, with a black terminal
+  background, a red LED frame and title, red, amber, green, silver, and
+  blue screen marks, and a PT Mono title.
 
 ## fmggp2 0.31.0
 
-- New
-  [`theme_hypercolor()`](https://mjfrigaard.github.io/fmggp2/reference/theme_hypercolor.md):
-  Generra Hypercolor shirts, with a deep purple background, a magenta
-  frame, heat changing magenta, orange, purple, blue, green, and yellow
-  marks, and a Gill Sans title.
+- New `theme_hypercolor()`: Generra Hypercolor shirts, with a deep
+  purple background, a magenta frame, heat changing magenta, orange,
+  purple, blue, green, and yellow marks, and a Gill Sans title.
 
 ## fmggp2 0.30.0
 
-- New
-  [`theme_savedbythebell()`](https://mjfrigaard.github.io/fmggp2/reference/theme_savedbythebell.md):
-  the Saved by the Bell opening credits, with a black background, a hot
-  pink frame, a white panel, Memphis style teal, magenta, yellow,
-  purple, red, and blue marks, and a SignPainter title.
+- New `theme_savedbythebell()`: the Saved by the Bell opening credits,
+  with a black background, a hot pink frame, a white panel, Memphis
+  style teal, magenta, yellow, purple, red, and blue marks, and a
+  SignPainter title.
 
 ## fmggp2 0.29.0
 
@@ -576,18 +469,15 @@
 
 ## fmggp2 0.28.0
 
-- New
-  [`theme_snick()`](https://mjfrigaard.github.io/fmggp2/reference/theme_snick.md):
-  Nickelodeon’s Saturday night block, with a night purple background, an
-  orange frame and title, slime green, purple, blue, yellow, and pink
-  marks, and an Arial Black title.
+- New `theme_snick()`: Nickelodeon’s Saturday night block, with a night
+  purple background, an orange frame and title, slime green, purple,
+  blue, yellow, and pink marks, and an Arial Black title.
 
 ## fmggp2 0.27.0
 
-- New
-  [`theme_batman()`](https://mjfrigaard.github.io/fmggp2/reference/theme_batman.md):
-  the Batman (1989) palette, with a black background, a gold frame and
-  title, orange and gold marks, and a DIN Condensed title.
+- New `theme_batman()`: the Batman (1989) palette, with a black
+  background, a gold frame and title, orange and gold marks, and a DIN
+  Condensed title.
 
 ## fmggp2 0.26.0
 
@@ -596,17 +486,13 @@
 
 ## fmggp2 0.25.0
 
-- New
-  [`theme_aim()`](https://mjfrigaard.github.io/fmggp2/reference/theme_aim.md):
-  AOL Instant Messenger yellow and blue with a white chat window and an
-  Arial Rounded title.
+- New `theme_aim()`: AOL Instant Messenger yellow and blue with a white
+  chat window and an Arial Rounded title.
 
 ## fmggp2 0.24.0
 
-- New
-  [`theme_oregontrail()`](https://mjfrigaard.github.io/fmggp2/reference/theme_oregontrail.md):
-  an Apple II black screen with phosphor green text and an Andale Mono
-  title.
+- New `theme_oregontrail()`: an Apple II black screen with phosphor
+  green text and an Andale Mono title.
 
 ## fmggp2 0.23.0
 
@@ -620,45 +506,36 @@
 
 ## fmggp2 0.21.0
 
-- New
-  [`theme_tetris()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tetris.md):
-  a black well with the seven tetromino colors and the bundled Press
-  Start 2P title font.
+- New `theme_tetris()`: a black well with the seven tetromino colors and
+  the bundled Press Start 2P title font.
 
 ## fmggp2 0.20.0
 
-- New
-  [`theme_goosebumps()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goosebumps.md):
-  a haunted purple background with slime green drips and a Trattatello
-  title.
+- New `theme_goosebumps()`: a haunted purple background with slime green
+  drips and a Trattatello title.
 
 ## fmggp2 0.19.0
 
-- New
-  [`theme_supersoaker()`](https://mjfrigaard.github.io/fmggp2/reference/theme_supersoaker.md):
-  neon orange plastic with a water blue plot area and an Arial Black
-  title.
+- New `theme_supersoaker()`: neon orange plastic with a water blue plot
+  area and an Arial Black title.
 
 ## fmggp2 0.18.0
 
-- New
-  [`theme_tamagotchi()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tamagotchi.md):
-  a lilac Tamagotchi egg with a gray green LCD plot area and a Futura
-  title.
+- New `theme_tamagotchi()`: a lilac Tamagotchi egg with a gray green LCD
+  plot area and a Futura title.
 
 ## fmggp2 0.17.1
 
-- [`theme_walkman()`](https://mjfrigaard.github.io/fmggp2/reference/theme_walkman.md)
-  now uses the Sony Sports Walkman photo palette (cobalt blue backdrop,
-  sports yellow, play button green, and beige).
-- [`theme_jurassic()`](https://mjfrigaard.github.io/fmggp2/reference/theme_jurassic.md)
-  now uses the Jurassic Park Post Office souvenir sheet palette (black,
-  logo red, stamp yellow, sunset orange, cream, and tan).
+- `theme_walkman()` now uses the Sony Sports Walkman photo palette
+  (cobalt blue backdrop, sports yellow, play button green, and beige).
+- `theme_jurassic()` now uses the Jurassic Park Post Office souvenir
+  sheet palette (black, logo red, stamp yellow, sunset orange, cream,
+  and tan).
 - `theme_lisafrank()` now uses the Lisa Frank folder palette (purple,
   magenta, orange, yellow, and white).
-- [`theme_titanic()`](https://mjfrigaard.github.io/fmggp2/reference/theme_titanic.md)
-  now uses the Titanic’s original paint colors (hull black, hull stripe
-  gold, canvas, antifouling red, White Star buff, and funnel gray).
+- `theme_titanic()` now uses the Titanic’s original paint colors (hull
+  black, hull stripe gold, canvas, antifouling red, White Star buff, and
+  funnel gray).
 - `theme_encarta()` now uses colors from MindMaze in Encarta 97 (slate
   stone, parchment, carved frame brown, and gold).
 
@@ -674,17 +551,13 @@
 
 ## fmggp2 0.15.0
 
-- New
-  [`theme_titanic()`](https://mjfrigaard.github.io/fmggp2/reference/theme_titanic.md):
-  Titanic (1997) ocean navy, iceberg white, steel blue, gold, and funnel
-  red with a Big Caslon title.
+- New `theme_titanic()`: Titanic (1997) ocean navy, iceberg white, steel
+  blue, gold, and funnel red with a Big Caslon title.
 
 ## fmggp2 0.14.0
 
-- New
-  [`theme_netscape()`](https://mjfrigaard.github.io/fmggp2/reference/theme_netscape.md):
-  the Netscape Navigator night sky with star yellow, teal, magenta, and
-  meteor orange and a Times New Roman title.
+- New `theme_netscape()`: the Netscape Navigator night sky with star
+  yellow, teal, magenta, and meteor orange and a Times New Roman title.
 
 ## fmggp2 0.13.0
 
@@ -694,24 +567,19 @@
 
 ## fmggp2 0.12.0
 
-- New
-  [`theme_walkman()`](https://mjfrigaard.github.io/fmggp2/reference/theme_walkman.md):
-  Sony Walkman Sports silver and black with yellow and orange marks and
-  a DIN Condensed title.
+- New `theme_walkman()`: Sony Walkman Sports silver and black with
+  yellow and orange marks and a DIN Condensed title.
 
 ## fmggp2 0.11.0
 
-- New
-  [`theme_pogs()`](https://mjfrigaard.github.io/fmggp2/reference/theme_pogs.md):
-  cardboard milk cap background with bright purple, orange, teal, and
-  yellow prints and a Bradley Hand title.
+- New `theme_pogs()`: cardboard milk cap background with bright purple,
+  orange, teal, and yellow prints and a Bradley Hand title.
 
 ## fmggp2 0.10.0
 
-- New
-  [`theme_freshprince()`](https://mjfrigaard.github.io/fmggp2/reference/theme_freshprince.md):
-  The Fresh Prince of Bel-Air graffiti neon on deep purple with an Arial
-  Black title and a teal to pink continuous fill.
+- New `theme_freshprince()`: The Fresh Prince of Bel-Air graffiti neon
+  on deep purple with an Arial Black title and a teal to pink continuous
+  fill.
 
 ## fmggp2 0.9.0
 
@@ -720,23 +588,18 @@
 
 ## fmggp2 0.8.0
 
-- New
-  [`theme_happymeal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_happymeal.md):
-  McDonald’s Happy Meal box red and yellow with an Arial Rounded title.
+- New `theme_happymeal()`: McDonald’s Happy Meal box red and yellow with
+  an Arial Rounded title.
 
 ## fmggp2 0.7.0
 
-- New
-  [`theme_jurassic()`](https://mjfrigaard.github.io/fmggp2/reference/theme_jurassic.md):
-  Jurassic Park black, jungle green, red, and amber with a Herculanum
-  title.
+- New `theme_jurassic()`: Jurassic Park black, jungle green, red, and
+  amber with a Herculanum title.
 
 ## fmggp2 0.6.0
 
-- New
-  [`theme_n64()`](https://mjfrigaard.github.io/fmggp2/reference/theme_n64.md):
-  Nintendo 64 controller gray with the red, green, blue, and yellow logo
-  colors and an Arial Black title.
+- New `theme_n64()`: Nintendo 64 controller gray with the red, green,
+  blue, and yellow logo colors and an Arial Black title.
 
 ## fmggp2 0.5.0
 
@@ -750,17 +613,14 @@
 
 ## fmggp2 0.3.0
 
-- New
-  [`theme_blockbuster()`](https://mjfrigaard.github.io/fmggp2/reference/theme_blockbuster.md):
-  Blockbuster Video blue and yellow with Arial text and an Impact title.
-  Adds an internal `register_font()` helper for system fonts.
+- New `theme_blockbuster()`: Blockbuster Video blue and yellow with
+  Arial text and an Impact title. Adds an internal `register_font()`
+  helper for system fonts.
 
 ## fmggp2 0.2.0
 
-- New
-  [`theme_gameboy()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gameboy.md):
-  the original Game Boy screen palette with the bundled Press Start 2P
-  pixel font.
+- New `theme_gameboy()`: the original Game Boy screen palette with the
+  bundled Press Start 2P pixel font.
 
 ## fmggp2 0.1.0
 
