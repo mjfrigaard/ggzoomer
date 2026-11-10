@@ -8,9 +8,9 @@
 #' 2024 UK study, one in five people said the air fryer was the cooking
 #' device they used most.
 #'
-#' The palette follows the article's fan forced hot air and browned food:
-#' golden fries, crispy brown, heating element orange, brushed steel, matte
-#' black, and herbs.
+#' The palette follows the colors the popular Crispi air fryer comes in:
+#' Cherry Crush, Sage Green, Electric Cobalt, Butter Yellow, Cyberspace
+#' navy, and Frosted Lilac on Stone.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -75,18 +75,18 @@ theme_airfryer <- function(base_size = 15,
 
 # Sampled from an air fryer basket of reheated potatoes on a kitchen counter
 airfryer_cols <- c(
-  background = "#ECEDEF",
-  panel = "#F7F7F8",
-  grid = "#D0D1D3",
-  text = "#3E231B",
-  frame = "#B3401F",
-  title = "#B3401F",
-  strip = "#3E231B",
-  striptext = "#ECEDEF",
-  accent = "#8B4A1C",
-  outline = "#3E231B",
-  fill = "#E0A526"
+  background = "#E7E2D9",
+  panel = "#EEECE9",
+  grid = "#CBC6BD",
+  text = "#212940",
+  frame = "#23304F",
+  title = "#23304F",
+  strip = "#212940",
+  striptext = "#E7E2D9",
+  accent = "#7F9A72",
+  outline = "#212940",
+  fill = "#C42B3C"
 )
 
-airfryer_marks <- c("#E0A526", "#8B4A1C", "#E4572E", "#8A9099", "#2E2E2E", "#5B8C3A")
+airfryer_marks <- c("#C42B3C", "#7F9A72", "#2F5FD0", "#D6B84F", "#23304F", "#A48FCB")
 

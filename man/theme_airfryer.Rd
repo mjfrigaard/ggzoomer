@@ -32,9 +32,9 @@ had a convection oven in 2020. By 2023, an estimated 60\% had one. In a
 device they used most.
 }
 \details{
-The palette follows the article's fan forced hot air and browned food:
-golden fries, crispy brown, heating element orange, brushed steel, matte
-black, and herbs.
+The palette follows the colors the popular Crispi air fryer comes in:
+Cherry Crush, Sage Green, Electric Cobalt, Butter Yellow, Cyberspace
+navy, and Frosted Lilac on Stone.
 }
 \examples{
 library(ggplot2)
