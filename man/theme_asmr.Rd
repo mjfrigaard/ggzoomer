@@ -7,7 +7,8 @@
 theme_asmr(
   base_size = 15,
   base_family = register_font("Arial", "Arial.ttf", "Arial Bold.ttf"),
-  title_family = register_font("Optima", "Optima.ttc")
+  title_family = register_font("Optima", "Optima.ttc"),
+  mode = c("dark", "light")
 )
 }
 \arguments{
@@ -18,6 +19,8 @@ available on the system, otherwise \code{"sans"}.}
 
 \item{title_family}{Title font family. Defaults to Optima when
 it's available, otherwise \code{"sans"}.}
+
+\item{mode}{\code{"dark"} (the default) or \code{"light"}.}
 }
 \value{
 A \code{ggplot2} theme object.
@@ -30,12 +33,16 @@ quiet sounds. YouTube turned it into a genre. Many ASMR videos show one
 person whispering or tapping straight into the camera. The trend has
 reached museums, too. The Louvre invited the channel PARIS ASMR to film
 there in 2019, and the first major ASMR exhibition opened in Sweden in
-2020.
+2020. \href{https://en.wikipedia.org/wiki/Gibi_ASMR}{Gibi ASMR}, one of
+YouTube's top ASMR creators, started her channel in 2016 and reached one
+million subscribers about a year after college.
 }
 \details{
-The palette follows the article's soft triggers (whispers, light touch,
-brushing) as calm blues, lilac, blush, and mint, with the deep blue of
-its tingle map.
+The palette follows the set behind \href{https://en.wikipedia.org/wiki/Gibi_ASMR}{Gibi ASMR}'s videos: a deep indigo
+backdrop strung with blue and white fairy lights, a lilac top, red and
+green bokeh, warm gold light, and pink nails.
+
+Use \code{mode = "light"} for a light background with dark text and darker marks.
 }
 \examples{
 library(ggplot2)

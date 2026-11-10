@@ -46,9 +46,9 @@ ggplot(fryer, aes(x = food, y = minutes, fill = food)) +
 
 ## ASMR
 
-`theme_asmr()`: ASMR (autonomous sensory meridian response) is the tingling some people feel while watching whisper, tapping, and crinkle videos (see [ASMR](https://en.wikipedia.org/wiki/ASMR) on Wikipedia). ASMR is the calm, tingling feeling some people get from whispers, tapping, and other quiet sounds. YouTube turned it into a genre. Many ASMR videos show one person whispering or tapping straight into the camera. The trend has reached museums, too. The Louvre invited the channel PARIS ASMR to film there in 2019, and the first major ASMR exhibition opened in Sweden in 2020.
+`theme_asmr()`: ASMR (autonomous sensory meridian response) is the tingling some people feel while watching whisper, tapping, and crinkle videos (see [ASMR](https://en.wikipedia.org/wiki/ASMR) on Wikipedia). ASMR is the calm, tingling feeling some people get from whispers, tapping, and other quiet sounds. YouTube turned it into a genre. Many ASMR videos show one person whispering or tapping straight into the camera. The trend has reached museums, too. The Louvre invited the channel PARIS ASMR to film there in 2019, and the first major ASMR exhibition opened in Sweden in 2020. [Gibi ASMR](https://en.wikipedia.org/wiki/Gibi_ASMR), one of YouTube's top ASMR creators, started her channel in 2016 and reached one million subscribers about a year after college.
 
-The palette follows the article's soft triggers (whispers, light touch, brushing) as calm blues, lilac, blush, and mint, with the deep blue of its tingle map. The image shows a body map showing where ASMR tingles start and spread.
+The palette follows the set behind [Gibi ASMR](https://en.wikipedia.org/wiki/Gibi_ASMR)'s videos: a deep indigo backdrop strung with blue and white fairy lights, a lilac top, red and green bokeh, warm gold light, and pink nails. The image shows a body map showing where ASMR tingles start and spread.
 
 ![Image: Emma L. Barratt, Nick J. Davis, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ASMR_Map.png), CC BY 4.0.](../man/figures/theme_asmr/asmr.jpg){width="60%" fig-align="center"}
 
@@ -61,6 +61,13 @@ ggplot(asmr, aes(x = minutes, fill = trigger)) +
   geom_density(alpha = 2/3) +
   labs(title = "ASMR watch time", caption = "Simulated data", x = "Minutes watched", fill = NULL) +
   theme_asmr(base_size = 13)
+```
+
+With `mode = "light"`:
+
+```{r}
+#| label: asmr-light
+last_plot() + theme_asmr(base_size = 13, mode = "light")
 ```
 
 ## Axolotl

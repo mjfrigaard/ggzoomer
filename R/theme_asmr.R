@@ -7,17 +7,23 @@
 #' person whispering or tapping straight into the camera. The trend has
 #' reached museums, too. The Louvre invited the channel PARIS ASMR to film
 #' there in 2019, and the first major ASMR exhibition opened in Sweden in
-#' 2020.
+#' 2020. [Gibi ASMR](https://en.wikipedia.org/wiki/Gibi_ASMR), one of
+#' YouTube's top ASMR creators, started her channel in 2016 and reached one
+#' million subscribers about a year after college.
 #'
-#' The palette follows the article's soft triggers (whispers, light touch,
-#' brushing) as calm blues, lilac, blush, and mint, with the deep blue of
-#' its tingle map.
+#' The palette follows the set behind [Gibi
+#' ASMR](https://en.wikipedia.org/wiki/Gibi_ASMR)'s videos: a deep indigo
+#' backdrop strung with blue and white fairy lights, a lilac top, red and
+#' green bokeh, warm gold light, and pink nails.
+#'
+#' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
 #'     available on the system, otherwise `"sans"`.
 #' @param title_family Title font family. Defaults to Optima when
 #'     it's available, otherwise `"sans"`.
+#' @param mode `"dark"` (the default) or `"light"`.
 #'
 #' @return A `ggplot2` theme object.
 #'
@@ -34,9 +40,11 @@
 theme_asmr <- function(base_size = 15,
                       base_family = register_font("Arial", "Arial.ttf",
                                                   "Arial Bold.ttf"),
-                      title_family = register_font("Optima", "Optima.ttc")) {
-  cols <- asmr_cols
-  marks <- asmr_marks
+                      title_family = register_font("Optima", "Optima.ttc"),
+                      mode = c("dark", "light")) {
+  mode <- match.arg(mode)
+  cols <- asmr_cols[[mode]]
+  marks <- asmr_marks[[mode]]
   ggplot2::theme_bw(base_size = base_size, base_family = base_family) +
     ggplot2::theme(
       text = ggplot2::element_text(colour = cols[["text"]]),
@@ -75,19 +83,37 @@ theme_asmr <- function(base_size = 15,
 }
 
 # Sampled from a body map showing where ASMR tingles start and spread
-asmr_cols <- c(
-  background = "#F1EEF8",
-  panel = "#FAF9FC",
-  grid = "#D5D2DB",
-  text = "#2C273D",
-  frame = "#2836D9",
-  title = "#2836D9",
-  strip = "#2C273D",
-  striptext = "#F1EEF8",
-  accent = "#8C95F0",
-  outline = "#2C273D",
-  fill = "#2836D9"
+asmr_cols <- list(
+  dark = c(
+    background = "#120D4D",
+    panel = "#211759",
+    grid = "#3F3169",
+    text = "#F0ECF7",
+    frame = "#DCE6FF",
+    title = "#DCE6FF",
+    strip = "#F0ECF7",
+    striptext = "#120D4D",
+    accent = "#B9A2F0",
+    outline = "#F0ECF7",
+    fill = "#6F8CFF"
+  ),
+  light = c(
+    background = "#F1EBFE",
+    panel = "#F9F7FD",
+    grid = "#D5CFE1",
+    text = "#202A3D",
+    frame = "#626B81",
+    title = "#626B81",
+    strip = "#202A3D",
+    striptext = "#F1EBFE",
+    accent = "#B9A2F0",
+    outline = "#202A3D",
+    fill = "#6F8CFF"
+  )
 )
 
-asmr_marks <- c("#2836D9", "#8C95F0", "#E4B7FC", "#E7A6C4", "#3F8777", "#1D2366")
+asmr_marks <- list(
+  dark = c("#6F8CFF", "#B9A2F0", "#E2412A", "#4FC36A", "#F2C14E", "#D98FB0"),
+  light = c("#6F8CFF", "#B9A2F0", "#E2412A", "#4FC36A", "#EFBE4B", "#D98FB0")
+)
 
