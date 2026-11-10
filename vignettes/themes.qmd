@@ -288,6 +288,34 @@ With `mode = "light"`:
 last_plot() + theme_doomscroll(base_size = 13, mode = "light")
 ```
 
+## E-girl
+
+`theme_egirl()`: E-girls and e-boys are a TikTok youth subculture that mixes emo, scene, and mall goth fashion with anime and K-pop style (see [E-girl and e-boy subculture](https://en.wikipedia.org/wiki/E-girl_and_e-boy_subculture) on Wikipedia). E-girls and e-boys reached the mainstream in 2019 through TikTok transformation videos. TikTok lacked Instagram's polish and filters, so the look pushed back on perfectly edited influencer photos. In 2020, "e-girl style" was a top 10 trending fashion term on Google, and celebrities like Dua Lipa copied its bleached stripes. Designers at Celine later built collections around e-boy style.
+
+The palette follows the e-girl look: neon pink and blue dyed hair, silver chains, a red band tee print, bleached blonde streaks, and anime pink blush on black. The image shows an e-girl's striped sleeves, layered chain necklaces, and black band tee.
+
+![Image: Irisloveunicorns, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:E-girl.png), CC BY 3.0 (cropped).](../man/figures/theme_egirl/egirl.jpg){width="60%" fig-align="center"}
+
+```{r}
+#| label: egirl
+set.seed(2019)
+looks <- data.frame(item = sample(c("Chains", "Striped sleeves", "Heart stamps", "Split dye hair", "Platform shoes"),
+  500, replace = TRUE, prob = c(0.3, 0.25, 0.2, 0.15, 0.1)))
+looks$item <- factor(looks$item, levels = names(sort(table(looks$item))))
+ggplot(looks, aes(y = item, fill = item)) +
+  geom_bar(show.legend = FALSE) +
+  labs(title = "E-girl transformation videos", subtitle = "What each look added",
+       caption = "Simulated data", x = "Videos", y = NULL) +
+  theme_egirl(base_size = 13)
+```
+
+With `mode = "light"`:
+
+```{r}
+#| label: egirl-light
+last_plot() + theme_egirl(base_size = 13, mode = "light")
+```
+
 ## Fidget toy
 
 `theme_fidget()`: Fidget toys (spinners, cubes, pop its, and bike chains) are small things to keep your hands busy (see [Fidget toy](https://en.wikipedia.org/wiki/Fidget_toy) on Wikipedia). Fidget spinners went viral in 2017. Fidget toys came back through TikTok videos of pop its, slime, and kinetic sand under hashtags like #FidgetToys. Gen Z uses them as screen free stress relief and as focus aids while studying or working. For some young adults, they are also simply nostalgic and fun.

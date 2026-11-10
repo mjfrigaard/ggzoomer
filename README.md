@@ -41,6 +41,7 @@ the earlier 90s themes until they are updated.
 | `theme_darkacademia()` | [Dark academia](https://en.wikipedia.org/wiki/Dark_academia) |
 | `theme_digicam()` | [Digital camera](https://en.wikipedia.org/wiki/Digital_camera) |
 | `theme_doomscroll()` | [Doomscrolling](https://en.wikipedia.org/wiki/Doomscrolling) |
+| `theme_egirl()` | [E-girl and e-boy subculture](https://en.wikipedia.org/wiki/E-girl_and_e-boy_subculture) |
 | `theme_fidget()` | [Fidget toy](https://en.wikipedia.org/wiki/Fidget_toy) |
 | `theme_frog()` | [Frog](https://en.wikipedia.org/wiki/Frog) |
 | `theme_frutigeraero()` | [Frutiger Aero](https://en.wikipedia.org/wiki/Frutiger_Aero) |
