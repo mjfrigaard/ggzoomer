@@ -485,32 +485,6 @@ With `mode = "light"`:
 last_plot() + theme_ledstrip(base_size = 13, mode = "light")
 ```
 
-## Lightstick
-
-`theme_lightstick()`: Lightsticks are the glow sticks fans wave at concerts, now synced to the show at K-pop tours (see [Glow stick](https://en.wikipedia.org/wiki/Glow_stick) on Wikipedia). Every K-pop fandom has an official lightstick in its own color, often topped with the group's logo. The Korea Herald calls owning one a badge of devotion and fandom identity. Fans even argue over look alike designs. At concerts, thousands of lightsticks form synchronized seas of color, and the videos spread widely on social media.
-
-The palette follows a concert crowd of K-pop lightsticks: pearl aqua, BTS purple, Blackpink pink, Big Bang yellow, stage red, and clear acrylic white. The image shows a diagram of a glow stick being snapped and lit.
-
-![Image: Pbroks13, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glowstick.svg), CC BY 3.0.](../man/figures/theme_lightstick/lightstick.jpg){width="60%" fig-align="center"}
-
-```{r}
-#| label: lightstick
-set.seed(2023)
-glow <- data.frame(minute = rep(seq(0, 180, by = 10), 3), stick = rep(c("Premium", "Standard", "Dollar store"), each = 19))
-glow$brightness <- 100 * exp(-glow$minute / c(Premium = 200, Standard = 120, "Dollar store" = 60)[glow$stick]) + rnorm(57, 0, 2)
-ggplot(glow, aes(x = minute, y = brightness, colour = stick)) +
-  geom_line(linewidth = 1.2) +
-  labs(title = "Lightstick glow", caption = "Simulated data", x = "Minutes after snapping", y = "Brightness (%)", colour = NULL) +
-  theme_lightstick(base_size = 13)
-```
-
-With `mode = "light"`:
-
-```{r}
-#| label: lightstick-light
-last_plot() + theme_lightstick(base_size = 13, mode = "light")
-```
-
 ## Liminal space
 
 `theme_liminal()`: Liminal space is an internet aesthetic of empty in between places: hallways, waiting rooms, and closed malls (see [Liminal space](https://en.wikipedia.org/wiki/Liminal_space) on Wikipedia). Liminal space images began with a 2019 4chan post that spawned the Backrooms, then spread across Reddit and TikTok. Commentators tie their appeal to childhood memories of malls and schools. Empty streets during the pandemic lockdowns made the feeling familiar. YPulse reported in 2026 that Gen Z loves films and shows set in liminal spaces.
@@ -598,33 +572,6 @@ ggplot(shells, aes(x = width, y = chambers, colour = beach)) +
   theme_mermaidcore(base_size = 13)
 ```
 
-## Mushroom lamp
-
-`theme_mushroomlamp()`: Mushroom lamps are glowing nightlights that became a bedroom decor trend (see [Nightlight](https://en.wikipedia.org/wiki/Nightlight) on Wikipedia). Interest in mushroom lamps reportedly took off from a DIY TikTok post. Pinterest's 2023 forecast named mushroom decor a top emerging trend, with searches up 666% over five years. The lamps fit the fairycore and cottagecore rooms Gen Z favors. They work as mood lighting and as a statement piece on Instagram.
-
-The palette follows a glowing glass toadstool in a dark room: amber glow, candy stripe red, milk glass cream, toadstool orange, mossy green, and lilac glass. The image shows a green LED nightlight plugged into a wall.
-
-![Image: Tetris L, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:LED_nightlight_with_switch.JPG), CC BY-SA 3.0.](../man/figures/theme_mushroomlamp/mushroomlamp.jpg){width="60%" fig-align="center"}
-
-```{r}
-#| label: mushroomlamp
-set.seed(2020)
-lamps <- data.frame(hour = rep(seq(18, 30, by = 0.5), 2), room = rep(c("Bedroom", "Dorm"), each = 25))
-lamps$lumens <- pmax(0, 40 * dnorm(lamps$hour, mean = ifelse(lamps$room == "Bedroom", 23, 25), sd = 2.5) * 6 + rnorm(50, 0, 1))
-ggplot(lamps, aes(x = hour, y = lumens, fill = room)) +
-  geom_area(alpha = 0.7, position = "identity") +
-  scale_x_continuous(breaks = seq(18, 30, 3), labels = c("6pm", "9pm", "12am", "3am", "6am")) +
-  labs(title = "Nightlight glow", caption = "Simulated data", x = NULL, y = "Lumens", fill = NULL) +
-  theme_mushroomlamp(base_size = 13)
-```
-
-With `mode = "light"`:
-
-```{r}
-#| label: mushroomlamp-light
-last_plot() + theme_mushroomlamp(base_size = 13, mode = "light")
-```
-
 ## Photo dump
 
 `theme_photodump()`: A photo dump is a carousel post of loosely related phone photos from the week (see [Camera phone](https://en.wikipedia.org/wiki/Camera_phone) on Wikipedia). A photo dump is a loose Instagram carousel of unposed shots, blurry photos, screenshots, and memes. The format traces back to summer 2020 and spread as celebrities like Dua Lipa and Olivia Rodrigo adopted it. Gen Z uses it to signal authenticity and push back on the pressure to keep a perfect feed. Critics note the effortless look is often carefully curated.
@@ -643,25 +590,6 @@ ggplot(dump, aes(x = factor(slides), y = likes, fill = posted)) +
   geom_boxplot() +
   labs(title = "Photo dump likes", caption = "Simulated data", x = "Photos in the carousel", y = "Likes", fill = NULL) +
   theme_photodump(base_size = 13)
-```
-
-## Pickleball
-
-`theme_pickleball()`: Pickleball is a paddle sport played with a plastic ball over a low net, and the fastest growing sport in the US (see [Pickleball](https://en.wikipedia.org/wiki/Pickleball) on Wikipedia). Forrester reports that 19% of US Gen Z adults online already play pickleball. A Morning Consult survey put the share who had ever played at 34%. Low cost, no memberships, and quick social rallies explain the appeal, and TikTok has become a major channel for the sport. Surveys disagree on whether Gen Z plays more than other generations.
-
-The palette follows the court and gear: court blue, optic yellow ball, court green, pickle green, preppy navy, and the black net. The image shows a professional doubles match on a pickleball court.
-
-![Image: CarVeFe, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pickle_Pro_Tour_2025_2.jpg), CC0.](../man/figures/theme_pickleball/pickleball.jpg){width="60%" fig-align="center"}
-
-```{r}
-#| label: pickleball
-set.seed(1965)
-rallies <- data.frame(level = rep(c("Beginner", "Club", "Pro"), each = 200))
-rallies$shots <- rnbinom(600, size = 4, mu = c(Beginner = 5, Club = 9, Pro = 14)[rallies$level])
-ggplot(rallies, aes(x = shots, fill = level)) +
-  geom_bar(position = "dodge") +
-  labs(title = "Rally lengths", caption = "Simulated data", x = "Shots per rally", y = "Rallies", fill = NULL) +
-  theme_pickleball(base_size = 13)
 ```
 
 ## Plushie
@@ -683,53 +611,6 @@ ggplot(plush, aes(x = squish, fill = animal)) +
   theme_plushie(base_size = 13)
 ```
 
-## RGB setup
-
-`theme_rgbsetup()`: An RGB setup is a gaming PC and desk lit up in color changing lights (see [Gaming computer](https://en.wikipedia.org/wiki/Gaming_computer) on Wikipedia). The RGB setup spread through streamers and the pro streamer setup trend on TikTok and Instagram. A glowing desk makes an Instagram worthy stage. Its appeal is self expression and personalization. Some gamers are now pushing back with minimalist, no RGB setups.
-
-The palette follows a glowing desk cycling RGB: red, green, blue, neon magenta, electric cyan, and ultraviolet purple on a black desk. The image shows a gaming PC with glass panels and colored fans.
-
-![Image: MoreThanTech, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:MSI-Gaming-PC_2024-09-30.png), CC BY 3.0.](../man/figures/theme_rgbsetup/rgbsetup.jpg){width="60%" fig-align="center"}
-
-```{r}
-#| label: rgbsetup
-set.seed(2024)
-fps <- data.frame(game = rep(c("Shooter", "Racing", "Open world", "Sandbox"), each = 120))
-fps$fps <- rnorm(480, mean = c(Shooter = 165, Racing = 120, "Open world" = 75, Sandbox = 140)[fps$game], sd = 15)
-ggplot(fps, aes(x = fps, y = game, fill = game)) +
-  geom_boxplot(show.legend = FALSE) +
-  labs(title = "Frames per second", caption = "Simulated data", x = "FPS", y = NULL) +
-  theme_rgbsetup(base_size = 13)
-```
-
-With `mode = "light"`:
-
-```{r}
-#| label: rgbsetup-light
-last_plot() + theme_rgbsetup(base_size = 13, mode = "light")
-```
-
-## Ring light
-
-`theme_ringlight()`: Ring lights are the circular lights behind nearly every vlog, makeup tutorial, and video call (see [Ring flash](https://en.wikipedia.org/wiki/Ring_flash) on Wikipedia). Constant video content pushed Gen Z to buy ring lights for selfies, makeup tutorials, and streams. The telltale ring reflection in the eyes gives it away. Brands like Cygnett launched ring lights aimed at Gen Z and marketed them on TikTok and Snapchat. Search interest has dipped in the past year but grown over five years.
-
-The palette follows daylight white glow and pastel macaron ring lights: warm tungsten, candy pink, macaron mint, macaron lilac, chasing cyan, and the black tripod. The image shows a ring of LEDs next to its controller.
-
-![Image: Jacek Halicki, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2015_Lampa_b%C5%82yskowa_pier%C5%9Bcieniowa_Aputure.jpg), CC BY-SA 4.0.](../man/figures/theme_ringlight/ringlight.jpg){width="60%" fig-align="center"}
-
-```{r}
-#| label: ringlight
-set.seed(2015)
-ring <- data.frame(brightness = runif(300, 10, 100))
-ring$views <- round(exp(6 + 0.02 * ring$brightness + rnorm(300, 0, 0.5)))
-ring$video <- sample(c("Makeup", "Vlog", "Unboxing"), 300, replace = TRUE)
-ggplot(ring, aes(x = brightness, y = views, colour = video)) +
-  geom_point(alpha = 0.7) +
-  scale_y_log10() +
-  labs(title = "Ring light brightness", caption = "Simulated data", x = "Brightness (%)", y = "Views (log scale)", colour = NULL) +
-  theme_ringlight(base_size = 13)
-```
-
 ## Slime
 
 `theme_slime()`: Slime is the stretchy toy that kids make at home and watch in satisfying videos (see [Slime (toy)](https://en.wikipedia.org/wiki/Slime_(toy)) on Wikipedia). The slime trend took off in 2016 and peaked in the summer of slime in 2017. It spread on YouTube and Instagram, and later on TikTok. Teens watch slime videos as ASMR to relax. Gen Z and younger millennials have built slime businesses worth millions, though experts warn about boric acid in homemade recipes.
@@ -747,82 +628,6 @@ ggplot(slime, aes(x = stretch, fill = recipe)) +
   geom_histogram(bins = 30, alpha = 0.8, position = "identity") +
   labs(title = "Slime stretch test", caption = "Simulated data", x = "Stretch (cm)", fill = NULL) +
   theme_slime(base_size = 13)
-```
-
-## Speedrun
-
-`theme_speedrun()`: Speedrunning is beating a video game as fast as possible, often live for charity (see [Speedrunning](https://en.wikipedia.org/wiki/Speedrunning) on Wikipedia). YPulse reports that Gen Z watched speedrunning grow from a niche hobby into mainstream entertainment. The word now spills into everyday jokes, like a 2025 viral video of a YouTuber speedrunning his cat off his gaming chair. A good run can launch a content creation career.
-
-The palette follows a split timer overlay on a stream: ahead green, behind pace red, gold split, stream purple, pixel sky blue, and timer white. The image shows the crowd at a Summer Games Done Quick charity marathon.
-
-![Image: Gage Skidmore from Peoria, AZ, United States of America, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Summer_Games_Done_Quick_attendees_(48149404692).jpg), CC BY-SA 2.0.](../man/figures/theme_speedrun/speedrun.jpg){width="60%" fig-align="center"}
-
-```{r}
-#| label: speedrun
-set.seed(2014)
-runs <- data.frame(attempt = 1:200)
-runs$minutes <- 60 * exp(-runs$attempt / 80) + 25 + rnorm(200, 0, 2)
-runs$category <- ifelse(runs$attempt %% 2 == 0, "Any%", "100%")
-runs$minutes <- runs$minutes + ifelse(runs$category == "100%", 30, 0)
-ggplot(runs, aes(x = attempt, y = minutes, colour = category)) +
-  geom_point(alpha = 0.6) +
-  geom_smooth(se = FALSE, method = "loess", formula = y ~ x) +
-  labs(title = "Personal bests", caption = "Simulated data", x = "Attempt", y = "Minutes", colour = NULL) +
-  theme_speedrun(base_size = 13)
-```
-
-With `mode = "light"`:
-
-```{r}
-#| label: speedrun-light
-last_plot() + theme_speedrun(base_size = 13, mode = "light")
-```
-
-## Streak
-
-`theme_streak()`: Streaks are the daily counters that apps use to keep you coming back, a common gamification trick (see [Gamification](https://en.wikipedia.org/wiki/Gamification) on Wikipedia). On Snapchat, a fire emoji and a number appear next to a friend after three days in a row of snaps. For Gen Z and Gen Alpha, a streak is social currency and quiet validation that can matter more than likes. About 6 million people hold Duolingo streaks of a week or more. Critics link streaks to obsessive behavior.
-
-The palette follows the streak flame on Snapchat and Duolingo: flame orange, fire red, Snapchat yellow, Duolingo green, flame gold, and app black. The image shows a poster of the five steps to earn a digital badge.
-
-![Image: Nordplus project Open Badges for Adult Educators., [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:AdEO_Adult_Educator_Online_-_Five_steps_to_get_a_badge.png), CC BY-SA 4.0.](../man/figures/theme_streak/streak.jpg){width="60%" fig-align="center"}
-
-```{r}
-#| label: streak
-set.seed(2012)
-streaks <- data.frame(app = rep(c("Language", "Fitness", "Messaging"), each = 250))
-streaks$days <- rgeom(750, prob = c(Language = 1 / 40, Fitness = 1 / 15, Messaging = 1 / 90)[streaks$app])
-ggplot(streaks, aes(x = days, colour = app)) +
-  stat_ecdf(linewidth = 1) +
-  labs(title = "How long streaks last", caption = "Simulated data", x = "Streak length (days)", y = "Share of streaks", colour = NULL) +
-  theme_streak(base_size = 13)
-```
-
-## Synthwave
-
-`theme_synthwave()`: Synthwave is electronic music (and art) that looks back at 1980s film scores: neon grids and chrome sunsets (see [Synthwave](https://en.wikipedia.org/wiki/Synthwave) on Wikipedia). Synthwave gives Gen Z nostalgia for an era they never lived through, reintroduced by Netflix and social media. Synthwave art fills Instagram, Pinterest, and TikTok. Its neon grids and sunsets now show up in mainstream ads, games, and TV. The look also links to phonk music and import car culture.
-
-The palette follows neon over a grid at sunset: hot pink, neon cyan, electric purple, sunset orange, sun yellow, and grid magenta on midnight navy. The image shows a neon grid under a striped sunset.
-
-![Image: j4p4n, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Synthwave.svg), CC0.](../man/figures/theme_synthwave/synthwave.jpg){width="60%" fig-align="center"}
-
-```{r}
-#| label: synthwave
-set.seed(1984)
-tracks <- data.frame(bpm = rnorm(300, 110, 12))
-tracks$plays <- round(rlnorm(300, meanlog = 8 + 0.01 * (tracks$bpm - 110), sdlog = 0.7))
-tracks$mood <- sample(c("Night drive", "Neon", "Retro"), 300, replace = TRUE)
-ggplot(tracks, aes(x = bpm, y = plays, colour = mood)) +
-  geom_point(alpha = 0.8) +
-  scale_y_log10() +
-  labs(title = "Synthwave tracks", caption = "Simulated data", x = "BPM", y = "Plays (log scale)", colour = NULL) +
-  theme_synthwave(base_size = 13)
-```
-
-With `mode = "light"`:
-
-```{r}
-#| label: synthwave-light
-last_plot() + theme_synthwave(base_size = 13, mode = "light")
 ```
 
 ## Thrift
@@ -984,4 +789,4 @@ ggplot(buds, aes(x = hours, fill = type)) +
 
 ## Fonts
 
-The themes use title fonts that ship with macOS and fall back to `"sans"` when a font isn't found: American Typewriter, Andale Mono, Apple Chancery, Arial Black, Arial Narrow, Arial Rounded, Baskerville, Big Caslon, Bradley Hand, Chalkboard, Chalkduster, Cochin, Comic Sans MS, Copperplate, Courier New, Didot, DIN Alternate, DIN Condensed, Futura, Gill Sans, Impact, Krungthep, Luminari, Marion, Marker Felt, Noteworthy, Optima, Phosphate, PT Mono, Rockwell, SignPainter, Silom, Skia, Snell Roundhand, Superclarendon, Tahoma, Times New Roman, Trattatello, Trebuchet MS, and Verdana.
+The themes use title fonts that ship with macOS and fall back to `"sans"` when a font isn't found: American Typewriter, Andale Mono, Apple Chancery, Arial Black, Arial Rounded, Baskerville, Big Caslon, Bradley Hand, Chalkboard, Chalkduster, Cochin, Comic Sans MS, Copperplate, Courier New, Didot, DIN Condensed, Gill Sans, Impact, Krungthep, Luminari, Marion, Marker Felt, Noteworthy, Optima, Rockwell, SignPainter, Silom, Skia, Snell Roundhand, Superclarendon, Tahoma, Times New Roman, Trebuchet MS, and Verdana.

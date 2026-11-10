@@ -24,8 +24,8 @@ pak::pak("mjfrigaard/fmggp2")
 
 Each theme is named after an aesthetic, trend, or object from Gen Z
 internet culture, and its palette follows how that topic looks to Gen Z
-online (its colors, objects, and materials). The book chapters
-still use the earlier 90s themes until they are updated.
+online (its colors, objects, and materials). The book chapters still use
+the earlier 90s themes until they are updated.
 
 | Theme | Wikipedia |
 |----|----|
@@ -50,21 +50,13 @@ still use the earlier 90s themes until they are updated.
 | `theme_indiesleaze()` | [Indie sleaze](https://en.wikipedia.org/wiki/Indie_sleaze) |
 | `theme_kidcore()` | [Kidcore](https://en.wikipedia.org/wiki/Kidcore) |
 | `theme_ledstrip()` | [LED strip light](https://en.wikipedia.org/wiki/LED_strip_light) |
-| `theme_lightstick()` | [Glow stick](https://en.wikipedia.org/wiki/Glow_stick) |
 | `theme_liminal()` | [Liminal space](https://en.wikipedia.org/wiki/Liminal_space) |
 | `theme_livestream()` | [Live streaming](https://en.wikipedia.org/wiki/Live_streaming) |
 | `theme_matcha()` | [Matcha](https://en.wikipedia.org/wiki/Matcha) |
 | `theme_mermaidcore()` | [Mermaid](https://en.wikipedia.org/wiki/Mermaid) |
-| `theme_mushroomlamp()` | [Nightlight](https://en.wikipedia.org/wiki/Nightlight) |
 | `theme_photodump()` | [Camera phone](https://en.wikipedia.org/wiki/Camera_phone) |
-| `theme_pickleball()` | [Pickleball](https://en.wikipedia.org/wiki/Pickleball) |
 | `theme_plushie()` | [Stuffed toy](https://en.wikipedia.org/wiki/Stuffed_toy) |
-| `theme_rgbsetup()` | [Gaming computer](https://en.wikipedia.org/wiki/Gaming_computer) |
-| `theme_ringlight()` | [Ring flash](https://en.wikipedia.org/wiki/Ring_flash) |
 | `theme_slime()` | [Slime (toy)](https://en.wikipedia.org/wiki/Slime_(toy)) |
-| `theme_speedrun()` | [Speedrunning](https://en.wikipedia.org/wiki/Speedrunning) |
-| `theme_streak()` | [Gamification](https://en.wikipedia.org/wiki/Gamification) |
-| `theme_synthwave()` | [Synthwave](https://en.wikipedia.org/wiki/Synthwave) |
 | `theme_thrift()` | [Charity shop](https://en.wikipedia.org/wiki/Charity_shop) |
 | `theme_tumbler()` | [Vacuum flask](https://en.wikipedia.org/wiki/Vacuum_flask) |
 | `theme_unboxing()` | [Unboxing](https://en.wikipedia.org/wiki/Unboxing) |
@@ -75,7 +67,7 @@ still use the earlier 90s themes until they are updated.
 | `theme_wiredbuds()` | [Headphones](https://en.wikipedia.org/wiki/Headphones) |
 | `theme_fmggp2()` | Original book theme |
 
-The two graphs below use `theme_boba()` and `theme_synthwave()` with
+The two graphs below use `theme_boba()` and `theme_vaporwave()` with
 simulated data.
 
 ``` r
@@ -97,22 +89,22 @@ ggplot(boba, aes(x = flavor, fill = flavor)) +
 set.seed(1984)
 tracks <- data.frame(bpm = rnorm(300, 110, 12))
 tracks$plays <- round(rlnorm(300, meanlog = 8 + 0.01 * (tracks$bpm - 110), sdlog = 0.7))
-tracks$mood <- sample(c("Night drive", "Neon", "Retro"), 300, replace = TRUE)
+tracks$mood <- sample(c("Mallsoft", "Future funk", "Slushwave"), 300, replace = TRUE)
 ggplot(tracks, aes(x = bpm, y = plays, colour = mood)) +
   geom_point(alpha = 0.8) +
   scale_y_log10() +
-  labs(title = "Synthwave tracks", caption = "Simulated data", x = "BPM", y = "Plays (log scale)", colour = NULL) +
-  theme_synthwave(base_size = 13)
+  labs(title = "Vaporwave tracks", caption = "Simulated data", x = "BPM", y = "Plays (log scale)", colour = NULL) +
+  theme_vaporwave(base_size = 13)
 ```
 
-![](man/figures/README-readme-synthwave-1.png)
+![](man/figures/README-readme-vaporwave-1.png)
 
 ## Reference images
 
-Each theme’s palette follows its Wikipedia article. A freely licensed
-image (public domain, CC0, CC BY, CC BY-SA, or GFDL) from the article,
-or from Wikimedia Commons when the article has no free image, supports
-it. The [themes
+Each theme links its Wikipedia article. A freely licensed image (public
+domain, CC0, CC BY, CC BY-SA, or GFDL) from the article, or from
+Wikimedia Commons when the article has no free image, illustrates it.
+The [themes
 vignette](https://mjfrigaard.github.io/fmggp2/articles/themes.html)
 shows each image with its author and license.
 
