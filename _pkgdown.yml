@@ -4,26 +4,26 @@ template:
   bootstrap: 5
   light-switch: false
   bslib:
-    bg: "#0D0221"
-    fg: "#E0E0FF"
-    primary: "#FF2A6D"
-    secondary: "#05D9E8"
-    success: "#39FF14"
-    info: "#05D9E8"
-    warning: "#FFE600"
-    danger: "#FF2A6D"
-    link-color: "#05D9E8"
-    link-hover-color: "#39FF14"
-    navbar-bg: "#1A0B3B"
-    code-bg: "#1A0B3B"
-    code-color: "#39FF14"
-    pre-bg: "#130630"
-    border-color: "#FF2A6D"
-    base_font: {google: "Space Mono"}
-    heading_font: {google: "VT323"}
+    bg: "#FAFBFE"
+    fg: "#31283C"
+    primary: "#4F18AD"
+    secondary: "#C458E2"
+    success: "#7A7600"
+    info: "#4F18AD"
+    warning: "#C2C900"
+    danger: "#C458E2"
+    link-color: "#4F18AD"
+    link-hover-color: "#8A2BA8"
+    navbar-bg: "#EAEEF9"
+    code-bg: "#EAEEF9"
+    code-color: "#4F18AD"
+    pre-bg: "#EAEEF9"
+    border-color: "#D4D7E2"
+    base_font: {google: "Inter"}
+    heading_font: {google: "Space Grotesk"}
     code_font: {google: "Space Mono"}
     font-size-base: "0.95rem"
-    headings-color: "#FF2A6D"
+    headings-color: "#4F18AD"
 
 navbar:
   structure:
