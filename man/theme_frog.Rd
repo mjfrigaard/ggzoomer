@@ -23,10 +23,16 @@ it's available, otherwise \code{"sans"}.}
 A \code{ggplot2} theme object.
 }
 \description{
-Frogs are tailless amphibians and a cottagecore and goblincore icon. The
-palette follows the article's skin colors: camouflage green and dappled
-brown, warning red or yellow and black, and the blue flanks of the red
-eyed tree frog.
+Frogs are tailless amphibians and a cottagecore and goblincore icon.
+Frogs show up in myths, fairy tales, and modern culture, from Kermit the
+Frog to the game Frogger. They also warn us about the planet. A drop in
+frog numbers is an early sign of environmental damage, and frog
+populations around the world have fallen sharply since the 1950s.
+}
+\details{
+The palette follows the article's skin colors: camouflage green and
+dappled brown, warning red or yellow and black, and the blue flanks of
+the red eyed tree frog.
 }
 \examples{
 library(ggplot2)

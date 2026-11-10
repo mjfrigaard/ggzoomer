@@ -24,9 +24,17 @@ A \code{ggplot2} theme object.
 }
 \description{
 Coastal grandmother is a relaxed style of linen, beach houses, and
-seaside cooking. The palette follows a linen beach house: sea blue,
-navy, sand, hydrangea, seagrass, and driftwood (the article has no
-palette, so the Cape Cod postcard leads).
+seaside cooking. Coastal grandmother was a 2022 trend with a "beachy,
+romantic aesthetic" tied to the rural American East Coast. It grew out
+of "retirement wear," where young Gen Z and millennial women borrowed
+the comfortable style of their elders. Both trends came from
+comfortcore, the turn to comfortable clothes that followed the COVID-19
+lockdowns.
+}
+\details{
+The palette follows a linen beach house: sea blue, navy, sand,
+hydrangea, seagrass, and driftwood (the article has no palette, so the
+Cape Cod postcard leads).
 }
 \examples{
 library(ggplot2)
@@ -36,5 +44,5 @@ ggplot(data.frame(x = c("a", "b", "b")), aes(x = x, fill = x)) +
   theme_coastal(base_family = "sans", title_family = "sans")
 }
 \seealso{
-\href{https://en.wikipedia.org/wiki/Coastal_grandmother}{Coastal grandmother} on Wikipedia.
+\href{https://en.wikipedia.org/wiki/2020s_in_fashion}{2020s in fashion} on Wikipedia.
 }

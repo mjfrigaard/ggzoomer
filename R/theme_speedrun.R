@@ -1,9 +1,16 @@
 #' Speedrun theme
 #'
 #' Speedrunning is beating a video game as fast as possible, often live for
-#' charity. The palette follows the article's timers and leaderboards:
-#' split timer gold (best segment), green (ahead), red (behind), white
-#' digits, and tool assisted cyan and purple.
+#' charity. Speedrunning means beating a video game as fast as possible.
+#' Runners share videos and livestreams on YouTube and Twitch, and
+#' community leaderboards rank the fastest runs. Games Done Quick, the
+#' largest speedrunning marathon, had raised over $37 million for charity
+#' by January 2022. Many runners say the community has helped their mental
+#' health.
+#'
+#' The palette follows the article's timers and leaderboards: split timer
+#' gold (best segment), green (ahead), red (behind), white digits, and tool
+#' assisted cyan and purple.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'

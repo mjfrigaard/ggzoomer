@@ -24,8 +24,14 @@ A \code{ggplot2} theme object.
 }
 \description{
 Slime is the stretchy toy that kids make at home and watch in satisfying
-videos. The palette follows the article's oozy green slime, the other
-colors from food coloring, and its plastic trash can.
+videos. Slime started as a Mattel toy in 1976, sold in a tiny plastic
+trash can. It later spread to Ghostbusters, Teenage Mutant Ninja
+Turtles, and Nickelodeon, where it soaks winners at the Kids' Choice
+Awards. In 2025, slime joined the National Toy Hall of Fame.
+}
+\details{
+The palette follows the article's oozy green slime, the other colors
+from food coloring, and its plastic trash can.
 }
 \examples{
 library(ggplot2)

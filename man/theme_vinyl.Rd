@@ -24,9 +24,15 @@ A \code{ggplot2} theme object.
 }
 \description{
 Vinyl records outsell CDs again, thanks to collectors who buy albums in
-colored variants. The palette follows the article's "black disc", Red
-Seal labels, transparent red vinylite, the Blue Goose label, gold label
-foil, and paper sleeves.
+colored variants. Vinyl records left the mainstream in 1991, then made a
+comeback that grew through the 2010s and 2020s. In 2020, vinyl revenue
+passed CD revenue for the first time since the 1980s. A year later,
+Taylor Swift sold 102,000 vinyl copies of Evermore in one week.
+}
+\details{
+The palette follows the article's "black disc", Red Seal labels,
+transparent red vinylite, the Blue Goose label, gold label foil, and
+paper sleeves.
 }
 \examples{
 library(ggplot2)

@@ -27,11 +27,17 @@ A \code{ggplot2} theme object.
 }
 \description{
 LED strip lights are the adhesive color changing lights that line
-bedroom ceilings and desks. The palette follows the article's strip
-types: red, green, and blue multicolor LEDs, warm and cool white color
-temperatures, and a 2200K amber.
+bedroom ceilings and desks. LED strips are flexible bands of small
+lights that stick along a wall, desk, or monitor. Hobbyists use them for
+computer lighting, monitor backlights, and DIY projects. A USB port or
+battery pack can power them. Paired with a small controller, they can
+change color with music or anything else the controller senses.
 }
 \details{
+The palette follows the article's strip types: red, green, and blue
+multicolor LEDs, warm and cool white color temperatures, and a 2200K
+amber.
+
 Use \code{mode = "light"} for a light background with dark text and darker marks.
 }
 \examples{

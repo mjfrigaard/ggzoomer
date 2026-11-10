@@ -24,9 +24,17 @@ A \code{ggplot2} theme object.
 }
 \description{
 Streaks are the daily counters that apps use to keep you coming back, a
-common gamification trick. The palette follows the article's points,
-badges, levels, and progress bars: streak flame orange and red, gold
-badge, XP purple, progress green, and a frozen streak blue.
+common gamification trick. A streak counts how many days in a row you've
+done something. It is a common gamification tool, which adds points,
+badges, and leaderboards to things that aren't games. In the language
+app \href{https://en.wikipedia.org/wiki/Duolingo}{Duolingo}, any finished
+lesson counts toward a daily streak marked with a fire symbol. Its
+Friend Streak lets up to five friends keep a streak together.
+}
+\details{
+The palette follows the article's points, badges, levels, and progress
+bars: streak flame orange and red, gold badge, XP purple, progress
+green, and a frozen streak blue.
 }
 \examples{
 library(ggplot2)

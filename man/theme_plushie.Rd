@@ -24,9 +24,15 @@ A \code{ggplot2} theme object.
 }
 \description{
 Plushies (stuffed toys) are collected, displayed, and carried well past
-childhood. The palette follows the article's soft toys in "a wide
-variety of colors" and fur textures: teddy honey, bunny pink, frog
-green, sky blue, lavender, and button eye brown.
+childhood. Stuffed toys are among the most popular toys, and not just
+for children. In 2019, about a third of British adults said they slept
+with a soft toy. In the 2020s, Squishmallows, Jellycat, and Labubu
+became fads after going viral on social media.
+}
+\details{
+The palette follows the article's soft toys in "a wide variety of
+colors" and fur textures: teddy honey, bunny pink, frog green, sky blue,
+lavender, and button eye brown.
 }
 \examples{
 library(ggplot2)

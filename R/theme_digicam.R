@@ -1,9 +1,14 @@
 #' Digicam theme
 #'
 #' Digital point and shoot cameras from the 2000s are back for their flash
-#' heavy, slightly blurry photos. The palette follows the article's sensor
-#' channels (red, green, and blue), an LCD screen, the flash, and the black
-#' grip on a silver body.
+#' heavy, slightly blurry photos. In the early 2020s, digital cameras from
+#' the early 2000s came back as a TikTok trend. The revival spread to
+#' marketplaces like eBay and Etsy. Wikipedia describes it as Gen Z
+#' nostalgia and a tribute to the Y2K aesthetic. These are the cameras
+#' people carried before every phone had a good one.
+#'
+#' The palette follows the article's sensor channels (red, green, and
+#' blue), an LCD screen, the flash, and the black grip on a silver body.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's

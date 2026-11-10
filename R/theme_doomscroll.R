@@ -1,9 +1,15 @@
 #' Doomscroll theme
 #'
 #' Doomscrolling is spending far too long scrolling through upsetting or
-#' endless feeds. The palette follows the article's late night feeds of
-#' negative news: screen glow blue, alert red, headline gray, notification
-#' orange, purple, and cyan on a dark room.
+#' endless feeds. Doomscrolling means spending too much time scrolling
+#' through bad news. The word first appeared in a tweet in 2018 and spread
+#' during the COVID-19 pandemic. Research finds it is more common in
+#' younger age groups. The Macquarie Dictionary named it a 2020 word of the
+#' year, and Merriam-Webster added it in September 2023.
+#'
+#' The palette follows the article's late night feeds of negative news:
+#' screen glow blue, alert red, headline gray, notification orange, purple,
+#' and cyan on a dark room.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'

@@ -24,10 +24,17 @@ A \code{ggplot2} theme object.
 }
 \description{
 Vaporwave is a 2010s music genre and meme aesthetic of slowed down mall
-music, old computers, and pink and teal gradients. The palette follows
-the 1980s and 1990s anime and mall imagery the article cites, as the
-classic vaporwave pastels: pink, cyan, mint, purple, pale yellow, and
-deep violet.
+music, old computers, and pink and teal gradients. Vaporwave is an
+internet music microgenre, aesthetic, and meme from the early 2010s. It
+loops and slows down corporate mood music, ads, and pop from earlier
+decades. The scene grew on Reddit, Last.fm, and Bandcamp, and it often
+pokes fun at consumer culture. Fans called it a "dead" genre soon after
+it went mainstream in 2012, yet dozens of offshoots followed.
+}
+\details{
+The palette follows the 1980s and 1990s anime and mall imagery the
+article cites, as the classic vaporwave pastels: pink, cyan, mint,
+purple, pale yellow, and deep violet.
 }
 \examples{
 library(ggplot2)

@@ -24,8 +24,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 A photo dump is a carousel post of loosely related phone photos from the
-week. The palette follows the article's camera phone shots in bright and
-low light: golden hour, sunset coral, sky, night, park green, and lilac
+week. A photo dump is a batch of casual pictures posted all at once, and
+it depends on the camera phone. Cameras have been a major selling point
+of phones since the 2010s. Because phones share pictures almost
+instantly, they work as personal content creation tools. Personal photos
+also help people build shared memories, keep up friendships, and express
+who they are.
+}
+\details{
+The palette follows the article's camera phone shots in bright and low
+light: golden hour, sunset coral, sky, night, park green, and lilac
 dusk.
 }
 \examples{

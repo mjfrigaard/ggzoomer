@@ -1,9 +1,15 @@
 #' Mushroom lamp theme
 #'
 #' Mushroom lamps are glowing nightlights that became a bedroom decor
-#' trend. The palette follows the article's nightlight sources
-#' (incandescent amber, neon orange, and soft electroluminescent green and
-#' blue) plus a red spotted mushroom cap.
+#' trend. Nightlights give comfort and a sense of security in the dark.
+#' Because they are cheap to make, they come in many decorative designs,
+#' from cartoon characters to fantastical shapes like the glowing mushroom.
+#' Low cost LEDs added colors that can change on their own or at the touch
+#' of a button.
+#'
+#' The palette follows the article's nightlight sources (incandescent
+#' amber, neon orange, and soft electroluminescent green and blue) plus a
+#' red spotted mushroom cap.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'

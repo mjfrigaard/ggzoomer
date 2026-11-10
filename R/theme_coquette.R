@@ -1,9 +1,15 @@
 #' Coquette theme
 #'
 #' The coquette aesthetic is a 2020s fashion trend of bows, lace, ribbons,
-#' and pastels. The palette follows the article's bows, lace, pastel
-#' colors, and pink clothing: ballet pink, ribbon red, powder blue, lilac,
-#' deep rose, and pearl gray.
+#' and pastels. Coquette is a 2020s Gen Z fashion trend built on lace,
+#' bows, flounces, and pastel colors. It first caught on with Tumblr in the
+#' early 2010s. Around 2021, it caught on again with TikTok. Its film
+#' influences run from Sofia Coppola's movies to Bridgerton and Greta
+#' Gerwig's Barbie.
+#'
+#' The palette follows the article's bows, lace, pastel colors, and pink
+#' clothing: ballet pink, ribbon red, powder blue, lilac, deep rose, and
+#' pearl gray.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's

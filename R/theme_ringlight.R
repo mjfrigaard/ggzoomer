@@ -1,9 +1,15 @@
 #' Ring light theme
 #'
 #' Ring lights are the circular lights behind nearly every vlog, makeup
-#' tutorial, and video call. The palette follows the article's adjustable
-#' color temperature (warm 3200K and cool 5600K), skin tones on video
-#' calls, and the gray and black ring and stand.
+#' tutorial, and video call. A ring light is a circle of light that
+#' surrounds the camera lens. It softens shadows and puts round highlights
+#' in the subject's eyes. Continuous ring lights are popular for video
+#' calls, selfies, and vlogs. They became even more popular during the
+#' COVID-19 pandemic as TikTok grew.
+#'
+#' The palette follows the article's adjustable color temperature (warm
+#' 3200K and cool 5600K), skin tones on video calls, and the gray and black
+#' ring and stand.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's

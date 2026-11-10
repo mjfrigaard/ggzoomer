@@ -24,9 +24,17 @@ A \code{ggplot2} theme object.
 }
 \description{
 Gorpcore is hiking gear (shell jackets, fleece, and trail shoes) worn as
-everyday streetwear. The palette follows the article's two color
-schemes, earthy or bright and bold: safety orange, glacier blue, forest
-green, khaki, lime, and charcoal shell jackets.
+everyday streetwear. Gorpcore is outdoor gear worn as everyday
+streetwear. The writer Jason Chen named it in 2017, and it became a
+popular trend in the 2020s. The COVID-19 pandemic sent people outdoors
+and boosted sales of puffer jackets and hiking boots. Before that,
+celebrities like A$AP Rocky and Frank Ocean were already wearing hiking
+clothes.
+}
+\details{
+The palette follows the article's two color schemes, earthy or bright
+and bold: safety orange, glacier blue, forest green, khaki, lime, and
+charcoal shell jackets.
 }
 \examples{
 library(ggplot2)

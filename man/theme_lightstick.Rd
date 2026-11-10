@@ -27,11 +27,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Lightsticks are the glow sticks fans wave at concerts, now synced to the
-show at K-pop tours. The palette follows the article's chemiluminescent
-glow in a translucent plastic tube: green, pink, blue, yellow, orange,
-and purple on a black arena.
+show at K-pop tours. Glow sticks are cheap lights that need no batteries
+and give off no heat. They are a fixture at raves, concerts, festivals,
+and dance clubs. Fans also wave them in dance styles such as glow poi
+and wotagei.
 }
 \details{
+The palette follows the article's chemiluminescent glow in a translucent
+plastic tube: green, pink, blue, yellow, orange, and purple on a black
+arena.
+
 Use \code{mode = "light"} for a light background with dark text and darker marks.
 }
 \examples{

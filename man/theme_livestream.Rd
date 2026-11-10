@@ -27,11 +27,17 @@ A \code{ggplot2} theme object.
 }
 \description{
 Livestreaming is broadcasting video in real time, from gaming streams to
-vlogs filmed on the street. The palette follows a live broadcast as the
-article describes it: the red live badge, stream purple, chat green,
-viewer blue, and donation gold on a dark player.
+vlogs filmed on the street. Livestreaming is video broadcast in real
+time. Twitch and Kick are popular places to watch people play video
+games, from esports to speedruns. Chat is a key feature. Viewers talk
+with the streamer and with each other while the stream is live. Kick
+alone averaged 235,000 live streams a day by June 2023.
 }
 \details{
+The palette follows a live broadcast as the article describes it: the
+red live badge, stream purple, chat green, viewer blue, and donation
+gold on a dark player.
+
 Use \code{mode = "light"} for a light background with dark text and darker marks.
 }
 \examples{

@@ -1,9 +1,15 @@
 #' Dark academia theme
 #'
 #' Dark academia is an internet aesthetic built around old libraries,
-#' tweed, and classic literature. The palette follows the article's palette
-#' of black, white, beige, browns, dark green, and occasionally navy blue,
-#' with candlelight gold and dark wood.
+#' tweed, and classic literature. Dark academia started on Tumblr in the
+#' mid-2010s. Teens and young adults spread it in the late 2010s and early
+#' 2020s, especially during the COVID-19 pandemic. Donna Tartt's 1992 novel
+#' The Secret History is credited as its inspiration. One writer describes
+#' the look as nostalgia for a vague time before the internet.
+#'
+#' The palette follows the article's palette of black, white, beige,
+#' browns, dark green, and occasionally navy blue, with candlelight gold
+#' and dark wood.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'

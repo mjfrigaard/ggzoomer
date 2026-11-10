@@ -1,10 +1,17 @@
 #' ASMR theme
 #'
 #' ASMR (autonomous sensory meridian response) is the tingling some people
-#' feel while watching whisper, tapping, and crinkle videos. The palette
-#' follows the article's soft triggers (whispers, light touch, brushing) as
-#' calm blues, lilac, blush, and mint, with the deep blue of its tingle
-#' map.
+#' feel while watching whisper, tapping, and crinkle videos. ASMR is the
+#' calm, tingling feeling some people get from whispers, tapping, and other
+#' quiet sounds. YouTube turned it into a genre. Many ASMR videos show one
+#' person whispering or tapping straight into the camera. The trend has
+#' reached museums, too. The Louvre invited the channel PARIS ASMR to film
+#' there in 2019, and the first major ASMR exhibition opened in Sweden in
+#' 2020.
+#'
+#' The palette follows the article's soft triggers (whispers, light touch,
+#' brushing) as calm blues, lilac, blush, and mint, with the deep blue of
+#' its tingle map.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's

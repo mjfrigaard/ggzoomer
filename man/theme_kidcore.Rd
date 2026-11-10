@@ -24,8 +24,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Kidcore is a bright, nostalgic aesthetic of primary colors, beads,
-stickers, and childhood toys. The palette follows the article's bright
-primary colors and rainbow colours.
+stickers, and childhood toys. Kidcore runs on nostalgia for a 1990s and
+early 2000s childhood: primary colors, toys, cartoons, and the
+playground. The trend took off in late 2020. Nylon reported a 2,439\%
+jump in Etsy searches for the word in the three months ending September
+2020. One behavioral scientist linked it to the stress of the pandemic:
+"people want to escape into childhood."
+}
+\details{
+The palette follows the article's bright primary colors and rainbow
+colours.
 }
 \examples{
 library(ggplot2)

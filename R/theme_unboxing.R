@@ -1,9 +1,15 @@
 #' Unboxing theme
 #'
 #' Unboxing videos film someone opening a new product, from phones to
-#' sneakers. The palette follows the article's boxes as "marketing
-#' billboards": kraft cardboard, packing tape, black print, tissue paper
-#' pink, brand blue, and a sticker green.
+#' sneakers. Unboxing videos show someone opening a new product on camera.
+#' The first one, for a Nokia phone, appeared in 2006. The format soon
+#' spread to almost every kind of product. By 2014, companies were sending
+#' free products to creators. Fans say the videos give an honest look at a
+#' product without manipulative ads.
+#'
+#' The palette follows the article's boxes as "marketing billboards": kraft
+#' cardboard, packing tape, black print, tissue paper pink, brand blue, and
+#' a sticker green.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's

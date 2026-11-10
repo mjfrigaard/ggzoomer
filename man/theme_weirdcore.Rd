@@ -24,9 +24,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Weirdcore is an internet aesthetic of low quality images, liminal
-spaces, and unsettling captions. The palette follows the article's out
-of place red text and black rectangle voids, over low quality photos of
-sky, grass, and sepia nostalgia.
+spaces, and unsettling captions. Weirdcore is an internet aesthetic from
+the early 2020s. It uses liminal spaces, low quality photos, and strange
+messages to mix nostalgia with unease. Its look borrows from images
+shared on an older internet. The director of the 2022 horror film
+Skinamarink studied online communities like r/Weirdcore while making it.
+}
+\details{
+The palette follows the article's out of place red text and black
+rectangle voids, over low quality photos of sky, grass, and sepia
+nostalgia.
 }
 \examples{
 library(ggplot2)

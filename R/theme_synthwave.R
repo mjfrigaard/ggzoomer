@@ -1,9 +1,16 @@
 #' Synthwave theme
 #'
 #' Synthwave is electronic music (and art) that looks back at 1980s film
-#' scores: neon grids and chrome sunsets. The palette follows the article's
-#' outrun look: magenta neon, gridlines, and a 1980s sunset in pink,
-#' orange, and yellow, with violet and chrome blue.
+#' scores: neon grids and chrome sunsets. Synthwave is electronic music
+#' modeled on 1980s film and video game soundtracks. The 2011 film Drive
+#' brought it into the mainstream. Hotline Miami, Far Cry 3: Blood Dragon,
+#' and Stranger Things carried it to new fans. PC Gamer described its look
+#' as 1980s excess that millennials find irresistible, modernized until
+#' it's "just barely recognizable."
+#'
+#' The palette follows the article's outrun look: magenta neon, gridlines,
+#' and a 1980s sunset in pink, orange, and yellow, with violet and chrome
+#' blue.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'

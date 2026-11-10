@@ -25,9 +25,16 @@ A \code{ggplot2} theme object.
 \description{
 The clean girl aesthetic is a minimal beauty and wellness trend built on
 slicked back hair, a no makeup makeup look, and a limited palette. The
-palette follows the article's no makeup makeup look (heavy rosy blush,
-perfect brows, brown lip liner), its whites, blacks, grays, and light
-neutrals, and the matcha it mentions.
+clean girl aesthetic appeared at the end of 2021, and TikTok is its main
+platform. By February 2026, the #CleanGirl tag had over 1.2 million
+videos. The look is especially popular with Gen Z and Gen Alpha. Its
+focus on skincare, diet, and exercise makes it a lifestyle as much as a
+style.
+}
+\details{
+The palette follows the article's no makeup makeup look (heavy rosy
+blush, perfect brows, brown lip liner), its whites, blacks, grays, and
+light neutrals, and the matcha it mentions.
 }
 \examples{
 library(ggplot2)

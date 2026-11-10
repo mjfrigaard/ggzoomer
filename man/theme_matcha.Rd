@@ -24,9 +24,15 @@ A \code{ggplot2} theme object.
 }
 \description{
 Matcha is finely ground Japanese green tea, now a cafe staple as a
-latte. The palette follows the article's vivid green color, matcha
-lattes, soba noodles, and wagashi: ceremonial green, bright green, latte
-foam, buckwheat, red bean, and tea leaf.
+latte. Matcha is a finely ground green tea from Japan. Demand for it
+grew so much in this century that China started mass producing it in
+2018. Matcha has also spread to North American cafes like Starbucks.
+There, it shows up in lattes, iced drinks, and smoothies.
+}
+\details{
+The palette follows the article's vivid green color, matcha lattes, soba
+noodles, and wagashi: ceremonial green, bright green, latte foam,
+buckwheat, red bean, and tea leaf.
 }
 \examples{
 library(ggplot2)

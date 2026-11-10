@@ -27,11 +27,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Indie sleaze is the messy, flash photo party style of 2006 to 2012, now
-back on social media. The palette follows the article's flash
-photography, bleached hair, shredded denim, galaxy and "Aztec" prints,
-and smudged eyeliner on a dark club floor.
+back on social media. Indie sleaze is the messy party style of roughly
+2006 to 2012. It got its current name in 2021. In the early 2020s, it
+came back as an internet aesthetic on Instagram and TikTok. It is now
+making a comeback in fashion among Gen Z.
 }
 \details{
+The palette follows the article's flash photography, bleached hair,
+shredded denim, galaxy and "Aztec" prints, and smudged eyeliner on a
+dark club floor.
+
 Use \code{mode = "light"} for a light background with dark text and darker marks.
 }
 \examples{

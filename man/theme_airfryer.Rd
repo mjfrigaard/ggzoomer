@@ -24,9 +24,17 @@ A \code{ggplot2} theme object.
 }
 \description{
 Air fryers are small countertop convection ovens that blow hot air
-around food. The palette follows the article's fan forced hot air and
-browned food: golden fries, crispy brown, heating element orange,
-brushed steel, matte black, and herbs.
+around food. Air fryers went from a novelty to a common kitchen
+appliance in the 2020s. Philips launched the first Airfryer in 2010, and
+by 2018 people used the name for any brand. About 36\% of US households
+had a convection oven in 2020. By 2023, an estimated 60\% had one. In a
+2024 UK study, one in five people said the air fryer was the cooking
+device they used most.
+}
+\details{
+The palette follows the article's fan forced hot air and browned food:
+golden fries, crispy brown, heating element orange, brushed steel, matte
+black, and herbs.
 }
 \examples{
 library(ggplot2)

@@ -1,10 +1,15 @@
 #' Cottagecore theme
 #'
 #' Cottagecore is an internet aesthetic that romanticizes rural life:
-#' gardens, baking, and handmade things. The palette follows the article's
-#' muted palettes, floral prints, calico, worn leather, and indoor
-#' greenery: sage, rose, leather brown, calico blue, butter yellow, and
-#' moss.
+#' gardens, baking, and handmade things. Cottagecore was first named on
+#' Tumblr in 2018, and it is a subculture of millennials and Gen Z. It grew
+#' as a response to the money pressures young people face. The aesthetic
+#' values sustainability, farming, and slow living. It became highly
+#' popular on social media during the COVID-19 pandemic.
+#'
+#' The palette follows the article's muted palettes, floral prints, calico,
+#' worn leather, and indoor greenery: sage, rose, leather brown, calico
+#' blue, butter yellow, and moss.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's

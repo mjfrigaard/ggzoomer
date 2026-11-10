@@ -35,7 +35,7 @@ still use the earlier 90s themes until they are updated.
 | `theme_boba()` | [Bubble tea](https://en.wikipedia.org/wiki/Bubble_tea) |
 | `theme_capybara()` | [Capybara](https://en.wikipedia.org/wiki/Capybara) |
 | `theme_cleangirl()` | [Clean girl aesthetic](https://en.wikipedia.org/wiki/Clean_girl_aesthetic) |
-| `theme_coastal()` | [Coastal grandmother](https://en.wikipedia.org/wiki/Coastal_grandmother) |
+| `theme_coastal()` | [2020s in fashion](https://en.wikipedia.org/wiki/2020s_in_fashion) |
 | `theme_coquette()` | [Coquette aesthetic](https://en.wikipedia.org/wiki/Coquette_aesthetic) |
 | `theme_cottagecore()` | [Cottagecore](https://en.wikipedia.org/wiki/Cottagecore) |
 | `theme_darkacademia()` | [Dark academia](https://en.wikipedia.org/wiki/Dark_academia) |

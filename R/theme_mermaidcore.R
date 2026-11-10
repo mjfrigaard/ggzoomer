@@ -1,9 +1,16 @@
 #' Mermaidcore theme
 #'
 #' Mermaidcore is a fashion trend of shells, pearls, sequins, and
-#' iridescent sea colors. The palette follows the Mermaid article's pale
-#' green hair, scales, and sea, with the nacre shell's iridescence:
-#' seafoam, teal, lilac, coral, deep sea, and pearl gold.
+#' iridescent sea colors. Mermaids have been a popular subject for
+#' centuries, from Hans Christian Andersen's 1837 fairy tale "The Little
+#' Mermaid" to Disney's 1989 film. Interest in mermaid costumes has grown
+#' with fantasy cosplay and cheap monofins. People now swim in these
+#' costumes, an activity called mermaiding, and mermaid fan conventions
+#' have been held.
+#'
+#' The palette follows the Mermaid article's pale green hair, scales, and
+#' sea, with the nacre shell's iridescence: seafoam, teal, lilac, coral,
+#' deep sea, and pearl gold.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's

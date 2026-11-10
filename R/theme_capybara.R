@@ -1,9 +1,17 @@
 #' Capybara theme
 #'
 #' Capybaras are the largest living rodents and a famously calm internet
-#' mascot. The palette follows the article's reddish brown back and
-#' yellowish brown belly, plus the scarlet ibis, green anaconda, river
-#' water, and dark mud of its habitat.
+#' mascot. Capybaras became a figure in meme culture in the 2020s. A common
+#' meme format pairs a capybara with the song "After Party" by Don Toliver,
+#' and a song about capybaras became a TikTok hit in 2022. Capybaras also
+#' stand for calm. People see them as unflappable, and their personalities
+#' have been called "buddha-like."
+#'
+#' The palette follows the ["After Party" single
+#' cover](https://en.wikipedia.org/wiki/File:Don_Toliver_-_After_Party_%28single_cover%29.jpeg)
+#' that the article's capybara memes pair with: a purple lowrider hearse,
+#' lavender chrome, a near black shadow, the gray signpost and ground, a
+#' mauve HEAVEN sign, and the hand lettered title, all on cream paper.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -68,18 +76,18 @@ theme_capybara <- function(base_size = 15,
 
 # Sampled from a capybara standing on a sandy riverbank
 capybara_cols <- c(
-  background = "#F2EADB",
-  panel = "#F7F4EF",
-  grid = "#D6CEBF",
-  text = "#3C2418",
-  frame = "#8A4B2A",
-  title = "#8A4B2A",
-  strip = "#3C2418",
-  striptext = "#F2EADB",
-  accent = "#C29A4E",
-  outline = "#3C2418",
-  fill = "#4A1400"
+  background = "#F3EBDE",
+  panel = "#F8F6F1",
+  grid = "#D7CFC2",
+  text = "#30253B",
+  frame = "#240849",
+  title = "#240849",
+  strip = "#30253B",
+  striptext = "#F3EBDE",
+  accent = "#9768CE",
+  outline = "#30253B",
+  fill = "#5B20A2"
 )
 
-capybara_marks <- c("#4A1400", "#C29A4E", "#D2382F", "#314E13", "#3E7FA6", "#3B2A1F")
+capybara_marks <- c("#5B20A2", "#9768CE", "#120526", "#9D998C", "#76538F", "#625F5A")
 
