@@ -1,9 +1,12 @@
 # Goblincore theme
 
 Goblincore celebrates the less pretty side of nature: moss, mushrooms,
-snails, and found objects. The palette follows the article's brown,
-green, and clashing colors: moss, mushroom caps, earthworms, bones,
-rocks, and soil.
+snails, and found objects. Goblincore celebrates the parts of nature
+most people overlook, such as soil, small animals, and second-hand
+objects. It surfaced on Tumblr and TikTok in the late 2010s and "hit
+full steam in 2020" during the pandemic. The goblincore subreddit grew
+395% in the year to July 2021. That June, Etsy reported a 695% jump in
+goblincore searches.
 
 ## Usage
 
@@ -41,6 +44,9 @@ theme_goblincore(
 A `ggplot2` theme object.
 
 ## Details
+
+The palette follows the article's brown, green, and clashing colors:
+moss, mushroom caps, earthworms, bones, rocks, and soil.
 
 Use `mode = "light"` for a light background with dark text and darker
 marks.

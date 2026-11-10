@@ -1,9 +1,11 @@
 # Capybara theme
 
 Capybaras are the largest living rodents and a famously calm internet
-mascot. The palette follows the article's reddish brown back and
-yellowish brown belly, plus the scarlet ibis, green anaconda, river
-water, and dark mud of its habitat.
+mascot. Capybaras became a figure in meme culture in the 2020s. A common
+meme format pairs a capybara with the song "After Party" by Don Toliver,
+and a song about capybaras became a TikTok hit in 2022. Capybaras also
+stand for calm. People see them as unflappable, and their personalities
+have been called "buddha-like."
 
 ## Usage
 
@@ -34,6 +36,14 @@ theme_capybara(
 ## Value
 
 A `ggplot2` theme object.
+
+## Details
+
+The palette follows the ["After Party" single
+cover](https://en.wikipedia.org/wiki/File:Don_Toliver_-_After_Party_%28single_cover%29.jpeg)
+that the article's capybara memes pair with: a purple lowrider hearse,
+lavender chrome, a near black shadow, the gray signpost and ground, a
+mauve HEAVEN sign, and the hand lettered title, all on cream paper.
 
 ## See also
 

@@ -1,9 +1,10 @@
 # Voice note theme
 
 Voice notes are short recorded messages sent in a chat instead of
-typing. The palette follows the article's pink message slips and
-voicemail light, with record red, mic gray, call green, waveform violet,
-and amber.
+typing. A voice note is a short recorded message sent in place of a
+text. It descends from voicemail, which lets a caller leave a recorded
+message for later. Today, internet calling and messaging apps put voice,
+voice messages, and text side by side on the same phone.
 
 ## Usage
 
@@ -34,6 +35,12 @@ theme_voicenote(
 ## Value
 
 A `ggplot2` theme object.
+
+## Details
+
+The palette follows the article's pink message slips and voicemail
+light, with record red, mic gray, call green, waveform violet, and
+amber.
 
 ## See also
 

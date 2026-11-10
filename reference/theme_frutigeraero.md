@@ -1,9 +1,12 @@
 # Frutiger Aero theme
 
 Frutiger Aero is the glossy design style of the mid 2000s: bubbles,
-water, grass, and blue skies. The palette follows the article's blue
-skies, grass, aurorae, and bright colors ("yellows, and particularly
-blues and greens").
+water, grass, and blue skies. Frutiger Aero is the glossy computer
+design style of the mid-2000s to early 2010s. It was named in 2018 and
+came back as an internet aesthetic in 2023. Gen Z embraced it as an
+object of nostalgia, and Frutiger Aero posts drew big audiences on
+YouTube and TikTok. Some critics see its influence in Apple's 2025
+Liquid Glass design.
 
 ## Usage
 
@@ -34,6 +37,11 @@ theme_frutigeraero(
 ## Value
 
 A `ggplot2` theme object.
+
+## Details
+
+The palette follows the article's blue skies, grass, aurorae, and bright
+colors ("yellows, and particularly blues and greens").
 
 ## See also
 

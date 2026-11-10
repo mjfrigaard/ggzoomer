@@ -1,9 +1,11 @@
 # Tumbler theme
 
 Insulated tumblers and water bottles (vacuum flasks) became a status
-accessory in the 2020s. The palette follows the article's stainless
-vacuum flask, in the powder coated colors of today's tumblers (cream,
-sage, rose, and cobalt) and the classic red Thermos.
+accessory in the 2020s. An insulated tumbler is a vacuum flask built as
+a cup. A vacuum between two walls slows heat transfer, so drinks stay
+hot or cold for hours. With cold drinks, it also stops the outside of
+the cup from sweating. The idea is old enough that "thermos" became a
+generic word in the United States in 1963.
 
 ## Usage
 
@@ -34,6 +36,12 @@ theme_tumbler(
 ## Value
 
 A `ggplot2` theme object.
+
+## Details
+
+The palette follows the article's stainless vacuum flask, in the powder
+coated colors of today's tumblers (cream, sage, rose, and cobalt) and
+the classic red Thermos.
 
 ## See also
 

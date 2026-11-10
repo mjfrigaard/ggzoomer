@@ -56,11 +56,19 @@
   [`theme_cleangirl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cleangirl.md)
   uses the article’s rosy blush, brown brows and lip liner, and light
   neutrals), with a freely licensed image from the article as support.
+  [`theme_capybara()`](https://mjfrigaard.github.io/fmggp2/reference/theme_capybara.md)
+  follows the “After Party” single cover that capybara memes pair with,
+  not the animal,
+  [`theme_airfryer()`](https://mjfrigaard.github.io/fmggp2/reference/theme_airfryer.md)
+  follows the Crispi air fryer colors, and
+  [`theme_asmr()`](https://mjfrigaard.github.io/fmggp2/reference/theme_asmr.md)
+  follows the indigo, fairy light set behind Gibi ASMR’s videos.
   Palettes are then adjusted for contrast: text at least 4.5:1, titles
   at least 4.5:1, marks at least 1.5:1 against the panel, and marks at
   least 6 CIEDE2000 apart under normal vision, deuteranopia, and
   protanopia.
 - Themes with a dark default have `mode = "light"`:
+  [`theme_asmr()`](https://mjfrigaard.github.io/fmggp2/reference/theme_asmr.md),
   [`theme_darkacademia()`](https://mjfrigaard.github.io/fmggp2/reference/theme_darkacademia.md),
   [`theme_doomscroll()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doomscroll.md),
   [`theme_goblincore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goblincore.md),
@@ -73,6 +81,8 @@
   [`theme_speedrun()`](https://mjfrigaard.github.io/fmggp2/reference/theme_speedrun.md),
   and
   [`theme_synthwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_synthwave.md).
+- Each theme’s help page and vignette section explains why the topic is
+  included, using facts from its Wikipedia article.
 - The themes vignette shows every theme with its image, credit, and
   simulated data.
 

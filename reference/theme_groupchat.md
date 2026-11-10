@@ -1,9 +1,10 @@
 # Group chat theme
 
 Group chats are where friends plan, share memes, and leave each other on
-read. The palette follows chat bubbles from the article's instant
-messengers: sent blue, received gray, text green, typing purple,
-reaction yellow, and unread red.
+read. A group chat (often shortened to GC) is a chat room for a set of
+friends. Many social media platforms now work as chat rooms, including
+WhatsApp, Discord, Snapchat, Instagram, and TikTok. Researchers have
+studied how teenagers and young people reshape language in these chats.
 
 ## Usage
 
@@ -34,6 +35,12 @@ theme_groupchat(
 ## Value
 
 A `ggplot2` theme object.
+
+## Details
+
+The palette follows chat bubbles from the article's instant messengers:
+sent blue, received gray, text green, typing purple, reaction yellow,
+and unread red.
 
 ## See also
 

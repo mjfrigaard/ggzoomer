@@ -1,10 +1,12 @@
 # Liminal space theme
 
 Liminal space is an internet aesthetic of empty in between places:
-hallways, waiting rooms, and closed malls. The palette follows the
-article's empty hallways, pool rooms, and Twin Peaks Black Lodge: red
-curtains, black floor, mustard walls, fluorescent green, pool blue, and
-concrete.
+hallways, waiting rooms, and closed malls. Liminal space images show
+empty hallways, waiting rooms, and closed malls. They spread online in
+2019 and became tied to the Backrooms, an online urban legend that
+started on 4chan. Interest grew during the COVID-19 pandemic, when empty
+public spaces were everywhere. A 2022 study found that small changes to
+familiar buildings can make them feel uncanny.
 
 ## Usage
 
@@ -35,6 +37,12 @@ theme_liminal(
 ## Value
 
 A `ggplot2` theme object.
+
+## Details
+
+The palette follows the article's empty hallways, pool rooms, and Twin
+Peaks Black Lodge: red curtains, black floor, mustard walls, fluorescent
+green, pool blue, and concrete.
 
 ## See also
 
