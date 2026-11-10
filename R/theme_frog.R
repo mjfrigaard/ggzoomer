@@ -1,14 +1,15 @@
 #' Frog theme
 #'
-#' Frogs are tailless amphibians and a cottagecore and goblincore icon.
-#' Frogs show up in myths, fairy tales, and modern culture, from Kermit the
-#' Frog to the game Frogger. They also warn us about the planet. A drop in
-#' frog numbers is an early sign of environmental damage, and frog
-#' populations around the world have fallen sharply since the 1950s.
+#' Frogs are tailless amphibians and a cottagecore and goblincore icon. Gen
+#' Z's favorite frog is Animal Crossing's Froggy Chair, a green seat with a
+#' wide red mouth. Fans get Froggy Chair tattoos, bake Froggy Chair cakes,
+#' and print it on shirts. Frogcore extends the look to frog hoodies, rain
+#' boots, and slippers. Frog memes, from wholesome mental health posts to
+#' Arson Frog avatars, fill Gen Z feeds.
 #'
-#' The palette follows the article's skin colors: camouflage green and
-#' dappled brown, warning red or yellow and black, and the blue flanks of
-#' the red eyed tree frog.
+#' The palette follows Animal Crossing's Froggy Chair and frog memes:
+#' froggy green, the wide red mouth, pond blue, Arson Frog blue, moss, and
+#' lily pad green on belly cream.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -73,18 +74,18 @@ theme_frog <- function(base_size = 15,
 
 # Sampled from a red eyed tree frog on a branch
 frog_cols <- c(
-  background = "#EEF3E6",
-  panel = "#FAFCF7",
-  grid = "#D2D7CA",
-  text = "#202E19",
-  frame = "#3A7A1F",
-  title = "#3A7A1F",
-  strip = "#202E19",
-  striptext = "#EEF3E6",
-  accent = "#FF7361",
-  outline = "#202E19",
-  fill = "#4C9A2A"
+  background = "#F1EBC4",
+  panel = "#F5F4EE",
+  grid = "#D1CEBB",
+  text = "#242940",
+  frame = "#2E4A8C",
+  title = "#2E4A8C",
+  strip = "#242940",
+  striptext = "#F1EBC4",
+  accent = "#D93A2B",
+  outline = "#242940",
+  fill = "#6DBE45"
 )
 
-frog_marks <- c("#4C9A2A", "#FF7361", "#F2C12E", "#1C1C1C", "#7A5C3A", "#2F6FB0")
+frog_marks <- c("#6DBE45", "#D93A2B", "#3B7EA1", "#2E4A8C", "#8A9A5B", "#3C7C1B")
 

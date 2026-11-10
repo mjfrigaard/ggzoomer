@@ -1,13 +1,13 @@
 #' RGB setup theme
 #'
-#' An RGB setup is a gaming PC and desk lit up in color changing lights. An
-#' RGB setup is a gaming PC lit up in color. Gaming PCs use powerful
-#' graphics cards, processors, and memory. Their cases often add extra LED
-#' lights or see-through panels just for looks. In the 2010s and 2020s,
-#' gaming laptops and handheld gaming PCs joined the desktop builds.
+#' An RGB setup is a gaming PC and desk lit up in color changing lights.
+#' The RGB setup spread through streamers and the pro streamer setup trend
+#' on TikTok and Instagram. A glowing desk makes an Instagram worthy stage.
+#' Its appeal is self expression and personalization. Some gamers are now
+#' pushing back with minimalist, no RGB setups.
 #'
-#' The palette follows the article's gaming PCs lit in RGB: cyan, purple,
-#' red, lime, and blue case lighting with a white glow.
+#' The palette follows a glowing desk cycling RGB: red, green, blue, neon
+#' magenta, electric cyan, and ultraviolet purple on a black desk.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -78,35 +78,35 @@ theme_rgbsetup <- function(base_size = 15,
 # Sampled from a gaming PC with glass panels and colored fans
 rgbsetup_cols <- list(
   dark = c(
-    background = "#0D0B14",
-    panel = "#1B1A20",
-    grid = "#34333A",
-    text = "#EEEDF6",
+    background = "#0D0D12",
+    panel = "#1B1B1E",
+    grid = "#343438",
+    text = "#EDEDF3",
     frame = "#00E5FF",
     title = "#00E5FF",
-    strip = "#EEEDF6",
-    striptext = "#0D0B14",
-    accent = "#8B5CF6",
-    outline = "#EEEDF6",
-    fill = "#00E5FF"
+    strip = "#EDEDF3",
+    striptext = "#0D0D12",
+    accent = "#1EFF6A",
+    outline = "#EDEDF3",
+    fill = "#FF1E3C"
   ),
   light = c(
-    background = "#EFECFE",
-    panel = "#F8F7FD",
-    grid = "#D3D0E1",
+    background = "#EDEDF7",
+    panel = "#F8F8FB",
+    grid = "#D1D1DB",
     text = "#002F37",
     frame = "#00758E",
     title = "#00758E",
     strip = "#002F37",
-    striptext = "#EFECFE",
-    accent = "#8B5CF6",
+    striptext = "#EDEDF7",
+    accent = "#00E452",
     outline = "#002F37",
-    fill = "#00D7F1"
+    fill = "#FF1E3C"
   )
 )
 
 rgbsetup_marks <- list(
-  dark = c("#00E5FF", "#8B5CF6", "#FF3355", "#B6FF3B", "#0043BA", "#E8E6F0"),
-  light = c("#00D7F1", "#8B5CF6", "#FF3355", "#90DA00", "#0043BA", "#C6C4CE")
+  dark = c("#FF1E3C", "#1EFF6A", "#0035BA", "#FF2BD6", "#00E5FF", "#7A2BFF"),
+  light = c("#FF1E3C", "#00E452", "#0035BA", "#FF2BD6", "#00DAF3", "#7A2BFF")
 )
 

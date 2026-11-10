@@ -27,16 +27,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Dark academia is an internet aesthetic built around old libraries,
-tweed, and classic literature. Dark academia started on Tumblr in the
-mid-2010s. Teens and young adults spread it in the late 2010s and early
-2020s, especially during the COVID-19 pandemic. Donna Tartt's 1992 novel
-The Secret History is credited as its inspiration. One writer describes
-the look as nostalgia for a vague time before the internet.
+tweed, and classic literature. Dark academia spread through Tumblr and
+TikTok. Tumblr's 2021 year in review ranked it the platform's second
+most popular aesthetic, and about 48\% of Tumblr users are Gen Z.
+Commentators link its appeal to digital fatigue and a hunger for
+reflection and an intellectual identity. Critics point out that it has
+since been sold back as a lifestyle brand.
 }
 \details{
-The palette follows the article's palette of black, white, beige,
-browns, dark green, and occasionally navy blue, with candlelight gold
-and dark wood.
+The palette follows a dim library with black coffee: parchment, brown
+tweed, burgundy, forest green, charcoal, and dark oak.
 
 Use \code{mode = "light"} for a light background with dark text and darker marks.
 }

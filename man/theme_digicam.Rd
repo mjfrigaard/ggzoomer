@@ -7,7 +7,8 @@
 theme_digicam(
   base_size = 15,
   base_family = register_font("Arial", "Arial.ttf", "Arial Bold.ttf"),
-  title_family = register_font("Courier New", "Courier New Bold.ttf")
+  title_family = register_font("Courier New", "Courier New Bold.ttf"),
+  mode = c("dark", "light")
 )
 }
 \arguments{
@@ -18,21 +19,27 @@ available on the system, otherwise \code{"sans"}.}
 
 \item{title_family}{Title font family. Defaults to Courier New when
 it's available, otherwise \code{"sans"}.}
+
+\item{mode}{\code{"dark"} (the default) or \code{"light"}.}
 }
 \value{
 A \code{ggplot2} theme object.
 }
 \description{
 Digital point and shoot cameras from the 2000s are back for their flash
-heavy, slightly blurry photos. In the early 2020s, digital cameras from
-the early 2000s came back as a TikTok trend. The revival spread to
-marketplaces like eBay and Etsy. Wikipedia describes it as Gen Z
-nostalgia and a tribute to the Y2K aesthetic. These are the cameras
-people carried before every phone had a good one.
+heavy, slightly blurry photos. Gen Z revived early 2000s digital cameras
+around 2022 on TikTok and Instagram. Many pulled them out of their
+parents' drawers or bought them secondhand. The grainy, flash heavy
+shots feel more authentic than heavily processed phone photos. There is
+nostalgia, too: many of these users grew up being photographed on the
+same cameras.
 }
 \details{
-The palette follows the article's sensor channels (red, green, and
-blue), an LCD screen, the flash, and the black grip on a silver body.
+The palette follows flash heavy early 2000s photos against a dark
+background: a metallic silver body, the orange date stamp, LCD blue,
+candy pink, gunmetal, and flash white.
+
+Use \code{mode = "light"} for a light background with dark text and darker marks.
 }
 \examples{
 library(ggplot2)

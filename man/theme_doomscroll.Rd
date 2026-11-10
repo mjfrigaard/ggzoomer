@@ -27,16 +27,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Doomscrolling is spending far too long scrolling through upsetting or
-endless feeds. Doomscrolling means spending too much time scrolling
-through bad news. The word first appeared in a tweet in 2018 and spread
-during the COVID-19 pandemic. Research finds it is more common in
-younger age groups. The Macquarie Dictionary named it a 2020 word of the
-year, and Merriam-Webster added it in September 2023.
+endless feeds. Doomscrolling is endlessly scrolling bad news, usually
+late at night. A 2024 study found that 53\% of Gen Z say they doomscroll,
+compared with about a third of Americans overall. Studies link the habit
+to stress and anxiety. It even spills into spending: Fortune reported in
+2024 that Gen Z spent 21\% more on holiday shopping to cope.
 }
 \details{
-The palette follows the article's late night feeds of negative news:
-screen glow blue, alert red, headline gray, notification orange, purple,
-and cyan on a dark room.
+The palette follows a glowing phone in a dark room: screen glow blue,
+notification red, blue light, slate gray, breaking news red, and dim
+white.
 
 Use \code{mode = "light"} for a light background with dark text and darker marks.
 }

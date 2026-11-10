@@ -1,16 +1,15 @@
 #' Speedrun theme
 #'
 #' Speedrunning is beating a video game as fast as possible, often live for
-#' charity. Speedrunning means beating a video game as fast as possible.
-#' Runners share videos and livestreams on YouTube and Twitch, and
-#' community leaderboards rank the fastest runs. Games Done Quick, the
-#' largest speedrunning marathon, had raised over $37 million for charity
-#' by January 2022. Many runners say the community has helped their mental
-#' health.
+#' charity. YPulse reports that Gen Z watched speedrunning grow from a
+#' niche hobby into mainstream entertainment. The word now spills into
+#' everyday jokes, like a 2025 viral video of a YouTuber speedrunning his
+#' cat off his gaming chair. A good run can launch a content creation
+#' career.
 #'
-#' The palette follows the article's timers and leaderboards: split timer
-#' gold (best segment), green (ahead), red (behind), white digits, and tool
-#' assisted cyan and purple.
+#' The palette follows a split timer overlay on a stream: ahead green,
+#' behind pace red, gold split, stream purple, pixel sky blue, and timer
+#' white.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -81,35 +80,35 @@ theme_speedrun <- function(base_size = 15,
 # Sampled from the crowd at a Summer Games Done Quick charity marathon
 speedrun_cols <- list(
   dark = c(
-    background = "#0C0F0C",
-    panel = "#1A1C1A",
-    grid = "#333533",
-    text = "#ECEFEC",
-    frame = "#34D058",
-    title = "#34D058",
-    strip = "#ECEFEC",
-    striptext = "#0C0F0C",
-    accent = "#008D17",
-    outline = "#ECEFEC",
-    fill = "#F5C542"
+    background = "#111111",
+    panel = "#1E1E1E",
+    grid = "#373737",
+    text = "#EEEEEE",
+    frame = "#FFFFFF",
+    title = "#FFFFFF",
+    strip = "#EEEEEE",
+    striptext = "#111111",
+    accent = "#FF4136",
+    outline = "#EEEEEE",
+    fill = "#2ECC40"
   ),
   light = c(
-    background = "#EAEFEA",
-    panel = "#F6F8F6",
-    grid = "#CED3CE",
-    text = "#1B2E1C",
-    frame = "#007D00",
-    title = "#007D00",
-    strip = "#1B2E1C",
-    striptext = "#EAEFEA",
-    accent = "#008D17",
-    outline = "#1B2E1C",
-    fill = "#EFC03C"
+    background = "#EEEEEE",
+    panel = "#F8F8F8",
+    grid = "#D2D2D2",
+    text = "#2A2A2A",
+    frame = "#6A6A6A",
+    title = "#6A6A6A",
+    strip = "#2A2A2A",
+    striptext = "#EEEEEE",
+    accent = "#FF4136",
+    outline = "#2A2A2A",
+    fill = "#009A00"
   )
 )
 
 speedrun_marks <- list(
-  dark = c("#F5C542", "#008D17", "#F0506E", "#F2F2F2", "#39C5CF", "#A371F7"),
-  light = c("#EFC03C", "#008D17", "#F0506E", "#C5C5C5", "#39C5CF", "#A371F7")
+  dark = c("#2ECC40", "#FF4136", "#FFD700", "#9146FF", "#5C94FC", "#FFFFFF"),
+  light = c("#009A00", "#FF4136", "#E6C100", "#9146FF", "#5C94FC", "#C6C6C6")
 )
 

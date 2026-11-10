@@ -1,14 +1,15 @@
 #' Vinyl theme
 #'
 #' Vinyl records outsell CDs again, thanks to collectors who buy albums in
-#' colored variants. Vinyl records left the mainstream in 1991, then made a
-#' comeback that grew through the 2010s and 2020s. In 2020, vinyl revenue
-#' passed CD revenue for the first time since the 1980s. A year later,
-#' Taylor Swift sold 102,000 vinyl copies of Evermore in one week.
+#' colored variants. The Vinyl Alliance calls Gen Z the driving force of
+#' the vinyl revival. In its research, 56% of Gen Z buyers cite the look,
+#' 37% use records as home decor, and 80% own a record player. Many buy
+#' secondhand for environmental reasons. They share their collections on
+#' TikTok and Instagram, and they value owning music and a slower way of
+#' listening.
 #'
-#' The palette follows the article's "black disc", Red Seal labels,
-#' transparent red vinylite, the Blue Goose label, gold label foil, and
-#' paper sleeves.
+#' The palette follows records and their pressings: vinyl black, label red,
+#' translucent amber, clear blue, marbled green, and cardboard sleeve tan.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -73,18 +74,18 @@ theme_vinyl <- function(base_size = 15,
 
 # Sampled from LP, EP, and single records side by side
 vinyl_cols <- c(
-  background = "#F3EEE4",
-  panel = "#FAF8F5",
-  grid = "#D7D2C8",
-  text = "#402220",
-  frame = "#B0182B",
-  title = "#B0182B",
-  strip = "#402220",
-  striptext = "#F3EEE4",
-  accent = "#B0182B",
-  outline = "#402220",
-  fill = "#1B1B1B"
+  background = "#F2EBDD",
+  panel = "#F8F5F1",
+  grid = "#D6CFC1",
+  text = "#2A2A2A",
+  frame = "#0D0D0D",
+  title = "#0D0D0D",
+  strip = "#2A2A2A",
+  striptext = "#F2EBDD",
+  accent = "#C0392B",
+  outline = "#2A2A2A",
+  fill = "#0D0D0D"
 )
 
-vinyl_marks <- c("#1B1B1B", "#B0182B", "#E2475B", "#2A5DA8", "#C9A23F", "#3E2509")
+vinyl_marks <- c("#0D0D0D", "#C0392B", "#E8A33D", "#5DADE2", "#2E8B57", "#D2B48C")
 

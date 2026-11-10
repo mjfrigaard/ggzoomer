@@ -1,16 +1,15 @@
 #' Coastal grandmother theme
 #'
 #' Coastal grandmother is a relaxed style of linen, beach houses, and
-#' seaside cooking. Coastal grandmother was a 2022 trend with a "beachy,
-#' romantic aesthetic" tied to the rural American East Coast. It grew out
-#' of "retirement wear," where young Gen Z and millennial women borrowed
-#' the comfortable style of their elders. Both trends came from
-#' comfortcore, the turn to comfortable clothes that followed the COVID-19
-#' lockdowns.
+#' seaside cooking. The coastal grandmother look borrows from the heroines
+#' of Nancy Meyers films like Something's Gotta Give. Gen Z and millennials
+#' treat it as an escape from stress and burnout, a life of leisure instead
+#' of constant striving. Gen Z makes it more accessible with texture and
+#' vintage pieces; no beach house required. A younger, more casual version
+#' is called coastal granddaughter.
 #'
-#' The palette follows a linen beach house: sea blue, navy, sand,
-#' hydrangea, seagrass, and driftwood (the article has no palette, so the
-#' Cape Cod postcard leads).
+#' The palette follows the Nancy Meyers wardrobe: soft blue, navy, beige
+#' linen, camel cashmere, driftwood gray, and sea glass green on cream.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -75,18 +74,18 @@ theme_coastal <- function(base_size = 15,
 
 # Sampled from a vintage postcard of the bath houses on Craigville Beach, Cape Cod
 coastal_cols <- c(
-  background = "#F4EFE6",
-  panel = "#FBF9F6",
-  grid = "#D8D3CA",
-  text = "#1D2A40",
-  frame = "#23395B",
-  title = "#23395B",
-  strip = "#1D2A40",
-  striptext = "#F4EFE6",
-  accent = "#23395B",
-  outline = "#1D2A40",
-  fill = "#3F7C93"
+  background = "#F5F0E6",
+  panel = "#FCFAF7",
+  grid = "#D9D4CA",
+  text = "#1A2B41",
+  frame = "#2F4A6D",
+  title = "#2F4A6D",
+  strip = "#1A2B41",
+  striptext = "#F5F0E6",
+  accent = "#2F4A6D",
+  outline = "#1A2B41",
+  fill = "#8FB3D3"
 )
 
-coastal_marks <- c("#3F7C93", "#23395B", "#C9A66B", "#7D8CC4", "#7E9C6C", "#8C857B")
+coastal_marks <- c("#8FB3D3", "#2F4A6D", "#CDB89A", "#B08D63", "#8C857B", "#7FA99B")
 

@@ -1,14 +1,15 @@
 #' Indie sleaze theme
 #'
 #' Indie sleaze is the messy, flash photo party style of 2006 to 2012, now
-#' back on social media. Indie sleaze is the messy party style of roughly
-#' 2006 to 2012. It got its current name in 2021. In the early 2020s, it
-#' came back as an internet aesthetic on Instagram and TikTok. It is now
-#' making a comeback in fashion among Gen Z.
+#' back on social media. Trend forecasters predicted an indie sleaze
+#' revival at the start of 2022, and TikTok amplified it. For younger Gen
+#' Z, it is nostalgia for an era they were too young to live through. The
+#' messy, flash lit look is also a counterpoint to the polished clean girl
+#' aesthetic and a break from hyper perfection.
 #'
-#' The palette follows the article's flash photography, bleached hair,
-#' shredded denim, galaxy and "Aztec" prints, and smudged eyeliner on a
-#' dark club floor.
+#' The palette follows harsh flash photos in dark clubs: red eye red, neon
+#' rave pink, washed denim, flash white, smudged eyeliner gray, and worn
+#' leather.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -79,35 +80,35 @@ theme_indiesleaze <- function(base_size = 15,
 # Sampled from a singer performing under a stage light in 2007
 indiesleaze_cols <- list(
   dark = c(
-    background = "#121014",
-    panel = "#1E1D20",
-    grid = "#38363A",
-    text = "#EFEDF2",
-    frame = "#F2EEE6",
-    title = "#F2EEE6",
-    strip = "#EFEDF2",
-    striptext = "#121014",
-    accent = "#E3C878",
-    outline = "#EFEDF2",
-    fill = "#F2EEE6"
+    background = "#111111",
+    panel = "#1E1E1E",
+    grid = "#373737",
+    text = "#EEEEEE",
+    frame = "#F5F5F0",
+    title = "#F5F5F0",
+    strip = "#EEEEEE",
+    striptext = "#111111",
+    accent = "#FF2E88",
+    outline = "#EEEEEE",
+    fill = "#C8102E"
   ),
   light = c(
-    background = "#F1ECF5",
-    panel = "#F9F7FA",
-    grid = "#D5D0D9",
-    text = "#2C2A24",
-    frame = "#6E6B64",
-    title = "#6E6B64",
-    strip = "#2C2A24",
-    striptext = "#F1ECF5",
-    accent = "#DDC273",
-    outline = "#2C2A24",
-    fill = "#C8C4BC"
+    background = "#EEEEEE",
+    panel = "#F8F8F8",
+    grid = "#D2D2D2",
+    text = "#2A2A26",
+    frame = "#6C6C67",
+    title = "#6C6C67",
+    strip = "#2A2A26",
+    striptext = "#EEEEEE",
+    accent = "#FF2E88",
+    outline = "#2A2A26",
+    fill = "#C8102E"
   )
 )
 
 indiesleaze_marks <- list(
-  dark = c("#F2EEE6", "#E3C878", "#5C7FA8", "#7B5BB5", "#C1502E", "#7C7880"),
-  light = c("#C8C4BC", "#DDC273", "#5C7FA8", "#7B5BB5", "#C1502E", "#7C7880")
+  dark = c("#C8102E", "#FF2E88", "#5B7FA3", "#F5F5F0", "#8A8A8A", "#8C6A55"),
+  light = c("#C8102E", "#FF2E88", "#5B7FA3", "#C5C5C0", "#8A8A8A", "#8C6A55")
 )
 

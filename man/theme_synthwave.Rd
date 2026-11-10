@@ -27,17 +27,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Synthwave is electronic music (and art) that looks back at 1980s film
-scores: neon grids and chrome sunsets. Synthwave is electronic music
-modeled on 1980s film and video game soundtracks. The 2011 film Drive
-brought it into the mainstream. Hotline Miami, Far Cry 3: Blood Dragon,
-and Stranger Things carried it to new fans. PC Gamer described its look
-as 1980s excess that millennials find irresistible, modernized until
-it's "just barely recognizable."
+scores: neon grids and chrome sunsets. Synthwave gives Gen Z nostalgia
+for an era they never lived through, reintroduced by Netflix and social
+media. Synthwave art fills Instagram, Pinterest, and TikTok. Its neon
+grids and sunsets now show up in mainstream ads, games, and TV. The look
+also links to phonk music and import car culture.
 }
 \details{
-The palette follows the article's outrun look: magenta neon, gridlines,
-and a 1980s sunset in pink, orange, and yellow, with violet and chrome
-blue.
+The palette follows neon over a grid at sunset: hot pink, neon cyan,
+electric purple, sunset orange, sun yellow, and grid magenta on midnight
+navy.
 
 Use \code{mode = "light"} for a light background with dark text and darker marks.
 }

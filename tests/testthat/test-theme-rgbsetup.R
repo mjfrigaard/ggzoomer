@@ -1,8 +1,8 @@
 test_that("theme_rgbsetup returns a complete theme that builds a plot", {
   thm <- theme_rgbsetup(base_family = "sans", title_family = "sans")
   expect_s3_class(thm, "theme")
-  expect_equal(thm$plot.background$fill, "#0D0B14")
-  expect_equal(thm$geom$fill, "#00E5FF")
+  expect_equal(thm$plot.background$fill, "#0D0D12")
+  expect_equal(thm$geom$fill, "#FF1E3C")
   p <- ggplot2::ggplot(data.frame(x = c("a", "b", "b")), ggplot2::aes(x = x, fill = x)) +
     ggplot2::geom_bar() +
     ggplot2::labs(title = "title")
@@ -12,8 +12,8 @@ test_that("theme_rgbsetup returns a complete theme that builds a plot", {
 
 test_that("theme_rgbsetup has a light mode", {
   thm <- theme_rgbsetup(base_family = "sans", title_family = "sans", mode = "light")
-  expect_equal(thm$plot.background$fill, "#EFECFE")
-  expect_equal(thm$geom$fill, "#00D7F1")
+  expect_equal(thm$plot.background$fill, "#EDEDF7")
+  expect_equal(thm$geom$fill, "#FF1E3C")
   p <- ggplot2::ggplot(data.frame(x = c("a", "b", "b")), ggplot2::aes(x = x, fill = x)) +
     ggplot2::geom_bar() +
     ggplot2::labs(title = "title")

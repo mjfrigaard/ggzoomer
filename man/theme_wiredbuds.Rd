@@ -24,14 +24,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Wired earbuds made a comeback as a style statement and a break from
-charging. Earbuds sit in the ear canal and connect to a phone with a
-cord or, in newer models, with Bluetooth. Headphones went public in the
-1980s with the Walkman. That was when people started wearing them on
-sidewalks, in grocery stores, and on public transit.
+charging. Gen Z calls AirPods passé and wears the cord as an analog
+statement against always on tech, alongside dumbphones, instant cameras,
+and vinyl. Bella Hadid, Harry Styles, and Charli XCX have all been seen
+in wired earbuds. Searches for wired headphones hit 2.6 million in April
+2025, up 68\% in one month. Practical perks help: no charging and nothing
+to lose.
 }
 \details{
-The palette follows the Headphones article's rubber, gold contacts, and
-wire, plus the red right channel marker, the wood table, and navy.
+The palette follows corded earbuds: Panasonic red, lilac, mint, cable
+gray, and black against Apple white.
 }
 \examples{
 library(ggplot2)

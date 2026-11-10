@@ -1,15 +1,16 @@
 #' Tumbler theme
 #'
 #' Insulated tumblers and water bottles (vacuum flasks) became a status
-#' accessory in the 2020s. An insulated tumbler is a vacuum flask built as
-#' a cup. A vacuum between two walls slows heat transfer, so drinks stay
-#' hot or cold for hours. With cold drinks, it also stops the outside of
-#' the cup from sweating. The idea is old enough that "thermos" became a
-#' generic word in the United States in 1963.
+#' accessory in the 2020s. Gen Z and TikTok drove the boom in the 40 ounce
+#' Stanley Quencher. The #StanleyTumbler tag drew tens of millions of
+#' views, and limited color drops caused store stampedes in 2023 and 2024.
+#' A cup once marketed to rugged dads became an affordable, reusable status
+#' symbol carried across campuses and gyms. Pale Barbie pink became the
+#' most coveted shade.
 #'
-#' The palette follows the article's stainless vacuum flask, in the powder
-#' coated colors of today's tumblers (cream, sage, rose, and cobalt) and
-#' the classic red Thermos.
+#' The palette follows the 40 ounce Stanley Quencher color drops: Barbie
+#' pink, lilac, seafoam, hammertone green, polished steel, and black on
+#' cream.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -74,18 +75,18 @@ theme_tumbler <- function(base_size = 15,
 
 # Sampled from a red vacuum flask on a cafeteria table
 tumbler_cols <- c(
-  background = "#F2F4F5",
-  panel = "#FCFCFD",
-  grid = "#D6D8D9",
-  text = "#3F221E",
-  frame = "#A3161A",
-  title = "#A3161A",
-  strip = "#3F221E",
-  striptext = "#F2F4F5",
-  accent = "#D6C8AD",
-  outline = "#3F221E",
-  fill = "#8C949C"
+  background = "#F2E8D5",
+  panel = "#F6F3ED",
+  grid = "#D5CCBA",
+  text = "#162F1F",
+  frame = "#3F6B4F",
+  title = "#3F6B4F",
+  strip = "#162F1F",
+  striptext = "#F2E8D5",
+  accent = "#C8A2C8",
+  outline = "#162F1F",
+  fill = "#AF6781"
 )
 
-tumbler_marks <- c("#8C949C", "#D6C8AD", "#8FA58B", "#D8A1A6", "#2F55A4", "#A3161A")
+tumbler_marks <- c("#AF6781", "#C8A2C8", "#8CCEAC", "#3F6B4F", "#B8BCC2", "#1C1C1C")
 

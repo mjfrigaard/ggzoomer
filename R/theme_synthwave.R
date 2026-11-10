@@ -1,16 +1,15 @@
 #' Synthwave theme
 #'
 #' Synthwave is electronic music (and art) that looks back at 1980s film
-#' scores: neon grids and chrome sunsets. Synthwave is electronic music
-#' modeled on 1980s film and video game soundtracks. The 2011 film Drive
-#' brought it into the mainstream. Hotline Miami, Far Cry 3: Blood Dragon,
-#' and Stranger Things carried it to new fans. PC Gamer described its look
-#' as 1980s excess that millennials find irresistible, modernized until
-#' it's "just barely recognizable."
+#' scores: neon grids and chrome sunsets. Synthwave gives Gen Z nostalgia
+#' for an era they never lived through, reintroduced by Netflix and social
+#' media. Synthwave art fills Instagram, Pinterest, and TikTok. Its neon
+#' grids and sunsets now show up in mainstream ads, games, and TV. The look
+#' also links to phonk music and import car culture.
 #'
-#' The palette follows the article's outrun look: magenta neon, gridlines,
-#' and a 1980s sunset in pink, orange, and yellow, with violet and chrome
-#' blue.
+#' The palette follows neon over a grid at sunset: hot pink, neon cyan,
+#' electric purple, sunset orange, sun yellow, and grid magenta on midnight
+#' navy.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -81,35 +80,35 @@ theme_synthwave <- function(base_size = 15,
 # Sampled from a neon grid under a striped sunset
 synthwave_cols <- list(
   dark = c(
-    background = "#0F0618",
-    panel = "#1B1724",
-    grid = "#352F3E",
-    text = "#F1ECF7",
-    frame = "#FF6EC7",
-    title = "#FF6EC7",
-    strip = "#F1ECF7",
-    striptext = "#0F0618",
-    accent = "#FF6EC7",
-    outline = "#F1ECF7",
-    fill = "#F72585"
+    background = "#191421",
+    panel = "#25202E",
+    grid = "#403A49",
+    text = "#F0ECF7",
+    frame = "#FF2A6D",
+    title = "#FF2A6D",
+    strip = "#F0ECF7",
+    striptext = "#191421",
+    accent = "#05D9E8",
+    outline = "#F0ECF7",
+    fill = "#FF2A6D"
   ),
   light = c(
     background = "#F2EBFD",
     panel = "#F9F7FD",
     grid = "#D6CFE0",
-    text = "#3C2231",
-    frame = "#BD2C8C",
-    title = "#BD2C8C",
-    strip = "#3C2231",
+    text = "#402126",
+    frame = "#D5004E",
+    title = "#D5004E",
+    strip = "#402126",
     striptext = "#F2EBFD",
-    accent = "#FF6EC7",
-    outline = "#3C2231",
-    fill = "#F72585"
+    accent = "#05D9E8",
+    outline = "#402126",
+    fill = "#FF2A6D"
   )
 )
 
 synthwave_marks <- list(
-  dark = c("#F72585", "#FF6EC7", "#FF9E3D", "#FFD23F", "#7B2FF7", "#4CC9F0"),
-  light = c("#F72585", "#FF6EC7", "#FF9E3D", "#A48200", "#7B2FF7", "#4CC9F0")
+  dark = c("#FF2A6D", "#05D9E8", "#7700FF", "#FF8C42", "#FFD319", "#D300C5"),
+  light = c("#FF2A6D", "#05D9E8", "#7700FF", "#FF8C42", "#ECC200", "#D300C5")
 )
 

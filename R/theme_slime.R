@@ -1,13 +1,15 @@
 #' Slime theme
 #'
 #' Slime is the stretchy toy that kids make at home and watch in satisfying
-#' videos. Slime started as a Mattel toy in 1976, sold in a tiny plastic
-#' trash can. It later spread to Ghostbusters, Teenage Mutant Ninja
-#' Turtles, and Nickelodeon, where it soaks winners at the Kids' Choice
-#' Awards. In 2025, slime joined the National Toy Hall of Fame.
+#' videos. The slime trend took off in 2016 and peaked in the summer of
+#' slime in 2017. It spread on YouTube and Instagram, and later on TikTok.
+#' Teens watch slime videos as ASMR to relax. Gen Z and younger millennials
+#' have built slime businesses worth millions, though experts warn about
+#' boric acid in homemade recipes.
 #'
-#' The palette follows the article's oozy green slime, the other colors
-#' from food coloring, and its plastic trash can.
+#' The palette follows homemade glue slime: slime green, bubblegum pink,
+#' glitter purple, electric blue, neon yellow, and clear glue on fluffy
+#' white.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -72,18 +74,18 @@ theme_slime <- function(base_size = 15,
 
 # Sampled from green slime poured from a cup
 slime_cols <- c(
-  background = "#F1F7EC",
-  panel = "#FBFDF9",
-  grid = "#D5DBD0",
-  text = "#1E2E1A",
-  frame = "#008300",
-  title = "#008300",
-  strip = "#1E2E1A",
-  striptext = "#F1F7EC",
-  accent = "#9B4DCA",
-  outline = "#1E2E1A",
-  fill = "#4BD13A"
+  background = "#FAFAFA",
+  panel = "#FCFCFC",
+  grid = "#DDDDDD",
+  text = "#30253B",
+  frame = "#9053DA",
+  title = "#9053DA",
+  strip = "#30253B",
+  striptext = "#FAFAFA",
+  accent = "#B94F87",
+  outline = "#30253B",
+  fill = "#62E51A"
 )
 
-slime_marks <- c("#4BD13A", "#9B4DCA", "#F25CA2", "#2FA4E7", "#998B00", "#7D8A80")
+slime_marks <- c("#62E51A", "#B94F87", "#9B5DE5", "#3FA9F5", "#809100", "#A3CFDC")
 

@@ -1,15 +1,16 @@
 #' Goblincore theme
 #'
 #' Goblincore celebrates the less pretty side of nature: moss, mushrooms,
-#' snails, and found objects. Goblincore celebrates the parts of nature
-#' most people overlook, such as soil, small animals, and second-hand
-#' objects. It surfaced on Tumblr and TikTok in the late 2010s and "hit
-#' full steam in 2020" during the pandemic. The goblincore subreddit grew
-#' 395% in the year to July 2021. That June, Etsy reported a 695% jump in
-#' goblincore searches.
+#' snails, and found objects. Goblincore is a grungier, moodier cousin of
+#' cottagecore. It grew on TikTok in 2021 and ties into Gen Z's interest in
+#' nature and sustainability. The trend pulls people away from screens and
+#' into forests and empty lots. Coverage reads its anti consumerist
+#' attitude and love of imperfection as a response to an unsettling, post
+#' pandemic world.
 #'
-#' The palette follows the article's brown, green, and clashing colors:
-#' moss, mushroom caps, earthworms, bones, rocks, and soil.
+#' The palette follows mud, moss, and fungi in natural earth tones: moss
+#' green, toadstool red, mushroom beige, lichen sage, mud brown, and olive
+#' on soil black.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -80,35 +81,35 @@ theme_goblincore <- function(base_size = 15,
 # Sampled from a still life of old vases, a framed photo, and an animal skull
 goblincore_cols <- list(
   dark = c(
-    background = "#1C1712",
-    panel = "#28231E",
-    grid = "#433D38",
-    text = "#F4EDE6",
-    frame = "#9DBB5A",
-    title = "#9DBB5A",
-    strip = "#F4EDE6",
-    striptext = "#1C1712",
-    accent = "#B8432E",
-    outline = "#F4EDE6",
-    fill = "#7A9A3A"
+    background = "#231A10",
+    panel = "#30261D",
+    grid = "#4C4036",
+    text = "#F7ECE3",
+    frame = "#C8B49A",
+    title = "#C8B49A",
+    strip = "#F7ECE3",
+    striptext = "#231A10",
+    accent = "#B33A2E",
+    outline = "#F7ECE3",
+    fill = "#7B8E48"
   ),
   light = c(
-    background = "#FAEBDE",
-    panel = "#FCF7F2",
-    grid = "#DDCFC2",
-    text = "#262D15",
-    frame = "#557413",
-    title = "#557413",
-    strip = "#262D15",
-    striptext = "#FAEBDE",
-    accent = "#B8432E",
-    outline = "#262D15",
-    fill = "#7A9A3A"
+    background = "#FDEBDC",
+    panel = "#FDF7F2",
+    grid = "#E0CFC0",
+    text = "#352813",
+    frame = "#7A6951",
+    title = "#7A6951",
+    strip = "#352813",
+    striptext = "#FDEBDC",
+    accent = "#B33A2E",
+    outline = "#352813",
+    fill = "#8A9E57"
   )
 )
 
 goblincore_marks <- list(
-  dark = c("#7A9A3A", "#B8432E", "#D08C8C", "#D9CFB8", "#4F4C46", "#663C12"),
-  light = c("#7A9A3A", "#B8432E", "#8D4F51", "#CEC4AD", "#8A8780", "#5B3308")
+  dark = c("#7B8E48", "#B33A2E", "#C8B49A", "#7D8F6A", "#8A6A55", "#3B4E07"),
+  light = c("#8A9E57", "#B33A2E", "#C8B49A", "#7D8F6A", "#8A6A55", "#344700")
 )
 

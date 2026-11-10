@@ -24,17 +24,17 @@ A \code{ggplot2} theme object.
 }
 \description{
 A photo dump is a carousel post of loosely related phone photos from the
-week. A photo dump is a batch of casual pictures posted all at once, and
-it depends on the camera phone. Cameras have been a major selling point
-of phones since the 2010s. Because phones share pictures almost
-instantly, they work as personal content creation tools. Personal photos
-also help people build shared memories, keep up friendships, and express
-who they are.
+week. A photo dump is a loose Instagram carousel of unposed shots,
+blurry photos, screenshots, and memes. The format traces back to summer
+2020 and spread as celebrities like Dua Lipa and Olivia Rodrigo adopted
+it. Gen Z uses it to signal authenticity and push back on the pressure
+to keep a perfect feed. Critics note the effortless look is often
+carefully curated.
 }
 \details{
-The palette follows the article's camera phone shots in bright and low
-light: golden hour, sunset coral, sky, night, park green, and lilac
-dusk.
+The palette follows a casual camera roll carousel: Instagram magenta,
+faded denim, sunset orange, washed olive, film grain beige, and blurry
+night black.
 }
 \examples{
 library(ggplot2)

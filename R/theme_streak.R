@@ -1,16 +1,15 @@
 #' Streak theme
 #'
 #' Streaks are the daily counters that apps use to keep you coming back, a
-#' common gamification trick. A streak counts how many days in a row you've
-#' done something. It is a common gamification tool, which adds points,
-#' badges, and leaderboards to things that aren't games. In the language
-#' app [Duolingo](https://en.wikipedia.org/wiki/Duolingo), any finished
-#' lesson counts toward a daily streak marked with a fire symbol. Its
-#' Friend Streak lets up to five friends keep a streak together.
+#' common gamification trick. On Snapchat, a fire emoji and a number appear
+#' next to a friend after three days in a row of snaps. For Gen Z and Gen
+#' Alpha, a streak is social currency and quiet validation that can matter
+#' more than likes. About 6 million people hold Duolingo streaks of a week
+#' or more. Critics link streaks to obsessive behavior.
 #'
-#' The palette follows the article's points, badges, levels, and progress
-#' bars: streak flame orange and red, gold badge, XP purple, progress
-#' green, and a frozen streak blue.
+#' The palette follows the streak flame on Snapchat and Duolingo: flame
+#' orange, fire red, Snapchat yellow, Duolingo green, flame gold, and app
+#' black.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -75,18 +74,18 @@ theme_streak <- function(base_size = 15,
 
 # Sampled from a poster of the five steps to earn a digital badge
 streak_cols <- c(
-  background = "#FFF8EE",
-  panel = "#FEFCF8",
-  grid = "#E2DBD2",
-  text = "#3F221D",
-  frame = "#D73027",
-  title = "#D73027",
-  strip = "#3F221D",
-  striptext = "#FFF8EE",
-  accent = "#E43D30",
-  outline = "#3F221D",
-  fill = "#FF7A00"
+  background = "#FFFDF2",
+  panel = "#FDFCF9",
+  grid = "#E2E0D6",
+  text = "#2A2A2A",
+  frame = "#1C1C1C",
+  title = "#1C1C1C",
+  strip = "#2A2A2A",
+  striptext = "#FFFDF2",
+  accent = "#FF4B2B",
+  outline = "#2A2A2A",
+  fill = "#FF9600"
 )
 
-streak_marks <- c("#FF7A00", "#E43D30", "#FBC123", "#7C4DFF", "#2BB673", "#3AA0E8")
+streak_marks <- c("#FF9600", "#FF4B2B", "#CDCF4F", "#079A00", "#684700", "#1C1C1C")
 

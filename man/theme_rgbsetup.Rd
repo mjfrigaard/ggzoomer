@@ -26,15 +26,15 @@ it's available, otherwise \code{"sans"}.}
 A \code{ggplot2} theme object.
 }
 \description{
-An RGB setup is a gaming PC and desk lit up in color changing lights. An
-RGB setup is a gaming PC lit up in color. Gaming PCs use powerful
-graphics cards, processors, and memory. Their cases often add extra LED
-lights or see-through panels just for looks. In the 2010s and 2020s,
-gaming laptops and handheld gaming PCs joined the desktop builds.
+An RGB setup is a gaming PC and desk lit up in color changing lights.
+The RGB setup spread through streamers and the pro streamer setup trend
+on TikTok and Instagram. A glowing desk makes an Instagram worthy stage.
+Its appeal is self expression and personalization. Some gamers are now
+pushing back with minimalist, no RGB setups.
 }
 \details{
-The palette follows the article's gaming PCs lit in RGB: cyan, purple,
-red, lime, and blue case lighting with a white glow.
+The palette follows a glowing desk cycling RGB: red, green, blue, neon
+magenta, electric cyan, and ultraviolet purple on a black desk.
 
 Use \code{mode = "light"} for a light background with dark text and darker marks.
 }

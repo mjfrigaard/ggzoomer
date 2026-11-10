@@ -1,16 +1,15 @@
 #' Thrift theme
 #'
 #' Thrifting (shopping at charity and secondhand shops) is the budget and
-#' planet friendly way to build a wardrobe. Thrifting means shopping at
-#' charity or second-hand shops. The word caught on in the United States in
-#' the early 2010s. Thrifting is now a popular trend among Gen Z, spread by
-#' Instagram and TikTok videos that show off unusual finds. During the UK
-#' cost of living crisis, 53% of young adults surveyed started thrifting to
-#' save money on clothes.
+#' planet friendly way to build a wardrobe. Gen Z turned thrifting into a
+#' lifestyle and a status symbol. ThredUp data cited by Goodwill shows 83%
+#' of Gen Z Americans shop secondhand or would. Their reasons include
+#' sustainability, individuality, and money, since many grew up during the
+#' 2007 to 2009 recession. TikTok thrift hauls during the pandemic pushed
+#' the trend further.
 #'
-#' The palette follows the article's Red Cross and Oxfam shops and vintage
-#' clothing: charity red, mustard, faded denim, corduroy brown, Oxfam
-#' green, and dusty rose.
+#' The palette follows racks of secondhand finds: faded denim, worn
+#' leather, mustard, rust, olive, and mint on lace cream.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -75,18 +74,18 @@ theme_thrift <- function(base_size = 15,
 
 # Sampled from shelves of glassware and goodies in a thrift store
 thrift_cols <- c(
-  background = "#F4EEE4",
-  panel = "#FBF8F5",
-  grid = "#D8D2C8",
-  text = "#402220",
-  frame = "#C8102E",
-  title = "#C8102E",
-  strip = "#402220",
-  striptext = "#F4EEE4",
-  accent = "#C99A2E",
-  outline = "#402220",
-  fill = "#C8102E"
+  background = "#F3E9D2",
+  panel = "#F6F3ED",
+  grid = "#D5CDBB",
+  text = "#3B2517",
+  frame = "#7B4B2A",
+  title = "#7B4B2A",
+  strip = "#3B2517",
+  striptext = "#F3E9D2",
+  accent = "#7B4B2A",
+  outline = "#3B2517",
+  fill = "#6F8FAF"
 )
 
-thrift_marks <- c("#C8102E", "#C99A2E", "#5B7DA6", "#3D1900", "#005C00", "#C47A86")
+thrift_marks <- c("#6F8FAF", "#7B4B2A", "#D4A017", "#700000", "#708238", "#90CFBA")
 

@@ -1,15 +1,16 @@
 #' Coquette theme
 #'
 #' The coquette aesthetic is a 2020s fashion trend of bows, lace, ribbons,
-#' and pastels. Coquette is a 2020s Gen Z fashion trend built on lace,
-#' bows, flounces, and pastel colors. It first caught on with Tumblr in the
-#' early 2010s. Around 2021, it caught on again with TikTok. Its film
-#' influences run from Sofia Coppola's movies to Bridgerton and Greta
-#' Gerwig's Barbie.
+#' and pastels. Coquette is a 2020s Gen Z trend that reclaims hyper
+#' femininity as self expression. Unlike the girlboss era, it treats
+#' softness as strength. On TikTok, #coquetteaesthetic has passed 18
+#' billion views, and Lana Del Rey, Sabrina Carpenter, and Jennie have all
+#' embraced the look. Critics call it regressive, while fans see a
+#' celebration of vulnerability and individuality.
 #'
-#' The palette follows the article's bows, lace, pastel colors, and pink
-#' clothing: ballet pink, ribbon red, powder blue, lilac, deep rose, and
-#' pearl gray.
+#' The palette follows the hyper feminine wardrobe: ballet pink bows,
+#' ribbon red hearts, pastel lavender and baby blue, pearls, and deep
+#' cherry.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -74,18 +75,18 @@ theme_coquette <- function(base_size = 15,
 
 # Sampled from an 1880s tobacco card portrait of Marie Antoinette
 coquette_cols <- c(
-  background = "#FCF1F3",
+  background = "#FFF4F6",
   panel = "#FFFBFC",
-  grid = "#DFD5D7",
+  grid = "#E2D8DA",
   text = "#402123",
   frame = "#B8324B",
   title = "#B8324B",
   strip = "#402123",
-  striptext = "#FCF1F3",
-  accent = "#B8324B",
+  striptext = "#FFF4F6",
+  accent = "#C8344F",
   outline = "#402123",
-  fill = "#B46B7F"
+  fill = "#F4B6C2"
 )
 
-coquette_marks <- c("#B46B7F", "#B8324B", "#8FB3D9", "#775F90", "#8C3A5A", "#A8A3A8")
+coquette_marks <- c("#F4B6C2", "#C8344F", "#C7B3E5", "#6989A6", "#90877D", "#8C1C3A")
 

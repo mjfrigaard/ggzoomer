@@ -1,16 +1,15 @@
 #' Gorpcore theme
 #'
 #' Gorpcore is hiking gear (shell jackets, fleece, and trail shoes) worn as
-#' everyday streetwear. Gorpcore is outdoor gear worn as everyday
-#' streetwear. The writer Jason Chen named it in 2017, and it became a
-#' popular trend in the 2020s. The COVID-19 pandemic sent people outdoors
-#' and boosted sales of puffer jackets and hiking boots. Before that,
-#' celebrities like A$AP Rocky and Frank Ocean were already wearing hiking
-#' clothes.
+#' everyday streetwear. Gorpcore turns outdoor gear into everyday style. It
+#' started out male led, but it has reached new heights on TikTok and
+#' Pinterest, especially among Gen Z women. Coverage ties it to the mental
+#' health benefits of time outside, tech fatigue after COVID, and Gen Z's
+#' taste for sustainable goods. You don't have to hike to wear it.
 #'
-#' The palette follows the article's two color schemes, earthy or bright
-#' and bold: safety orange, glacier blue, forest green, khaki, lime, and
-#' charcoal shell jackets.
+#' The palette follows technical outdoor gear worn as streetwear: safety
+#' orange, forest green, glacier blue, olive drab, trail tan, and stone
+#' gray, with black nylon.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -75,18 +74,18 @@ theme_gorpcore <- function(base_size = 15,
 
 # Sampled from outdoor jackets and pants hanging in a store
 gorpcore_cols <- c(
-  background = "#F3F1EC",
-  panel = "#FCFBF9",
-  grid = "#D7D5D0",
-  text = "#3D2419",
-  frame = "#BF4407",
-  title = "#BF4407",
-  strip = "#3D2419",
-  striptext = "#F3F1EC",
-  accent = "#2F7DBF",
-  outline = "#3D2419",
-  fill = "#F26B1D"
+  background = "#EFEDE6",
+  panel = "#F8F7F5",
+  grid = "#D3D1CA",
+  text = "#2A2A2A",
+  frame = "#1C1C1C",
+  title = "#1C1C1C",
+  strip = "#2A2A2A",
+  striptext = "#EFEDE6",
+  accent = "#2E5339",
+  outline = "#2A2A2A",
+  fill = "#FF6F00"
 )
 
-gorpcore_marks <- c("#F26B1D", "#2F7DBF", "#2F5D3A", "#B08D57", "#A9C23F", "#34383C")
+gorpcore_marks <- c("#FF6F00", "#2E5339", "#5B8FB9", "#6B6B3A", "#C19A6B", "#8A8D8F")
 

@@ -1,14 +1,15 @@
 #' Voice note theme
 #'
 #' Voice notes are short recorded messages sent in a chat instead of
-#' typing. A voice note is a short recorded message sent in place of a
-#' text. It descends from voicemail, which lets a caller leave a recorded
-#' message for later. Today, internet calling and messaging apps put voice,
-#' voice messages, and text side by side on the same phone.
+#' typing. Voice notes boomed during the pandemic and became Gen Z's
+#' favorite way to keep in touch, partly because of phone call anxiety.
+#' Preply found that 84% of Gen Z use them, compared with 47% of baby
+#' boomers. Forty percent of users say a voice note can replace a call.
+#' Still, 31% of Gen Z find incoming voice notes inconvenient, and many
+#' long ones go unheard.
 #'
-#' The palette follows the article's pink message slips and voicemail
-#' light, with record red, mic gray, call green, waveform violet, and
-#' amber.
+#' The palette follows a voice note bubble: WhatsApp green, iMessage blue,
+#' waveform gray, record red, dark mode charcoal, and chat bubble green.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -73,18 +74,18 @@ theme_voicenote <- function(base_size = 15,
 
 # Sampled from a diagram of how a voicemail system routes and stores messages
 voicenote_cols <- c(
-  background = "#FAF4F6",
-  panel = "#FEFCFC",
-  grid = "#DDD8DA",
-  text = "#402128",
-  frame = "#C2185B",
-  title = "#C2185B",
-  strip = "#402128",
-  striptext = "#FAF4F6",
-  accent = "#E53935",
-  outline = "#402128",
-  fill = "#E87AA4"
+  background = "#FAFAFA",
+  panel = "#FCFCFC",
+  grid = "#DDDDDD",
+  text = "#2A2A2C",
+  frame = "#1C1C1E",
+  title = "#1C1C1E",
+  strip = "#2A2A2C",
+  striptext = "#FAFAFA",
+  accent = "#0A84FF",
+  outline = "#2A2A2C",
+  fill = "#25D366"
 )
 
-voicenote_marks <- c("#E87AA4", "#E53935", "#6B7280", "#2EAD5B", "#7B61FF", "#F2A900")
+voicenote_marks <- c("#25D366", "#0A84FF", "#8E8E93", "#FF3B30", "#1C1C1E", "#B5D0A0")
 

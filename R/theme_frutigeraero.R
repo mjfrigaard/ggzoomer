@@ -1,15 +1,14 @@
 #' Frutiger Aero theme
 #'
 #' Frutiger Aero is the glossy design style of the mid 2000s: bubbles,
-#' water, grass, and blue skies. Frutiger Aero is the glossy computer
-#' design style of the mid-2000s to early 2010s. It was named in 2018 and
-#' came back as an internet aesthetic in 2023. Gen Z embraced it as an
-#' object of nostalgia, and Frutiger Aero posts drew big audiences on
-#' YouTube and TikTok. Some critics see its influence in Apple's 2025
-#' Liquid Glass design.
+#' water, grass, and blue skies. Frutiger Aero came back on TikTok, Tumblr,
+#' and Reddit in 2022 and 2023. Gen Z links it to a digital childhood of
+#' MSN Messenger and Windows Vista. Essays frame it as optimism, a glossy
+#' contrast to flat, minimalist design and modern cynicism. Even design
+#' writers admit it's hard to say exactly why it resonates.
 #'
-#' The palette follows the article's blue skies, grass, aurorae, and bright
-#' colors ("yellows, and particularly blues and greens").
+#' The palette follows glossy Vista era glass and water: sky blue, grass
+#' green, deep ocean blue, lime, aqua, and bubble cyan.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -74,18 +73,18 @@ theme_frutigeraero <- function(base_size = 15,
 
 # Sampled from soap bubbles floating over sunlit grass
 frutigeraero_cols <- c(
-  background = "#E6F4FD",
-  panel = "#F8FDFF",
-  grid = "#CAD8E0",
-  text = "#1E2A40",
-  frame = "#0B6FC9",
-  title = "#0B6FC9",
-  strip = "#1E2A40",
-  striptext = "#E6F4FD",
-  accent = "#2EC4D6",
-  outline = "#1E2A40",
-  fill = "#1E90FF"
+  background = "#EAF6FF",
+  panel = "#F9FDFF",
+  grid = "#CEDAE2",
+  text = "#212940",
+  frame = "#0466C8",
+  title = "#0466C8",
+  strip = "#212940",
+  striptext = "#EAF6FF",
+  accent = "#7CC242",
+  outline = "#212940",
+  fill = "#5BC0EB"
 )
 
-frutigeraero_marks <- c("#1E90FF", "#2EC4D6", "#5DBB3F", "#A6D33C", "#A98300", "#2D36AC")
+frutigeraero_marks <- c("#5BC0EB", "#7CC242", "#0466C8", "#A7D847", "#007596", "#95D2DC")
 

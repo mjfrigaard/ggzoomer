@@ -1,15 +1,15 @@
 #' Ring light theme
 #'
 #' Ring lights are the circular lights behind nearly every vlog, makeup
-#' tutorial, and video call. A ring light is a circle of light that
-#' surrounds the camera lens. It softens shadows and puts round highlights
-#' in the subject's eyes. Continuous ring lights are popular for video
-#' calls, selfies, and vlogs. They became even more popular during the
-#' COVID-19 pandemic as TikTok grew.
+#' tutorial, and video call. Constant video content pushed Gen Z to buy
+#' ring lights for selfies, makeup tutorials, and streams. The telltale
+#' ring reflection in the eyes gives it away. Brands like Cygnett launched
+#' ring lights aimed at Gen Z and marketed them on TikTok and Snapchat.
+#' Search interest has dipped in the past year but grown over five years.
 #'
-#' The palette follows the article's adjustable color temperature (warm
-#' 3200K and cool 5600K), skin tones on video calls, and the gray and black
-#' ring and stand.
+#' The palette follows daylight white glow and pastel macaron ring lights:
+#' warm tungsten, candy pink, macaron mint, macaron lilac, chasing cyan,
+#' and the black tripod.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -74,18 +74,18 @@ theme_ringlight <- function(base_size = 15,
 
 # Sampled from a ring of LEDs next to its controller
 ringlight_cols <- c(
-  background = "#FBFBFD",
-  panel = "#FCFCFD",
-  grid = "#DEDEE0",
-  text = "#3A2517",
-  frame = "#AC5E22",
-  title = "#AC5E22",
-  strip = "#3A2517",
-  striptext = "#FBFBFD",
-  accent = "#8EC5FF",
-  outline = "#3A2517",
-  fill = "#F2B66D"
+  background = "#F7F9FF",
+  panel = "#FBFCFE",
+  grid = "#DBDCE2",
+  text = "#2A2A2A",
+  frame = "#1A1A1A",
+  title = "#1A1A1A",
+  strip = "#2A2A2A",
+  striptext = "#F7F9FF",
+  accent = "#B46989",
+  outline = "#2A2A2A",
+  fill = "#EAC48D"
 )
 
-ringlight_marks <- c("#F2B66D", "#8EC5FF", "#E9967A", "#5A5F6B", "#23252B", "#8868A5")
+ringlight_marks <- c("#EAC48D", "#B46989", "#9BD4BD", "#CDB8F0", "#009AA5", "#1A1A1A")
 

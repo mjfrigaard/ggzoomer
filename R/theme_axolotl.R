@@ -2,15 +2,15 @@
 #'
 #' Axolotls are Mexican salamanders that keep their gills for life and
 #' became an internet favorite (and a game mob). The axolotl is a
-#' salamander that keeps its feathery gills as an adult. It is a popular
-#' subject in modern culture, and in 2017 it became the official emoji of
-#' Mexico City. Mexico put an axolotl on its 50 peso banknote in 2021. So
-#' many people kept the note that up to 50 million were out of circulation
-#' by 2025. In the wild, the species is critically endangered.
+#' salamander that keeps its pink and white coloring, large eyes, and
+#' feathery gills into adulthood. Online, it stands for cuteness, aquatic
+#' pets, and staying young. Custom axolotl emojis often hold boba tea or
+#' hearts, or wear tiny hats. In 2017, it became the official emoji of
+#' Mexico City.
 #'
-#' The palette follows the article's color variants: the wild type's brown
-#' with gold speckles and an olive undertone, the leucistic pink, pink
-#' gills, and the dark melanoid.
+#' The palette follows the axolotl emoji: pink and white skin, deep pink
+#' feathery gills, big black eyes, and the boba tea, hearts, and aquarium
+#' water it often comes with.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -75,18 +75,18 @@ theme_axolotl <- function(base_size = 15,
 
 # Sampled from a wild type axolotl resting on gravel in an aquarium
 axolotl_cols <- c(
-  background = "#FBEFF1",
+  background = "#FFF5F7",
   panel = "#FFFBFC",
-  grid = "#DED3D5",
+  grid = "#E2D9DB",
   text = "#402126",
-  frame = "#BF3F5D",
-  title = "#BF3F5D",
+  frame = "#C2425F",
+  title = "#C2425F",
   strip = "#402126",
-  striptext = "#FBEFF1",
-  accent = "#C9A227",
+  striptext = "#FFF5F7",
+  accent = "#E0607E",
   outline = "#402126",
-  fill = "#6B4F2A"
+  fill = "#F4A6B8"
 )
 
-axolotl_marks <- c("#6B4F2A", "#C9A227", "#6F7A2E", "#E58FA6", "#C2425F", "#2B2A2E")
+axolotl_marks <- c("#F4A6B8", "#E0607E", "#2B2A2E", "#8A5A3B", "#8B0009", "#3B98A1")
 

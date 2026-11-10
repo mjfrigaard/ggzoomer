@@ -1,15 +1,15 @@
 #' Dark academia theme
 #'
 #' Dark academia is an internet aesthetic built around old libraries,
-#' tweed, and classic literature. Dark academia started on Tumblr in the
-#' mid-2010s. Teens and young adults spread it in the late 2010s and early
-#' 2020s, especially during the COVID-19 pandemic. Donna Tartt's 1992 novel
-#' The Secret History is credited as its inspiration. One writer describes
-#' the look as nostalgia for a vague time before the internet.
+#' tweed, and classic literature. Dark academia spread through Tumblr and
+#' TikTok. Tumblr's 2021 year in review ranked it the platform's second
+#' most popular aesthetic, and about 48% of Tumblr users are Gen Z.
+#' Commentators link its appeal to digital fatigue and a hunger for
+#' reflection and an intellectual identity. Critics point out that it has
+#' since been sold back as a lifestyle brand.
 #'
-#' The palette follows the article's palette of black, white, beige,
-#' browns, dark green, and occasionally navy blue, with candlelight gold
-#' and dark wood.
+#' The palette follows a dim library with black coffee: parchment, brown
+#' tweed, burgundy, forest green, charcoal, and dark oak.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -80,35 +80,35 @@ theme_darkacademia <- function(base_size = 15,
 # Sampled from a Gothic spiral staircase inside St. Barbara's Church in Kutna Hora
 darkacademia_cols <- list(
   dark = c(
-    background = "#1A1512",
-    panel = "#26211E",
-    grid = "#403B38",
-    text = "#F4ECE9",
-    frame = "#E0B252",
-    title = "#E0B252",
-    strip = "#F4ECE9",
-    striptext = "#1A1512",
-    accent = "#4F8A5C",
-    outline = "#F4ECE9",
-    fill = "#CDBA96"
+    background = "#1F1A17",
+    panel = "#2C2623",
+    grid = "#46403D",
+    text = "#F4ECE8",
+    frame = "#E8DCC0",
+    title = "#E8DCC0",
+    strip = "#F4ECE8",
+    striptext = "#1F1A17",
+    accent = "#B1895F",
+    outline = "#F4ECE8",
+    fill = "#E8DCC0"
   ),
   light = c(
-    background = "#F9EBE4",
+    background = "#FAEBE2",
     panel = "#FCF7F4",
-    grid = "#DCCFC8",
-    text = "#332813",
-    frame = "#896500",
-    title = "#896500",
-    strip = "#332813",
-    striptext = "#F9EBE4",
-    accent = "#4F8A5C",
-    outline = "#332813",
-    fill = "#CDBA96"
+    grid = "#DDCFC6",
+    text = "#302914",
+    frame = "#746A51",
+    title = "#746A51",
+    strip = "#302914",
+    striptext = "#FAEBE2",
+    accent = "#B1895F",
+    outline = "#302914",
+    fill = "#CFC3A8"
   )
 )
 
 darkacademia_marks <- list(
-  dark = c("#CDBA96", "#4F8A5C", "#8B5E3C", "#5B7AB0", "#E0B252", "#EDE8DF"),
-  light = c("#CDBA96", "#4F8A5C", "#8B5E3C", "#5B7AB0", "#E0B252", "#C8C4BB")
+  dark = c("#E8DCC0", "#B1895F", "#9E2B2E", "#5E7F55", "#7D8C99", "#C9A27A"),
+  light = c("#CFC3A8", "#B1895F", "#9E2B2E", "#5E7F55", "#7D8C99", "#C9A27A")
 )
 

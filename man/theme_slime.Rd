@@ -24,14 +24,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Slime is the stretchy toy that kids make at home and watch in satisfying
-videos. Slime started as a Mattel toy in 1976, sold in a tiny plastic
-trash can. It later spread to Ghostbusters, Teenage Mutant Ninja
-Turtles, and Nickelodeon, where it soaks winners at the Kids' Choice
-Awards. In 2025, slime joined the National Toy Hall of Fame.
+videos. The slime trend took off in 2016 and peaked in the summer of
+slime in 2017. It spread on YouTube and Instagram, and later on TikTok.
+Teens watch slime videos as ASMR to relax. Gen Z and younger millennials
+have built slime businesses worth millions, though experts warn about
+boric acid in homemade recipes.
 }
 \details{
-The palette follows the article's oozy green slime, the other colors
-from food coloring, and its plastic trash can.
+The palette follows homemade glue slime: slime green, bubblegum pink,
+glitter purple, electric blue, neon yellow, and clear glue on fluffy
+white.
 }
 \examples{
 library(ggplot2)

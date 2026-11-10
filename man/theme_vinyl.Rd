@@ -24,15 +24,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Vinyl records outsell CDs again, thanks to collectors who buy albums in
-colored variants. Vinyl records left the mainstream in 1991, then made a
-comeback that grew through the 2010s and 2020s. In 2020, vinyl revenue
-passed CD revenue for the first time since the 1980s. A year later,
-Taylor Swift sold 102,000 vinyl copies of Evermore in one week.
+colored variants. The Vinyl Alliance calls Gen Z the driving force of
+the vinyl revival. In its research, 56\% of Gen Z buyers cite the look,
+37\% use records as home decor, and 80\% own a record player. Many buy
+secondhand for environmental reasons. They share their collections on
+TikTok and Instagram, and they value owning music and a slower way of
+listening.
 }
 \details{
-The palette follows the article's "black disc", Red Seal labels,
-transparent red vinylite, the Blue Goose label, gold label foil, and
-paper sleeves.
+The palette follows records and their pressings: vinyl black, label red,
+translucent amber, clear blue, marbled green, and cardboard sleeve tan.
 }
 \examples{
 library(ggplot2)

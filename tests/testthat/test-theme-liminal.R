@@ -1,8 +1,8 @@
 test_that("theme_liminal returns a complete theme that builds a plot", {
   thm <- theme_liminal(base_family = "sans", title_family = "sans")
   expect_s3_class(thm, "theme")
-  expect_equal(thm$plot.background$fill, "#F3EED2")
-  expect_equal(thm$geom$fill, "#9E1B1B")
+  expect_equal(thm$plot.background$fill, "#EDEBD7")
+  expect_equal(thm$geom$fill, "#8E8227")
   p <- ggplot2::ggplot(data.frame(x = c("a", "b", "b")), ggplot2::aes(x = x, fill = x)) +
     ggplot2::geom_bar() +
     ggplot2::labs(title = "title")

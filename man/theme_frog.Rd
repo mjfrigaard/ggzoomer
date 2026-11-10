@@ -23,16 +23,17 @@ it's available, otherwise \code{"sans"}.}
 A \code{ggplot2} theme object.
 }
 \description{
-Frogs are tailless amphibians and a cottagecore and goblincore icon.
-Frogs show up in myths, fairy tales, and modern culture, from Kermit the
-Frog to the game Frogger. They also warn us about the planet. A drop in
-frog numbers is an early sign of environmental damage, and frog
-populations around the world have fallen sharply since the 1950s.
+Frogs are tailless amphibians and a cottagecore and goblincore icon. Gen
+Z's favorite frog is Animal Crossing's Froggy Chair, a green seat with a
+wide red mouth. Fans get Froggy Chair tattoos, bake Froggy Chair cakes,
+and print it on shirts. Frogcore extends the look to frog hoodies, rain
+boots, and slippers. Frog memes, from wholesome mental health posts to
+Arson Frog avatars, fill Gen Z feeds.
 }
 \details{
-The palette follows the article's skin colors: camouflage green and
-dappled brown, warning red or yellow and black, and the blue flanks of
-the red eyed tree frog.
+The palette follows Animal Crossing's Froggy Chair and frog memes:
+froggy green, the wide red mouth, pond blue, Arson Frog blue, moss, and
+lily pad green on belly cream.
 }
 \examples{
 library(ggplot2)

@@ -1,16 +1,16 @@
 #' Liminal space theme
 #'
 #' Liminal space is an internet aesthetic of empty in between places:
-#' hallways, waiting rooms, and closed malls. Liminal space images show
-#' empty hallways, waiting rooms, and closed malls. They spread online in
-#' 2019 and became tied to the Backrooms, an online urban legend that
-#' started on 4chan. Interest grew during the COVID-19 pandemic, when empty
-#' public spaces were everywhere. A 2022 study found that small changes to
-#' familiar buildings can make them feel uncanny.
+#' hallways, waiting rooms, and closed malls. Liminal space images began
+#' with a 2019 4chan post that spawned the Backrooms, then spread across
+#' Reddit and TikTok. Commentators tie their appeal to childhood memories
+#' of malls and schools. Empty streets during the pandemic lockdowns made
+#' the feeling familiar. YPulse reported in 2026 that Gen Z loves films and
+#' shows set in liminal spaces.
 #'
-#' The palette follows the article's empty hallways, pool rooms, and Twin
-#' Peaks Black Lodge: red curtains, black floor, mustard walls, fluorescent
-#' green, pool blue, and concrete.
+#' The palette follows empty Backrooms hallways and dated malls:
+#' fluorescent yellow, stained carpet beige, pool tile aqua, concrete gray,
+#' mall teal, and night parking lot orange.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -75,18 +75,18 @@ theme_liminal <- function(base_size = 15,
 
 # Sampled from an empty carpeted hallway in the Stanley Hotel
 liminal_cols <- c(
-  background = "#F3EED2",
-  panel = "#F9F7F1",
-  grid = "#D5D1BF",
-  text = "#3F221E",
-  frame = "#9E1B1B",
-  title = "#9E1B1B",
-  strip = "#3F221E",
-  striptext = "#F3EED2",
-  accent = "#26221E",
-  outline = "#3F221E",
-  fill = "#9E1B1B"
+  background = "#EDEBD7",
+  panel = "#F5F4EE",
+  grid = "#D1CFBC",
+  text = "#00302D",
+  frame = "#227570",
+  title = "#227570",
+  strip = "#00302D",
+  striptext = "#EDEBD7",
+  accent = "#B9A77A",
+  outline = "#00302D",
+  fill = "#8E8227"
 )
 
-liminal_marks <- c("#9E1B1B", "#26221E", "#B38B2E", "#8FA77E", "#4A90A4", "#8A8780")
+liminal_marks <- c("#8E8227", "#B9A77A", "#7CC6C9", "#9A9A94", "#2F7F7A", "#E89A3C")
 

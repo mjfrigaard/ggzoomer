@@ -1,13 +1,15 @@
 #' Wired earbuds theme
 #'
 #' Wired earbuds made a comeback as a style statement and a break from
-#' charging. Earbuds sit in the ear canal and connect to a phone with a
-#' cord or, in newer models, with Bluetooth. Headphones went public in the
-#' 1980s with the Walkman. That was when people started wearing them on
-#' sidewalks, in grocery stores, and on public transit.
+#' charging. Gen Z calls AirPods passé and wears the cord as an analog
+#' statement against always on tech, alongside dumbphones, instant cameras,
+#' and vinyl. Bella Hadid, Harry Styles, and Charli XCX have all been seen
+#' in wired earbuds. Searches for wired headphones hit 2.6 million in April
+#' 2025, up 68% in one month. Practical perks help: no charging and nothing
+#' to lose.
 #'
-#' The palette follows the Headphones article's rubber, gold contacts, and
-#' wire, plus the red right channel marker, the wood table, and navy.
+#' The palette follows corded earbuds: Panasonic red, lilac, mint, cable
+#' gray, and black against Apple white.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -72,18 +74,18 @@ theme_wiredbuds <- function(base_size = 15,
 
 # Sampled from a pair of white wired earbuds on a wooden table
 wiredbuds_cols <- c(
-  background = "#FDFDFD",
+  background = "#F5F5F5",
   panel = "#FCFCFC",
-  grid = "#E0E0E0",
-  text = "#3F221F",
-  frame = "#D33A3A",
-  title = "#D33A3A",
-  strip = "#3F221F",
-  striptext = "#FDFDFD",
-  accent = "#C9A23F",
-  outline = "#3F221F",
-  fill = "#222326"
+  grid = "#D9D9D9",
+  text = "#2A2A2A",
+  frame = "#1A1A1A",
+  title = "#1A1A1A",
+  strip = "#2A2A2A",
+  striptext = "#F5F5F5",
+  accent = "#C3B1E1",
+  outline = "#2A2A2A",
+  fill = "#D62828"
 )
 
-wiredbuds_marks <- c("#222326", "#C9A23F", "#4A2300", "#8E9399", "#23395B", "#D33A3A")
+wiredbuds_marks <- c("#D62828", "#C3B1E1", "#98D5BE", "#7F7F7F", "#1A1A1A")
 

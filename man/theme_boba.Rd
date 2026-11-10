@@ -24,15 +24,14 @@ A \code{ggplot2} theme object.
 }
 \description{
 Bubble tea (boba) is a Taiwanese tea drink with chewy tapioca pearls.
-Bubble tea came to the United States in the 1990s, where most people
-call it boba. The drink grew popular in the 2010s and became a symbol of
-Asian American identity, with phrases like "boba life." Boba got its own
-emoji in 2020. In 2023, Google celebrated it with a Doodle.
+Boba is known for its vibrant, layered colors, cups slick with
+condensation, and swirling tapioca pearls or colorful popping boba. That
+look makes it one of the most Instagrammable drinks around. For Gen Z, a
+photo of a boba cup works as a kind of visual currency.
 }
 \details{
-The palette follows the article's drinks and toppings: tapioca pearls,
-pearl black milk tea, pearl green milk tea, red bean, brown sugar syrup,
-and taro.
+The palette follows the vibrant, layered drinks: black tapioca pearls,
+milk tea, taro, strawberry, matcha, and mango popping boba.
 }
 \examples{
 library(ggplot2)

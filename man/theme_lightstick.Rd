@@ -27,15 +27,17 @@ A \code{ggplot2} theme object.
 }
 \description{
 Lightsticks are the glow sticks fans wave at concerts, now synced to the
-show at K-pop tours. Glow sticks are cheap lights that need no batteries
-and give off no heat. They are a fixture at raves, concerts, festivals,
-and dance clubs. Fans also wave them in dance styles such as glow poi
-and wotagei.
+show at K-pop tours. Every K-pop fandom has an official lightstick in
+its own color, often topped with the group's logo. The Korea Herald
+calls owning one a badge of devotion and fandom identity. Fans even
+argue over look alike designs. At concerts, thousands of lightsticks
+form synchronized seas of color, and the videos spread widely on social
+media.
 }
 \details{
-The palette follows the article's chemiluminescent glow in a translucent
-plastic tube: green, pink, blue, yellow, orange, and purple on a black
-arena.
+The palette follows a concert crowd of K-pop lightsticks: pearl aqua,
+BTS purple, Blackpink pink, Big Bang yellow, stage red, and clear
+acrylic white.
 
 Use \code{mode = "light"} for a light background with dark text and darker marks.
 }

@@ -1,15 +1,15 @@
 #' LED strip theme
 #'
 #' LED strip lights are the adhesive color changing lights that line
-#' bedroom ceilings and desks. LED strips are flexible bands of small
-#' lights that stick along a wall, desk, or monitor. Hobbyists use them for
-#' computer lighting, monitor backlights, and DIY projects. A USB port or
-#' battery pack can power them. Paired with a small controller, they can
-#' change color with music or anything else the controller senses.
+#' bedroom ceilings and desks. LED strips are often called TikTok lights.
+#' Refinery29 tracked the trend on TikTok from 2020 onward and called it
+#' Gen Z's answer to the fairy lights of the 2010s. For teens in bare
+#' bedrooms or dorms, a cheap strip of lights is one of the few ways to
+#' make a space their own. Recent coverage notes Gen Z lighting turning
+#' softer and dimmer.
 #'
-#' The palette follows the article's strip types: red, green, and blue
-#' multicolor LEDs, warm and cool white color temperatures, and a 2200K
-#' amber.
+#' The palette follows TikTok lights along a dark bedroom wall: hot pink,
+#' electric blue, purple, red, cyan, and green.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -80,35 +80,35 @@ theme_ledstrip <- function(base_size = 15,
 # Sampled from a strip of cyan LED light under an airplane cabin shelf
 ledstrip_cols <- list(
   dark = c(
-    background = "#0C101E",
-    panel = "#191D2A",
-    grid = "#323645",
-    text = "#EBEDF9",
-    frame = "#4670FF",
-    title = "#4670FF",
-    strip = "#EBEDF9",
-    striptext = "#0C101E",
-    accent = "#00962E",
-    outline = "#EBEDF9",
-    fill = "#FF3B3B"
+    background = "#0C0B1B",
+    panel = "#191A27",
+    grid = "#323342",
+    text = "#EDEDF9",
+    frame = "#00E5FF",
+    title = "#00E5FF",
+    strip = "#EDEDF9",
+    striptext = "#0C0B1B",
+    accent = "#0050FF",
+    outline = "#EDEDF9",
+    fill = "#FF1493"
   ),
   light = c(
-    background = "#E9EDFF",
-    panel = "#F6F7FD",
-    grid = "#CDD1E2",
-    text = "#28283F",
-    frame = "#215FF0",
-    title = "#215FF0",
-    strip = "#28283F",
-    striptext = "#E9EDFF",
-    accent = "#00962E",
-    outline = "#28283F",
-    fill = "#FF3B3B"
+    background = "#ECECFF",
+    panel = "#F7F7FD",
+    grid = "#D0D0E2",
+    text = "#002F37",
+    frame = "#00758E",
+    title = "#00758E",
+    strip = "#002F37",
+    striptext = "#ECECFF",
+    accent = "#0050FF",
+    outline = "#002F37",
+    fill = "#FF1493"
   )
 )
 
 ledstrip_marks <- list(
-  dark = c("#FF3B3B", "#00962E", "#3D6BFF", "#FFC58A", "#DDE8FF", "#FF9F43"),
-  light = c("#FF3B3B", "#00962E", "#3D6BFF", "#F3BA80", "#BBC6DD", "#FF9F43")
+  dark = c("#FF1493", "#0050FF", "#4D10A9", "#FF0000", "#00E5FF", "#00FF66"),
+  light = c("#FF1493", "#0050FF", "#40009E", "#FF0000", "#00D7F1", "#00E44D")
 )
 

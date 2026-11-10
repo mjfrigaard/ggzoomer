@@ -1,16 +1,15 @@
 #' Pickleball theme
 #'
 #' Pickleball is a paddle sport played with a plastic ball over a low net,
-#' and the fastest growing sport in the US. Pickleball was the fastest
-#' growing sport in the United States four years in a row, from 2021
-#' through 2024. About 24.3 million Americans played in 2025, a 171%
-#' increase over three years. The game borrows from tennis, table tennis,
-#' and badminton. It now has its own video games and Guinness world
-#' records.
+#' and the fastest growing sport in the US. Forrester reports that 19% of
+#' US Gen Z adults online already play pickleball. A Morning Consult survey
+#' put the share who had ever played at 34%. Low cost, no memberships, and
+#' quick social rallies explain the appeal, and TikTok has become a major
+#' channel for the sport. Surveys disagree on whether Gen Z plays more than
+#' other generations.
 #'
-#' The palette follows the article's plastic ball, paddles, net, and court:
-#' optic yellow, court blue and green, red paddle, black net, and an orange
-#' ball.
+#' The palette follows the court and gear: court blue, optic yellow ball,
+#' court green, pickle green, preppy navy, and the black net.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -75,18 +74,18 @@ theme_pickleball <- function(base_size = 15,
 
 # Sampled from a professional doubles match on a pickleball court
 pickleball_cols <- c(
-  background = "#EDF3F7",
-  panel = "#FAFCFE",
-  grid = "#D1D7DB",
-  text = "#1D2A41",
-  frame = "#2F6DB5",
-  title = "#2F6DB5",
-  strip = "#1D2A41",
-  striptext = "#EDF3F7",
-  accent = "#2F6DB5",
-  outline = "#1D2A41",
-  fill = "#C9D21F"
+  background = "#F7F9F4",
+  panel = "#FCFCFB",
+  grid = "#DBDCD8",
+  text = "#212940",
+  frame = "#1F2A44",
+  title = "#1F2A44",
+  strip = "#212940",
+  striptext = "#F7F9F4",
+  accent = "#B6D71E",
+  outline = "#212940",
+  fill = "#2E6DA4"
 )
 
-pickleball_marks <- c("#C9D21F", "#2F6DB5", "#3F8F5C", "#D9412F", "#222222", "#F28C28")
+pickleball_marks <- c("#2E6DA4", "#B6D71E", "#3E8E5E", "#7BA05B", "#1F2A44", "#202020")
 

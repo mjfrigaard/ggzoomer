@@ -1,15 +1,15 @@
 #' Weirdcore theme
 #'
 #' Weirdcore is an internet aesthetic of low quality images, liminal
-#' spaces, and unsettling captions. Weirdcore is an internet aesthetic from
-#' the early 2020s. It uses liminal spaces, low quality photos, and strange
-#' messages to mix nostalgia with unease. Its look borrows from images
-#' shared on an older internet. The director of the 2022 horror film
-#' Skinamarink studied online communities like r/Weirdcore while making it.
+#' spaces, and unsettling captions. Gen Z led weirdcore on TikTok, YouTube,
+#' Instagram, and Discord, and it surged around 2021. It recycles late
+#' 1990s and 2000s images that many in Gen Z barely remember. Commentators
+#' read it as an outlet for anxiety, hazy memory, and despair. It is a
+#' rough counterpoint to polished clean girl feeds.
 #'
-#' The palette follows the article's out of place red text and black
-#' rectangle voids, over low quality photos of sky, grass, and sepia
-#' nostalgia.
+#' The palette follows low quality surreal images: fluorescent hallway
+#' yellow, liminal pool blue, grass green, caption red, washed sky blue,
+#' and CRT black.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -74,18 +74,18 @@ theme_weirdcore <- function(base_size = 15,
 
 # Sampled from a grassy grid under a black sun with the caption "You must escape this simulation"
 weirdcore_cols <- c(
-  background = "#DCEBFA",
-  panel = "#EFF4F9",
-  grid = "#C0CFDD",
-  text = "#3F221D",
-  frame = "#D30511",
-  title = "#D30511",
-  strip = "#3F221D",
-  striptext = "#DCEBFA",
-  accent = "#E0201B",
-  outline = "#3F221D",
-  fill = "#111111"
+  background = "#F0EEE6",
+  panel = "#F9F8F5",
+  grid = "#D4D2CA",
+  text = "#3E231C",
+  frame = "#D90000",
+  title = "#D90000",
+  strip = "#3E231C",
+  striptext = "#F0EEE6",
+  accent = "#7EC8E3",
+  outline = "#3E231C",
+  fill = "#CEC688"
 )
 
-weirdcore_marks <- c("#111111", "#E0201B", "#3B8E3B", "#4A86C5", "#A88A5A", "#8A3FB0")
+weirdcore_marks <- c("#CEC688", "#7EC8E3", "#5FA84B", "#E00000", "#6989A6", "#0A0A0A")
 

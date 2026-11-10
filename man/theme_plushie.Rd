@@ -24,15 +24,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Plushies (stuffed toys) are collected, displayed, and carried well past
-childhood. Stuffed toys are among the most popular toys, and not just
-for children. In 2019, about a third of British adults said they slept
-with a soft toy. In the 2020s, Squishmallows, Jellycat, and Labubu
-became fads after going viral on social media.
+childhood. Gen Z treats plushies as comfort objects tied to mental
+wellness, and as collectibles like Beanie Babies once were. TikTok
+hashtags for Squishmallows have passed a billion views. Jellycat's
+revenue reached about $252 million in 2022 to 2023 as adult buyers
+joined in. Critics read the trend as nostalgic stress relief or delayed
+adulthood.
 }
 \details{
-The palette follows the article's soft toys in "a wide variety of
-colors" and fur textures: teddy honey, bunny pink, frog green, sky blue,
-lavender, and button eye brown.
+The palette follows pastel Squishmallows and Jellycat plush: pastel
+pink, lavender, baby blue, mint, butter yellow, and avocado green.
 }
 \examples{
 library(ggplot2)

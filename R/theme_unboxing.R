@@ -1,15 +1,16 @@
 #' Unboxing theme
 #'
 #' Unboxing videos film someone opening a new product, from phones to
-#' sneakers. Unboxing videos show someone opening a new product on camera.
-#' The first one, for a Nokia phone, appeared in 2006. The format soon
-#' spread to almost every kind of product. By 2014, companies were sending
-#' free products to creators. Fans say the videos give an honest look at a
-#' product without manipulative ads.
+#' sneakers. Gen Z grew up watching unboxing videos on YouTube. TikTok and
+#' Instagram Reels turned the format into quick, punchy clips full of
+#' crinkle and tear sounds. A study of Gen Z smartphone buyers found that
+#' the reviewer's touch and description raised their intent to buy, while
+#' visuals alone did not. The appeal mixes product research, a playful
+#' tone, and a relaxing sensory payoff.
 #'
-#' The palette follows the article's boxes as "marketing billboards": kraft
-#' cardboard, packing tape, black print, tissue paper pink, brand blue, and
-#' a sticker green.
+#' The palette follows a box being opened on camera: kraft cardboard,
+#' tissue paper pink, glossy black, silver foil, and shrink wrap blue on
+#' white packaging.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -74,18 +75,18 @@ theme_unboxing <- function(base_size = 15,
 
 # Sampled from hands lifting a new instrument out of its shipping box
 unboxing_cols <- c(
-  background = "#F7F2EA",
-  panel = "#FEFCF9",
-  grid = "#DAD6CE",
-  text = "#242940",
-  frame = "#286ADC",
-  title = "#286ADC",
-  strip = "#242940",
-  striptext = "#F7F2EA",
-  accent = "#E58A2E",
-  outline = "#242940",
-  fill = "#765022"
+  background = "#F8F8F6",
+  panel = "#FCFCFB",
+  grid = "#DBDBDA",
+  text = "#2A2A2A",
+  frame = "#111111",
+  title = "#111111",
+  strip = "#2A2A2A",
+  striptext = "#F8F8F6",
+  accent = "#A77E85",
+  outline = "#2A2A2A",
+  fill = "#C8A27A"
 )
 
-unboxing_marks <- c("#765022", "#E58A2E", "#2A2A2A", "#EFA3B5", "#2D6CDF", "#3FA36A")
+unboxing_marks <- c("#C8A27A", "#A77E85", "#111111", "#C0C0C0", "#8E9BA2")
 

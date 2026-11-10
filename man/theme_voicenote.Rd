@@ -24,15 +24,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Voice notes are short recorded messages sent in a chat instead of
-typing. A voice note is a short recorded message sent in place of a
-text. It descends from voicemail, which lets a caller leave a recorded
-message for later. Today, internet calling and messaging apps put voice,
-voice messages, and text side by side on the same phone.
+typing. Voice notes boomed during the pandemic and became Gen Z's
+favorite way to keep in touch, partly because of phone call anxiety.
+Preply found that 84\% of Gen Z use them, compared with 47\% of baby
+boomers. Forty percent of users say a voice note can replace a call.
+Still, 31\% of Gen Z find incoming voice notes inconvenient, and many
+long ones go unheard.
 }
 \details{
-The palette follows the article's pink message slips and voicemail
-light, with record red, mic gray, call green, waveform violet, and
-amber.
+The palette follows a voice note bubble: WhatsApp green, iMessage blue,
+waveform gray, record red, dark mode charcoal, and chat bubble green.
 }
 \examples{
 library(ggplot2)

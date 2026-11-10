@@ -1,14 +1,15 @@
 #' Plushie theme
 #'
 #' Plushies (stuffed toys) are collected, displayed, and carried well past
-#' childhood. Stuffed toys are among the most popular toys, and not just
-#' for children. In 2019, about a third of British adults said they slept
-#' with a soft toy. In the 2020s, Squishmallows, Jellycat, and Labubu
-#' became fads after going viral on social media.
+#' childhood. Gen Z treats plushies as comfort objects tied to mental
+#' wellness, and as collectibles like Beanie Babies once were. TikTok
+#' hashtags for Squishmallows have passed a billion views. Jellycat's
+#' revenue reached about $252 million in 2022 to 2023 as adult buyers
+#' joined in. Critics read the trend as nostalgic stress relief or delayed
+#' adulthood.
 #'
-#' The palette follows the article's soft toys in "a wide variety of
-#' colors" and fur textures: teddy honey, bunny pink, frog green, sky blue,
-#' lavender, and button eye brown.
+#' The palette follows pastel Squishmallows and Jellycat plush: pastel
+#' pink, lavender, baby blue, mint, butter yellow, and avocado green.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -73,18 +74,18 @@ theme_plushie <- function(base_size = 15,
 
 # Sampled from a replica of an early Steiff teddy bear
 plushie_cols <- c(
-  background = "#FFF6EE",
-  panel = "#FFFCF9",
-  grid = "#E2DAD2",
-  text = "#3C2419",
-  frame = "#A0522D",
-  title = "#A0522D",
-  strip = "#3C2419",
-  striptext = "#FFF6EE",
-  accent = "#F4A3B6",
-  outline = "#3C2419",
-  fill = "#C68A4A"
+  background = "#FFF9F5",
+  panel = "#FEFCFA",
+  grid = "#E2DCD9",
+  text = "#2F263C",
+  frame = "#7A5BA8",
+  title = "#7A5BA8",
+  strip = "#2F263C",
+  striptext = "#FFF9F5",
+  accent = "#C9B6E4",
+  outline = "#2F263C",
+  fill = "#F0BBC9"
 )
 
-plushie_marks <- c("#C68A4A", "#F4A3B6", "#8CC084", "#8EC3E8", "#7965A1", "#4A3426")
+plushie_marks <- c("#F0BBC9", "#C9B6E4", "#6E8E9F", "#6A907D", "#DBCA85", "#8FAF5A")
 

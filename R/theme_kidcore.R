@@ -1,15 +1,15 @@
 #' Kidcore theme
 #'
 #' Kidcore is a bright, nostalgic aesthetic of primary colors, beads,
-#' stickers, and childhood toys. Kidcore runs on nostalgia for a 1990s and
-#' early 2000s childhood: primary colors, toys, cartoons, and the
-#' playground. The trend took off in late 2020. Nylon reported a 2,439%
-#' jump in Etsy searches for the word in the three months ending September
-#' 2020. One behavioral scientist linked it to the stress of the pandemic:
-#' "people want to escape into childhood."
+#' stickers, and childhood toys. Trend researchers tracked kidcore as early
+#' as 2015 among millennials, but Gen Z pushed it further on TikTok. It
+#' feeds the generation's nostalgia for eras they barely experienced.
+#' Commentators describe it as escapism and comfort, even a form of self
+#' care. Brands now use its bright, toy like look to speak to young
+#' audiences.
 #'
-#' The palette follows the article's bright primary colors and rainbow
-#' colours.
+#' The palette follows Fisher Price primaries and toy colors: red, yellow,
+#' blue, crayon green, tangerine orange, and grape purple.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -77,15 +77,15 @@ kidcore_cols <- c(
   background = "#FFFDF5",
   panel = "#FDFCF9",
   grid = "#E2E0D9",
-  text = "#232940",
-  frame = "#0057B8",
-  title = "#0057B8",
-  strip = "#232940",
+  text = "#27283F",
+  frame = "#1F5BD8",
+  title = "#1F5BD8",
+  strip = "#27283F",
   striptext = "#FFFDF5",
-  accent = "#F6C000",
-  outline = "#232940",
-  fill = "#E4002B"
+  accent = "#EFC500",
+  outline = "#27283F",
+  fill = "#E32636"
 )
 
-kidcore_marks <- c("#E4002B", "#F6C000", "#0057B8", "#00A651", "#FF7A00", "#36007E")
+kidcore_marks <- c("#E32636", "#EFC500", "#1F5BD8", "#007700", "#FF8C1A", "#45008F")
 

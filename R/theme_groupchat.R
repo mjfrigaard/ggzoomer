@@ -1,14 +1,15 @@
 #' Group chat theme
 #'
 #' Group chats are where friends plan, share memes, and leave each other on
-#' read. A group chat (often shortened to GC) is a chat room for a set of
-#' friends. Many social media platforms now work as chat rooms, including
-#' WhatsApp, Discord, Snapchat, Instagram, and TikTok. Researchers have
-#' studied how teenagers and young people reshape language in these chats.
+#' read. Group chats have become Gen Z's third place, taking over from
+#' malls and coffee shops as the place to hang out. Their humor runs on
+#' memes that reference earlier memes. A 2025 Giphy survey found that about
+#' 89% of Gen Z and millennials check with their group chat before major
+#' life decisions. Snap found that nearly two thirds of Gen Z shoppers
+#' bought something after friends approved it in the chat.
 #'
-#' The palette follows chat bubbles from the article's instant messengers:
-#' sent blue, received gray, text green, typing purple, reaction yellow,
-#' and unread red.
+#' The palette follows stacked chat bubbles and emoji: iMessage blue, SMS
+#' green, emoji yellow, heart red, typing gray, and dark mode black.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -73,18 +74,18 @@ theme_groupchat <- function(base_size = 15,
 
 # Sampled from a group conversation in a messaging app
 groupchat_cols <- c(
-  background = "#F4F6F8",
-  panel = "#FCFCFD",
-  grid = "#D8DADB",
-  text = "#212940",
-  frame = "#006FD9",
-  title = "#006FD9",
-  strip = "#212940",
-  striptext = "#F4F6F8",
-  accent = "#9AA3AD",
-  outline = "#212940",
-  fill = "#2F80ED"
+  background = "#FFFFFF",
+  panel = "#FCFCFC",
+  grid = "#E2E2E2",
+  text = "#242940",
+  frame = "#0070F3",
+  title = "#0070F3",
+  strip = "#242940",
+  striptext = "#FFFFFF",
+  accent = "#00851A",
+  outline = "#242940",
+  fill = "#007AFF"
 )
 
-groupchat_marks <- c("#2F80ED", "#9AA3AD", "#66E27D", "#451FB2", "#F7B500", "#EB4D3D")
+groupchat_marks <- c("#007AFF", "#00851A", "#F3C142", "#FF2D55", "#8E8E93", "#000000")
 

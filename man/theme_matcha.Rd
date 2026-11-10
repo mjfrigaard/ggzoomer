@@ -24,15 +24,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Matcha is finely ground Japanese green tea, now a cafe staple as a
-latte. Matcha is a finely ground green tea from Japan. Demand for it
-grew so much in this century that China started mass producing it in
-2018. Matcha has also spread to North American cafes like Starbucks.
-There, it shows up in lattes, iced drinks, and smoothies.
+latte. In 2025, BeverageDaily called matcha Gen Z's avocado toast
+moment. Its photogenic green suits Instagram and TikTok, where a new
+flavor or cup design can go viral fast. Gen Z also picks matcha for its
+perceived health benefits, dairy free options, and lower caffeine than
+coffee. The whisking ritual signals that you're in the know.
 }
 \details{
-The palette follows the article's vivid green color, matcha lattes, soba
-noodles, and wagashi: ceremonial green, bright green, latte foam,
-buckwheat, red bean, and tea leaf.
+The palette follows a matcha latte layered over oat milk: ceremonial
+green, bamboo whisk tan, deep tea leaf, matcha mochi, bright latte
+green, and a dark wood counter.
 }
 \examples{
 library(ggplot2)

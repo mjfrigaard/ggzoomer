@@ -27,16 +27,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Mushroom lamps are glowing nightlights that became a bedroom decor
-trend. Nightlights give comfort and a sense of security in the dark.
-Because they are cheap to make, they come in many decorative designs,
-from cartoon characters to fantastical shapes like the glowing mushroom.
-Low cost LEDs added colors that can change on their own or at the touch
-of a button.
+trend. Interest in mushroom lamps reportedly took off from a DIY TikTok
+post. Pinterest's 2023 forecast named mushroom decor a top emerging
+trend, with searches up 666\% over five years. The lamps fit the
+fairycore and cottagecore rooms Gen Z favors. They work as mood lighting
+and as a statement piece on Instagram.
 }
 \details{
-The palette follows the article's nightlight sources (incandescent
-amber, neon orange, and soft electroluminescent green and blue) plus a
-red spotted mushroom cap.
+The palette follows a glowing glass toadstool in a dark room: amber
+glow, candy stripe red, milk glass cream, toadstool orange, mossy green,
+and lilac glass.
 
 Use \code{mode = "light"} for a light background with dark text and darker marks.
 }

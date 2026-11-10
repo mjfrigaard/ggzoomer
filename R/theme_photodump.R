@@ -1,16 +1,16 @@
 #' Photo dump theme
 #'
 #' A photo dump is a carousel post of loosely related phone photos from the
-#' week. A photo dump is a batch of casual pictures posted all at once, and
-#' it depends on the camera phone. Cameras have been a major selling point
-#' of phones since the 2010s. Because phones share pictures almost
-#' instantly, they work as personal content creation tools. Personal photos
-#' also help people build shared memories, keep up friendships, and express
-#' who they are.
+#' week. A photo dump is a loose Instagram carousel of unposed shots,
+#' blurry photos, screenshots, and memes. The format traces back to summer
+#' 2020 and spread as celebrities like Dua Lipa and Olivia Rodrigo adopted
+#' it. Gen Z uses it to signal authenticity and push back on the pressure
+#' to keep a perfect feed. Critics note the effortless look is often
+#' carefully curated.
 #'
-#' The palette follows the article's camera phone shots in bright and low
-#' light: golden hour, sunset coral, sky, night, park green, and lilac
-#' dusk.
+#' The palette follows a casual camera roll carousel: Instagram magenta,
+#' faded denim, sunset orange, washed olive, film grain beige, and blurry
+#' night black.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -75,18 +75,18 @@ theme_photodump <- function(base_size = 15,
 
 # Sampled from a phone on a tripod recording a sunset over water
 photodump_cols <- c(
-  background = "#FBFAF8",
-  panel = "#FCFCFB",
-  grid = "#DEDDDB",
-  text = "#3F221E",
-  frame = "#CC433A",
-  title = "#CC433A",
-  strip = "#3F221E",
-  striptext = "#FBFAF8",
-  accent = "#E8655A",
-  outline = "#3F221E",
-  fill = "#F2A541"
+  background = "#F5F3EE",
+  panel = "#FDFCFA",
+  grid = "#D9D7D2",
+  text = "#292930",
+  frame = "#1E1E24",
+  title = "#1E1E24",
+  strip = "#292930",
+  striptext = "#F5F3EE",
+  accent = "#7A93AC",
+  outline = "#292930",
+  fill = "#C13584"
 )
 
-photodump_marks <- c("#F2A541", "#E8655A", "#5DA9E9", "#2D3047", "#A4D68D", "#B48EAD")
+photodump_marks <- c("#C13584", "#7A93AC", "#E8834A", "#8A8F6A", "#D5C8B2", "#1E1E24")
 

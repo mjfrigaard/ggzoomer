@@ -30,12 +30,11 @@ ASMR (autonomous sensory meridian response) is the tingling some people
 feel while watching whisper, tapping, and crinkle videos. ASMR is the
 calm, tingling feeling some people get from whispers, tapping, and other
 quiet sounds. YouTube turned it into a genre. Many ASMR videos show one
-person whispering or tapping straight into the camera. The trend has
-reached museums, too. The Louvre invited the channel PARIS ASMR to film
-there in 2019, and the first major ASMR exhibition opened in Sweden in
-2020. \href{https://en.wikipedia.org/wiki/Gibi_ASMR}{Gibi ASMR}, one of
-YouTube's top ASMR creators, started her channel in 2016 and reached one
-million subscribers about a year after college.
+person whispering or tapping straight into the camera. The Louvre
+invited the channel PARIS ASMR to film there in 2019, and the first
+major ASMR exhibition opened in Sweden in 2020. \href{https://en.wikipedia.org/wiki/Gibi_ASMR}{Gibi ASMR}, one of YouTube's top
+ASMR creators, started her channel in 2016 and reached one million
+subscribers about a year after college.
 }
 \details{
 The palette follows the set behind \href{https://en.wikipedia.org/wiki/Gibi_ASMR}{Gibi ASMR}'s videos: a deep indigo

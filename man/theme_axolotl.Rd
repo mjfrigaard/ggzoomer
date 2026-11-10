@@ -25,16 +25,16 @@ A \code{ggplot2} theme object.
 \description{
 Axolotls are Mexican salamanders that keep their gills for life and
 became an internet favorite (and a game mob). The axolotl is a
-salamander that keeps its feathery gills as an adult. It is a popular
-subject in modern culture, and in 2017 it became the official emoji of
-Mexico City. Mexico put an axolotl on its 50 peso banknote in 2021. So
-many people kept the note that up to 50 million were out of circulation
-by 2025. In the wild, the species is critically endangered.
+salamander that keeps its pink and white coloring, large eyes, and
+feathery gills into adulthood. Online, it stands for cuteness, aquatic
+pets, and staying young. Custom axolotl emojis often hold boba tea or
+hearts, or wear tiny hats. In 2017, it became the official emoji of
+Mexico City.
 }
 \details{
-The palette follows the article's color variants: the wild type's brown
-with gold speckles and an olive undertone, the leucistic pink, pink
-gills, and the dark melanoid.
+The palette follows the axolotl emoji: pink and white skin, deep pink
+feathery gills, big black eyes, and the boba tea, hearts, and aquarium
+water it often comes with.
 }
 \examples{
 library(ggplot2)

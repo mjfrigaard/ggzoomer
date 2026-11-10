@@ -1,15 +1,15 @@
 #' Doomscroll theme
 #'
 #' Doomscrolling is spending far too long scrolling through upsetting or
-#' endless feeds. Doomscrolling means spending too much time scrolling
-#' through bad news. The word first appeared in a tweet in 2018 and spread
-#' during the COVID-19 pandemic. Research finds it is more common in
-#' younger age groups. The Macquarie Dictionary named it a 2020 word of the
-#' year, and Merriam-Webster added it in September 2023.
+#' endless feeds. Doomscrolling is endlessly scrolling bad news, usually
+#' late at night. A 2024 study found that 53% of Gen Z say they doomscroll,
+#' compared with about a third of Americans overall. Studies link the habit
+#' to stress and anxiety. It even spills into spending: Fortune reported in
+#' 2024 that Gen Z spent 21% more on holiday shopping to cope.
 #'
-#' The palette follows the article's late night feeds of negative news:
-#' screen glow blue, alert red, headline gray, notification orange, purple,
-#' and cyan on a dark room.
+#' The palette follows a glowing phone in a dark room: screen glow blue,
+#' notification red, blue light, slate gray, breaking news red, and dim
+#' white.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -80,35 +80,35 @@ theme_doomscroll <- function(base_size = 15,
 # Sampled from a thumb scrolling a phone screen in the dark
 doomscroll_cols <- list(
   dark = c(
-    background = "#0B0D14",
-    panel = "#191B20",
-    grid = "#32343A",
-    text = "#ECEEF5",
-    frame = "#E5484D",
-    title = "#E5484D",
-    strip = "#ECEEF5",
-    striptext = "#0B0D14",
-    accent = "#E5484D",
-    outline = "#ECEEF5",
-    fill = "#7FA8FF"
+    background = "#0B0B12",
+    panel = "#191A1E",
+    grid = "#323338",
+    text = "#EDEDF4",
+    frame = "#D9DCE3",
+    title = "#D9DCE3",
+    strip = "#EDEDF4",
+    striptext = "#0B0B12",
+    accent = "#FF3B30",
+    outline = "#EDEDF4",
+    fill = "#4A90E2"
   ),
   light = c(
-    background = "#EAEDFD",
-    panel = "#F7F7FD",
-    grid = "#CED1E0",
-    text = "#402220",
-    frame = "#C92C38",
-    title = "#C92C38",
-    strip = "#402220",
-    striptext = "#EAEDFD",
-    accent = "#E5484D",
-    outline = "#402220",
-    fill = "#7FA8FF"
+    background = "#EDEDFB",
+    panel = "#F8F8FC",
+    grid = "#D1D1DE",
+    text = "#282A2F",
+    frame = "#6A6C72",
+    title = "#6A6C72",
+    strip = "#282A2F",
+    striptext = "#EDEDFB",
+    accent = "#FF3B30",
+    outline = "#282A2F",
+    fill = "#4A90E2"
   )
 )
 
 doomscroll_marks <- list(
-  dark = c("#7FA8FF", "#E5484D", "#8B93A1", "#F28C28", "#8E6BD8", "#3FC1C9"),
-  light = c("#7FA8FF", "#E5484D", "#8B93A1", "#F28C28", "#8E6BD8", "#3FC1C9")
+  dark = c("#4A90E2", "#FF3B30", "#A9CBFF", "#8A93A3", "#D7262E", "#D9DCE3"),
+  light = c("#4A90E2", "#FF3B30", "#A6C8FC", "#8A93A3", "#D7262E", "#C3C6CD")
 )
 

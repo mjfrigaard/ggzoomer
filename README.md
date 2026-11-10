@@ -23,8 +23,8 @@ pak::pak("mjfrigaard/fmggp2")
 ## Themes
 
 Each theme is named after an aesthetic, trend, or object from Gen Z
-internet culture, and its palette follows the colors, objects, and
-materials that topic’s Wikipedia article describes. The book chapters
+internet culture, and its palette follows how that topic looks to Gen Z
+online (its colors, objects, and materials). The book chapters
 still use the earlier 90s themes until they are updated.
 
 | Theme | Wikipedia |

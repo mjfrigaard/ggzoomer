@@ -1,14 +1,16 @@
 #' Lightstick theme
 #'
 #' Lightsticks are the glow sticks fans wave at concerts, now synced to the
-#' show at K-pop tours. Glow sticks are cheap lights that need no batteries
-#' and give off no heat. They are a fixture at raves, concerts, festivals,
-#' and dance clubs. Fans also wave them in dance styles such as glow poi
-#' and wotagei.
+#' show at K-pop tours. Every K-pop fandom has an official lightstick in
+#' its own color, often topped with the group's logo. The Korea Herald
+#' calls owning one a badge of devotion and fandom identity. Fans even
+#' argue over look alike designs. At concerts, thousands of lightsticks
+#' form synchronized seas of color, and the videos spread widely on social
+#' media.
 #'
-#' The palette follows the article's chemiluminescent glow in a translucent
-#' plastic tube: green, pink, blue, yellow, orange, and purple on a black
-#' arena.
+#' The palette follows a concert crowd of K-pop lightsticks: pearl aqua,
+#' BTS purple, Blackpink pink, Big Bang yellow, stage red, and clear
+#' acrylic white.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -79,35 +81,35 @@ theme_lightstick <- function(base_size = 15,
 # Sampled from a diagram of a glow stick being snapped and lit
 lightstick_cols <- list(
   dark = c(
-    background = "#08080C",
-    panel = "#18181A",
-    grid = "#313133",
-    text = "#EDEDF1",
-    frame = "#4CFF3A",
-    title = "#4CFF3A",
-    strip = "#EDEDF1",
-    striptext = "#08080C",
-    accent = "#FF4FB0",
-    outline = "#EDEDF1",
-    fill = "#4CFF3A"
+    background = "#0A0A0A",
+    panel = "#191919",
+    grid = "#323232",
+    text = "#EEEEEE",
+    frame = "#F2F6FA",
+    title = "#F2F6FA",
+    strip = "#EEEEEE",
+    striptext = "#0A0A0A",
+    accent = "#7E57C2",
+    outline = "#EEEEEE",
+    fill = "#7FD8D0"
   ),
   light = c(
-    background = "#EDEDF4",
-    panel = "#F7F7FA",
-    grid = "#D1D1D8",
-    text = "#1E2E1A",
-    frame = "#007C00",
-    title = "#007C00",
-    strip = "#1E2E1A",
-    striptext = "#EDEDF4",
-    accent = "#FF4FB0",
-    outline = "#1E2E1A",
-    fill = "#00A000"
+    background = "#EEEEEE",
+    panel = "#F8F8F8",
+    grid = "#D2D2D2",
+    text = "#272A2D",
+    frame = "#696D70",
+    title = "#696D70",
+    strip = "#272A2D",
+    striptext = "#EEEEEE",
+    accent = "#7E57C2",
+    outline = "#272A2D",
+    fill = "#7CD5CD"
   )
 )
 
 lightstick_marks <- list(
-  dark = c("#4CFF3A", "#FF4FB0", "#3DA8FF", "#FFFF7E", "#FF9A3D", "#6E2CBA"),
-  light = c("#00A000", "#FF4FB0", "#3DA8FF", "#CACB45", "#6E2200", "#6E2CBA")
+  dark = c("#7FD8D0", "#7E57C2", "#F7A7C0", "#FFD700", "#E0115F", "#F2F6FA"),
+  light = c("#7CD5CD", "#7E57C2", "#F7A7C0", "#E6C100", "#E0115F", "#82868A")
 )
 

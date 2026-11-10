@@ -24,15 +24,15 @@ A \code{ggplot2} theme object.
 }
 \description{
 Fidget toys (spinners, cubes, pop its, and bike chains) are small things
-to keep your hands busy. People have always fidgeted, but fidget toys
-took off after the fidget spinner fad of 2017. That same year, spinners
-were banned in 32\% of the largest US high schools. Other fidget toys
-include the Fidget Cube, stress balls, and Pop Its. Many autistic and
-ADHD people use them to manage sensory input and lower stress.
+to keep your hands busy. Fidget spinners went viral in 2017. Fidget toys
+came back through TikTok videos of pop its, slime, and kinetic sand
+under hashtags like #FidgetToys. Gen Z uses them as screen free stress
+relief and as focus aids while studying or working. For some young
+adults, they are also simply nostalgic and fun.
 }
 \details{
-The palette follows the article's fidget spinners, Fidget Cubes, and Pop
-Its: saturated silicone colors and a chrome bearing gray.
+The palette follows rainbow pop its and spinners: red, sunny yellow,
+lime, sky blue, purple, and hot pink.
 }
 \examples{
 library(ggplot2)

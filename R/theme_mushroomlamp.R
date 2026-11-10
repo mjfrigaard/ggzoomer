@@ -1,15 +1,15 @@
 #' Mushroom lamp theme
 #'
 #' Mushroom lamps are glowing nightlights that became a bedroom decor
-#' trend. Nightlights give comfort and a sense of security in the dark.
-#' Because they are cheap to make, they come in many decorative designs,
-#' from cartoon characters to fantastical shapes like the glowing mushroom.
-#' Low cost LEDs added colors that can change on their own or at the touch
-#' of a button.
+#' trend. Interest in mushroom lamps reportedly took off from a DIY TikTok
+#' post. Pinterest's 2023 forecast named mushroom decor a top emerging
+#' trend, with searches up 666% over five years. The lamps fit the
+#' fairycore and cottagecore rooms Gen Z favors. They work as mood lighting
+#' and as a statement piece on Instagram.
 #'
-#' The palette follows the article's nightlight sources (incandescent
-#' amber, neon orange, and soft electroluminescent green and blue) plus a
-#' red spotted mushroom cap.
+#' The palette follows a glowing glass toadstool in a dark room: amber
+#' glow, candy stripe red, milk glass cream, toadstool orange, mossy green,
+#' and lilac glass.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -80,35 +80,35 @@ theme_mushroomlamp <- function(base_size = 15,
 # Sampled from a green LED nightlight plugged into a wall
 mushroomlamp_cols <- list(
   dark = c(
-    background = "#12100E",
-    panel = "#1E1D1B",
-    grid = "#383635",
-    text = "#F0EDEB",
-    frame = "#FFB547",
-    title = "#FFB547",
-    strip = "#F0EDEB",
-    striptext = "#12100E",
-    accent = "#FF6A3D",
-    outline = "#F0EDEB",
-    fill = "#FFB547"
+    background = "#1A1410",
+    panel = "#26201D",
+    grid = "#403A36",
+    text = "#F5ECE8",
+    frame = "#F2A541",
+    title = "#F2A541",
+    strip = "#F5ECE8",
+    striptext = "#1A1410",
+    accent = "#D9483B",
+    outline = "#F5ECE8",
+    fill = "#F2A541"
   ),
   light = c(
-    background = "#F1EDE9",
-    panel = "#F9F7F6",
-    grid = "#D5D1CD",
-    text = "#362714",
-    frame = "#985D00",
-    title = "#985D00",
-    strip = "#362714",
-    striptext = "#F1EDE9",
-    accent = "#FF6A3D",
-    outline = "#362714",
-    fill = "#FFB547"
+    background = "#FBEBE1",
+    panel = "#FCF7F4",
+    grid = "#DECFC5",
+    text = "#372714",
+    frame = "#9D5D00",
+    title = "#9D5D00",
+    strip = "#372714",
+    striptext = "#FBEBE1",
+    accent = "#D9483B",
+    outline = "#372714",
+    fill = "#F2A541"
   )
 )
 
 mushroomlamp_marks <- list(
-  dark = c("#FFB547", "#FF6A3D", "#7CFFB2", "#6FC3FF", "#D9434E", "#F5EFE6"),
-  light = c("#FFB547", "#FF6A3D", "#57DC92", "#6FC3FF", "#D9434E", "#CBC5BC")
+  dark = c("#F2A541", "#D9483B", "#F4EBDD", "#E86A33", "#3E4F11", "#C8A2D8"),
+  light = c("#F2A541", "#D9483B", "#CCC4B6", "#E86A33", "#3E4F11", "#C8A2D8")
 )
 

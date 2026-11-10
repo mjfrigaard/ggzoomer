@@ -27,16 +27,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Livestreaming is broadcasting video in real time, from gaming streams to
-vlogs filmed on the street. Livestreaming is video broadcast in real
-time. Twitch and Kick are popular places to watch people play video
-games, from esports to speedruns. Chat is a key feature. Viewers talk
-with the streamer and with each other while the stream is live. Kick
-alone averaged 235,000 live streams a day by June 2023.
+vlogs filmed on the street. Twitch calls its core audience of Gen Z and
+younger millennials Generation Twitch. Researchers find that Gen Z
+spends far more time on video than older generations. Marketers report
+that interaction, not passive watching, keeps them engaged. Emotes act
+as a shared shorthand, with meanings unique to each streamer's
+community.
 }
 \details{
-The palette follows a live broadcast as the article describes it: the
-red live badge, stream purple, chat green, viewer blue, and donation
-gold on a dark player.
+The palette follows a Twitch stream: Twitch purple, the live red badge,
+Prime blue, overlay green, ice white chat text, and chat panel gray.
 
 Use \code{mode = "light"} for a light background with dark text and darker marks.
 }

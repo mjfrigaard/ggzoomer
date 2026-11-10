@@ -1,8 +1,8 @@
 test_that("theme_slime returns a complete theme that builds a plot", {
   thm <- theme_slime(base_family = "sans", title_family = "sans")
   expect_s3_class(thm, "theme")
-  expect_equal(thm$plot.background$fill, "#F1F7EC")
-  expect_equal(thm$geom$fill, "#4BD13A")
+  expect_equal(thm$plot.background$fill, "#FAFAFA")
+  expect_equal(thm$geom$fill, "#62E51A")
   p <- ggplot2::ggplot(data.frame(x = c("a", "b", "b")), ggplot2::aes(x = x, fill = x)) +
     ggplot2::geom_bar() +
     ggplot2::labs(title = "title")

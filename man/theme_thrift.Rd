@@ -24,17 +24,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Thrifting (shopping at charity and secondhand shops) is the budget and
-planet friendly way to build a wardrobe. Thrifting means shopping at
-charity or second-hand shops. The word caught on in the United States in
-the early 2010s. Thrifting is now a popular trend among Gen Z, spread by
-Instagram and TikTok videos that show off unusual finds. During the UK
-cost of living crisis, 53\% of young adults surveyed started thrifting to
-save money on clothes.
+planet friendly way to build a wardrobe. Gen Z turned thrifting into a
+lifestyle and a status symbol. ThredUp data cited by Goodwill shows 83\%
+of Gen Z Americans shop secondhand or would. Their reasons include
+sustainability, individuality, and money, since many grew up during the
+2007 to 2009 recession. TikTok thrift hauls during the pandemic pushed
+the trend further.
 }
 \details{
-The palette follows the article's Red Cross and Oxfam shops and vintage
-clothing: charity red, mustard, faded denim, corduroy brown, Oxfam
-green, and dusty rose.
+The palette follows racks of secondhand finds: faded denim, worn
+leather, mustard, rust, olive, and mint on lace cream.
 }
 \examples{
 library(ggplot2)

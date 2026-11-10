@@ -24,17 +24,16 @@ A \code{ggplot2} theme object.
 }
 \description{
 Pickleball is a paddle sport played with a plastic ball over a low net,
-and the fastest growing sport in the US. Pickleball was the fastest
-growing sport in the United States four years in a row, from 2021
-through 2024. About 24.3 million Americans played in 2025, a 171\%
-increase over three years. The game borrows from tennis, table tennis,
-and badminton. It now has its own video games and Guinness world
-records.
+and the fastest growing sport in the US. Forrester reports that 19\% of
+US Gen Z adults online already play pickleball. A Morning Consult survey
+put the share who had ever played at 34\%. Low cost, no memberships, and
+quick social rallies explain the appeal, and TikTok has become a major
+channel for the sport. Surveys disagree on whether Gen Z plays more than
+other generations.
 }
 \details{
-The palette follows the article's plastic ball, paddles, net, and court:
-optic yellow, court blue and green, red paddle, black net, and an orange
-ball.
+The palette follows the court and gear: court blue, optic yellow ball,
+court green, pickle green, preppy navy, and the black net.
 }
 \examples{
 library(ggplot2)

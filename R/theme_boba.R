@@ -1,14 +1,13 @@
 #' Boba theme
 #'
 #' Bubble tea (boba) is a Taiwanese tea drink with chewy tapioca pearls.
-#' Bubble tea came to the United States in the 1990s, where most people
-#' call it boba. The drink grew popular in the 2010s and became a symbol of
-#' Asian American identity, with phrases like "boba life." Boba got its own
-#' emoji in 2020. In 2023, Google celebrated it with a Doodle.
+#' Boba is known for its vibrant, layered colors, cups slick with
+#' condensation, and swirling tapioca pearls or colorful popping boba. That
+#' look makes it one of the most Instagrammable drinks around. For Gen Z, a
+#' photo of a boba cup works as a kind of visual currency.
 #'
-#' The palette follows the article's drinks and toppings: tapioca pearls,
-#' pearl black milk tea, pearl green milk tea, red bean, brown sugar syrup,
-#' and taro.
+#' The palette follows the vibrant, layered drinks: black tapioca pearls,
+#' milk tea, taro, strawberry, matcha, and mango popping boba.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -73,18 +72,18 @@ theme_boba <- function(base_size = 15,
 
 # Sampled from a cup of milk tea with black tapioca pearls
 boba_cols <- c(
-  background = "#F3E6D3",
-  panel = "#F5F1EB",
-  grid = "#D6CAB9",
-  text = "#402123",
-  frame = "#8E2F3B",
-  title = "#8E2F3B",
-  strip = "#402123",
-  striptext = "#F3E6D3",
-  accent = "#A9744F",
-  outline = "#402123",
+  background = "#F7F1EA",
+  panel = "#FEFCF9",
+  grid = "#DAD5CE",
+  text = "#3C2418",
+  frame = "#3B2418",
+  title = "#3B2418",
+  strip = "#3C2418",
+  striptext = "#F7F1EA",
+  accent = "#C99A6E",
+  outline = "#3C2418",
   fill = "#2B1A12"
 )
 
-boba_marks <- c("#2B1A12", "#A9744F", "#9CB86B", "#8E2F3B", "#C9852E", "#9D7BB0")
+boba_marks <- c("#2B1A12", "#C99A6E", "#A88BD0", "#E8577A", "#4D7F1C", "#F2A93B")
 

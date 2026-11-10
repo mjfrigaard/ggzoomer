@@ -24,16 +24,17 @@ A \code{ggplot2} theme object.
 }
 \description{
 The coquette aesthetic is a 2020s fashion trend of bows, lace, ribbons,
-and pastels. Coquette is a 2020s Gen Z fashion trend built on lace,
-bows, flounces, and pastel colors. It first caught on with Tumblr in the
-early 2010s. Around 2021, it caught on again with TikTok. Its film
-influences run from Sofia Coppola's movies to Bridgerton and Greta
-Gerwig's Barbie.
+and pastels. Coquette is a 2020s Gen Z trend that reclaims hyper
+femininity as self expression. Unlike the girlboss era, it treats
+softness as strength. On TikTok, #coquetteaesthetic has passed 18
+billion views, and Lana Del Rey, Sabrina Carpenter, and Jennie have all
+embraced the look. Critics call it regressive, while fans see a
+celebration of vulnerability and individuality.
 }
 \details{
-The palette follows the article's bows, lace, pastel colors, and pink
-clothing: ballet pink, ribbon red, powder blue, lilac, deep rose, and
-pearl gray.
+The palette follows the hyper feminine wardrobe: ballet pink bows,
+ribbon red hearts, pastel lavender and baby blue, pearls, and deep
+cherry.
 }
 \examples{
 library(ggplot2)

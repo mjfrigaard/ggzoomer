@@ -1,15 +1,16 @@
 #' Cottagecore theme
 #'
 #' Cottagecore is an internet aesthetic that romanticizes rural life:
-#' gardens, baking, and handmade things. Cottagecore was first named on
-#' Tumblr in 2018, and it is a subculture of millennials and Gen Z. It grew
-#' as a response to the money pressures young people face. The aesthetic
-#' values sustainability, farming, and slow living. It became highly
-#' popular on social media during the COVID-19 pandemic.
+#' gardens, baking, and handmade things. Cottagecore gives Gen Z an escape
+#' from hustle culture, consumerism, and the stress of modern technology.
+#' It offers calm and a sense of control in a chaotic world. It also fits
+#' Gen Z's values: thrifting, slow fashion, and eco consciousness. The
+#' aesthetic reimagines rural life as a safe, inclusive space, often
+#' blended with queer and feminist ideals.
 #'
-#' The palette follows the article's muted palettes, floral prints, calico,
-#' worn leather, and indoor greenery: sage, rose, leather brown, calico
-#' blue, butter yellow, and moss.
+#' The palette follows the pastoral palette of greens, browns, and creams
+#' with its motifs: sage, toadstool red, bee yellow, bark brown, wildflower
+#' lilac, and moss.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -82,10 +83,10 @@ cottagecore_cols <- c(
   title = "#4F6B3A",
   strip = "#212D18",
   striptext = "#F6F1E4",
-  accent = "#F9B5BE",
+  accent = "#B5452F",
   outline = "#212D18",
   fill = "#8BA17A"
 )
 
-cottagecore_marks <- c("#8BA17A", "#F9B5BE", "#8A5A3B", "#6E8FB0", "#D9B44A", "#183203")
+cottagecore_marks <- c("#8BA17A", "#B5452F", "#E2B13C", "#3D1D00", "#A991C9", "#6D8956")
 

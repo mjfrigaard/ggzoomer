@@ -1,15 +1,15 @@
 #' Livestream theme
 #'
 #' Livestreaming is broadcasting video in real time, from gaming streams to
-#' vlogs filmed on the street. Livestreaming is video broadcast in real
-#' time. Twitch and Kick are popular places to watch people play video
-#' games, from esports to speedruns. Chat is a key feature. Viewers talk
-#' with the streamer and with each other while the stream is live. Kick
-#' alone averaged 235,000 live streams a day by June 2023.
+#' vlogs filmed on the street. Twitch calls its core audience of Gen Z and
+#' younger millennials Generation Twitch. Researchers find that Gen Z
+#' spends far more time on video than older generations. Marketers report
+#' that interaction, not passive watching, keeps them engaged. Emotes act
+#' as a shared shorthand, with meanings unique to each streamer's
+#' community.
 #'
-#' The palette follows a live broadcast as the article describes it: the
-#' red live badge, stream purple, chat green, viewer blue, and donation
-#' gold on a dark player.
+#' The palette follows a Twitch stream: Twitch purple, the live red badge,
+#' Prime blue, overlay green, ice white chat text, and chat panel gray.
 #'
 #' Use `mode = "light"` for a light background with dark text and darker marks.
 #'
@@ -84,31 +84,31 @@ livestream_cols <- list(
     panel = "#1B1B1D",
     grid = "#353536",
     text = "#EEEEF0",
-    frame = "#FF4A47",
-    title = "#FF4A47",
+    frame = "#EFEFF1",
+    title = "#EFEFF1",
     strip = "#EEEEF0",
     striptext = "#0E0E10",
-    accent = "#9B5CFF",
+    accent = "#EB0400",
     outline = "#EEEEF0",
-    fill = "#FF4A47"
+    fill = "#9146FF"
   ),
   light = c(
     background = "#EDEDF2",
     panel = "#F7F7F9",
     grid = "#D1D1D6",
-    text = "#3F221E",
-    frame = "#D11427",
-    title = "#D11427",
-    strip = "#3F221E",
+    text = "#2A2A2B",
+    frame = "#69696B",
+    title = "#69696B",
+    strip = "#2A2A2B",
     striptext = "#EDEDF2",
-    accent = "#9B5CFF",
-    outline = "#3F221E",
-    fill = "#FF4A47"
+    accent = "#EB0400",
+    outline = "#2A2A2B",
+    fill = "#9146FF"
   )
 )
 
 livestream_marks <- list(
-  dark = c("#FF4A47", "#9B5CFF", "#00C389", "#004BBA", "#F5A623", "#A3A3B0"),
-  light = c("#FF4A47", "#9B5CFF", "#00C389", "#004BBA", "#F5A623", "#A3A3B0")
+  dark = c("#9146FF", "#EB0400", "#00A8E1", "#00F593", "#EFEFF1", "#ADADB8"),
+  light = c("#9146FF", "#EB0400", "#00A8E1", "#00E081", "#C5C5C7", "#ADADB8")
 )
 

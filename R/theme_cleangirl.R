@@ -2,15 +2,16 @@
 #'
 #' The clean girl aesthetic is a minimal beauty and wellness trend built on
 #' slicked back hair, a no makeup makeup look, and a limited palette. The
-#' clean girl aesthetic appeared at the end of 2021, and TikTok is its main
-#' platform. By February 2026, the #CleanGirl tag had over 1.2 million
-#' videos. The look is especially popular with Gen Z and Gen Alpha. Its
-#' focus on skincare, diet, and exercise makes it a lifestyle as much as a
-#' style.
+#' clean girl aesthetic became a viral TikTok and Instagram trend in 2021
+#' and 2022. It moved beauty away from the heavy full glam of the late
+#' 2010s and toward a curated, wellness focused identity. Critics say the
+#' effortless look takes expensive upkeep and borrows styles from Black and
+#' Latina women. By 2025, much of Gen Z had moved on to messier, more
+#' maximalist looks.
 #'
-#' The palette follows the article's no makeup makeup look (heavy rosy
-#' blush, perfect brows, brown lip liner), its whites, blacks, grays, and
-#' light neutrals, and the matcha it mentions.
+#' The palette follows the polished, no makeup look: delicate gold jewelry,
+#' an iced matcha latte, fluffy brown brows, glazed dewy skin, tinted
+#' gloss, and neutral toned clothing.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -75,18 +76,18 @@ theme_cleangirl <- function(base_size = 15,
 
 # Sampled from a single small gold hoop earring
 cleangirl_cols <- c(
-  background = "#FAF8F6",
-  panel = "#FDFCFB",
-  grid = "#DDDBDA",
-  text = "#402125",
-  frame = "#B5485D",
-  title = "#B5485D",
-  strip = "#402125",
-  striptext = "#FAF8F6",
-  accent = "#5A3E2B",
-  outline = "#402125",
-  fill = "#E07A8A"
+  background = "#FAF7F2",
+  panel = "#FDFCFA",
+  grid = "#DDDBD6",
+  text = "#3A2516",
+  frame = "#5A3E2B",
+  title = "#5A3E2B",
+  strip = "#3A2516",
+  striptext = "#FAF7F2",
+  accent = "#8DAA5B",
+  outline = "#3A2516",
+  fill = "#C9A227"
 )
 
-cleangirl_marks <- c("#E07A8A", "#5A3E2B", "#8C4F3E", "#525257", "#8DAA5B", "#1E1B1B")
+cleangirl_marks <- c("#C9A227", "#8DAA5B", "#5A3E2B", "#D9B8A0", "#9F6268", "#A39E93")
 

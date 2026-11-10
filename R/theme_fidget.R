@@ -1,14 +1,14 @@
 #' Fidget toy theme
 #'
 #' Fidget toys (spinners, cubes, pop its, and bike chains) are small things
-#' to keep your hands busy. People have always fidgeted, but fidget toys
-#' took off after the fidget spinner fad of 2017. That same year, spinners
-#' were banned in 32% of the largest US high schools. Other fidget toys
-#' include the Fidget Cube, stress balls, and Pop Its. Many autistic and
-#' ADHD people use them to manage sensory input and lower stress.
+#' to keep your hands busy. Fidget spinners went viral in 2017. Fidget toys
+#' came back through TikTok videos of pop its, slime, and kinetic sand
+#' under hashtags like #FidgetToys. Gen Z uses them as screen free stress
+#' relief and as focus aids while studying or working. For some young
+#' adults, they are also simply nostalgic and fun.
 #'
-#' The palette follows the article's fidget spinners, Fidget Cubes, and Pop
-#' Its: saturated silicone colors and a chrome bearing gray.
+#' The palette follows rainbow pop its and spinners: red, sunny yellow,
+#' lime, sky blue, purple, and hot pink.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -73,18 +73,18 @@ theme_fidget <- function(base_size = 15,
 
 # Sampled from a bike chain fidget toy on lined paper
 fidget_cols <- c(
-  background = "#F2F2F0",
-  panel = "#FCFCFB",
-  grid = "#D6D6D4",
-  text = "#3F2129",
-  frame = "#D01A69",
-  title = "#D01A69",
-  strip = "#3F2129",
-  striptext = "#F2F2F0",
-  accent = "#00BFB3",
-  outline = "#3F2129",
-  fill = "#FF3E9A"
+  background = "#FAF8F5",
+  panel = "#FDFCFB",
+  grid = "#DDDBD9",
+  text = "#352438",
+  frame = "#8E24AA",
+  title = "#8E24AA",
+  strip = "#352438",
+  striptext = "#FAF8F5",
+  accent = "#EAC71E",
+  outline = "#352438",
+  fill = "#E53935"
 )
 
-fidget_marks <- c("#FF3E9A", "#00BFB3", "#9BDB2C", "#B34C00", "#8A4DFF", "#6B7280")
+fidget_marks <- c("#E53935", "#EAC71E", "#7CB342", "#29B6F6", "#8E24AA", "#EC407A")
 

@@ -1,16 +1,16 @@
 #' Mermaidcore theme
 #'
 #' Mermaidcore is a fashion trend of shells, pearls, sequins, and
-#' iridescent sea colors. Mermaids have been a popular subject for
-#' centuries, from Hans Christian Andersen's 1837 fairy tale "The Little
-#' Mermaid" to Disney's 1989 film. Interest in mermaid costumes has grown
-#' with fantasy cosplay and cheap monofins. People now swim in these
-#' costumes, an activity called mermaiding, and mermaid fan conventions
-#' have been held.
+#' iridescent sea colors. By 2023, #mermaidcore had passed 333 million
+#' views on TikTok. Writers tie it to Gen Z's nostalgia, romanticism, and
+#' need for escapism and fantasy. It draws on The Little Mermaid, H2O: Just
+#' Add Water, and Barbie mermaid films. It reads younger and more whimsical
+#' than coastal grandmother, and an edgier offshoot is called mermaid
+#' sleaze.
 #'
-#' The palette follows the Mermaid article's pale green hair, scales, and
-#' sea, with the nacre shell's iridescence: seafoam, teal, lilac, coral,
-#' deep sea, and pearl gold.
+#' The palette follows iridescent sheer fabrics, pearls, and shells:
+#' seafoam, ocean teal, lagoon blue, iridescent lilac, shell pink, and
+#' treasure gold on pearl white.
 #'
 #' @param base_size Base font size. Defaults to `15`.
 #' @param base_family Base font family. Defaults to Arial when it's
@@ -75,18 +75,18 @@ theme_mermaidcore <- function(base_size = 15,
 
 # Sampled from a cutaway nautilus shell showing its pearly chambers (Wikipedia's Nacre article)
 mermaidcore_cols <- c(
-  background = "#F4F2F7",
-  panel = "#FDFCFE",
-  grid = "#D8D6DB",
-  text = "#002F37",
-  frame = "#0B7987",
-  title = "#0B7987",
-  strip = "#002F37",
-  striptext = "#F4F2F7",
-  accent = "#127C8A",
-  outline = "#002F37",
-  fill = "#5FC4B4"
+  background = "#F0EAD6",
+  panel = "#F6F4EE",
+  grid = "#D3CEBB",
+  text = "#2F263C",
+  frame = "#4B2E83",
+  title = "#4B2E83",
+  strip = "#2F263C",
+  striptext = "#F0EAD6",
+  accent = "#008B8B",
+  outline = "#2F263C",
+  fill = "#009464"
 )
 
-mermaidcore_marks <- c("#5FC4B4", "#127C8A", "#A98BD8", "#F08A8A", "#1D3D6B", "#C9A86A")
+mermaidcore_marks <- c("#009464", "#008B8B", "#3FA9F5", "#8268AD", "#E4B5B6", "#D4AF37")
 
