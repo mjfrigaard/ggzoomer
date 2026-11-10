@@ -1,5 +1,5 @@
 # Register a system font with sysfonts and return its family name, or
-# "sans" when the font files can't be found. Used by the 90s themes.
+# "sans" when the font files can't be found. Used by the themes.
 register_font <- function(family, regular, bold = NULL,
                           dir = "/System/Library/Fonts/Supplemental") {
   regular <- file.path(dir, regular)
