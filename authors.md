@@ -7,15 +7,15 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/mjfrigaard/fmggp2/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/mjfrigaard/ggzoomer/blob/main/DESCRIPTION)
 
-Frigaard M (2026). *fmggp2: Support package for ggplot2: field manual*.
-R package version 1.0.0, <https://mjfrigaard.github.io/fmggp2/>.
+Frigaard M (2026). *ggzoomer: Gen Z Themes for ggplot2*. R package
+version 1.0.0, <https://mjfrigaard.github.io/ggzoomer/>.
 
     @Manual{,
-      title = {fmggp2: Support package for ggplot2: field manual},
+      title = {ggzoomer: Gen Z Themes for ggplot2},
       author = {Martin Frigaard},
       year = {2026},
       note = {R package version 1.0.0},
-      url = {https://mjfrigaard.github.io/fmggp2/},
+      url = {https://mjfrigaard.github.io/ggzoomer/},
     }

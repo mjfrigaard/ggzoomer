@@ -1,6 +1,6 @@
 # Themes
 
-Each `fmggp2` theme is named after an aesthetic, trend, or object from
+Each `ggzoomer` theme is named after an aesthetic, trend, or object from
 Gen Z internet culture. Every palette follows how the topic looks to Gen
 Z online: its colors, objects, and materials. Each section explains why
 the topic is included, links its Wikipedia article (or the closest
@@ -14,14 +14,14 @@ versions.
 
 ``` r
 
-library(fmggp2)
+library(ggzoomer)
 library(ggplot2)
 showtext::showtext_auto()
 ```
 
 ## Air fryer
 
-[`theme_airfryer()`](https://mjfrigaard.github.io/fmggp2/reference/theme_airfryer.md):
+[`theme_airfryer()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_airfryer.md):
 Air fryers are small countertop convection ovens that blow hot air
 around food (see [Convection
 oven](https://en.wikipedia.org/wiki/Convection_oven) on Wikipedia). Air
@@ -57,7 +57,7 @@ ggplot(fryer, aes(x = food, y = minutes, fill = food)) +
 
 ## ASMR
 
-[`theme_asmr()`](https://mjfrigaard.github.io/fmggp2/reference/theme_asmr.md):
+[`theme_asmr()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_asmr.md):
 ASMR (autonomous sensory meridian response) is the tingling some people
 feel while watching whisper, tapping, and crinkle videos (see
 [ASMR](https://en.wikipedia.org/wiki/ASMR) on Wikipedia). ASMR is the
@@ -106,7 +106,7 @@ last_plot() + theme_asmr(base_size = 13, mode = "light")
 
 ## Axolotl
 
-[`theme_axolotl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_axolotl.md):
+[`theme_axolotl()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_axolotl.md):
 Axolotls are Mexican salamanders that keep their gills for life and
 became an internet favorite (and a game mob) (see
 [Axolotl](https://en.wikipedia.org/wiki/Axolotl) on Wikipedia). The
@@ -142,7 +142,7 @@ ggplot(axolotls, aes(x = morph, y = length, fill = morph)) +
 
 ## Boba
 
-[`theme_boba()`](https://mjfrigaard.github.io/fmggp2/reference/theme_boba.md):
+[`theme_boba()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_boba.md):
 Bubble tea (boba) is a Taiwanese tea drink with chewy tapioca pearls
 (see [Bubble tea](https://en.wikipedia.org/wiki/Bubble_tea) on
 Wikipedia). Boba is known for its vibrant, layered colors, cups slick
@@ -175,7 +175,7 @@ ggplot(boba, aes(x = flavor, fill = flavor)) +
 
 ## Capybara
 
-[`theme_capybara()`](https://mjfrigaard.github.io/fmggp2/reference/theme_capybara.md):
+[`theme_capybara()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_capybara.md):
 Capybaras are the largest living rodents and a famously calm internet
 mascot (see [Capybara](https://en.wikipedia.org/wiki/Capybara) on
 Wikipedia). Capybaras became a figure in meme culture in the 2020s. A
@@ -215,7 +215,7 @@ ggplot(capys, aes(x = hour, y = minutes, colour = activity)) +
 
 ## Clean girl
 
-[`theme_cleangirl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cleangirl.md):
+[`theme_cleangirl()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_cleangirl.md):
 The clean girl aesthetic is a minimal beauty and wellness trend built on
 slicked back hair, a no makeup makeup look, and a limited palette (see
 [Clean girl
@@ -254,7 +254,7 @@ ggplot(routine, aes(x = minutes, fill = step)) +
 
 ## Coastal grandmother
 
-[`theme_coastal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_coastal.md):
+[`theme_coastal()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_coastal.md):
 Coastal grandmother is a relaxed style of linen, beach houses, and
 seaside cooking (see [2020s in
 fashion](https://en.wikipedia.org/wiki/2020s_in_fashion) on Wikipedia).
@@ -292,7 +292,7 @@ ggplot(beach, aes(x = month, y = hours, fill = activity)) +
 
 ## Coquette
 
-[`theme_coquette()`](https://mjfrigaard.github.io/fmggp2/reference/theme_coquette.md):
+[`theme_coquette()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_coquette.md):
 The coquette aesthetic is a 2020s fashion trend of bows, lace, ribbons,
 and pastels (see [Coquette
 aesthetic](https://en.wikipedia.org/wiki/Coquette_aesthetic) on
@@ -329,7 +329,7 @@ ggplot(bows, aes(x = item, fill = fabric)) +
 
 ## Cottagecore
 
-[`theme_cottagecore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_cottagecore.md):
+[`theme_cottagecore()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_cottagecore.md):
 Cottagecore is an internet aesthetic that romanticizes rural life:
 gardens, baking, and handmade things (see
 [Cottagecore](https://en.wikipedia.org/wiki/Cottagecore) on Wikipedia).
@@ -366,7 +366,7 @@ ggplot(garden, aes(x = week, y = harvest, colour = crop)) +
 
 ## Dark academia
 
-[`theme_darkacademia()`](https://mjfrigaard.github.io/fmggp2/reference/theme_darkacademia.md):
+[`theme_darkacademia()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_darkacademia.md):
 Dark academia is an internet aesthetic built around old libraries,
 tweed, and classic literature (see [Dark
 academia](https://en.wikipedia.org/wiki/Dark_academia) on Wikipedia).
@@ -410,7 +410,7 @@ last_plot() + theme_darkacademia(base_size = 13, mode = "light")
 
 ## Digicam
 
-[`theme_digicam()`](https://mjfrigaard.github.io/fmggp2/reference/theme_digicam.md):
+[`theme_digicam()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_digicam.md):
 Digital point and shoot cameras from the 2000s are back for their flash
 heavy, slightly blurry photos (see [Digital
 camera](https://en.wikipedia.org/wiki/Digital_camera) on Wikipedia). Gen
@@ -456,7 +456,7 @@ last_plot() + theme_digicam(base_size = 13, mode = "light")
 
 ## Doomscroll
 
-[`theme_doomscroll()`](https://mjfrigaard.github.io/fmggp2/reference/theme_doomscroll.md):
+[`theme_doomscroll()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_doomscroll.md):
 Doomscrolling is spending far too long scrolling through upsetting or
 endless feeds (see
 [Doomscrolling](https://en.wikipedia.org/wiki/Doomscrolling) on
@@ -500,7 +500,7 @@ last_plot() + theme_doomscroll(base_size = 13, mode = "light")
 
 ## E-girl
 
-[`theme_egirl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_egirl.md):
+[`theme_egirl()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_egirl.md):
 E-girls and e-boys are a TikTok youth subculture that mixes emo, scene,
 and mall goth fashion with anime and K-pop style (see [E-girl and e-boy
 subculture](https://en.wikipedia.org/wiki/E-girl_and_e-boy_subculture)
@@ -548,7 +548,7 @@ last_plot() + theme_egirl(base_size = 13, mode = "light")
 
 ## Fidget toy
 
-[`theme_fidget()`](https://mjfrigaard.github.io/fmggp2/reference/theme_fidget.md):
+[`theme_fidget()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_fidget.md):
 Fidget toys (spinners, cubes, pop its, and bike chains) are small things
 to keep your hands busy (see [Fidget
 toy](https://en.wikipedia.org/wiki/Fidget_toy) on Wikipedia). Fidget
@@ -583,7 +583,7 @@ ggplot(spins, aes(x = toy, y = seconds, colour = toy)) +
 
 ## Frog
 
-[`theme_frog()`](https://mjfrigaard.github.io/fmggp2/reference/theme_frog.md):
+[`theme_frog()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_frog.md):
 Frogs are tailless amphibians and a cottagecore and goblincore icon (see
 [Frog](https://en.wikipedia.org/wiki/Frog) on Wikipedia). Gen Z’s
 favorite frog is Animal Crossing’s Froggy Chair, a green seat with a
@@ -618,7 +618,7 @@ ggplot(frogs, aes(x = jump, fill = species)) +
 
 ## Frutiger Aero
 
-[`theme_frutigeraero()`](https://mjfrigaard.github.io/fmggp2/reference/theme_frutigeraero.md):
+[`theme_frutigeraero()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_frutigeraero.md):
 Frutiger Aero is the glossy design style of the mid 2000s: bubbles,
 water, grass, and blue skies (see [Frutiger
 Aero](https://en.wikipedia.org/wiki/Frutiger_Aero) on Wikipedia).
@@ -655,7 +655,7 @@ ggplot(aero, aes(x = year, y = share, colour = style)) +
 
 ## Goblincore
 
-[`theme_goblincore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_goblincore.md):
+[`theme_goblincore()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_goblincore.md):
 Goblincore celebrates the less pretty side of nature: moss, mushrooms,
 snails, and found objects (see
 [Goblincore](https://en.wikipedia.org/wiki/Goblincore) on Wikipedia).
@@ -702,7 +702,7 @@ last_plot() + theme_goblincore(base_size = 13, mode = "light")
 
 ## Gorpcore
 
-[`theme_gorpcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_gorpcore.md):
+[`theme_gorpcore()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_gorpcore.md):
 Gorpcore is hiking gear (shell jackets, fleece, and trail shoes) worn as
 everyday streetwear (see
 [Gorpcore](https://en.wikipedia.org/wiki/Gorpcore) on Wikipedia).
@@ -738,7 +738,7 @@ ggplot(gear, aes(x = price, fill = item)) +
 
 ## Group chat
 
-[`theme_groupchat()`](https://mjfrigaard.github.io/fmggp2/reference/theme_groupchat.md):
+[`theme_groupchat()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_groupchat.md):
 Group chats are where friends plan, share memes, and leave each other on
 read (see [Online chat](https://en.wikipedia.org/wiki/Online_chat) on
 Wikipedia). Group chats have become Gen Z’s third place, taking over
@@ -773,7 +773,7 @@ ggplot(chat, aes(x = day, y = messages, fill = friend)) +
 
 ## Indie sleaze
 
-[`theme_indiesleaze()`](https://mjfrigaard.github.io/fmggp2/reference/theme_indiesleaze.md):
+[`theme_indiesleaze()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_indiesleaze.md):
 Indie sleaze is the messy, flash photo party style of 2006 to 2012, now
 back on social media (see [Indie
 sleaze](https://en.wikipedia.org/wiki/Indie_sleaze) on Wikipedia). Trend
@@ -818,7 +818,7 @@ last_plot() + theme_indiesleaze(base_size = 13, mode = "light")
 
 ## Kidcore
 
-[`theme_kidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_kidcore.md):
+[`theme_kidcore()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_kidcore.md):
 Kidcore is a bright, nostalgic aesthetic of primary colors, beads,
 stickers, and childhood toys (see
 [Kidcore](https://en.wikipedia.org/wiki/Kidcore) on Wikipedia). Trend
@@ -854,7 +854,7 @@ ggplot(beads, aes(x = kit, fill = color)) +
 
 ## LED strip
 
-[`theme_ledstrip()`](https://mjfrigaard.github.io/fmggp2/reference/theme_ledstrip.md):
+[`theme_ledstrip()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_ledstrip.md):
 LED strip lights are the adhesive color changing lights that line
 bedroom ceilings and desks (see [LED strip
 light](https://en.wikipedia.org/wiki/LED_strip_light) on Wikipedia). LED
@@ -899,7 +899,7 @@ last_plot() + theme_ledstrip(base_size = 13, mode = "light")
 
 ## Liminal space
 
-[`theme_liminal()`](https://mjfrigaard.github.io/fmggp2/reference/theme_liminal.md):
+[`theme_liminal()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_liminal.md):
 Liminal space is an internet aesthetic of empty in between places:
 hallways, waiting rooms, and closed malls (see [Liminal
 space](https://en.wikipedia.org/wiki/Liminal_space) on Wikipedia).
@@ -935,7 +935,7 @@ ggplot(halls, aes(x = eeriness, y = place, fill = place)) +
 
 ## Livestream
 
-[`theme_livestream()`](https://mjfrigaard.github.io/fmggp2/reference/theme_livestream.md):
+[`theme_livestream()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_livestream.md):
 Livestreaming is broadcasting video in real time, from gaming streams to
 vlogs filmed on the street (see [Live
 streaming](https://en.wikipedia.org/wiki/Live_streaming) on Wikipedia).
@@ -980,7 +980,7 @@ last_plot() + theme_livestream(base_size = 13, mode = "light")
 
 ## Matcha
 
-[`theme_matcha()`](https://mjfrigaard.github.io/fmggp2/reference/theme_matcha.md):
+[`theme_matcha()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_matcha.md):
 Matcha is finely ground Japanese green tea, now a cafe staple as a latte
 (see [Matcha](https://en.wikipedia.org/wiki/Matcha) on Wikipedia). In
 2025, BeverageDaily called matcha Gen Z’s avocado toast moment. Its
@@ -1017,7 +1017,7 @@ ggplot(cafe, aes(x = month, y = cups, colour = drink)) +
 
 ## Mermaidcore
 
-[`theme_mermaidcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_mermaidcore.md):
+[`theme_mermaidcore()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_mermaidcore.md):
 Mermaidcore is a fashion trend of shells, pearls, sequins, and
 iridescent sea colors (see
 [Mermaid](https://en.wikipedia.org/wiki/Mermaid) on Wikipedia). By 2023,
@@ -1054,7 +1054,7 @@ ggplot(shells, aes(x = width, y = chambers, colour = beach)) +
 
 ## Photo dump
 
-[`theme_photodump()`](https://mjfrigaard.github.io/fmggp2/reference/theme_photodump.md):
+[`theme_photodump()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_photodump.md):
 A photo dump is a carousel post of loosely related phone photos from the
 week (see [Camera phone](https://en.wikipedia.org/wiki/Camera_phone) on
 Wikipedia). A photo dump is a loose Instagram carousel of unposed shots,
@@ -1091,7 +1091,7 @@ ggplot(dump, aes(x = factor(slides), y = likes, fill = posted)) +
 
 ## Plushie
 
-[`theme_plushie()`](https://mjfrigaard.github.io/fmggp2/reference/theme_plushie.md):
+[`theme_plushie()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_plushie.md):
 Plushies (stuffed toys) are collected, displayed, and carried well past
 childhood (see [Stuffed toy](https://en.wikipedia.org/wiki/Stuffed_toy)
 on Wikipedia). Gen Z treats plushies as comfort objects tied to mental
@@ -1126,7 +1126,7 @@ ggplot(plush, aes(x = squish, fill = animal)) +
 
 ## Slime
 
-[`theme_slime()`](https://mjfrigaard.github.io/fmggp2/reference/theme_slime.md):
+[`theme_slime()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_slime.md):
 Slime is the stretchy toy that kids make at home and watch in satisfying
 videos (see [Slime (toy)](https://en.wikipedia.org/wiki/Slime_(toy)) on
 Wikipedia). The slime trend took off in 2016 and peaked in the summer of
@@ -1160,7 +1160,7 @@ ggplot(slime, aes(x = stretch, fill = recipe)) +
 
 ## Thrift
 
-[`theme_thrift()`](https://mjfrigaard.github.io/fmggp2/reference/theme_thrift.md):
+[`theme_thrift()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_thrift.md):
 Thrifting (shopping at charity and secondhand shops) is the budget and
 planet friendly way to build a wardrobe (see [Charity
 shop](https://en.wikipedia.org/wiki/Charity_shop) on Wikipedia). Gen Z
@@ -1195,7 +1195,7 @@ ggplot(haul, aes(x = category, y = price, colour = category)) +
 
 ## Tumbler
 
-[`theme_tumbler()`](https://mjfrigaard.github.io/fmggp2/reference/theme_tumbler.md):
+[`theme_tumbler()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_tumbler.md):
 Insulated tumblers and water bottles (vacuum flasks) became a status
 accessory in the 2020s (see [Vacuum
 flask](https://en.wikipedia.org/wiki/Vacuum_flask) on Wikipedia). Gen Z
@@ -1231,7 +1231,7 @@ ggplot(flasks, aes(x = hour, y = temp, colour = bottle)) +
 
 ## Unboxing
 
-[`theme_unboxing()`](https://mjfrigaard.github.io/fmggp2/reference/theme_unboxing.md):
+[`theme_unboxing()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_unboxing.md):
 Unboxing videos film someone opening a new product, from phones to
 sneakers (see [Unboxing](https://en.wikipedia.org/wiki/Unboxing) on
 Wikipedia). Gen Z grew up watching unboxing videos on YouTube. TikTok
@@ -1267,7 +1267,7 @@ ggplot(unbox, aes(x = minutes, y = product, fill = product)) +
 
 ## Vaporwave
 
-[`theme_vaporwave()`](https://mjfrigaard.github.io/fmggp2/reference/theme_vaporwave.md):
+[`theme_vaporwave()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_vaporwave.md):
 Vaporwave is a 2010s music genre and meme aesthetic of slowed down mall
 music, old computers, and pink and teal gradients (see
 [Vaporwave](https://en.wikipedia.org/wiki/Vaporwave) on Wikipedia).
@@ -1304,7 +1304,7 @@ ggplot(vapor, aes(x = year, y = samples, fill = source)) +
 
 ## Vinyl
 
-[`theme_vinyl()`](https://mjfrigaard.github.io/fmggp2/reference/theme_vinyl.md):
+[`theme_vinyl()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_vinyl.md):
 Vinyl records outsell CDs again, thanks to collectors who buy albums in
 colored variants (see [Phonograph
 record](https://en.wikipedia.org/wiki/Phonograph_record) on Wikipedia).
@@ -1339,7 +1339,7 @@ ggplot(records, aes(x = year, y = sales, colour = format)) +
 
 ## Voice note
 
-[`theme_voicenote()`](https://mjfrigaard.github.io/fmggp2/reference/theme_voicenote.md):
+[`theme_voicenote()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_voicenote.md):
 Voice notes are short recorded messages sent in a chat instead of typing
 (see [Voicemail](https://en.wikipedia.org/wiki/Voicemail) on Wikipedia).
 Voice notes boomed during the pandemic and became Gen Z’s favorite way
@@ -1375,7 +1375,7 @@ ggplot(notes, aes(x = seconds, fill = sender)) +
 
 ## Weirdcore
 
-[`theme_weirdcore()`](https://mjfrigaard.github.io/fmggp2/reference/theme_weirdcore.md):
+[`theme_weirdcore()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_weirdcore.md):
 Weirdcore is an internet aesthetic of low quality images, liminal
 spaces, and unsettling captions (see
 [Weirdcore](https://en.wikipedia.org/wiki/Weirdcore) on Wikipedia). Gen
@@ -1412,7 +1412,7 @@ ggplot(weird, aes(x = x, y = y, colour = feeling)) +
 
 ## Wired earbuds
 
-[`theme_wiredbuds()`](https://mjfrigaard.github.io/fmggp2/reference/theme_wiredbuds.md):
+[`theme_wiredbuds()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_wiredbuds.md):
 Wired earbuds made a comeback as a style statement and a break from
 charging (see [Headphones](https://en.wikipedia.org/wiki/Headphones) on
 Wikipedia). Gen Z calls AirPods passé and wears the cord as an analog

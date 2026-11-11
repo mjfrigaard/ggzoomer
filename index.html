@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Support package for ggplot2: field manual • fmggp2</title>
+<title>Gen Z Themes for ggplot2 • ggzoomer</title>
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="deps/bootstrap-5.3.8/bootstrap.min.css" rel="stylesheet">
 <script src="deps/bootstrap-5.3.8/bootstrap.bundle.min.js"></script><link href="deps/Inter-0.4.10/font.css" rel="stylesheet">
@@ -13,9 +13,9 @@
 <link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><link href="extra.css" rel="stylesheet">
-<meta property="og:title" content="Support package for ggplot2: field manual">
-<meta name="description" content="Utility functions and helpers for the fm-ggp2 book.">
-<meta property="og:description" content="Utility functions and helpers for the fm-ggp2 book.">
+<meta property="og:title" content="Gen Z Themes for ggplot2">
+<meta name="description" content="ggplot2 themes named after Gen Z aesthetics, trends, and objects. Each palette follows how its topic looks online and is checked for contrast and color vision deficiency.">
+<meta property="og:description" content="ggplot2 themes named after Gen Z aesthetics, trends, and objects. Each palette follows how its topic looks online and is checked for contrast and color vision deficiency.">
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
@@ -23,7 +23,7 @@
 
     <nav class="navbar navbar-expand-lg fixed-top bg-light" data-bs-theme="light" aria-label="Site navigation"><div class="container">
 
-    <a class="navbar-brand me-2" href="index.html">fmggp2</a>
+    <a class="navbar-brand me-2" href="index.html">ggzoomer</a>
 
     <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.0.0</small>
 
@@ -39,7 +39,6 @@
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
 <li><a class="dropdown-item" href="articles/themes.html">Themes</a></li>
-    <li><a class="dropdown-item" href="articles/book-helpers.html">Book helpers</a></li>
   </ul>
 </li>
       </ul>
@@ -47,7 +46,7 @@
 <li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="search.json">
 </form></li>
-<li class="nav-item"><a class="external-link nav-link" href="https://github.com/mjfrigaard/fmggp2/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/mjfrigaard/ggzoomer/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul>
 </div>
 
@@ -56,23 +55,23 @@
 </nav><div class="container template-home">
 <div class="row">
   <main id="main" class="col-md-9"><div class="section level1">
-<div class="page-header"><h1 id="fmggp2">fmggp2<a class="anchor" aria-label="anchor" href="#fmggp2"></a>
+<div class="page-header"><h1 id="ggzoomer">ggzoomer<a class="anchor" aria-label="anchor" href="#ggzoomer"></a>
 </h1></div>
 <!-- badges: start -->
 <!-- badges: end -->
-<p><code>fmggp2</code> is the support package for <a href="https://mjfrigaard.github.io/fm-ggp2/" class="external-link"><em>ggplot2: field manual</em></a>. It holds the Gen Z <code>ggplot2</code> themes and the small helpers the book uses, so every chapter loads the same tested code.</p>
+<p><code>ggzoomer</code> is a set of <code>ggplot2</code> themes named after Gen Z aesthetics, trends, and objects. Each palette is checked for contrast and color vision deficiency.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
 <p>Install the development version from GitHub:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("pak")</span></span>
-<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pak.html" class="external-link">pak</a></span><span class="op">(</span><span class="st">"mjfrigaard/fmggp2"</span><span class="op">)</span></span></code></pre></div>
+<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pak.html" class="external-link">pak</a></span><span class="op">(</span><span class="st">"mjfrigaard/ggzoomer"</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="themes">Themes<a class="anchor" aria-label="anchor" href="#themes"></a>
 </h2>
-<p>Each theme is named after an aesthetic, trend, or object from Gen Z internet culture, and its palette follows how that topic looks to Gen Z online (its colors, objects, and materials). The book chapters still use the earlier 90s themes until they are updated.</p>
+<p>Each theme is named after an aesthetic, trend, or object from Gen Z internet culture, and its palette follows how that topic looks to Gen Z online (its colors, objects, and materials).</p>
 <table class="table">
 <colgroup>
 <col width="50%">
@@ -231,15 +230,11 @@
 <td><code><a href="reference/theme_wiredbuds.html">theme_wiredbuds()</a></code></td>
 <td><a href="https://en.wikipedia.org/wiki/Headphones" class="external-link">Headphones</a></td>
 </tr>
-<tr>
-<td><code><a href="reference/theme_fmggp2.html">theme_fmggp2()</a></code></td>
-<td>Original book theme</td>
-</tr>
 </tbody>
 </table>
 <p>The two graphs below use <code><a href="reference/theme_boba.html">theme_boba()</a></code> and <code><a href="reference/theme_vaporwave.html">theme_vaporwave()</a></code> with simulated data.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://mjfrigaard.github.io/fmggp2/">fmggp2</a></span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://mjfrigaard.github.io/ggzoomer/">ggzoomer</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></span>
 <span><span class="fu">showtext</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/showtext/man/showtext_auto.html" class="external-link">showtext_auto</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/Random.html" class="external-link">set.seed</a></span><span class="op">(</span><span class="fl">1980</span><span class="op">)</span></span>
@@ -265,52 +260,19 @@
 <div class="section level2">
 <h2 id="reference-images">Reference images<a class="anchor" aria-label="anchor" href="#reference-images"></a>
 </h2>
-<p>Each theme links its Wikipedia article. A freely licensed image (public domain, CC0, CC BY, CC BY-SA, or GFDL) from the article, or from Wikimedia Commons when the article has no free image, illustrates it. The <a href="https://mjfrigaard.github.io/fmggp2/articles/themes.html">themes vignette</a> shows each image with its author and license.</p>
+<p>Each theme links its Wikipedia article. A freely licensed image (public domain, CC0, CC BY, CC BY-SA, or GFDL) from the article, or from Wikimedia Commons when the article has no free image, illustrates it. The <a href="https://mjfrigaard.github.io/ggzoomer/articles/themes.html">themes vignette</a> shows each image with its author and license.</p>
 </div>
 <div class="section level2">
-<h2 id="book-helpers">Book helpers<a class="anchor" aria-label="anchor" href="#book-helpers"></a>
+<h2 id="related-packages">Related packages<a class="anchor" aria-label="anchor" href="#related-packages"></a>
 </h2>
-<table class="table">
-<thead><tr>
-<th>Function</th>
-<th>What it does</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code><a href="reference/co_box.html">co_box()</a></code></td>
-<td>Prints a Quarto callout box (use with <code>results: asis</code>)</td>
-</tr>
-<tr>
-<td><code><a href="reference/status.html">status()</a></code></td>
-<td>Prints a chapter status callout</td>
-</tr>
-<tr>
-<td><code>%nin%</code></td>
-<td>The negation of <code>%in%</code>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="section level2">
-<h2 id="how-the-chapters-teach-distributions">How the chapters teach distributions<a class="anchor" aria-label="anchor" href="#how-the-chapters-teach-distributions"></a>
-</h2>
-<p>Each chapter simulates its data from a known distribution, then connects that distribution to the graph in a “Distribution” section. The section follows the concrete, pictorial, abstract sequence from <a href="https://en.wikipedia.org/wiki/Singapore_math" class="external-link">Singapore math</a>:</p>
-<ol style="list-style-type: decimal">
-<li>
-<strong>Count it</strong> (concrete): print a handful of simulated values and a small count table.</li>
-<li>
-<strong>Draw it</strong> (pictorial): draw a bar model (parts of a whole), then the graph with reference lines.</li>
-<li>
-<strong>Name it</strong> (abstract): state the generating distribution (e.g., <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi><mo>∼</mo><mtext mathvariant="normal">Normal</mtext><mo stretchy="false" form="prefix">(</mo><mn>45</mn><mo>,</mo><mn>12</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">X \sim \text{Normal}(45, 12)</annotation></semantics></math>) and show how each parameter maps to the graph.</li>
-</ol>
+<p>The 90s themes from earlier versions live in <a href="https://github.com/mjfrigaard/ggrewindr" class="external-link">ggrewindr</a>, and the helpers for <a href="https://mjfrigaard.github.io/fm-ggp2/" class="external-link"><em>ggplot2: field manual</em></a> live in <a href="https://github.com/mjfrigaard/fmutils" class="external-link">fmutils</a>.</p>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li><a href="https://github.com/mjfrigaard/fmggp2/" class="external-link">Browse source code</a></li>
-<li><a href="https://github.com/mjfrigaard/fmggp2/issues" class="external-link">Report a bug</a></li>
+<li><a href="https://github.com/mjfrigaard/ggzoomer/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/mjfrigaard/ggzoomer/issues" class="external-link">Report a bug</a></li>
 </ul>
 </div>
 
@@ -327,7 +289,7 @@
 <div class="citation">
 <h2 data-toc-skip>Citation</h2>
 <ul class="list-unstyled">
-<li><a href="authors.html#citation">Citing fmggp2</a></li>
+<li><a href="authors.html#citation">Citing ggzoomer</a></li>
 </ul>
 </div>
 
