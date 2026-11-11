@@ -1,4 +1,4 @@
-url: https://mjfrigaard.github.io/fmggp2/
+url: https://mjfrigaard.github.io/ggzoomer/
 
 template:
   bootstrap: 5
@@ -70,25 +70,9 @@ reference:
   - theme_voicenote
   - theme_weirdcore
   - theme_wiredbuds
-  - theme_fmggp2
-- title: Book helpers
-  contents:
-  - co_box
-  - status
-  - "`%nin%`"
-- title: Fonts
-  contents:
-  - load_fmggp2_fonts
-  - import_fmggp2_fonts
-  - add_fonts
-  - check_fonts
-  - check_assets
-  - list_fonts
-  - font_path
 
 articles:
 - title: Articles
   navbar: ~
   contents:
   - themes
-  - book-helpers

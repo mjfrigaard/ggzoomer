@@ -1,9 +1,11 @@
-Package: fmggp2
-Title: Support package for ggplot2: field manual
+Package: ggzoomer
+Title: Gen Z Themes for ggplot2
 Version: 1.0.0
 Author: Martin Frigaard <mjfrigaard@pm.me> [aut, cre]
 Maintainer: Martin Frigaard <mjfrigaard@pm.me>
-Description: Utility functions and helpers for the fm-ggp2 book.
+Description: ggplot2 themes named after Gen Z aesthetics, trends, and
+    objects. Each palette follows how its topic looks online and is checked
+    for contrast and color vision deficiency.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -11,18 +13,15 @@ LazyData: true
 Depends: 
     R (>= 2.10)
 Imports: 
-    cli,
-    extrafont,
     ggplot2 (>= 4.0.0),
-    glue,
-    showtext,
     sysfonts
 Suggests: 
     knitr,
     quarto,
+    showtext,
     testthat (>= 3.0.0)
 VignetteBuilder: quarto
 Config/testthat/edition: 3
-URL: https://mjfrigaard.github.io/fmggp2/, https://github.com/mjfrigaard/fmggp2
-BugReports: https://github.com/mjfrigaard/fmggp2/issues
+URL: https://mjfrigaard.github.io/ggzoomer/, https://github.com/mjfrigaard/ggzoomer
+BugReports: https://github.com/mjfrigaard/ggzoomer/issues
 Config/roxygen2/version: 8.1.1

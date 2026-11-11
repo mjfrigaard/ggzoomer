@@ -13,14 +13,14 @@ knitr:
     out.width: "100%"
 ---
 
-Each `fmggp2` theme is named after an aesthetic, trend, or object from Gen Z internet culture. Every palette follows how the topic looks to Gen Z online: its colors, objects, and materials. Each section explains why the topic is included, links its Wikipedia article (or the closest article when the topic doesn't have one), and shows a freely licensed image from that article with simulated data to match.
+Each `ggzoomer` theme is named after an aesthetic, trend, or object from Gen Z internet culture. Every palette follows how the topic looks to Gen Z online: its colors, objects, and materials. Each section explains why the topic is included, links its Wikipedia article (or the closest article when the topic doesn't have one), and shows a freely licensed image from that article with simulated data to match.
 
 Themes with a dark background also have a light version. Set `mode = "light"` to get a light background with darker text and marks. Dark is the default. Each dark theme's section below shows both versions.
 
 ```{r}
 #| label: setup
 #| message: false
-library(fmggp2)
+library(ggzoomer)
 library(ggplot2)
 showtext::showtext_auto()
 ```

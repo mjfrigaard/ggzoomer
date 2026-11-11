@@ -1,4 +1,4 @@
 library(testthat)
-library(fmggp2)
+library(ggzoomer)
 
-test_check("fmggp2")
+test_check("ggzoomer")
