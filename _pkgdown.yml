@@ -33,11 +33,8 @@ navbar:
 reference:
 - title: Themes
   contents:
-  - theme_airfryer
   - theme_asmr
-  - theme_axolotl
   - theme_boba
-  - theme_capybara
   - theme_cleangirl
   - theme_coastal
   - theme_coquette
@@ -46,30 +43,18 @@ reference:
   - theme_digicam
   - theme_doomscroll
   - theme_egirl
-  - theme_fidget
   - theme_frog
-  - theme_frutigeraero
   - theme_goblincore
   - theme_gorpcore
-  - theme_groupchat
   - theme_indiesleaze
   - theme_kidcore
   - theme_ledstrip
   - theme_liminal
-  - theme_livestream
-  - theme_matcha
-  - theme_mermaidcore
-  - theme_photodump
-  - theme_plushie
   - theme_slime
-  - theme_thrift
   - theme_tumbler
-  - theme_unboxing
   - theme_vaporwave
   - theme_vinyl
-  - theme_voicenote
   - theme_weirdcore
-  - theme_wiredbuds
 
 articles:
 - title: Articles
