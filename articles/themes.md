@@ -19,42 +19,6 @@ library(ggplot2)
 showtext::showtext_auto()
 ```
 
-## Air fryer
-
-[`theme_airfryer()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_airfryer.md):
-Air fryers are small countertop convection ovens that blow hot air
-around food (see [Convection
-oven](https://en.wikipedia.org/wiki/Convection_oven) on Wikipedia). Air
-fryers went from a novelty to a common kitchen appliance in the 2020s.
-Philips launched the first Airfryer in 2010, and by 2018 people used the
-name for any brand. About 36% of US households had a convection oven in
-2020. By 2023, an estimated 60% had one. In a 2024 UK study, one in five
-people said the air fryer was the cooking device they used most.
-
-The palette follows the colors the popular Crispi air fryer comes in:
-Cherry Crush, Sage Green, Electric Cobalt, Butter Yellow, Cyberspace
-navy, and Frosted Lilac on Stone. The image shows an air fryer basket of
-reheated potatoes on a kitchen counter.
-
-![](../reference/figures/theme_airfryer/airfryer.jpg)
-
-Image: I am R., [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Air_Fryer_2020.jpg), CC
-BY 2.0.
-
-``` r
-
-set.seed(2020)
-fryer <- data.frame(food = rep(c("Fries", "Wings", "Nuggets", "Veggies"), each = 80))
-fryer$minutes <- round(rnorm(320, mean = c(Fries = 15, Wings = 22, Nuggets = 10, Veggies = 12)[fryer$food], sd = 2.5), 1)
-ggplot(fryer, aes(x = food, y = minutes, fill = food)) +
-  geom_boxplot(show.legend = FALSE) +
-  labs(title = "Air fryer cook times", caption = "Simulated data", x = NULL, y = "Minutes") +
-  theme_airfryer(base_size = 13)
-```
-
-![](themes_files/figure-html/airfryer-1.png)
-
 ## ASMR
 
 [`theme_asmr()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_asmr.md):
@@ -104,42 +68,6 @@ last_plot() + theme_asmr(base_size = 13, mode = "light")
 
 ![](themes_files/figure-html/asmr-light-1.png)
 
-## Axolotl
-
-[`theme_axolotl()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_axolotl.md):
-Axolotls are Mexican salamanders that keep their gills for life and
-became an internet favorite (and a game mob) (see
-[Axolotl](https://en.wikipedia.org/wiki/Axolotl) on Wikipedia). The
-axolotl is a salamander that keeps its pink and white coloring, large
-eyes, and feathery gills into adulthood. Online, it stands for cuteness,
-aquatic pets, and staying young. Custom axolotl emojis often hold boba
-tea or hearts, or wear tiny hats. In 2017, it became the official emoji
-of Mexico City.
-
-The palette follows the axolotl emoji: pink and white skin, deep pink
-feathery gills, big black eyes, and the boba tea, hearts, and aquarium
-water it often comes with. The image shows a wild type axolotl resting
-on gravel in an aquarium.
-
-![](../reference/figures/theme_axolotl/axolotl.jpg)
-
-Image: LoKiLeCh, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Axolotl_ganz.jpg), CC
-BY-SA 3.0.
-
-``` r
-
-set.seed(1864)
-axolotls <- data.frame(morph = rep(c("Wild type", "Leucistic", "Golden albino"), each = 120))
-axolotls$length <- rnorm(360, mean = c("Wild type" = 23, Leucistic = 21, "Golden albino" = 20)[axolotls$morph], sd = 3)
-ggplot(axolotls, aes(x = morph, y = length, fill = morph)) +
-  geom_violin(alpha = 2/3, show.legend = FALSE) +
-  labs(title = "Axolotl lengths", caption = "Simulated data", x = NULL, y = "Length (cm)") +
-  theme_axolotl(base_size = 13)
-```
-
-![](themes_files/figure-html/axolotl-1.png)
-
 ## Boba
 
 [`theme_boba()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_boba.md):
@@ -172,46 +100,6 @@ ggplot(boba, aes(x = flavor, fill = flavor)) +
 ```
 
 ![](themes_files/figure-html/boba-1.png)
-
-## Capybara
-
-[`theme_capybara()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_capybara.md):
-Capybaras are the largest living rodents and a famously calm internet
-mascot (see [Capybara](https://en.wikipedia.org/wiki/Capybara) on
-Wikipedia). Capybaras became a figure in meme culture in the 2020s. A
-common meme format pairs a capybara with the song “After Party” by Don
-Toliver, and a song about capybaras became a TikTok hit in 2022.
-Capybaras also stand for calm. People see them as unflappable, and their
-personalities have been called “buddha-like.”
-
-The palette follows the [“After Party” single
-cover](https://en.wikipedia.org/wiki/File:Don_Toliver_-_After_Party_%28single_cover%29.jpeg)
-that the article’s capybara memes pair with: a purple lowrider hearse,
-lavender chrome, a near black shadow, the gray signpost and ground, a
-mauve HEAVEN sign, and the hand lettered title, all on cream paper. The
-image shows a capybara standing on a sandy riverbank.
-
-![](../reference/figures/theme_capybara/capybara.jpg)
-
-Image: Giles Laurent, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Capybaracropped.jpg),
-CC BY-SA 4.0.
-
-``` r
-
-set.seed(1766)
-capys <- data.frame(hour = 0:23)
-capys$Grazing <- round(20 + 15 * sin((capys$hour - 6) / 24 * 2 * pi) + rnorm(24, 0, 2))
-capys$Swimming <- round(10 + 8 * sin((capys$hour - 10) / 24 * 2 * pi) + rnorm(24, 0, 2))
-capys <- reshape(capys, direction = "long", varying = c("Grazing", "Swimming"), v.names = "minutes",
-  timevar = "activity", times = c("Grazing", "Swimming"))
-ggplot(capys, aes(x = hour, y = minutes, colour = activity)) +
-  geom_line(linewidth = 1) +
-  labs(title = "A capybara's day", caption = "Simulated data", x = "Hour", y = "Minutes", colour = NULL) +
-  theme_capybara(base_size = 13)
-```
-
-![](themes_files/figure-html/capybara-1.png)
 
 ## Clean girl
 
@@ -546,41 +434,6 @@ last_plot() + theme_egirl(base_size = 13, mode = "light")
 
 ![](themes_files/figure-html/egirl-light-1.png)
 
-## Fidget toy
-
-[`theme_fidget()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_fidget.md):
-Fidget toys (spinners, cubes, pop its, and bike chains) are small things
-to keep your hands busy (see [Fidget
-toy](https://en.wikipedia.org/wiki/Fidget_toy) on Wikipedia). Fidget
-spinners went viral in 2017. Fidget toys came back through TikTok videos
-of pop its, slime, and kinetic sand under hashtags like \#FidgetToys.
-Gen Z uses them as screen free stress relief and as focus aids while
-studying or working. For some young adults, they are also simply
-nostalgic and fun.
-
-The palette follows rainbow pop its and spinners: red, sunny yellow,
-lime, sky blue, purple, and hot pink. The image shows a bike chain
-fidget toy on lined paper.
-
-![](../reference/figures/theme_fidget/fidget.jpg)
-
-Image: Ike9898, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:A_%22bike_chain%22_type_fidget_toy.jpg),
-CC BY-SA 4.0.
-
-``` r
-
-set.seed(2017)
-spins <- data.frame(toy = rep(c("Spinner", "Cube", "Pop it", "Bike chain"), each = 100))
-spins$seconds <- rexp(400, rate = c(Spinner = 1 / 60, Cube = 1 / 30, "Pop it" = 1 / 45, "Bike chain" = 1 / 20)[spins$toy])
-ggplot(spins, aes(x = toy, y = seconds, colour = toy)) +
-  geom_jitter(width = 0.2, alpha = 0.6, show.legend = FALSE) +
-  labs(title = "How long a fidget lasts", caption = "Simulated data", x = NULL, y = "Seconds") +
-  theme_fidget(base_size = 13)
-```
-
-![](themes_files/figure-html/fidget-1.png)
-
 ## Frog
 
 [`theme_frog()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_frog.md):
@@ -615,43 +468,6 @@ ggplot(frogs, aes(x = jump, fill = species)) +
 ```
 
 ![](themes_files/figure-html/frog-1.png)
-
-## Frutiger Aero
-
-[`theme_frutigeraero()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_frutigeraero.md):
-Frutiger Aero is the glossy design style of the mid 2000s: bubbles,
-water, grass, and blue skies (see [Frutiger
-Aero](https://en.wikipedia.org/wiki/Frutiger_Aero) on Wikipedia).
-Frutiger Aero came back on TikTok, Tumblr, and Reddit in 2022 and 2023.
-Gen Z links it to a digital childhood of MSN Messenger and Windows
-Vista. Essays frame it as optimism, a glossy contrast to flat,
-minimalist design and modern cynicism. Even design writers admit it’s
-hard to say exactly why it resonates.
-
-The palette follows glossy Vista era glass and water: sky blue, grass
-green, deep ocean blue, lime, aqua, and bubble cyan. The image shows
-soap bubbles floating over sunlit grass.
-
-![](../reference/figures/theme_frutigeraero/frutigeraero.jpg)
-
-Image: ThePixelman on Pixabay, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Frutiger_Aero_Bubbles_And_Grass.jpg),
-CC0.
-
-``` r
-
-set.seed(2007)
-aero <- data.frame(year = 2004:2013)
-aero$Gloss <- round(100 * plogis((aero$year - 2007) * 1.2) * (1 - plogis((aero$year - 2011) * 1.5)))
-aero$Flat <- round(100 * plogis((aero$year - 2011) * 1.5))
-aero <- reshape(aero, direction = "long", varying = c("Gloss", "Flat"), v.names = "share", timevar = "style", times = c("Gloss", "Flat"))
-ggplot(aero, aes(x = year, y = share, colour = style)) +
-  geom_line(linewidth = 1.2) +
-  labs(title = "Gloss to flat", caption = "Simulated data", x = NULL, y = "Share of app icons (%)", colour = NULL) +
-  theme_frutigeraero(base_size = 13)
-```
-
-![](themes_files/figure-html/frutigeraero-1.png)
 
 ## Goblincore
 
@@ -735,41 +551,6 @@ ggplot(gear, aes(x = price, fill = item)) +
 ```
 
 ![](themes_files/figure-html/gorpcore-1.png)
-
-## Group chat
-
-[`theme_groupchat()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_groupchat.md):
-Group chats are where friends plan, share memes, and leave each other on
-read (see [Online chat](https://en.wikipedia.org/wiki/Online_chat) on
-Wikipedia). Group chats have become Gen Z’s third place, taking over
-from malls and coffee shops as the place to hang out. Their humor runs
-on memes that reference earlier memes. A 2025 Giphy survey found that
-about 89% of Gen Z and millennials check with their group chat before
-major life decisions. Snap found that nearly two thirds of Gen Z
-shoppers bought something after friends approved it in the chat.
-
-The palette follows stacked chat bubbles and emoji: iMessage blue, SMS
-green, emoji yellow, heart red, typing gray, and dark mode black. The
-image shows a group conversation in a messaging app.
-
-![](../reference/figures/theme_groupchat/groupchat.jpg)
-
-Image: Sublime Software Ltd., [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Screenshot_of_Briar_04_private_group.png),
-CC BY 4.0.
-
-``` r
-
-set.seed(2009)
-chat <- data.frame(friend = rep(c("Ari", "Bo", "Cam", "Dev", "Eli"), each = 7), day = rep(1:7, 5))
-chat$messages <- rpois(35, lambda = c(Ari = 60, Bo = 15, Cam = 35, Dev = 5, Eli = 25)[chat$friend])
-ggplot(chat, aes(x = day, y = messages, fill = friend)) +
-  geom_col() +
-  labs(title = "Who carries the group chat", caption = "Simulated data", x = "Day", y = "Messages", fill = NULL) +
-  theme_groupchat(base_size = 13)
-```
-
-![](themes_files/figure-html/groupchat-1.png)
 
 ## Indie sleaze
 
@@ -933,197 +714,6 @@ ggplot(halls, aes(x = eeriness, y = place, fill = place)) +
 
 ![](themes_files/figure-html/liminal-1.png)
 
-## Livestream
-
-[`theme_livestream()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_livestream.md):
-Livestreaming is broadcasting video in real time, from gaming streams to
-vlogs filmed on the street (see [Live
-streaming](https://en.wikipedia.org/wiki/Live_streaming) on Wikipedia).
-Twitch calls its core audience of Gen Z and younger millennials
-Generation Twitch. Researchers find that Gen Z spends far more time on
-video than older generations. Marketers report that interaction, not
-passive watching, keeps them engaged. Emotes act as a shared shorthand,
-with meanings unique to each streamer’s community.
-
-The palette follows a Twitch stream: Twitch purple, the live red badge,
-Prime blue, overlay green, ice white chat text, and chat panel gray. The
-image shows a journalist livestreaming from a railway station.
-
-![](../reference/figures/theme_livestream/livestream.jpg)
-
-Image: N509FZ, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:CR_staff_and_PeopleRail_journalist_livestreaming_at_Beijing_Fengtai_Railway_Station_Exit_5_(20220620132147).jpg),
-CC BY-SA 4.0.
-
-``` r
-
-set.seed(2011)
-streams <- data.frame(category = rep(c("Gaming", "Just chatting", "Music", "IRL"), each = 150))
-streams$viewers <- rlnorm(600, meanlog = c(Gaming = 5, "Just chatting" = 4.5, Music = 3.8, IRL = 4)[streams$category], sdlog = 1)
-ggplot(streams, aes(x = viewers, fill = category)) +
-  geom_histogram(bins = 30) +
-  scale_x_log10() +
-  labs(title = "Live viewers", caption = "Simulated data", x = "Viewers (log scale)", fill = NULL) +
-  theme_livestream(base_size = 13)
-```
-
-![](themes_files/figure-html/livestream-1.png)
-
-With `mode = "light"`:
-
-``` r
-
-last_plot() + theme_livestream(base_size = 13, mode = "light")
-```
-
-![](themes_files/figure-html/livestream-light-1.png)
-
-## Matcha
-
-[`theme_matcha()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_matcha.md):
-Matcha is finely ground Japanese green tea, now a cafe staple as a latte
-(see [Matcha](https://en.wikipedia.org/wiki/Matcha) on Wikipedia). In
-2025, BeverageDaily called matcha Gen Z’s avocado toast moment. Its
-photogenic green suits Instagram and TikTok, where a new flavor or cup
-design can go viral fast. Gen Z also picks matcha for its perceived
-health benefits, dairy free options, and lower caffeine than coffee. The
-whisking ritual signals that you’re in the know.
-
-The palette follows a matcha latte layered over oat milk: ceremonial
-green, bamboo whisk tan, deep tea leaf, matcha mochi, bright latte
-green, and a dark wood counter. The image shows a bamboo scoop of matcha
-powder.
-
-![](../reference/figures/theme_matcha/matcha.jpg)
-
-Image: Evanhoever, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Matcha_Scoop.jpg), CC
-BY-SA 4.0.
-
-``` r
-
-set.seed(2021)
-cafe <- data.frame(month = rep(1:12, 3), drink = rep(c("Matcha latte", "Iced matcha", "Matcha lemonade"), each = 12))
-cafe$cups <- round(c("Matcha latte" = 120, "Iced matcha" = 80, "Matcha lemonade" = 30)[cafe$drink] +
-  ifelse(cafe$drink == "Matcha latte", -1, 1) * 25 * sin((cafe$month - 4) / 12 * 2 * pi) + rnorm(36, 0, 6))
-ggplot(cafe, aes(x = month, y = cups, colour = drink)) +
-  geom_line(linewidth = 1) +
-  scale_x_continuous(breaks = 1:12, labels = substr(month.abb, 1, 1)) +
-  labs(title = "Matcha sales", caption = "Simulated data", x = NULL, y = "Cups sold", colour = NULL) +
-  theme_matcha(base_size = 13)
-```
-
-![](themes_files/figure-html/matcha-1.png)
-
-## Mermaidcore
-
-[`theme_mermaidcore()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_mermaidcore.md):
-Mermaidcore is a fashion trend of shells, pearls, sequins, and
-iridescent sea colors (see
-[Mermaid](https://en.wikipedia.org/wiki/Mermaid) on Wikipedia). By 2023,
-\#mermaidcore had passed 333 million views on TikTok. Writers tie it to
-Gen Z’s nostalgia, romanticism, and need for escapism and fantasy. It
-draws on The Little Mermaid, H2O: Just Add Water, and Barbie mermaid
-films. It reads younger and more whimsical than coastal grandmother, and
-an edgier offshoot is called mermaid sleaze.
-
-The palette follows iridescent sheer fabrics, pearls, and shells:
-seafoam, ocean teal, lagoon blue, iridescent lilac, shell pink, and
-treasure gold on pearl white. The image shows a cutaway nautilus shell
-showing its pearly chambers (Wikipedia’s Nacre article).
-
-![](../reference/figures/theme_mermaidcore/mermaidcore.jpg)
-
-Image: Chris 73, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:NautilusCutawayLogarithmicSpiral.jpg),
-CC BY-SA 3.0.
-
-``` r
-
-set.seed(1837)
-shells <- data.frame(width = rlnorm(300, log(6), 0.35))
-shells$chambers <- round(8 + 3 * shells$width + rnorm(300, 0, 3))
-shells$beach <- sample(c("North cove", "South cove"), 300, replace = TRUE)
-ggplot(shells, aes(x = width, y = chambers, colour = beach)) +
-  geom_point(alpha = 0.7) +
-  labs(title = "Shell collection", caption = "Simulated data", x = "Width (cm)", y = "Chambers", colour = NULL) +
-  theme_mermaidcore(base_size = 13)
-```
-
-![](themes_files/figure-html/mermaidcore-1.png)
-
-## Photo dump
-
-[`theme_photodump()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_photodump.md):
-A photo dump is a carousel post of loosely related phone photos from the
-week (see [Camera phone](https://en.wikipedia.org/wiki/Camera_phone) on
-Wikipedia). A photo dump is a loose Instagram carousel of unposed shots,
-blurry photos, screenshots, and memes. The format traces back to summer
-2020 and spread as celebrities like Dua Lipa and Olivia Rodrigo adopted
-it. Gen Z uses it to signal authenticity and push back on the pressure
-to keep a perfect feed. Critics note the effortless look is often
-carefully curated.
-
-The palette follows a casual camera roll carousel: Instagram magenta,
-faded denim, sunset orange, washed olive, film grain beige, and blurry
-night black. The image shows a phone on a tripod recording a sunset over
-water.
-
-![](../reference/figures/theme_photodump/photodump.jpg)
-
-Image: PantheraLeo1359531, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Handyaufnahme_des_Sonnenuntergangs_als_Zeitraffer_20200909_DSC3277.jpg),
-CC BY 4.0.
-
-``` r
-
-set.seed(2021)
-dump <- data.frame(slides = sample(2:10, 400, replace = TRUE))
-dump$likes <- round(rlnorm(400, meanlog = 4 + 0.08 * dump$slides, sdlog = 0.6))
-dump$posted <- sample(c("Weekday", "Weekend"), 400, replace = TRUE)
-ggplot(dump, aes(x = factor(slides), y = likes, fill = posted)) +
-  geom_boxplot() +
-  labs(title = "Photo dump likes", caption = "Simulated data", x = "Photos in the carousel", y = "Likes", fill = NULL) +
-  theme_photodump(base_size = 13)
-```
-
-![](themes_files/figure-html/photodump-1.png)
-
-## Plushie
-
-[`theme_plushie()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_plushie.md):
-Plushies (stuffed toys) are collected, displayed, and carried well past
-childhood (see [Stuffed toy](https://en.wikipedia.org/wiki/Stuffed_toy)
-on Wikipedia). Gen Z treats plushies as comfort objects tied to mental
-wellness, and as collectibles like Beanie Babies once were. TikTok
-hashtags for Squishmallows have passed a billion views. Jellycat’s
-revenue reached about \$252 million in 2022 to 2023 as adult buyers
-joined in. Critics read the trend as nostalgic stress relief or delayed
-adulthood.
-
-The palette follows pastel Squishmallows and Jellycat plush: pastel
-pink, lavender, baby blue, mint, butter yellow, and avocado green. The
-image shows a replica of an early Steiff teddy bear.
-
-![](../reference/figures/theme_plushie/plushie.jpg)
-
-Image: MatthiasKabel, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Nachbildung_55PB_Steiff_Museum_Giengen.jpg),
-CC BY-SA 3.0.
-
-``` r
-
-set.seed(1902)
-plush <- data.frame(animal = rep(c("Bear", "Frog", "Cat", "Shark"), each = 90))
-plush$squish <- rbeta(360, shape1 = c(Bear = 6, Frog = 4, Cat = 5, Shark = 3)[plush$animal], shape2 = 3) * 10
-ggplot(plush, aes(x = squish, fill = animal)) +
-  geom_density(alpha = 0.6) +
-  labs(title = "Squish ratings", caption = "Simulated data", x = "Squishiness (0 to 10)", fill = NULL) +
-  theme_plushie(base_size = 13)
-```
-
-![](themes_files/figure-html/plushie-1.png)
-
 ## Slime
 
 [`theme_slime()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_slime.md):
@@ -1157,41 +747,6 @@ ggplot(slime, aes(x = stretch, fill = recipe)) +
 ```
 
 ![](themes_files/figure-html/slime-1.png)
-
-## Thrift
-
-[`theme_thrift()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_thrift.md):
-Thrifting (shopping at charity and secondhand shops) is the budget and
-planet friendly way to build a wardrobe (see [Charity
-shop](https://en.wikipedia.org/wiki/Charity_shop) on Wikipedia). Gen Z
-turned thrifting into a lifestyle and a status symbol. ThredUp data
-cited by Goodwill shows 83% of Gen Z Americans shop secondhand or would.
-Their reasons include sustainability, individuality, and money, since
-many grew up during the 2007 to 2009 recession. TikTok thrift hauls
-during the pandemic pushed the trend further.
-
-The palette follows racks of secondhand finds: faded denim, worn
-leather, mustard, rust, olive, and mint on lace cream. The image shows
-shelves of glassware and goodies in a thrift store.
-
-![](../reference/figures/theme_thrift/thrift.jpg)
-
-Image: Valerie Everett, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Thrift_store_goodies.jpg),
-CC BY-SA 2.0.
-
-``` r
-
-set.seed(1999)
-haul <- data.frame(category = rep(c("Jeans", "Jackets", "Mugs", "Vinyl", "Lamps"), each = 60))
-haul$price <- rlnorm(300, meanlog = log(c(Jeans = 12, Jackets = 20, Mugs = 2, Vinyl = 5, Lamps = 15)[haul$category]), sdlog = 0.4)
-ggplot(haul, aes(x = category, y = price, colour = category)) +
-  geom_jitter(width = 0.25, alpha = 0.7, show.legend = FALSE) +
-  labs(title = "Thrift haul prices", caption = "Simulated data", x = NULL, y = "Price ($)") +
-  theme_thrift(base_size = 13)
-```
-
-![](themes_files/figure-html/thrift-1.png)
 
 ## Tumbler
 
@@ -1228,42 +783,6 @@ ggplot(flasks, aes(x = hour, y = temp, colour = bottle)) +
 ```
 
 ![](themes_files/figure-html/tumbler-1.png)
-
-## Unboxing
-
-[`theme_unboxing()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_unboxing.md):
-Unboxing videos film someone opening a new product, from phones to
-sneakers (see [Unboxing](https://en.wikipedia.org/wiki/Unboxing) on
-Wikipedia). Gen Z grew up watching unboxing videos on YouTube. TikTok
-and Instagram Reels turned the format into quick, punchy clips full of
-crinkle and tear sounds. A study of Gen Z smartphone buyers found that
-the reviewer’s touch and description raised their intent to buy, while
-visuals alone did not. The appeal mixes product research, a playful
-tone, and a relaxing sensory payoff.
-
-The palette follows a box being opened on camera: kraft cardboard,
-tissue paper pink, glossy black, silver foil, and shrink wrap blue on
-white packaging. The image shows hands lifting a new instrument out of
-its shipping box.
-
-![](../reference/figures/theme_unboxing/unboxing.jpg)
-
-Image: Audiotecna, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Moog_Etherwave_Theremin_unboxing_-_2._contents_of_the_box_(by_Audiotecna).jpg),
-CC BY 2.0.
-
-``` r
-
-set.seed(2006)
-unbox <- data.frame(product = rep(c("Phone", "Sneakers", "Console", "Makeup"), each = 100))
-unbox$minutes <- rgamma(400, shape = c(Phone = 8, Sneakers = 4, Console = 10, Makeup = 6)[unbox$product], rate = 0.8)
-ggplot(unbox, aes(x = minutes, y = product, fill = product)) +
-  geom_violin(show.legend = FALSE) +
-  labs(title = "Unboxing video length", caption = "Simulated data", x = "Minutes", y = NULL) +
-  theme_unboxing(base_size = 13)
-```
-
-![](themes_files/figure-html/unboxing-1.png)
 
 ## Vaporwave
 
@@ -1337,42 +856,6 @@ ggplot(records, aes(x = year, y = sales, colour = format)) +
 
 ![](themes_files/figure-html/vinyl-1.png)
 
-## Voice note
-
-[`theme_voicenote()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_voicenote.md):
-Voice notes are short recorded messages sent in a chat instead of typing
-(see [Voicemail](https://en.wikipedia.org/wiki/Voicemail) on Wikipedia).
-Voice notes boomed during the pandemic and became Gen Z’s favorite way
-to keep in touch, partly because of phone call anxiety. Preply found
-that 84% of Gen Z use them, compared with 47% of baby boomers. Forty
-percent of users say a voice note can replace a call. Still, 31% of Gen
-Z find incoming voice notes inconvenient, and many long ones go unheard.
-
-The palette follows a voice note bubble: WhatsApp green, iMessage blue,
-waveform gray, record red, dark mode charcoal, and chat bubble green.
-The image shows a diagram of how a voicemail system routes and stores
-messages.
-
-![](../reference/figures/theme_voicenote/voicenote.jpg)
-
-Image: Robert Cohn (Rsc at en.wikipedia), [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:System_poczty_glosowej.jpg),
-CC BY 2.5.
-
-``` r
-
-set.seed(1979)
-notes <- data.frame(sender = rep(c("Best friend", "Mom", "Group chat"), each = 200))
-notes$seconds <- rlnorm(600, meanlog = log(c("Best friend" = 45, Mom = 90, "Group chat" = 20)[notes$sender]), sdlog = 0.6)
-ggplot(notes, aes(x = seconds, fill = sender)) +
-  geom_histogram(bins = 30) +
-  scale_x_log10() +
-  labs(title = "Voice note length", caption = "Simulated data", x = "Seconds (log scale)", fill = NULL) +
-  theme_voicenote(base_size = 13)
-```
-
-![](themes_files/figure-html/voicenote-1.png)
-
 ## Weirdcore
 
 [`theme_weirdcore()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_weirdcore.md):
@@ -1409,42 +892,6 @@ ggplot(weird, aes(x = x, y = y, colour = feeling)) +
 ```
 
 ![](themes_files/figure-html/weirdcore-1.png)
-
-## Wired earbuds
-
-[`theme_wiredbuds()`](https://mjfrigaard.github.io/ggzoomer/reference/theme_wiredbuds.md):
-Wired earbuds made a comeback as a style statement and a break from
-charging (see [Headphones](https://en.wikipedia.org/wiki/Headphones) on
-Wikipedia). Gen Z calls AirPods passé and wears the cord as an analog
-statement against always on tech, alongside dumbphones, instant cameras,
-and vinyl. Bella Hadid, Harry Styles, and Charli XCX have all been seen
-in wired earbuds. Searches for wired headphones hit 2.6 million in April
-2025, up 68% in one month. Practical perks help: no charging and nothing
-to lose.
-
-The palette follows corded earbuds: Panasonic red, lilac, mint, cable
-gray, and black against Apple white. The image shows a pair of white
-wired earbuds on a wooden table.
-
-![](../reference/figures/theme_wiredbuds/wiredbuds.jpg)
-
-Image: Jerikasb, [Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Earbud_wires.jpg), CC
-BY-SA 4.0.
-
-``` r
-
-set.seed(2001)
-buds <- data.frame(type = rep(c("Wired", "Wireless"), each = 200))
-buds$hours <- ifelse(buds$type == "Wired", rnorm(200, 3, 1), rnorm(200, 2.5, 0.8))
-buds$tangles <- ifelse(buds$type == "Wired", rpois(200, 3), 0)
-ggplot(buds, aes(x = hours, fill = type)) +
-  geom_density(alpha = 2/3) +
-  labs(title = "Daily listening", caption = "Simulated data", x = "Hours per day", fill = NULL) +
-  theme_wiredbuds(base_size = 13)
-```
-
-![](themes_files/figure-html/wiredbuds-1.png)
 
 ## Fonts
 
